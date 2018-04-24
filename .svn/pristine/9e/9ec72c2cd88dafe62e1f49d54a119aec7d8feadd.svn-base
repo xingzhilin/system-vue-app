@@ -1,0 +1,21 @@
+.mb_a {
+	margin-bottom:10px
+}
+.mb_b {
+	margin-bottom:20px
+}
+.mb_c {
+	margin-bottom:30px
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+	font-size:14px;
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+	font-size:14px;
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+	font-size:14px;
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+	font-size:14px;
+}

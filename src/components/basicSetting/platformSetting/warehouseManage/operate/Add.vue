@@ -9,135 +9,149 @@
 				<table class="add_table">
 					<tbody>
 						<tr>
-							<td width="110"><span class="zl_required">*</span>交割库名称：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label"><span class="zl_required">*</span>交割库名称：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td><span class="zl_required">*</span>交割库编码：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label"><span class="zl_required">*</span>交割库编码：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td>交割库所在港口：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label">交割库所在港口：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td><span class="zl_required">*</span>交割库所在区：</td>
+							<td class="td_label"><span class="zl_required">*</span>交割库所在区：</td>
 							<td>
-								<el-select v-model="form.region" placeholder="请选择">
+								<el-select v-model="form.region" placeholder="请选择" size="small">
 							      <el-option label="北方港" value="shanghai"></el-option>
 							      <el-option label="南方港" value="beijing"></el-option>
 							    </el-select>
 							</td>
 						</tr>
 						<tr>
-							<td><span class="zl_required">*</span>交割库所在省市：</td>
+							<td class="td_label"><span class="zl_required">*</span>交割库所在省市：</td>
 							<td>
-								<el-select v-model="form.region" placeholder="省">
+								<el-select v-model="form.region" placeholder="省" size="small">
 							      <el-option label="北方港" value="shanghai"></el-option>
 							      <el-option label="南方港" value="beijing"></el-option>
 							    </el-select>
-								<el-select v-model="form.region" placeholder="市">
+								<el-select v-model="form.region" placeholder="市" size="small">
 							      <el-option label="北方港" value="shanghai"></el-option>
 							      <el-option label="南方港" value="beijing"></el-option>
 							    </el-select>
 							</td>
 						</tr>
 						<tr>
-							<td>交割库详细地址：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label">交割库详细地址：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td><span class="zl_required">*</span>仓库类型：</td>
+							<td class="td_label"><span class="zl_required">*</span>仓库类型：</td>
 							<td>
-								<el-select v-model="form.region" placeholder="请选择">
+								<el-select v-model="form.region" placeholder="请选择" size="small">
 							      <el-option label="111" value="shanghai"></el-option>
 							      <el-option label="2222" value="beijing"></el-option>
 							    </el-select>
 							</td>
 						</tr>
 						<tr>
-							<td>货场：</td>
-							<td><span>天津1号</span><span>录入堆位</span></td>
+							<td class="td_label">货场：</td>
+							<td>
+								<span><el-input v-model="form.huoc" size="small"></el-input></span>
+								<el-button type="text" size="small" class="btn_insert" @click="dialogInsertVisible = true">录入堆位</el-button>
+								<el-dialog title="录入堆位" :visible.sync="dialogInsertVisible">
+									<h6 class="dw_insert">堆位名称</h6>
+									<el-form :model="form">
+										<p v-for="item in dwInserts"><el-input v-model="form.name" auto-complete="off"></el-input></p>
+										<el-button size="small" @click="handleDWAdd">+ 添加</el-button>
+									</el-form>
+									<div slot="footer" class="dialog-footer">
+										<el-button @click="dialogInsertVisible = false">取 消</el-button>
+										<el-button type="primary" @click="dialogInsertVisible = false">确 定</el-button>
+									</div>
+								</el-dialog>
+							</td>
 						</tr> 
 						<tr>
-							<td colspan="2"><span>添加</span></td>
+							<td colspan="2" class="td_button"><el-button size="small">+ 添加</el-button></td>
 						</tr>
 						<tr>
-							<td>堆位名称：</td>
+							<td class="td_label">堆位名称：</td>
 							<td>
 								<p>天津2号 -》天津2号1堆；天津2号2堆；天津3号3堆</p>
 							</td>
 						</tr> 
 						<tr>
-							<td>港杂费汽运：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label">港杂费汽运：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td>港杂费火运：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label">港杂费火运：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td><span class="zl_required">*</span>前台是否展示：</td>
+							<td class="td_label"><span class="zl_required">*</span>前台是否展示：</td>
 							<td>
-								<el-radio-group v-model="form.resource">
+								<el-radio-group v-model="form.resource" size="small">
 							      <el-radio label="是"></el-radio>
 							      <el-radio label="否"></el-radio>
 							    </el-radio-group>
 							</td>
 						</tr>
 						<tr>
-							<td class="td_text"><span class="zl_required">*</span>是否交付地：</td>
+							<td class="td_label"><span class="zl_required">*</span>是否交付地：</td>
 							<td>
-								<el-radio-group v-model="form.resource">
+								<el-radio-group v-model="form.resource" size="small">
 							      <el-radio label="是"></el-radio>
 							      <el-radio label="否"></el-radio>
 							    </el-radio-group>
 							</td>
 						</tr>
 						<tr>
-							<td class="td_text"><span class="zl_required">*</span>是否电厂交付地：</td>
+							<td class="td_label"><span class="zl_required">*</span>是否电厂交付地：</td>
 							<td>
-								<el-radio-group v-model="form.resource">
+								<el-radio-group v-model="form.resource" size="small">
 							      <el-radio label="是"></el-radio>
 							      <el-radio label="否"></el-radio>
 							    </el-radio-group>
 							</td>
 						</tr>
 						<tr>
-							<td class="td_text"><span class="zl_required">*</span>交割库图片：</td>
+							<td class="td_label"><span class="zl_required">*</span>交割库图片：</td>
 							<td>
 								<ul>
 									<li><img src="./../../../../../assets/img/nb-login-bj.png" height="100" width="100" alt=""></li>
 									<li><img src="./../../../../../assets/img/nb-login-bj.png" height="100" width="100" alt=""></li>
 									<li><img src="./../../../../../assets/img/nb-login-bj.png" height="100" width="100" alt=""></li>
 								</ul>
-								<div class="btn">
-									<span>+添加</span>
+								<div class="td_button">
+									<el-button size="small">+ 添加</el-button>
 								</div>
 							</td>
 						</tr>
 						<tr>
-							<td class="td_text">交割库简介：</td>
+							<td class="td_label">交割库简介：</td>
 							<td>							
-								<el-input type="textarea" v-model="form.desc"></el-input>
+								<el-input type="textarea" v-model="form.desc" size="small"></el-input>
 							</td>
 						</tr>
 						<tr>
-							<td>停/启用状态：</td>
+							<td class="td_label">停/启用状态：</td>
 							<td class="td_text">
-								<el-radio-group v-model="form.resource">
+								<el-radio-group v-model="form.resource" size="small">
 							      <el-radio label="启用"></el-radio>
 							      <el-radio label="停用"></el-radio>
 							    </el-radio-group>
 							</td>
 						</tr>
 						<tr>
-							<td class="td_text">联系人：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label">联系人：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 						<tr>
-							<td class="td_text">联系电话：</td>
-							<td><el-input v-model="form.name"></el-input></td>
+							<td class="td_label">联系电话：</td>
+							<td><el-input v-model="form.name" size="small"></el-input></td>
 						</tr>
 					
 					</tbody>
@@ -204,6 +218,8 @@
 				isStep2: false,
 				isStep3: false,
 				form: {},
+				dialogInsertVisible: false,
+				dwInserts: [1],
 				data: generateData(),
         		users: [],
 				props: {}
@@ -222,6 +238,12 @@
 				//eventBus.$emit('my-event', this.form); 
 				//this.$router.push({name: 'warehouseManageAddNextLink'}) ;
 				
+			},
+			handleInsert(){
+				
+			},
+			handleDWAdd(){
+				this.dwInserts.push(1);
 			},
 			handleGotoStep2(){
 				this.isStep1 = false;
@@ -244,14 +266,50 @@
 		}
 	}
 </script>
-<style scoped lang="scss">
-	@import './../../../../../assets/css/common_view.css';
-	.zl_required{
-		color: red;
-	}
-	.add_table{
-		width: 90%;
-		margin: 30px auto;
-		font-size:12px;
+<style lang="scss">	
+	#add{
+		.zl_required{
+			color: red;
+		}
+		.add_table{
+			width: 80%;
+			margin: 30px auto;
+			font-size:12px;
+			td{
+				border: 1px solid #ebeef5;
+				padding: 10px;
+				text-align: left;
+			}
+			.td_label{
+				width: 160px;
+				text-align:right;
+			}
+			.el-input{
+				width: 260px;
+			}
+			.td_button{
+				text-align: center;
+			}
+			.btn_insert{
+				margin-left: 15px;
+			}
+		}
+		.el-dialog__header{
+			padding: 15px 20px 10px;
+		}
+		.el-dialog__body{
+		    padding: 10px 20px;
+		    color: #606266;
+		    line-height: 24px;
+		    font-size: 14px;
+		    border-top: 1px solid #e2e2e2;
+		    margin-top: 5px;		    
+			.dw_insert{
+				padding: 0;
+				margin: 0;
+				font-size: 14px;
+				padding-bottom:10px;
+			}
+		}
 	}
 </style>

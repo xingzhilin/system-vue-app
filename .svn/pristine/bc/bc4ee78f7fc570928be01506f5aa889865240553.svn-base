@@ -62,10 +62,23 @@ import BusinessManageIndex from './../components/backstageAccount/Index'
 import BusinessManageUsersIndex from './../components/backstageAccount/businessManage/users/Index'
 
 import BusinessManageUsersList from './../components/backstageAccount/businessManage/users/list/Index'
+import BusinessManageUsersListIndex from './../components/backstageAccount/businessManage/users/list/pages/Index'
+import BusinessManageUsersListAdd from './../components/backstageAccount/businessManage/users/list/pages/Add'
 import BusinessManageUsersAttri from './../components/backstageAccount/businessManage/users/attri/Index'
+import BusinessManageUsersAttriIndex from './../components/backstageAccount/businessManage/users/attri/pages/Index'
+import BusinessManageUsersAttriEditor from './../components/backstageAccount/businessManage/users/attri/pages/Editor'
 import BusinessManageUsersSign from './../components/backstageAccount/businessManage/users/sign/Index'
+import BusinessManageUsersSignIndex from './../components/backstageAccount/businessManage/users/sign/pages/Index'
+import BusinessManageUsersSignEditor from './../components/backstageAccount/businessManage/users/sign/pages/Editor'
+import BusinessManageUsersSignAdd from './../components/backstageAccount/businessManage/users/sign/pages/Add'
 import BusinessManageUsersBank from './../components/backstageAccount/businessManage/users/bank/Index'
+import BusinessManageUsersBankIndex from './../components/backstageAccount/businessManage/users/bank/pages/Index'
+import BusinessManageUsersBankEditor from './../components/backstageAccount/businessManage/users/bank/pages/Editor'
+import BusinessManageUsersBankAdd from './../components/backstageAccount/businessManage/users/bank/pages/Add'
 import BusinessManageUsersInvoices from './../components/backstageAccount/businessManage/users/invoices/Index'
+import BusinessManageUsersInvoicesIndex from './../components/backstageAccount/businessManage/users/invoices/pages/Index'
+import BusinessManageUsersInvoicesEditor from './../components/backstageAccount/businessManage/users/invoices/pages/Editor'
+import BusinessManageUsersInvoicesAdd from './../components/backstageAccount/businessManage/users/invoices/pages/Add'
 import BusinessManageUsersAdmittance from './../components/backstageAccount/businessManage/users/admittance/Index'
 import BusinessManageUsersInviteBids from './../components/backstageAccount/businessManage/users/inviteBids/Index'
 import BusinessManageUsersIncorrupt from './../components/backstageAccount/businessManage/users/incorrupt/Index'
@@ -208,8 +221,12 @@ import FeaturedFirst from './../components/basicSetting/platformSetting/featured
 import CoalMall from './../components/basicSetting/platformSetting/featuredFirst/coalMall/Index.vue'
 import SupplyBidding from './../components/basicSetting/platformSetting/featuredFirst/supplyBidding/Index.vue'
 
-import WarehouseManage from './../components/basicSetting/platformSetting/warehouseManage/Index.vue'
-import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index.vue'
+import WarehouseManage from './../components/basicSetting/platformSetting/warehouseManage/Index'
+import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index'
+import WarehouseManageAdd from './../components/basicSetting/platformSetting/warehouseManage/operate/Add'
+import WarehouseManageView from './../components/basicSetting/platformSetting/warehouseManage/operate/view'
+import WarehouseManageSorting from './../components/basicSetting/platformSetting/warehouseManage/operate/Sorting'
+import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
 
 import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index.vue'
 import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index.vue'
@@ -443,27 +460,99 @@ const backstageAccount = {
 						{
 							path: '/business/users/list',
 							name: 'userslistLink',
+							redirect:'/business/users/list/index',
 							component: BusinessManageUsersList,
+							children:[
+								{
+									path: '/business/users/list/index',
+									name: 'BusinessManageUsersListIndex',
+									component: BusinessManageUsersListIndex
+								},{
+									path: '/business/users/list/add',
+									name: 'BusinessManageUsersListAdd',
+									component: BusinessManageUsersListAdd
+								}
+							]
 						},
 						{
 							path: '/business/users/attri',
 							name: 'usersattriLink',
+							redirect:'/business/users/attri/index',
 							component: BusinessManageUsersAttri,
+							children:[
+								{
+									path: '/business/users/attri/index',
+									name: 'BusinessManageUsersAttriIndex',
+									component: BusinessManageUsersAttriIndex
+								},{
+									path: '/business/users/attri/editor',
+									name: 'BusinessManageUsersAttriEditor',
+									component: BusinessManageUsersAttriEditor
+								}
+							]
 						},
 						{
 							path: '/business/users/sign',
 							name: 'userssignLink',
+							redirect:'/business/users/sign/index',
 							component: BusinessManageUsersSign,
+							children:[
+								{
+									path: '/business/users/sign/index',
+									name: 'BusinessManageUsersSignIndex',
+									component: BusinessManageUsersSignIndex
+								},{
+									path: '/business/users/sign/editor',
+									name: 'BusinessManageUsersSignEditor',
+									component: BusinessManageUsersSignEditor
+								},{
+									path: '/business/users/sign/add',
+									name: 'BusinessManageUsersSignAdd',
+									component: BusinessManageUsersSignAdd
+								}
+							]
 						},
 						{
 							path: '/business/users/bank',
 							name: 'usersbankLink',
+							redirect:'/business/users/bank/index',
 							component: BusinessManageUsersBank,
+							children:[
+								{
+									path: '/business/users/bank/index',
+									name: 'BusinessManageUsersBankIndex',
+									component: BusinessManageUsersBankIndex
+								},{
+									path: '/business/users/bank/editor',
+									name: 'BusinessManageUsersBankEditor',
+									component: BusinessManageUsersBankEditor
+								},{
+									path: '/business/users/bank/add',
+									name: 'BusinessManageUsersBankAdd',
+									component: BusinessManageUsersBankAdd
+								}
+							]
 						},
 						{
 							path: '/business/users/invoices',
 							name: 'usersinvoicesLink',
+							redirect:'/business/users/invoices/index',
 							component: BusinessManageUsersInvoices,
+							children:[
+								{
+									path: '/business/users/invoices/index',
+									name: 'BusinessManageUsersInvoicesIndex',
+									component: BusinessManageUsersInvoicesIndex
+								},{
+									path: '/business/users/invoices/editor',
+									name: 'BusinessManageUsersInvoicesEditor',
+									component: BusinessManageUsersInvoicesEditor
+								},{
+									path: '/business/users/invoices/add',
+									name: 'BusinessManageUsersInvoicesAdd',
+									component: BusinessManageUsersInvoicesAdd
+								}
+							]
 						},
 						{
 							path: '/business/users/admittance',
@@ -1037,6 +1126,26 @@ const basicSetting = {
 							path: '/platform/warehouse/operate',
 							name: 'warehouseOperateLink',
 							component: WarehouseManageOperate
+						},
+						{
+							path: '/platform/warehouse/add',
+							name: 'warehouseManageAddLink',
+							component: WarehouseManageAdd
+						},
+						{
+							path: '/platform/warehouse/view/:id',
+							name: 'warehouseManageViewLink',
+							component: WarehouseManageView
+						},
+						{
+							path: '/platform/warehouse/sort',
+							name: 'warehouseManageSortingLink',
+							component: WarehouseManageSorting
+						},
+						{
+							path: '/platform/warehouse/premium',
+							name: 'warehouseManagePremiumLink',
+							component: WarehouseManagePremium
 						}
 					]
 				},        
@@ -1055,6 +1164,7 @@ const basicSetting = {
 				{
 					path: '/platform/message',
 					name: 'messageLink',
+					redirect:'/platform/message/appMsg',
 					component: MessageSetting,
 					children: [
 						{

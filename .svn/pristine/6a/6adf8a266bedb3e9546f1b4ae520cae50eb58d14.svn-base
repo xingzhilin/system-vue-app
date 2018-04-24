@@ -221,12 +221,8 @@ import FeaturedFirst from './../components/basicSetting/platformSetting/featured
 import CoalMall from './../components/basicSetting/platformSetting/featuredFirst/coalMall/Index.vue'
 import SupplyBidding from './../components/basicSetting/platformSetting/featuredFirst/supplyBidding/Index.vue'
 
-import WarehouseManage from './../components/basicSetting/platformSetting/warehouseManage/Index'
-import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index'
-import WarehouseManageAdd from './../components/basicSetting/platformSetting/warehouseManage/operate/Add'
-import WarehouseManageView from './../components/basicSetting/platformSetting/warehouseManage/operate/view'
-import WarehouseManageSorting from './../components/basicSetting/platformSetting/warehouseManage/operate/Sorting'
-import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
+import WarehouseManage from './../components/basicSetting/platformSetting/warehouseManage/Index.vue'
+import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index.vue'
 
 import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index.vue'
 import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index.vue'
@@ -1126,26 +1122,6 @@ const basicSetting = {
 							path: '/platform/warehouse/operate',
 							name: 'warehouseOperateLink',
 							component: WarehouseManageOperate
-						},
-						{
-							path: '/platform/warehouse/add',
-							name: 'warehouseManageAddLink',
-							component: WarehouseManageAdd
-						},
-						{
-							path: '/platform/warehouse/view/:id',
-							name: 'warehouseManageViewLink',
-							component: WarehouseManageView
-						},
-						{
-							path: '/platform/warehouse/sort',
-							name: 'warehouseManageSortingLink',
-							component: WarehouseManageSorting
-						},
-						{
-							path: '/platform/warehouse/premium',
-							name: 'warehouseManagePremiumLink',
-							component: WarehouseManagePremium
 						}
 					]
 				},        
@@ -1312,7 +1288,7 @@ const basicSetting = {
    
 const test = {
 	path: '/test',
-	name: 'testLink',
+	name: 'test',
 	component: Test
 }
 
@@ -1348,3 +1324,6 @@ export default new Router({
   mode: 'history',
   routes
 })
+
+
+var hhh;

@@ -4,19 +4,19 @@
         <el-form-item label="企业名称：" prop="name">
            {{ruleForm.name}}
         </el-form-item>
-        <el-form-item label="是否是供应链公司：" prop="region1">
-          <el-radio-group v-model="ruleForm.isCom">
+        <el-form-item label="是否是供应链公司：" prop="isCom">
+          <el-radio-group v-model="ruleForm.isCom" @change="isCompony">
             <el-radio label="yes">是</el-radio>
             <el-radio label="no">否</el-radio>
           </el-radio-group>
         </el-form-item>
-        <el-form-item label="是否交货地交货：" prop="region2">
+        <el-form-item label="是否交货地交货：" prop="isDer" v-if="isShow">
           <el-radio-group v-model="ruleForm.isDer">
             <el-radio label="yes">是</el-radio>
             <el-radio label="no">否</el-radio>
           </el-radio-group>
         </el-form-item>
-        <el-form-item label="用户类别：" prop="region3">
+        <el-form-item label="用户类别：" prop="lx" v-if="isShow">
           <el-radio-group v-model="ruleForm.lx">
             <el-radio label="1">采购商</el-radio>
             <el-radio label="2">采购中间商</el-radio>
@@ -35,6 +35,7 @@
   export default {
     data() {
       return {
+        isShow:true,
         ruleForm: {
           name: '123',
           isDer:'no',
@@ -42,12 +43,13 @@
           lx: ''
         },
         rules: {
-          region1: [
+          isCom: [
             { required: true, message: '请选择活动区域', trigger: 'change' }
           ],
-          region2: [
+          isDer: [
             { required: true, message: '请选择活动区域', trigger: 'change' }
-          ],region3: [
+          ],
+          lx: [
             { required: true, message: '请选择活动区域', trigger: 'change' }
           ]
         }
@@ -63,6 +65,13 @@
             return false;
           }
         });
+      },
+      isCompony(){
+        if(this.ruleForm.isCom == 'yes'){
+            this.isShow = false;
+        }else{
+            this.isShow = true;
+        }
       }
     }
   }

@@ -91,37 +91,50 @@
                         <tr v-if="secondShow">
                           <td>营业执照</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange8"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl8" :src="ruleForm1.imageUrl8" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                                <el-upload
+                                  action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                  list-type="picture-card"
+                                  :on-success="handleAvatarSuccess"
+                                  :on-change="handleChange8"
+                                  :on-remove="handleRemove"
+                                  :before-upload="beforeAvatarUpload">
+                                  <i class="el-icon-plus"></i>
+                                </el-upload>
+                            </div>  
                           </td>
                         </tr>
                         <tr v-if="secondShow">
                           <td>税务登记证</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange9"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl9" :src="ruleForm1.imageUrl9" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange9"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                           </td>
                         </tr>
                         <tr>
                           <td>社会统一信用代码证</td>
                           <td>
-                            <el-upload
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange1"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
+                            <!-- <el-upload
                               class="avatar-uploader"
                               action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
                               :show-file-list="false"
@@ -130,52 +143,55 @@
                               :before-upload="beforeAvatarUpload">
                               <img v-if="ruleForm1.imageUrl1" :src="ruleForm1.imageUrl1" class="avatar">
                               <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            </el-upload> -->
                           </td>
                         </tr>
                         <tr>
                           <td>开户许可证</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange2"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl2" :src="ruleForm1.imageUrl2" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange2"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                           </td>
                         </tr>
                         <tr>
                           <td>盖章文件</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange3"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl3" :src="ruleForm1.imageUrl3" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange3"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                           </td>
                         </tr>
                         <tr>
                           <td><span class="red">*</span> 签章扫描件</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange4"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl4" :src="ruleForm1.imageUrl4" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange4"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                             <el-form-item class="mg0"  prop="img" :inline-message="true">
                                <input type="hidden" v-model="ruleForm1.imageUrl4">
                             </el-form-item>
@@ -184,46 +200,49 @@
                         <tr>
                           <td>委托签章协议</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange5"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl5" :src="ruleForm1.imageUrl5" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange5"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                           </td>
                         </tr>
                         <tr>
                           <td>数字申请证书</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange6"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl6" :src="ruleForm1.imageUrl6" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange6"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                           </td>
                         </tr>
                         <tr>
                           <td>经办人身份证</td>
                           <td>
-                            <el-upload
-                              class="avatar-uploader"
-                              action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-                              :show-file-list="false"
-                              :on-success="handleAvatarSuccess"
-                              :on-change="handleChange7"
-                              :before-upload="beforeAvatarUpload">
-                              <img v-if="ruleForm1.imageUrl7" :src="ruleForm1.imageUrl7" class="avatar">
-                              <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                            </el-upload>
+                            <div class="uploadBox">
+                              <el-upload
+                                action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                                list-type="picture-card"
+                                :on-success="handleAvatarSuccess"
+                                :on-change="handleChange7"
+                                :on-remove="handleRemove"
+                                :before-upload="beforeAvatarUpload">
+                                <i class="el-icon-plus"></i>
+                              </el-upload>
+                            </div>
                           </td>
                         </tr>
                       </tbody>
@@ -345,6 +364,9 @@
       },handleChange9(file, fileList) {    
          file.imageUrl = 'imageUrl9';
       },
+      handleRemove(file, fileList){
+
+      },
        handleAvatarSuccess(res, file) {
         this.ruleForm1[file.imageUrl] = URL.createObjectURL(file.raw);  
         if(file.imageUrl == 'imageUrl4') {
@@ -394,9 +416,7 @@
     .hide {
       display: none;
     }
-    .el-form-item {
-      margin-bottom: 0;
-    }
+    
     .footer {
       margin: 30px 0;
     }
@@ -427,7 +447,12 @@
     .red {
       color:#f56c6c;
     }
-  
+    .uploadBox {
+      width: 148px;
+      height: 148px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
 </style>
 <style>
   .avatar-uploader .el-upload {

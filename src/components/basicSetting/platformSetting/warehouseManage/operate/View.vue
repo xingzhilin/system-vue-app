@@ -4,7 +4,7 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<div class="add_wrap" v-show="isStep1">
+		<div class="add_wrap">
 			<table class="add_table">
 				<tbody>
 					<tr>

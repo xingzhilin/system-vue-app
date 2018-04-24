@@ -166,7 +166,7 @@
 			},
 			handleCheck(index, row){
 				console.log(index, row);
-		        this.$router.push({name: 'checkAccountLink'});
+		        this.$router.push({name: 'warehouseManageViewLink', params: { id: index }});
 		        // v-bind:to="'/blog/' + blog.id"
 			},
 			handleEdit(index, row) {

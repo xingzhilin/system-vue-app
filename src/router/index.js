@@ -1035,7 +1035,7 @@ const basicSetting = {
 					component: WarehouseManage,
 					children: [
 						{
-							path: '/platform/warehouse/operate/:id',
+							path: '/platform/warehouse/operate',
 							name: 'warehouseOperateLink',
 							component: WarehouseManageOperate
 						},
@@ -1045,7 +1045,7 @@ const basicSetting = {
 							component: WarehouseManageAdd
 						},
 						{
-							path: '/platform/warehouse/view',
+							path: '/platform/warehouse/view/:id',
 							name: 'warehouseManageViewLink',
 							component: WarehouseManageView
 						},

@@ -167,6 +167,7 @@
 			handleCheck(index, row){
 				console.log(index, row);
 		        this.$router.push({name: 'checkAccountLink'});
+		        // v-bind:to="'/blog/' + blog.id"
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);

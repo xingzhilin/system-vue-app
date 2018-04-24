@@ -211,6 +211,7 @@ import SupplyBidding from './../components/basicSetting/platformSetting/featured
 import WarehouseManage from './../components/basicSetting/platformSetting/warehouseManage/Index'
 import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index'
 import WarehouseManageAdd from './../components/basicSetting/platformSetting/warehouseManage/operate/Add'
+import WarehouseManageView from './../components/basicSetting/platformSetting/warehouseManage/operate/view'
 import WarehouseManageSorting from './../components/basicSetting/platformSetting/warehouseManage/operate/Sorting'
 import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
 
@@ -1034,7 +1035,7 @@ const basicSetting = {
 					component: WarehouseManage,
 					children: [
 						{
-							path: '/platform/warehouse/operate',
+							path: '/platform/warehouse/operate/:id',
 							name: 'warehouseOperateLink',
 							component: WarehouseManageOperate
 						},
@@ -1042,6 +1043,11 @@ const basicSetting = {
 							path: '/platform/warehouse/add',
 							name: 'warehouseManageAddLink',
 							component: WarehouseManageAdd
+						},
+						{
+							path: '/platform/warehouse/view',
+							name: 'warehouseManageViewLink',
+							component: WarehouseManageView
 						},
 						{
 							path: '/platform/warehouse/sort',

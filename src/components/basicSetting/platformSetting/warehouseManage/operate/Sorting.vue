@@ -7,10 +7,10 @@
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<el-button type="text" size="mini" @click="handleCheck(scope.$index, scope.row)">置顶</el-button>
-		    		<el-button type="text" size="mini" @click="moveUp(scope.$index, scope.row)">上移</el-button>
-		    		<el-button type="text" size="mini" @click="moveDown(scope.$index, scope.row)">下移</el-button>
-		    		<el-button type="text" size="mini" @click="handleEdit(scope.$index, scope.row)">置底</el-button>
+		    		<el-button type="text" size="mini" @click="handleMoveTop(scope.$index, scope.row)">置顶</el-button>
+		    		<el-button type="text" size="mini" @click="handleMoveUp(scope.$index, scope.row)">上移</el-button>
+		    		<el-button type="text" size="mini" @click="handleMoveDown(scope.$index, scope.row)">下移</el-button>
+		    		<el-button type="text" size="mini" @click="handleMoveBottom(scope.$index, scope.row)">置底</el-button>
 			      </template>
 		    </el-table-column>
 		    <el-table-column align="center" prop="userName" label="交割库名称"></el-table-column>
@@ -101,30 +101,64 @@
 			handleGoBack(){
 				this.$router.go(-1);
 			},
-			moveUp:function(index,item) {  
-				//在上一项插入该项  
-				this.tableData.splice(index-1,0,(this.tableData[index]));  
-				//删除后一项  
-				this.tableData.splice(index+1,1);  
-				//item.isShow = false;  
-				if(index == 0) {  
-					alert("到顶啦！");  
+			handleMoveUp(index,item) { 
+				console.log(index); 
+				this.tableData.splice(index-1,0,(this.tableData[index]));
+				this.tableData.splice(index+1,1);
+				if(index == 0) {
+					this.$alert('已经到顶了！', '提示', {
+						confirmButtonText: '确定',
+						type: 'warning',
+						callback: action => {
+							
+						}
+					})
 				}  
 			},  
-			moveDown:function(index,item) {  
-				//在下一项插入该项  
-				this.tableData.splice(index+2,0,(this.tableData[index]));  
-				//  删除前一项  
-				this.tableData.splice(index,1);  
-				//item.isShow = false;  
-				if(index == this.tableData.length-1) {  
-					alert("已经是最后一项啦！");  
+			handleMoveDown(index,item) {
+				console.log(index);
+				this.tableData.splice(index+2,0,(this.tableData[index]));
+				this.tableData.splice(index,1);
+				if(index == this.tableData.length-1) { 
+					this.$alert('已经是最后一项啦！', '提示', {
+						confirmButtonText: '确定',
+						type: 'warning',
+						callback: action => {
+							
+						}
+					})
 				}  
-			}, 
+			},
+			handleMoveTop(index, item){
+				this.tableData.splice(0,0,(this.tableData[index]));
+				this.tableData.splice(index+1,1);
+				if(index == 0) {
+					this.$alert('已经到顶了！', '提示', {
+						confirmButtonText: '确定',
+						type: 'warning',
+						callback: action => {
+							
+						}
+					})
+				}
+			},
+			handleMoveBottom(index, item){				
+				this.tableData.splice(this.tableData.length,0,(this.tableData[index]));
+				this.tableData.splice(index,1);
+				if(index == this.tableData.length-1) {  
+					this.$alert('已经是最后一项啦！', '提示', {
+						confirmButtonText: '确定',
+						type: 'warning',
+						callback: action => {
+							
+						}
+					})  
+				} 
+			}
 		}
 	}
 </script>
-<style scoped lang="scss">
+<style lang="scss">
 	.el-breadcrumb{
 		position: relative;
 	    border-bottom: 1px solid #e5e5e5;
@@ -171,5 +205,18 @@
 			white-space: initial;
 			text-align: right;
 		}
+	}
+	.el-message-box__content{
+		border-top: 1px solid #e2e2e2;
+		margin-top:5px;
+	}
+	.el-message-box__status.el-icon-warning {
+	    margin-top: 15px;
+	    padding-left: 120px;
+	}
+	.el-message-box__message p{
+		padding-top: 30px;
+		font-size: 14px;
+	    padding-left: 120px;
 	}
 </style>

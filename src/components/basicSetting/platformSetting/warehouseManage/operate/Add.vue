@@ -58,23 +58,28 @@
 						<tr>
 							<td class="td_label">货场：</td>
 							<td>
-								<span><el-input v-model="form.huoc" size="small"></el-input></span>
-								<el-button type="text" size="small" class="btn_insert" @click="dialogInsertVisible = true">录入堆位</el-button>
-								<el-dialog title="录入堆位" :visible.sync="dialogInsertVisible">
-									<h6 class="dw_insert">堆位名称</h6>
-									<el-form :model="form">
-										<p v-for="item in dwInserts"><el-input v-model="form.name" auto-complete="off"></el-input></p>
-										<el-button size="small" @click="handleDWAdd">+ 添加</el-button>
-									</el-form>
-									<div slot="footer" class="dialog-footer">
-										<el-button @click="dialogInsertVisible = false">取 消</el-button>
-										<el-button type="primary" @click="dialogInsertVisible = false">确 定</el-button>
-									</div>
-								</el-dialog>
+								<ul class="hc_wrap">
+									<li v-for="item,index in hcInserts">
+										<span><el-input v-model="item.hcName" size="small"></el-input></span>
+										<el-button type="text" size="small" class="btn_insert" @click="dialogInsertVisible = true;">{{index}}录入堆位</el-button>
+										<el-dialog title="录入堆位" :visible.sync="dialogInsertVisible">
+											<h5 class="dw_insert">{{item.hcName}}</h5>
+											<h6 class="dw_insert">堆位名称</h6>
+											<el-form :model="form">
+												<p v-for="item in dwInserts"><el-input v-model="item.dwName" auto-complete="off"></el-input></p>
+												<el-button size="small" @click="handleDWAdd">+ 添加</el-button>
+											</el-form>
+											<div slot="footer" class="dialog-footer">
+												<el-button @click="dialogInsertVisible = false">取 消</el-button>
+												<el-button type="primary" @click="dialogInsertVisible = false;handleDWdata()">确 定</el-button>
+											</div>
+										</el-dialog>
+									</li>
+								</ul>
 							</td>
 						</tr> 
 						<tr>
-							<td colspan="2" class="td_button"><el-button size="small">+ 添加</el-button></td>
+							<td colspan="2" class="td_button"><el-button size="small"  @click="handleHCAdd">+ 添加</el-button></td>
 						</tr>
 						<tr>
 							<td class="td_label">堆位名称：</td>
@@ -227,8 +232,9 @@
 				isStep3: false,
 				form: {},
 				inputs:[{day: '', money: ''}],
+				hcInserts: [{hcName: ''}],
 				dialogInsertVisible: false,
-				dwInserts: [1],
+				dwInserts: [{dwName:''}],
 				data: generateData(),
         		users: [3,4],
 				props: {}
@@ -246,8 +252,19 @@
 			handleInsert(){
 				
 			},
+			handleHCAdd(){
+				this.hcInserts.push({hcName: ''});
+			},
+			handleDialogInsert(item, index){
+				console.log('item: ' , item);
+				console.log('index: ' , index);
+			},
 			handleDWAdd(){
-				this.dwInserts.push(1);
+				this.dwInserts.push({dwName: ''});
+			},
+			handleDWdata(){				
+				console.log(this.hcInserts); //货场OK
+				console.log(this.dwInserts);
 			},
 			handleAddMoney(){
 				this.inputs.push({day: '', money: ''});
@@ -301,6 +318,23 @@
 			}
 			.btn_insert{
 				margin-left: 15px;
+			}
+			.hc_wrap{
+				padding:5px 0 0 0;
+				margin:0;
+				li{
+					display: flex;
+					box-sizing: border-box;
+					margin-bottom: 10px;
+					cursor: pointer;
+				}
+
+			}
+			.hc_wrap:after{				
+				display:block;
+				content: '';
+				clear: both;
+				cursor: pointer;
 			}
 			.img_wrap{
 				li{

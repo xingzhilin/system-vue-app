@@ -1,6 +1,5 @@
 <template>
 	<div class="backstage">
-		<h5>{{msg}}</h5>
 		<router-view></router-view>
 	</div>
 </template>
@@ -9,7 +8,7 @@
 		name: 'Index',
 		data(){
 			return {
-				msg: '电商资讯维护-button'
+				
 			}
 		}
 	}

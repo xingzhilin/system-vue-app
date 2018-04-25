@@ -84,7 +84,7 @@
 						<tr>
 							<td class="td_label">堆位名称：</td>
 							<td>
-								<p>天津2号 -》天津2号1堆；天津2号2堆；天津3号3堆</p>
+								<p v-for="item in hcInserts">{{item.hcName}} -》<span v-for=></span></p>
 							</td>
 						</tr> 
 						<tr>

@@ -34,7 +34,7 @@
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
 		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
-		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)">处理</el-button>	
+		    		<el-button size="mini" @click="handleUpdate(scope.$index, scope.row)">处理</el-button>	
 			      </template>
 		    </el-table-column>
 		    <el-table-column align="center" prop="userName" label="交割库名称"></el-table-column>
@@ -169,9 +169,9 @@
 		        this.$router.push({name: 'warehouseManageViewLink', params: { id: index }});
 		        // v-bind:to="'/blog/' + blog.id"
 			},
-			handleEdit(index, row) {
+			handleUpdate(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'editAccountLink'});
+		        this.$router.push({name: 'warehouseManageUpdateLink', params: { id: index }});
 		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);

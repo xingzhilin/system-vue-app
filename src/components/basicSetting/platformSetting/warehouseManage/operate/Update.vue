@@ -119,11 +119,9 @@
 						</tr>
 						<tr>
 							<td class="td_label"><span class="zl_required">*</span>交割库图片：</td>
-							<td>
+							<td>								
 								<ul class="img_wrap">
-									<li><img src="./../../../../../assets/img/nb-login-bj.png" height="100" width="100" alt=""></li>
-									<li><img src="./../../../../../assets/img/nb-login-bj.png" height="100" width="100" alt=""></li>
-									<li><img src="./../../../../../assets/img/nb-login-bj.png" height="100" width="100" alt=""></li>
+									<li v-for="img in form.imgList"><img :src="img" height="100" width="100" alt=""></li>
 								</ul>
 								<div class="td_button">
 									<el-button size="small">+ 添加</el-button>
@@ -225,12 +223,24 @@
 				isStep1: true,
 				isStep2: false,
 				isStep3: false,
-				form: {},
-				inputs:[{day: '', money: ''}],
+				inputs: [
+					{day: 12, money: 345}
+				],
+				form: {
+					name: '曹妃甸',
+					imgList:[
+						'http://cms-bucket.nosdn.127.net/2f5890819f6f450d860c38cc52036ee620180425075743.jpeg?imageView&thumbnail=200y125&quality=85',
+						'http://cms-bucket.nosdn.127.net/2f5890819f6f450d860c38cc52036ee620180425075743.jpeg?imageView&thumbnail=200y125&quality=85',
+						'http://cms-bucket.nosdn.127.net/2f5890819f6f450d860c38cc52036ee620180425075743.jpeg?imageView&thumbnail=200y125&quality=85',
+						'http://cms-bucket.nosdn.127.net/2f5890819f6f450d860c38cc52036ee620180425075743.jpeg?imageView&thumbnail=200y125&quality=85'
+					],
+					step2Day: '',
+					step2Money: ''
+				},
 				dialogInsertVisible: false,
 				dwInserts: [1],
 				data: generateData(),
-        		users: [3,4],
+        		users: [],
 				props: {}
 			}
 		},
@@ -263,8 +273,7 @@
 				[this.isStep1, this.isStep2, this.isStep3] = [true, false, false]
 			},
 			handleSubmitForm(){
-				console.log('submit');
-				console.log(this.users);
+				console.log('submit')
 			},
 			handleGoBack(){
 				this.$router.go(-1);
@@ -290,7 +299,7 @@
 				width: 160px;
 				text-align:right;
 				vertical-align: top;
-   				line-height: 40px;
+    			line-height: 40px;
 			}
 			.el-input{
 				width: 260px;
@@ -319,7 +328,7 @@
 			}
 			.font_margin{
 				padding: 0 10px;
-			}			
+			}
 			.step2_money{
 				margin: 0;
 				margin-bottom: 10px;
@@ -344,7 +353,7 @@
 		}
 		.el-footer{
 			text-align: center;
-		}		
+		}
 		.el-transfer{
 			width: 600px;
 			margin: 15px auto;

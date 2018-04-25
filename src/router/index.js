@@ -225,6 +225,7 @@ import WarehouseManage from './../components/basicSetting/platformSetting/wareho
 import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index'
 import WarehouseManageAdd from './../components/basicSetting/platformSetting/warehouseManage/operate/Add'
 import WarehouseManageView from './../components/basicSetting/platformSetting/warehouseManage/operate/view'
+import WarehouseManageUpdate from './../components/basicSetting/platformSetting/warehouseManage/operate/update'
 import WarehouseManageSorting from './../components/basicSetting/platformSetting/warehouseManage/operate/Sorting'
 import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
 
@@ -1136,6 +1137,11 @@ const basicSetting = {
 							path: '/platform/warehouse/view/:id',
 							name: 'warehouseManageViewLink',
 							component: WarehouseManageView
+						},
+						{
+							path: '/platform/warehouse/update/:id',
+							name: 'warehouseManageUpdateLink',
+							component: WarehouseManageUpdate
 						},
 						{
 							path: '/platform/warehouse/sort',

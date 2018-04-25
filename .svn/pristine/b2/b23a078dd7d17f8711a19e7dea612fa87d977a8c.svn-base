@@ -61,13 +61,13 @@
 								<ul class="hc_wrap">
 									<li v-for="item,index in hcInserts">
 										<span><el-input v-model="item.hcName" size="small"></el-input></span>
-										<el-button type="text" size="small" class="btn_insert" @click="dialogInsertVisible = true;handleInsertDW(index)">{{index}}录入堆位</el-button>
+										<el-button type="text" size="small" class="btn_insert" @click="dialogInsertVisible = true;">{{index}}录入堆位</el-button>
 										<el-dialog title="录入堆位" :visible.sync="dialogInsertVisible">
-											<h5 class="dw_insert">{{hcNameAll}}---{{index}}</h5>
+											<h5 class="dw_insert">{{item.hcName}}</h5>
 											<h6 class="dw_insert">堆位名称</h6>
 											<el-form :model="form">
 												<p v-for="item in dwInserts"><el-input v-model="item.dwName" auto-complete="off"></el-input></p>
-												<el-button size="small" @click="handleDWAdd(item, index)">+ 添加</el-button>
+												<el-button size="small" @click="handleDWAdd">+ 添加</el-button>
 											</el-form>
 											<div slot="footer" class="dialog-footer">
 												<el-button @click="dialogInsertVisible = false">取 消</el-button>
@@ -235,8 +235,6 @@
 				hcInserts: [{hcName: ''}],
 				dialogInsertVisible: false,
 				dwInserts: [{dwName:''}],
-				hcNameAll:'',
-				dwInsertsTatal:[],
 				data: generateData(),
         		users: [3,4],
 				props: {}
@@ -257,23 +255,16 @@
 			handleHCAdd(){
 				this.hcInserts.push({hcName: ''});
 			},
-			handleInsertDW(index){
+			handleDialogInsert(item, index){
+				console.log('item: ' , item);
 				console.log('index: ' , index);
-				this.hcNameAll = this.hcInserts[index].hcName;
-				this.dwInserts = [];
 			},
-			handleDWAdd(item, index){
-				console.log('************************************');
-				console.log(item);
-				console.log(index);
+			handleDWAdd(){
 				this.dwInserts.push({dwName: ''});
 			},
 			handleDWdata(){				
 				console.log(this.hcInserts); //货场OK
 				console.log(this.dwInserts);
-				this.dwInsertsTatal.push(this.dwInserts);
-				console.log('****************dwInsertsTatal********************');
-				console.log(this.dwInsertsTatal);
 			},
 			handleAddMoney(){
 				this.inputs.push({day: '', money: ''});

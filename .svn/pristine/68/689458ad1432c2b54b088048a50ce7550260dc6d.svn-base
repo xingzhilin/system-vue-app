@@ -84,7 +84,7 @@
 						<tr>
 							<td class="td_label">堆位名称：</td>
 							<td>
-								<p v-for="item,index in hcInserts">{{item.hcName}} -》<span v-for="dwItem in dwInsertsTatal[index]">{{dwItem.dwName}}，</span></p>
+								<p v-for="item in hcInserts">{{item.hcName}} -》<span v-for=></span></p>
 							</td>
 						</tr> 
 						<tr>

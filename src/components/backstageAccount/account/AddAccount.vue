@@ -6,16 +6,16 @@
 		</el-breadcrumb>
 		<el-form :model="addAccountForm" :rules="addAccountForm" ref="addAccountForm" label-width="100px" class="demo-ruleForm" >		  
 		  <el-form-item label="用户头像：" prop="avatar">
-		    <!-- <el-input v-model="addAccountForm.avatar" size="samll"></el-input> -->
 			<el-upload
 			  class="avatar-uploader"
-			  action="http://127.0.0.1:8080/static/upload"
+			  action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
 			  :show-file-list="false"
-			  :on-preview="handlePreview"
-  			  :on-remove="handleRemove"
 			  :on-success="handleAvatarSuccess"
+			  :on-preview="handleAvatarPreview"
+			  :on-remove="handleRemove"
+			  :on-change="handleChange"
 			  :before-upload="beforeAvatarUpload">
-			  <img v-if="imageUrl" :src="imageUrl" class="avatar">
+			  <img v-if="addAccountForm.imageUrl" :src="addAccountForm.imageUrl" class="avatar">
 			  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
 			</el-upload>
 		  </el-form-item>
@@ -55,14 +55,10 @@
 		  	<el-checkbox v-model="addAccountForm.checkAll" @change="handleCheckAll">全选</el-checkbox>
 		    <el-button @click="handleAddChoice" :model="addAccountForm.depart">去配置</el-button>
 		  </el-form-item>		  
-		  <el-form-item label="所属角色：" prop="role" v-model="addAccountForm.role">
-		    <el-tree
-			  :props="props"
-			  :load="loadNode"
-			  lazy
-			  show-checkbox
-			  @check-change="handleCheckChange">
-			</el-tree>
+		  <el-form-item label="所属角色" prop="role" v-model="addAccountForm.roles">
+		        <el-col v-for="role in addAccountForm.roles" :key="role.name">
+			   		<el-checkbox v-model="role.checked"></el-checkbox>{{role.name}}
+			    </el-col>
 		  </el-form-item>
 		  
 		  <el-form-item>
@@ -78,7 +74,6 @@
 		data(){
 			return {
 				msg: 'AddAccount',
-				imageUrl: '',
 				isIndeterminate: true,
 				addAccountForm: {
 					avatar: '',
@@ -90,7 +85,11 @@
 					userStatus: '',
 					depart: '',
 					checkAll:'',
-					role: ''
+					roles: [
+						{status: 1, name: '运营专员',checked: false},
+						{status: 1, name: '运营专员2',checked: false}
+					],
+					imageUrl: ''
 				},
 				props: {
 					label: 'name',
@@ -116,8 +115,8 @@
 				console.log(file);
 			},
 			handleAvatarSuccess(res, file) {
-				this.imageUrl = URL.createObjectURL(file.raw);
-				console.log(this.imageUrl);
+				this.addAccountForm.imageUrl = URL.createObjectURL(file.raw);
+				console.log(this.addAccountForm.imageUrl);
 			},
 			beforeAvatarUpload(file) {
 				const isJPG = file.type === 'image/jpeg';
@@ -130,6 +129,25 @@
 					this.$message.error('上传头像图片大小不能超过 2MB!');
 				}
 				return isJPG && isLt2M;
+			},
+			handleRemove(file, fileList) {
+				console.log(file, fileList);
+			},
+			handleChange(file, fileList) {
+
+				file.imageUrl = 'imageUrl';
+				file.img = 'img';
+				// this.ruleForm.img = file.name;
+				// this.ruleForm.imageUrl = file.url;
+			},
+			handleAvatarPreview(file) {
+				this.dialogImageUrl = file.url;
+				this.dialogVisible = true;
+			},
+			handleAvatarSuccess(res, file) {
+				this.addAccountForm[file.imageUrl] = URL.createObjectURL(file.raw);  
+				this.addAccountForm[file.img] = true;  //改放change显示图片
+				//this.$refs.ruleForm.validateField(file.img); // 上传成功后单独校验，以取消之前的必填项提示
 			},
 			handleCheckAll(){
 				console.log('checkALl');
@@ -214,5 +232,22 @@
 	}	
 	.el-form-item{
 		margin-bottom:10px;
+	}
+	.el-upload {
+	    border: 1px solid #e2e2e2;
+	    border-radius: 50%;
+	}
+	.avatar-uploader-icon {
+	    font-size: 28px;
+	    color: #8c939d;
+	    width: 78px;
+	    height: 78px;
+	    line-height: 78px;
+	    text-align: center;
+	}
+	.avatar {
+	    width: 78px;
+	    height: 78px;
+	    display: block;
 	}
 </style>

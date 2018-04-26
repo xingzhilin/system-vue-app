@@ -27,7 +27,7 @@
 		    	<el-input v-model="addAccountForm.trueUserName" size="small"></el-input>
 			</el-col>
 		  </el-form-item>
-		  <el-form-item label="手机号码：" prop="phone">
+		  <el-form-item label="手机号码：" prop="phone" :rules="[{ required: true, message: '手机号码不能为空'}]">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
 		    	<el-input v-model="addAccountForm.phone" size="small"></el-input>
 		    </el-col>
@@ -179,7 +179,8 @@
 		        })
 		    },
 		    handleGoBack(fromName){
-		    	this.$router.go(-1);
+		    	//this.$router.go(-1);
+		    	this.$router.push({name: 'accountLink'})
 		    },
 		    handleAddChoice(){
                  //记录索引

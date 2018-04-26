@@ -232,7 +232,9 @@ import WarehouseManageSorting from './../components/basicSetting/platformSetting
 import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
 
 import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index.vue'
-import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index.vue'
+import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index'
+import ContractTemplateOperateEdit from './../components/basicSetting/platformSetting/contractTemplate/operate/Edit'
+import ContractTemplateOperateView from './../components/basicSetting/platformSetting/contractTemplate/operate/View'
 
 import MessageSetting from './../components/basicSetting/platformSetting/messageSetting/Index.vue'
 import AppMsg from './../components/basicSetting/platformSetting/messageSetting/appMsg/Index.vue'
@@ -1180,6 +1182,16 @@ const basicSetting = {
 							path: '/platform/contract/operate',
 							name: 'contractOperateLink',
 							component: ContractTemplateOperate
+						},
+						{
+							path: '/platform/contract/edit',
+							name: 'contractOperateEditLink',
+							component: ContractTemplateOperateEdit
+						},
+						{
+							path: '/platform/contract/view/:id',
+							name: 'contractOperateViewLink',
+							component: ContractTemplateOperateView
 						}
 					]
 				},        

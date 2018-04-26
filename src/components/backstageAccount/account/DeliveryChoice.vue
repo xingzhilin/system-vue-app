@@ -27,7 +27,10 @@
 		    <el-button @click="handleReset('formInline')" size="small">重置</el-button>
 		  </el-form-item>
 		</el-form>
-		<div class="el-line"></div>
+		<div class="el-line"></div>		
+		<el-container>
+	      <el-button type="danger" @click="handleChoice" size="small">确定选择</el-button>
+	    </el-container>
 		<el-table
 			ref="multipleTable"
 			:data="tableData"
@@ -66,6 +69,7 @@
 					roleName: '',
 					userStatus: ''
 				},
+				multipleSelection:'',
 				tableData: [
 					{
 			          name: 'Lily',
@@ -116,12 +120,16 @@
 					}
 				})
 			},
+			handleChoice(){
+				eventBus.$emit('delieveryData', this.multipleSelection);
+				this.$router.push({name: 'addAccountLink'});
+			},
 			handleReset(formName){
-				//this.formInline = {}
 				this.$refs[formName].resetFields();
 			},
 			handleSelectionChange(val) {
 				this.multipleSelection = val;
+				console.log(this.multipleSelection);
 			},
 			rowMethod({ row, column, rowIndex, columnIndex }){
 				if (columnIndex === 0) {

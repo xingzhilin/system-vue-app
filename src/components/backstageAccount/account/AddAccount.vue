@@ -18,6 +18,9 @@
 			  <img v-if="addAccountForm.imageUrl" :src="addAccountForm.imageUrl" class="avatar">
 			  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
 			</el-upload>
+			<el-dialog :visible.sync="dialogVisible">
+			  <img width="100%" :src="dialogImageUrl" alt="">
+			</el-dialog>
 		  </el-form-item>
 		  <el-form-item label="真实姓名：" prop="trueUserName" :rules="[{ required: true, message: '真实姓名不能为空'}]">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
@@ -59,8 +62,7 @@
 		        <el-col v-for="role in addAccountForm.roles" :key="role.name">
 			   		<el-checkbox v-model="role.checked"></el-checkbox>{{role.name}}
 			    </el-col>
-		  </el-form-item>
-		  
+		  </el-form-item>		  
 		  <el-form-item>
 		    <el-button type="primary" @click="handleSubmitForm('addAccountForm')" size="small">保存</el-button>
 		    <el-button @click="handleGoBack()" size="small">取消</el-button>
@@ -91,6 +93,8 @@
 					],
 					imageUrl: ''
 				},
+				dialogImageUrl:'',
+				dialogVisible: false,
 				props: {
 					label: 'name',
 					children: 'zones'
@@ -106,6 +110,12 @@
 			getAddAccountChoice(){
 				return this.$store.getters.getAddAccountChoice
 			}
+		},
+		created(){
+			eventBus.$on('delieveryData',(data)=>{ 
+				console.log('**************************');
+				console.log(data);
+			})
 		},
 		methods:{
 			handleRemove(file, fileList) {
@@ -142,7 +152,7 @@
 			},
 			handleAvatarPreview(file) {
 				this.dialogImageUrl = file.url;
-				this.dialogVisible = true;
+        		this.dialogVisible = true;
 			},
 			handleAvatarSuccess(res, file) {
 				this.addAccountForm[file.imageUrl] = URL.createObjectURL(file.raw);  

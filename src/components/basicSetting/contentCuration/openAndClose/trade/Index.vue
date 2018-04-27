@@ -58,7 +58,7 @@
 		      @prev-click="handlePrevChange"  
 		      @next-click="handleNextChange"
 		      :current-page="currentPage"
-		      :page-sizes="[10, 20, 30, 40]"
+		      :page-sizes="pageSizes"
 		      :page-size="pageSize"
 		      layout="total, sizes, prev, pager, next, jumper"
 		      :total="totalPage">
@@ -81,30 +81,13 @@
 				},
 				tableData: [],
 				pageSize: 10,
+				pageSizes:[2, 3, 5, 10],
 		        currentPage: 1,
 		        totalPage: null
 			}
 		},
 		created(){
-			console.log(111);
-			let data = { "toPage":"1" };
-				this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', data , {
-						headers:{ "Content-Type": "application/json"}
-					})
-					.then(res =>  {
-							if(res.status == 200){
-								this.totalPage = res.total;
-								this.currentPage = res.pageNum;
-								this.pageSize = res.pageSize;
-								console.log('***********************************');
-								console.log(res);
-								//this.$router.push({name: 'homeLink'}
-								this.tableData = res.data.list;
-							}
-					})
-					.catch(function (error) {
-						console.log(error);
-					})
+			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleSubmit(formName){
@@ -118,7 +101,6 @@
 				})
 			},
 			handleReset(formName){
-				//this.formInline = {}
 				this.$refs[formName].resetFields();
 			},
 			handleAddAccount(){
@@ -135,15 +117,41 @@
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
+		        this.pageSize = val;
 		    },
 		    handleNextChange(val){
 		    	console.log(`下一页 ${val} 条`)
+		        this.pageSize = val;
 		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);
+		        this.pageSize = val;
+		        console.log(this.pageSize);
+				this.initList(this.currentPage, this.pageSize);
 		    },
 		    handleCurrentChange(val) {
 		        console.log(`当前页: ${val}`);
+		        this.currentPage = val;
+				this.initList(this.currentPage, this.pageSize);
+		    },
+		    initList(toPage, pageSize){
+		    	let sParams = { toPage: toPage , pageSize: pageSize};
+				console.log(sParams);
+				this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+							if(res.status == 200){
+								console.log(res);
+								this.totalPage = res.data.total;
+								this.currentPage = res.data.pageNum;
+								this.pageSize = res.data.pageSize;
+								this.tableData = res.data.list;
+							}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
 		    }
 		}
 	}

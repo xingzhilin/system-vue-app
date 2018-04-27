@@ -44,10 +44,8 @@
 			console.log(this.navMenusList);
 			this.$axios.get('http://192.168.15.54:9001/v1/basics/per/getPerMissionList?pxUserId=10001')
 						.then( res => {
-							console.log(res);
 							//this.$router.push({name: 'homeLink'}
 							this.navMenusList = res.data.list;
-							console.log(this.navMenusList);
 						})
 
 			//http://192.168.11.33:9001/v1/basics/per/getPerMissionList?pxUserId=10001

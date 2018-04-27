@@ -203,11 +203,16 @@
 		>> 客户企业付款  ->  customerPay
 
 
-	> 收退款管理   -> refunds
+	> 收退款管理   -> refundsMangement
 
 		>> 订单退款   -> orderRefund
 
 		>> 客户企业退款   ->  customerRefund
+
+
+	> 收款管理   ->  receivablesMangement
+
+	> 退款管理  ->  refundMangement
 
  
 	> 合作方付款   ->    partnersPayment

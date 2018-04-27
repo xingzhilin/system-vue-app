@@ -10,7 +10,7 @@
 		</el-col>
 		<el-col :span="24" class="main">
 			<el-aside width="100">
-				<NavbarItemView :navMenus="navMenus" :collapse="collapse"></NavbarItemView>
+				<NavbarItemView :navMenusList="navMenusList" :collapse="collapse"></NavbarItemView>
 				<el-radio-group style="margin-bottom: 20px; position:absolute; bottom:0;left:0;" @change="handleChange">
 			        <el-radio-button :label="false">展开</el-radio-button>
 			    </el-radio-group>
@@ -25,14 +25,15 @@
 </template>
 
 <script>
-	import {state} from './../api/menusModule'
+	//import {state} from './../api/menusModule'
 	import NavbarItemView from './../components/navbars/NavbarItemView'
 	export default {
 		name: 'Home',
 		data() {
 			return {
 				msg: 'home',		
-				navMenus: state.menus,
+				//navMenus: state.menus,
+				navMenusList: [],
 				collapse: false
 			}
 		},
@@ -40,7 +41,16 @@
 			NavbarItemView
 		},
 		created(){
-			console.log(this.navMenus);
+			console.log(this.navMenusList);
+			this.$axios.get('http://192.168.11.33:9001/v1/basics/per/getPerMissionList?pxUserId=10001')
+						.then( res => {
+							console.log(res);
+							//this.$router.push({name: 'homeLink'}
+							this.navMenusList = res.data.list;
+							console.log(this.navMenusList);
+						})
+
+			//http://192.168.11.33:9001/v1/basics/per/getPerMissionList?pxUserId=10001
 		},
 		methods: {
 			handleChange(){

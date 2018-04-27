@@ -1,16 +1,16 @@
 <template>
 	<div class="navbarItem">		
-		<el-menu default-active="" v-for="menu in navMenus" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="collapse" :key="menu.id">
-			<el-menu-item index="menu.id" v-if="menu.type === 'link'" :key="menu.id">		    
+		<el-menu default-active="" v-for="item in navMenusList" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="collapse" :key="item.id">
+			<el-menu-item index="item.id" v-if="item.type === 'link'" :key="item.id">		    
 			    	<i class="el-icon-document"></i>
-			    	<span><router-link class="link" :to="menu.url">{{menu.name}}</router-link></span>			    
+			    	<span><router-link class="link" :to="item.path">{{item.name}}</router-link></span>			    
 			</el-menu-item>
-			<el-submenu index="menu.id" v-if="menu.type === 'button'" :key="menu.id">
+			<el-submenu index="item.id" v-if="item.type === 'button'" :key="item.id">
 				<template slot="title">
 					<i class="el-icon-location"></i>
-					<span slot="title">{{menu.name}}</span>
+					<span slot="title">{{item.name}}</span>
 				</template>
-				<NavbarItemView :navMenus="menu.subMenu"></NavbarItemView>
+				<NavbarItemView :navMenusList="item.subMenu"></NavbarItemView>
 			</el-submenu>
 		</el-menu>
 	</div>
@@ -19,7 +19,7 @@
 	
 	export default {
 		name: 'NavbarItemView', 
-  		props: ['navMenus','collapse'], 
+  		props: ['navMenusList','collapse'], 
 		data(){
 			return {
 				msg: 'NavbarItemView'

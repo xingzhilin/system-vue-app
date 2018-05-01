@@ -1,0 +1,185 @@
+<template>
+    <div class="category">
+		<el-col :lg="{span:10}" :xs="{span:22,offset:1}" :md="{span:10}" :sm="{span:22,offset:1}" v-for="item in category"  :key="item.catCode">
+			<div class="coalCard">
+				<div class="head clearfix">
+					<span class="catName">
+						{{item.catName}}
+					</span>
+					<span class="fr editor">
+						<router-link :to="{path:'/platform/coalType/category/editor',query:{content:item}}">
+							<el-button type="primary" icon="el-icon-edit" circle></el-button>
+							编辑
+						</router-link>
+					</span>
+				</div>
+				<div class="content">
+					商品参数：{{item.catTeParams}}
+				</div>
+				<div class="content">
+					归属频道：{{item.industryName}}
+				</div>
+				<div class="footer">
+					<el-switch
+					  v-model="item.status"
+					  active-text="启用">
+					</el-switch>
+				</div>
+			</div>
+		</el-col>
+		<el-col :lg="{span:10}" :xs="{span:22,offset:1}" :md="{span:10}" :sm="{span:22,offset:1}" >
+			<router-link :to="{path:'/platform/coalType/category/editor'}">
+				<div class="coalCardAdd">
+					<div class="addIcon"><span class="el-icon-plus"></span></div>
+					<div class="add">添加品类</div>
+				</div>
+			</router-link>
+		</el-col>
+    </div>
+</template>
+<script>
+    export default {
+        data(){
+            return {
+            	category:[],
+            }
+        },
+        created(){
+        	// this.$http.get('/api/basics/categories').then(res=>{
+	   //          res.list.forEach(v=>{
+				// 	v.status = +v.status ? true : false; 
+				// 	var str = '';
+				// 	v.catTeParams.forEach(v1=>{
+				// 		str += v1 + '；';
+				// 	});
+				// 	v.catTeParams = str;
+				// });
+				// this.category = res.list;
+	        // })
+	        var res = {
+			  "status": 200,
+			  "message": "操作成功",
+			  "list": [
+			    {
+			      "catCode": "11",
+			      "catName": "动力煤",
+			      "industryCode": "1",
+			      "industryName": "煤炭",
+			      "remarks":"dd",
+			      "status": 0,
+			      "catTeParams": ["发热量","全水","挥发分","全硫"]
+			    }, {
+			      "catCode": "12",
+			      "catName": "动力煤",
+			      "industryCode": "1",
+			      "industryName": "煤炭",
+			      "remarks":"dd",
+			      "status": 0,
+			      "catTeParams": ["发热量","全水","挥发分","全硫"]
+			    }, {
+			      "catCode": "13",
+			      "catName": "动力煤",
+			      "industryCode": "1",
+			      "industryName": "煤炭",
+			      "remarks":"dd",
+			      "status": 1,
+			      "catTeParams": ["发热量","全水","挥发分","全硫"]
+			    }, {
+			      "catCode": "14",
+			      "catName": "动力煤",
+			      "industryCode": "1",
+			      "industryName": "煤炭",
+			      "remarks":"dd",
+			      "status": 1,
+			      "catTeParams": ["发热量","全水","挥发分","全硫"]
+			    }
+			  ]
+			};
+			res.list.forEach(v=>{
+				v.status = +v.status ? true : false; 
+				var str = '';
+				v.catTeParams.forEach(v1=>{
+					str += v1 + '；';
+				});
+				v.catTeParams = str.slice(0,-1);
+			});
+			this.category = res.list;
+        }
+    }
+</script>
+<style scoped lang="scss">
+	.category {
+		padding: 30px;
+		.coalCard {
+	    	width: 100%;
+	    	height: 150px;
+	    	background-color: #f3f6f8;
+	    	position: relative;
+	    	display: inline-block;
+	    	margin: 0 30px 30px 0;
+	    	padding:15px;
+	    	box-sizing: border-box;
+	    	.head {
+	    		font-size: 16px;
+	    		.editor {
+	    			font-size: 14px;
+	    		}
+	    	}
+	    	.el-button.is-circle {
+	    		padding: 5px;
+	    	}
+	    	.content {
+	    		font-size: 14px;
+	    		overflow: hidden;
+				text-overflow:ellipsis;
+				white-space: nowrap;
+				margin:10px 0;
+	    	}
+	    	.footer {
+	    		text-align:right;
+	    	}
+
+	    }
+	    .coalCard:before {
+	    	display: block;
+	    	content:'';
+	    	width: 5px;
+	    	height: 150px;
+	    	position: absolute;
+	    	left:0;
+	    	top: 0;
+	    	background-color: #928ce6;
+
+	    }
+	    .coalCardAdd {
+	    	width: 100%;
+	    	height: 150px;
+	    	background-color: #f3f6f8;
+	    	position: relative;
+	    	display: inline-block;
+	    	margin: 0 30px 30px 0;
+	    	padding:15px;
+	    	box-sizing: border-box;
+	    	border: 1px dashed #999;
+	    	text-align:center;
+	    	color: #999;
+	    	.addIcon {
+	    		margin-top:30px;
+	    		.el-icon-plus {
+	    			font-size: 30px;
+	    		}
+	    	}
+	    	.add {
+	    		font-size: 12px;
+	    		margin-top:10px;
+	    	}
+	    }
+	    .fr {
+	    	float: right;
+	    }
+	    a {
+			text-decoration: none;
+	    }
+	}
+    
+</style>

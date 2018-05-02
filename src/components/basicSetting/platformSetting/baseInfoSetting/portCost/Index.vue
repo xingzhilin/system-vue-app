@@ -100,7 +100,7 @@
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'sortCostAddLink', query: { flag: 'edit' }});
+		        this.$router.push({name: 'sortCostAddLink', query: { flag: 'edit', id: row.id}});
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)

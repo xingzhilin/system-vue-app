@@ -8,8 +8,8 @@
 			<table class="add_table">
 				<tbody>
 					<tr>
-						<td class="td_label"><span class="zl_required">*</span>船务费用类型：</td>
-						<td><el-input v-model="form.shipingCostType" size="small"></el-input></td>
+						<td class="td_label"><span class="zl_required">*</span>其他费用类型：</td>
+						<td><el-input v-model="form.otherCostType" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>状态：</td>
@@ -23,8 +23,8 @@
 				</tbody>
 			</table>
 			<el-footer>
-			    <el-button type="primary" @click="handleSubmitForm('users')" size="small">保存</el-button>
-			    <el-button @click="handleGoBack('users')" size="small">取消</el-button>
+			    <el-button type="primary" @click="handleSubmitForm" size="small">保存</el-button>
+			    <el-button @click="handleGoBack" size="small">取消</el-button>
 			</el-footer>
 		</el-form>
 	</div>
@@ -33,15 +33,27 @@
 	//import eventBus from './../../../../../api/eventBus.js';
 	export default{
 		data(){
+			
 			return {
-				msg: '船务费用类型',
-				form: {},
+				msg: '其他费用类型',
+				form: {}
 			}
 		},
 		created(){
 			this.init();
 		},
 		methods:{
+			submitForm(){
+				//eventBus.$emit('my-event', this.form); 
+				//this.$router.push({name: 'warehouseManageAddNextLink'}) ;
+				
+			},
+			handleInsert(){
+				
+			},
+			handleHCAdd(){
+				this.hcInserts.push({hcName: ''});
+			},
 			handleSubmitForm(){
 				console.log('submit');
 				console.log(this.users);
@@ -50,9 +62,7 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag,
-					_id = this.$route.query.id;
-				console.log(_id)
+				let _query = this.$route.query.flag;
 				if(_query == 'edit'){
 					console.log('编辑');
 				}else{

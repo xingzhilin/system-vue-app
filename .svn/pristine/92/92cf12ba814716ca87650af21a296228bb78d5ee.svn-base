@@ -260,7 +260,7 @@ import WarehouseManagePremium from './../components/basicSetting/platformSetting
 
 import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index'
 import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index'
-import ContractTemplateOperateAdd from './../components/basicSetting/platformSetting/contractTemplate/operate/Add'
+import ContractTemplateOperateEdit from './../components/basicSetting/platformSetting/contractTemplate/operate/Edit'
 import ContractTemplateOperateView from './../components/basicSetting/platformSetting/contractTemplate/operate/View'
 
 import MessageSetting from './../components/basicSetting/platformSetting/messageSetting/Index'
@@ -1315,9 +1315,9 @@ const basicSetting = {
 							component: ContractTemplateOperate
 						},
 						{
-							path: '/platform/contract/add',
-							name: 'contractOperateAddLink',
-							component: ContractTemplateOperateAdd
+							path: '/platform/contract/edit',
+							name: 'contractOperateEditLink',
+							component: ContractTemplateOperateEdit
 						},
 						{
 							path: '/platform/contract/view/:id',

@@ -6,7 +6,7 @@
 		</el-breadcrumb>
 		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
 		  <el-form-item label="订单费用类型名称" prop="userName">
-		    <el-input v-model="formInline.userName" placeholder="订单费用类型名称" size="small"></el-input>
+		    <el-input v-model="formInline.userName" placeholder="港口费用类型" size="small"></el-input>
 		  </el-form-item>	
 		  <el-form-item label="状态" prop="userStatus">
 		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
@@ -100,7 +100,7 @@
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'orderCostAddLink', query: { flag: 'edit', id: row.id}});
+		        this.$router.push({name: 'orderCostAddLink', query: { flag: 'edit' }});
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)

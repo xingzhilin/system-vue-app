@@ -43,17 +43,6 @@
 			this.init();
 		},
 		methods:{
-			submitForm(){
-				//eventBus.$emit('my-event', this.form); 
-				//this.$router.push({name: 'warehouseManageAddNextLink'}) ;
-				
-			},
-			handleInsert(){
-				
-			},
-			handleHCAdd(){
-				this.hcInserts.push({hcName: ''});
-			},
 			handleSubmitForm(){
 				console.log('submit');
 				console.log(this.users);
@@ -62,7 +51,9 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag;
+				let _query = this.$route.query.flag,
+					_id = this.$route.query.id;
+				console.log(_id)
 				if(_query == 'edit'){
 					console.log('编辑');
 				}else{

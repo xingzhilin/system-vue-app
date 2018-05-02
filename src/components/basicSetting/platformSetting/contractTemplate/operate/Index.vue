@@ -92,6 +92,7 @@
 				},
 				tableData: [
 					{
+					  id: 1,
 			          userName: 'Lily',
 			          phoneNum:'1283893044',
 			          departName: '运营',
@@ -100,22 +101,7 @@
 			          date:'2016-05-02'
 			        },
 			        {
-			          userName: 'Lily',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lily',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
+					  id: 2,
 			          userName: 'Lily',
 			          phoneNum:'1283893044',
 			          departName: '运营',
@@ -144,7 +130,7 @@
 			},
 			handleAdd(){
 				console.log('add');
-				this.$router.push({name: 'contractOperateEditLink'});
+				this.$router.push({name: 'contractOperateAddLink'});
 			},
 			handleCheck(index, row){
 				console.log(index, row);
@@ -152,8 +138,8 @@
 		        // v-bind:to="'/blog/' + blog.id"
 			},
 			handleUpdate(index, row) {
-		        console.log(index, row);
-		        this.$router.push({name: 'contractOperateEditLink', query: { id: index }});
+		        console.log(row);
+		        this.$router.push({name: 'contractOperateAddLink', query: { flag: 'edit', id: row.id}});
 		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);

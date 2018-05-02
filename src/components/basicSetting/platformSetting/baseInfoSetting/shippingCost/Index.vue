@@ -5,8 +5,8 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
-		  <el-form-item label="港口费用类型" prop="userName">
-		    <el-input v-model="formInline.userName" placeholder="港口费用类型" size="small"></el-input>
+		  <el-form-item label="船务费用名称" prop="userName">
+		    <el-input v-model="formInline.userName" placeholder="船务费用名称" size="small"></el-input>
 		  </el-form-item>	
 		  <el-form-item label="状态" prop="userStatus">
 		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
@@ -100,7 +100,7 @@
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'shippingCostAddLink', query: { flag: 'edit' }});
+		        this.$router.push({name: 'shippingCostAddLink', query: { flag: 'edit', id: row.id}});
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)

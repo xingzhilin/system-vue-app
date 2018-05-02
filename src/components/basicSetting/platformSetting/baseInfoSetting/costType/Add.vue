@@ -83,7 +83,9 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag;
+				let _query = this.$route.query.flag,
+					_id = this.$route.query.id;
+				console.log(_id)
 				if(_query == 'edit'){
 					console.log('编辑');
 				}else{

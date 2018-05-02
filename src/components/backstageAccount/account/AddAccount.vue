@@ -5,7 +5,7 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<el-form :model="addAccountForm" :rules="addAccountForm" ref="addAccountForm" label-width="100px" class="demo-ruleForm" >		  
-		  <el-form-item label="用户头像：" prop="avatar">
+		  <el-form-item label="用户头像：" prop="headPicUrl">
 			<el-upload
 			  class="avatar-uploader"
 			  action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
@@ -15,21 +15,21 @@
 			  :on-remove="handleRemove"
 			  :on-change="handleChange"
 			  :before-upload="beforeAvatarUpload">
-			  <img v-if="addAccountForm.imageUrl" :src="addAccountForm.imageUrl" class="avatar">
+			  <img v-if="addAccountForm.headPicUrl" :src="addAccountForm.headPicUrl" class="avatar">
 			  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
 			</el-upload>
 			<el-dialog :visible.sync="dialogVisible">
 			  <img width="100%" :src="dialogImageUrl" alt="">
 			</el-dialog>
 		  </el-form-item>
-		  <el-form-item label="真实姓名：" prop="trueUserName" :rules="[{ required: true, message: '真实姓名不能为空'}]">
+		  <el-form-item label="真实姓名：" prop="realName" :rules="[{ required: true, message: '真实姓名不能为空'}]">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="addAccountForm.trueUserName" size="small"></el-input>
+		    	<el-input v-model="addAccountForm.realName" size="small"></el-input>
 			</el-col>
 		  </el-form-item>
-		  <el-form-item label="手机号码：" prop="phone" :rules="[{ required: true, message: '手机号码不能为空'}]">
+		  <el-form-item label="手机号码：" prop="cellPhone" :rules="[{ required: true, message: '手机号码不能为空'}]">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="addAccountForm.phone" size="small"></el-input>
+		    	<el-input v-model="addAccountForm.cellPhone" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
 		  <el-form-item label="固定电话：" prop="telephone">
@@ -47,15 +47,15 @@
 		    	<el-input v-model="addAccountForm.email" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
-		  <el-form-item label="账号状态：" prop="userStatus">
-		    <el-radio-group v-model="addAccountForm.userStatus">
+		  <el-form-item label="账号状态：" prop="status">
+		    <el-radio-group v-model="addAccountForm.status">
 		      <el-radio label="启用"></el-radio>
 		      <el-radio label="禁用"></el-radio>
 		    </el-radio-group>
 		  </el-form-item>  
-		  <el-form-item label="负责交割库：" prop="depart" v-model="addAccountForm.depart">
+		  <el-form-item label="负责交割库：" prop="whCode" v-model="addAccountForm.whCode">
 		  	<span v-for="item in getAddAccountChoice">{{item}}</span>
-		  	<el-checkbox v-model="addAccountForm.checkAll" @change="handleCheckAll">全选</el-checkbox>
+		  	<el-checkbox v-model="addAccountForm.isAll" @change="handleCheckAll">全选</el-checkbox>
 		    <el-button @click="handleAddChoice" :model="addAccountForm.depart">去配置</el-button>
 		  </el-form-item>		  
 		  <el-form-item label="所属角色" prop="role" v-model="addAccountForm.roles">
@@ -78,19 +78,16 @@
 				msg: 'AddAccount',
 				isIndeterminate: true,
 				addAccountForm: {
-					avatar: '',
-					trueUserName: '',
-					phone: '',
+					headPicUrl: '',
+					realName: '',
+					cellPhone: '',
 					telephone: '',
 					fax: '',
 					email:'',
-					userStatus: '',
-					depart: '',
-					checkAll:'',
-					roles: [
-						{status: 1, name: '运营专员',checked: false},
-						{status: 1, name: '运营专员2',checked: false}
-					],
+					status: '',
+					isAll:0,
+					whCode: [],
+					userRole: [],
 					imageUrl: ''
 				},
 				dialogImageUrl:'',

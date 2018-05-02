@@ -1,14 +1,23 @@
 <template>
-	<div class="backstage">
+	<div class="account">
 		<el-breadcrumb separator-class="el-icon-arrow-right">
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
-		  <el-form-item label="港口费用类型" prop="userName">
-		    <el-input v-model="formInline.userName" placeholder="港口费用类型" size="small"></el-input>
-		  </el-form-item>	
-		  <el-form-item label="状态" prop="userStatus">
+		  <el-form-item label="用户名" prop="userName">
+		    <el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>
+		  </el-form-item>
+		  <el-form-item label="真实姓名" prop="trueUserName">
+		    <el-input v-model="formInline.trueUserName" placeholder="真实姓名" size="small"></el-input>
+		  </el-form-item>
+		  <el-form-item label="部门名称" prop="departName">
+		    <el-input v-model="formInline.departName" placeholder="部门名称" size="small"></el-input>
+		  </el-form-item>
+		  <el-form-item label="角色名称" prop="roleName">
+		    <el-input v-model="formInline.roleName" placeholder="角色名称" size="small"></el-input>
+		  </el-form-item>		
+		  <el-form-item label="用户状态" prop="userStatus">
 		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
 		      <el-option label="请选择" value=""></el-option>
 		      <el-option label="启用" value="1"></el-option>
@@ -22,20 +31,25 @@
 		</el-form>
 		<div class="el-line"></div>
 		<el-container>
-	      <el-button type="danger" @click="handleAdd" size="small">新增</el-button>	        
+	      <el-button type="danger" @click="handleAddAccount" size="small">添加账号</el-button>	        
 	      <span class="total">总计：</span>
 	    </el-container>
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
 		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
-		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)" v-if="modYn">处理</el-button>	
+		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)">处理</el-button>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="custEnCostType" label="港口费用类型"></el-table-column>
-		    <el-table-column align="center" prop="custEnCostTypeCode" label="港口费用类型code"></el-table-column>
+		    <el-table-column align="center" prop="enName" label="企业名称"></el-table-column>
+		    <el-table-column align="center" prop="enCode" label="企业编码"></el-table-column>
+		    <el-table-column align="center" prop="registerDate" label="注册时间"></el-table-column>
+		    <el-table-column align="center" prop="accessNo" label="准入协议号"></el-table-column>
+		    <el-table-column align="center" prop="startTime" label="准入开始时间"></el-table-column>
+		    <el-table-column align="center" prop="endTime" label="准入失效时间"></el-table-column>
+		    <el-table-column align="center" prop="isUsed" label="准入状态"></el-table-column>
 		    <el-table-column align="center" prop="status" label="公司状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
+		    <el-table-column align="center" prop="companyRegisterDate" label="企业注册时间"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">
 		    <el-pagination
@@ -54,10 +68,10 @@
 </template>
 <script>
 	export default {
-		name: 'Index',
+		name: 'AccountManagement',
 		data(){
 			return {
-				msg: '客户企业费用类型维护',
+				msg: '交易开闭市维护',
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -89,17 +103,17 @@
 			handleReset(formName){
 				this.$refs[formName].resetFields();
 			},
-			handleAdd(){
+			handleAddAccount(){
 				console.log('add');
-				this.$router.push({name: 'addLink'});
+				this.$router.push({name: 'addAccountLink'});
 			},
 			handleCheck(index, row){
 				console.log(index, row);
-		        this.$router.push({name: 'checkLink'});
+		        this.$router.push({name: 'checkAccountLink'});
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'editLink'});
+		        this.$router.push({name: 'editAccountLink'});
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
@@ -123,7 +137,7 @@
 		    initList(toPage, pageSize){
 		    	let sParams = { toPage: toPage , pageSize: pageSize};
 				console.log(sParams);
-				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+				this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
@@ -137,26 +151,7 @@
 					})
 					.catch(function (error) {
 						console.log(error);
-					})*/
-				this.tableData = [
-					{
-				      "id":"1",
-				      "modYn":"0",
-				      "custEnCostType": "保证金",
-				      "custEnCostTypeCode": "1",
-				      "status": "1",
-				      "createDate": "2018/4/28 12:00:11"
-				    },
-				    {
-				      "id":"2",
-				      "modYn":"0",
-				      "custEnCostType": "预付款",
-				      "custEnCostTypeCode": "1",
-				      "status": "1",
-				      "createDate": "2018/4/28 12:00:11"
-				    }
-				]
-
+					})
 		    }
 		}
 	}

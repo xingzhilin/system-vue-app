@@ -1,5 +1,5 @@
 <template>
-	<div class="account">
+	<div class="">
 		<el-breadcrumb separator-class="el-icon-arrow-right">
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
@@ -10,9 +10,6 @@
 		  </el-form-item>
 		  <el-form-item label="真实姓名" prop="trueUserName">
 		    <el-input v-model="formInline.trueUserName" placeholder="真实姓名" size="small"></el-input>
-		  </el-form-item>
-		  <el-form-item label="部门名称" prop="departName">
-		    <el-input v-model="formInline.departName" placeholder="部门名称" size="small"></el-input>
 		  </el-form-item>
 		  <el-form-item label="角色名称" prop="roleName">
 		    <el-input v-model="formInline.roleName" placeholder="角色名称" size="small"></el-input>
@@ -31,7 +28,7 @@
 		</el-form>
 		<div class="el-line"></div>
 		<el-container>
-	      <el-button type="danger" @click="handleAddAccount" size="small">添加账号</el-button>	        
+	      <el-button type="danger" @click="handleAdd" size="small">添加账号</el-button>	        
 	      <span class="total">总计：</span>
 	    </el-container>
 		<el-table :data="tableData" border size="small">
@@ -42,12 +39,11 @@
 			      </template>
 		    </el-table-column>
 		    <el-table-column align="center" prop="userName" label="用户名"></el-table-column>
-		    <el-table-column align="center" prop="trueUserName" label="真实姓名"></el-table-column>
-		    <el-table-column align="center" prop="phoneNum" label="手机号"></el-table-column>
-		    <el-table-column align="center" prop="departName" label="所属部门"></el-table-column>
+		    <el-table-column align="center" prop="realName" label="真实姓名"></el-table-column>
+		    <el-table-column align="center" prop="cellPhone" label="手机号"></el-table-column>
 		    <el-table-column align="center" prop="roleName" label="角色名称"></el-table-column>
-		    <el-table-column align="center" prop="userStatus" label="用户状态"></el-table-column>
-		    <el-table-column align="center" prop="date" label="注册时间"></el-table-column>
+		    <el-table-column align="center" prop="status" label="用户状态"></el-table-column>
+		    <el-table-column align="center" prop="createTime" label="注册时间"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">			
 			<el-pagination
@@ -64,10 +60,10 @@
 </template>
 <script>
 	export default {
-		name: 'AccountManagement',
+		name: 'Management',
 		data(){
 			return {
-				msg: 'AccountManagement',
+				msg: 'Management',
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -75,46 +71,11 @@
 					roleName: '',
 					userStatus: ''
 				},
-				tableData: [
-					{
-			          userName: 'Lily',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lily',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lily',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lucy',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'244324',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        }
-		        ],
-		        currentPage: 4,
-
+				tableData: [],
+				pageSize: 10,
+				pageSizes:[2, 3, 5, 10],
+		        currentPage: 1,
+		        totalPage: null,
 				rules: {         
 					userName: [
 						{ required: true, message: '请输入用户名', trigger: 'blur' }
@@ -134,6 +95,9 @@
 				}
 			}
 		},
+		created(){
+			this.initList(this.currentPage, this.pageSize);
+		},
 		methods: {
 			handleSubmit(formName){
 				this.$refs[formName].validate((valid) => {
@@ -146,10 +110,9 @@
 				})
 			},
 			handleReset(formName){
-				//this.formInline = {}
 				this.$refs[formName].resetFields();
 			},
-			handleAddAccount(){
+			handleAdd(){
 				console.log('add');
 				this.$router.push({name: 'addAccountLink'});
 			},
@@ -161,11 +124,83 @@
 		        console.log(index, row);
 		        this.$router.push({name: 'editAccountLink'});
 		    },
+		    handlePrevChange(val){
+		    	console.log(`上一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
+		    handleNextChange(val){
+		    	console.log(`下一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);
+		        this.pageSize = val;
+		        console.log(this.pageSize);
+				this.initList(this.currentPage, this.pageSize);
 		    },
 		    handleCurrentChange(val) {
 		        console.log(`当前页: ${val}`);
+		        this.currentPage = val;
+				this.initList(this.currentPage, this.pageSize);
+		    },
+		    initList(toPage, pageSize){
+		    	let sParams = { toPage: toPage , pageSize: pageSize};
+				console.log(sParams);
+				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+							if(res.status == 200){
+								console.log(res);
+								this.totalPage = res.data.total;
+								this.currentPage = res.data.pageNum;
+								this.pageSize = res.data.pageSize;
+								this.tableData = res.data.list;
+							}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})*/
+				this.tableData = [					
+					{
+				      "adminId": "1",
+				      "headPicUrl":"baidu.com/images/tx.png",
+				      "userName":"张金",
+				      "realName": "张鑫",
+				      "cellPhone": "15001192712",
+				      "fax":"010-89898989",
+				      "email":"zhangj@315.com.cn",
+				      "userPwd":"123456",
+				      "telphone":"010-89898989",
+				      "status": "用户状态",
+				      "createTime": "2018/4/20",
+				      "whIds":[
+				          {"whCode":"20180101","whName":"天津港","status":"1"},
+				          {"whCode":"20180102","whName":"秦皇岛港","status":"1"}
+				      ],
+				      "userRole":[{"roleId":"201804270001","roleName":"运营专员"},{"roleId":"201804270001","roleName":"运营专员 "}]
+				    },
+				    {
+				      "adminId": "2",
+				      "headPicUrl":"baidu.com/images/tx.png",
+				      "userName":"张金2",
+				      "realName": "张鑫2",
+				      "cellPhone": "15001192712",
+				      "fax":"010-89898989",
+				      "email":"zhangj@315.com.cn",
+				      "userPwd":"123456",
+				      "telphone":"010-89898989",
+				      "roleName": '运营专员；运营负责人' ,
+				      "status": "用户状态",
+				      "createTime": "2018/4/20",
+				      "whIds":[
+				          {"whCode":"20180101","whName":"天津港","status":"1"},
+				        {"whCode":"20180102","whName":"秦皇岛港","status":"1"}
+				      ],
+				      "userRole":[{"roleId":"201804270001","roleName":"运营专员"},{"roleId":"201804270001","roleName":"运营专员 "}]
+				    }
+				]
+
 		    }
 		}
 	}

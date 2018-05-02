@@ -22,19 +22,20 @@
 		</el-form>
 		<div class="el-line"></div>
 		<el-container>
-	      <el-button type="danger" @click="handleAdd" size="small">新增</el-button>	        
-	      <span class="total">总计：</span>
+	      <el-button type="danger" @click="handleAdd" size="small">新增</el-button>
 	    </el-container>
 		<el-table :data="tableData" border size="small">
-		    <el-table-column prop="" label="操作" width="180" align="center">		    	
+		    <el-table-column label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
 		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
-		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)" v-if="modYn">处理</el-button>	
+		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)" :data-id="scope.row.id">处理</el-button>	
 			      </template>
 		    </el-table-column>
 		    <el-table-column align="center" prop="custEnCostType" label="港口费用类型"></el-table-column>
 		    <el-table-column align="center" prop="custEnCostTypeCode" label="港口费用类型code"></el-table-column>
+
 		    <el-table-column align="center" prop="status" label="公司状态"></el-table-column>
+
 		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">
@@ -91,15 +92,15 @@
 			},
 			handleAdd(){
 				console.log('add');
-				this.$router.push({name: 'addLink'});
+				this.$router.push({name: 'costTypeAddLink'});
 			},
 			handleCheck(index, row){
-				console.log(index, row);
-		        this.$router.push({name: 'checkLink'});
+				console.log(row);
+		        this.$router.push({name: 'costTypeViewLink', params: {id: row.id}});
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'editLink'});
+		        this.$router.push({name: 'costTypeAddLink', query: { flag: 'edit' }});
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
@@ -149,7 +150,7 @@
 				    },
 				    {
 				      "id":"2",
-				      "modYn":"0",
+				      "modYn":"1",
 				      "custEnCostType": "预付款",
 				      "custEnCostTypeCode": "1",
 				      "status": "1",

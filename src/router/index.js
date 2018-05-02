@@ -198,38 +198,57 @@ import BasicSettingIndex from './../components/basicSetting/Index'
 
 import PlatformSettingIndex from './../components/basicSetting/platformSetting/Index'
 
-import BaseInfoSetting from './../components/basicSetting/platformSetting/baseInfoSetting/Index.vue'
-import BusinessType from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/Index.vue'
-import BusinessTypeList from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Index.vue'
-import BusinessTypeAdd from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Add.vue'
-import Standard from './../components/basicSetting/platformSetting/baseInfoSetting/standard/Index.vue'
-import Delivery from './../components/basicSetting/platformSetting/baseInfoSetting/delivery/Index.vue'
-import Ratio from './../components/basicSetting/platformSetting/baseInfoSetting/ratio/Index.vue'
-import CostType from './../components/basicSetting/platformSetting/baseInfoSetting/costType/Index.vue'
-import PortCost from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/Index.vue'
-import ShippingCost from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/Index.vue'
-import TestsCost from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/Index.vue'
-import OthersCost from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/Index.vue'
-import OrderCost from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/Index.vue'
+import BaseInfoSetting from './../components/basicSetting/platformSetting/baseInfoSetting/Index'
+import BusinessType from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/Index'
+import BusinessTypeList from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Index'
+import BusinessTypeAdd from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Add'
+import Standard from './../components/basicSetting/platformSetting/baseInfoSetting/standard/Index'
+import Delivery from './../components/basicSetting/platformSetting/baseInfoSetting/delivery/Index'
+import Ratio from './../components/basicSetting/platformSetting/baseInfoSetting/ratio/Index'
 
-import CoalType from './../components/basicSetting/platformSetting/coalType/Index.vue'
-import CoalBrand from './../components/basicSetting/platformSetting/coalType/coalBrand/Index.vue'
-import CoalBrandIndex from './../components/basicSetting/platformSetting/coalType/coalBrand/pages/Index.vue'
-import CoalBrandEditor from './../components/basicSetting/platformSetting/coalType/coalBrand/pages/Editor.vue'
-import CoalBrandSee from './../components/basicSetting/platformSetting/coalType/coalBrand/pages/See.vue'
-import Category from './../components/basicSetting/platformSetting/coalType/category/Index.vue'
-import CategoryEditor from './../components/basicSetting/platformSetting/coalType/category/pages/Editor.vue'
-import CategoryIndex from './../components/basicSetting/platformSetting/coalType/category/pages/Index.vue'
-import CategoryValue from './../components/basicSetting/platformSetting/coalType/categoryValue/Index.vue'
-import CategoryValueIndex from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/Index.vue'
-import CategoryValueEditor from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/Editor.vue'
-import CategoryValueSee from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/See.vue'
-import JydCoal from './../components/basicSetting/platformSetting/coalType/jydCoal/Index.vue'
-import BrandRelease from './../components/basicSetting/platformSetting/coalType/brandRelease/Index.vue'
+import CostType from './../components/basicSetting/platformSetting/baseInfoSetting/costType/Index'
+import CostTypeAdd from './../components/basicSetting/platformSetting/baseInfoSetting/costType/Add'
+import CostTypeView from './../components/basicSetting/platformSetting/baseInfoSetting/costType/View'
 
-import FeaturedFirst from './../components/basicSetting/platformSetting/featuredFirst/Index.vue'
-import CoalMall from './../components/basicSetting/platformSetting/featuredFirst/coalMall/Index.vue'
-import SupplyBidding from './../components/basicSetting/platformSetting/featuredFirst/supplyBidding/Index.vue'
+
+import PortCost from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/Index'
+import PortCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/Add'
+import PortCostView from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/View'
+
+import ShippingCost from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/Index'
+import ShippingCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/Add'
+import ShippingCostView from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/View'
+
+import TestsCost from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/Index'
+import TestsCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/Add'
+import TestsCostView from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/View'
+
+import OthersCost from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/Index'
+import OthersCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/Add'
+import OthersCostView from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/View'
+
+import OrderCost from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/Index'
+import OrderCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/Add'
+import OrderCostView from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/View'
+
+import CoalType from './../components/basicSetting/platformSetting/coalType/Index'
+import CoalBrand from './../components/basicSetting/platformSetting/coalType/coalBrand/Index'
+import CoalBrandIndex from './../components/basicSetting/platformSetting/coalType/coalBrand/pages/Index'
+import CoalBrandEditor from './../components/basicSetting/platformSetting/coalType/coalBrand/pages/Editor'
+import CoalBrandSee from './../components/basicSetting/platformSetting/coalType/coalBrand/pages/See'
+import Category from './../components/basicSetting/platformSetting/coalType/category/Index'
+import CategoryEditor from './../components/basicSetting/platformSetting/coalType/category/pages/Editor'
+import CategoryIndex from './../components/basicSetting/platformSetting/coalType/category/pages/Index'
+import CategoryValue from './../components/basicSetting/platformSetting/coalType/categoryValue/Index'
+import CategoryValueIndex from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/Index'
+import CategoryValueEditor from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/Editor'
+import CategoryValueSee from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/See'
+import JydCoal from './../components/basicSetting/platformSetting/coalType/jydCoal/Index'
+import BrandRelease from './../components/basicSetting/platformSetting/coalType/brandRelease/Index'
+
+import FeaturedFirst from './../components/basicSetting/platformSetting/featuredFirst/Index'
+import CoalMall from './../components/basicSetting/platformSetting/featuredFirst/coalMall/Index'
+import SupplyBidding from './../components/basicSetting/platformSetting/featuredFirst/supplyBidding/Index'
 
 import WarehouseManage from './../components/basicSetting/platformSetting/warehouseManage/Index'
 import WarehouseManageOperate from './../components/basicSetting/platformSetting/warehouseManage/operate/Index'
@@ -239,45 +258,45 @@ import WarehouseManageUpdate from './../components/basicSetting/platformSetting/
 import WarehouseManageSorting from './../components/basicSetting/platformSetting/warehouseManage/operate/Sorting'
 import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
 
-import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index.vue'
+import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index'
 import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index'
 import ContractTemplateOperateEdit from './../components/basicSetting/platformSetting/contractTemplate/operate/Edit'
 import ContractTemplateOperateView from './../components/basicSetting/platformSetting/contractTemplate/operate/View'
 
-import MessageSetting from './../components/basicSetting/platformSetting/messageSetting/Index.vue'
-import AppMsg from './../components/basicSetting/platformSetting/messageSetting/appMsg/Index.vue'
-import addAppMsg from './../components/basicSetting/platformSetting/messageSetting/appMsg/AddAppMsg.vue'
-import appMsgSee from './../components/basicSetting/platformSetting/messageSetting/appMsg/appMsgSee.vue'
+import MessageSetting from './../components/basicSetting/platformSetting/messageSetting/Index'
+import AppMsg from './../components/basicSetting/platformSetting/messageSetting/appMsg/Index'
+import addAppMsg from './../components/basicSetting/platformSetting/messageSetting/appMsg/AddAppMsg'
+import appMsgSee from './../components/basicSetting/platformSetting/messageSetting/appMsg/appMsgSee'
 
-import ApprovalSetting from './../components/basicSetting/platformSetting/approvalSetting/Index.vue'
-import ProcessSetting from './../components/basicSetting/platformSetting/approvalSetting/processSetting/Index.vue'
-import ProcessView from './../components/basicSetting/platformSetting/approvalSetting/processView/Index.vue'
+import ApprovalSetting from './../components/basicSetting/platformSetting/approvalSetting/Index'
+import ProcessSetting from './../components/basicSetting/platformSetting/approvalSetting/processSetting/Index'
+import ProcessView from './../components/basicSetting/platformSetting/approvalSetting/processView/Index'
   
 
 import ContentCurationIndex from './../components/basicSetting/contentCuration/Index'
 
-import Cms from './../components/basicSetting/contentCuration/cms/Index.vue'
+import Cms from './../components/basicSetting/contentCuration/cms/Index'
 
-import OpenAndCloseIndex from './../components/basicSetting/contentCuration/openAndClose/Index.vue'
-import Trade from './../components/basicSetting/contentCuration/openAndClose/trade/Index.vue'
-import ValenceOfVertex from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/Index.vue'
-import NoticeInfo from './../components/basicSetting/contentCuration/noticeInfo/Index.vue'
+import OpenAndCloseIndex from './../components/basicSetting/contentCuration/openAndClose/Index'
+import Trade from './../components/basicSetting/contentCuration/openAndClose/trade/Index'
+import ValenceOfVertex from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/Index'
+import NoticeInfo from './../components/basicSetting/contentCuration/noticeInfo/Index'
 
-import ECommerceIndex from './../components/basicSetting/contentCuration/eCommerce/Index.vue'
-import Pithead from './../components/basicSetting/contentCuration/eCommerce/pithead/Index.vue'
-import PitheadIndex from './../components/basicSetting/contentCuration/eCommerce/pithead/pages/Index.vue'
-import PitheadEditor from './../components/basicSetting/contentCuration/eCommerce/pithead/pages/Editor.vue'
-import PitheadSee from './../components/basicSetting/contentCuration/eCommerce/pithead/pages/See.vue'
-import Port from './../components/basicSetting/contentCuration/eCommerce/port/Index.vue'
-import CCIIndex from './../components/basicSetting/contentCuration/eCommerce/CCIIndex/Index.vue'
-import CCTDIndex from './../components/basicSetting/contentCuration/eCommerce/CCTDIndex/Index.vue'
-import BSPIIndex from './../components/basicSetting/contentCuration/eCommerce/BSPIIndex/Index.vue'
+import ECommerceIndex from './../components/basicSetting/contentCuration/eCommerce/Index'
+import Pithead from './../components/basicSetting/contentCuration/eCommerce/pithead/Index'
+import PitheadIndex from './../components/basicSetting/contentCuration/eCommerce/pithead/pages/Index'
+import PitheadEditor from './../components/basicSetting/contentCuration/eCommerce/pithead/pages/Editor'
+import PitheadSee from './../components/basicSetting/contentCuration/eCommerce/pithead/pages/See'
+import Port from './../components/basicSetting/contentCuration/eCommerce/port/Index'
+import CCIIndex from './../components/basicSetting/contentCuration/eCommerce/CCIIndex/Index'
+import CCTDIndex from './../components/basicSetting/contentCuration/eCommerce/CCTDIndex/Index'
+import BSPIIndex from './../components/basicSetting/contentCuration/eCommerce/BSPIIndex/Index'
 
-import CarouselFigure from './../components/basicSetting/contentCuration/carouselFigure/Index.vue'
+import CarouselFigure from './../components/basicSetting/contentCuration/carouselFigure/Index'
 
-import ActivityInfo from './../components/basicSetting/contentCuration/activityInfo/Index.vue'
+import ActivityInfo from './../components/basicSetting/contentCuration/activityInfo/Index'
 
-import AppIcons from './../components/basicSetting/contentCuration/appIcons/Index.vue'
+import AppIcons from './../components/basicSetting/contentCuration/appIcons/Index'
 
 
 import AppBasicMaintenanceIndex from './../components/basicSetting/appBasicMaintenance/Index'
@@ -286,7 +305,7 @@ import AppVersion from './../components/basicSetting/appBasicMaintenance/appVers
 
 
 //sun
-// import AppMessage from './../components/basicSetting/messageSetting/AppMessage.vue'
+// import AppMessage from './../components/basicSetting/messageSetting/AppMessage'
 
 
 
@@ -1063,15 +1082,35 @@ const basicSetting = {
 							name: 'ratioLink',
 							component: Ratio
 						},
-						{
+						{									
 							path: '/platform/baseInfo/costType',
 							name: 'costTypeLink',
 							component: CostType
 						},
 						{
+							path: '/platform/baseInfo/costType/add',
+							name: 'costTypeAddLink',
+							component:  CostTypeAdd
+						},
+						{
+							path: '/platform/baseInfo/costType/view/:id',
+							name: 'costTypeViewLink',
+							component:  CostTypeView
+						},
+						{
 							path: '/platform/baseInfo/portCost',
-							name: 'portCostLink',
+							name: 'sortCostLink',
 							component: PortCost
+						},
+						{
+							path: '/platform/baseInfo/portCost/add',
+							name: 'sortCostAddLink',
+							component:  PortCostAdd
+						},
+						{
+							path: '/platform/baseInfo/portCost/view/:id',
+							name: 'sortCostViewLink',
+							component:  PortCostView
 						},
 						{
 							path: '/platform/baseInfo/shippingCost',
@@ -1079,9 +1118,29 @@ const basicSetting = {
 							component: ShippingCost
 						},
 						{
+							path: '/platform/baseInfo/shippingCost/add',
+							name: 'shippingCostAddLink',
+							component:  ShippingCostAdd
+						},
+						{
+							path: '/platform/baseInfo/shippingCost/view/:id',
+							name: 'shippingCostViewLink',
+							component:  ShippingCostView
+						},
+						{
 							path: '/platform/baseInfo/testsCost',
 							name: 'testsCostLink',
 							component: TestsCost
+						},
+						{
+							path: '/platform/baseInfo/testsCost/add',
+							name: 'testsCostAddLink',
+							component:  TestsCostAdd
+						},
+						{
+							path: '/platform/baseInfo/testsCost/view/:id',
+							name: 'testsCostViewLink',
+							component:  TestsCostView
 						},
 						{
 							path: '/platform/baseInfo/othersCost',
@@ -1089,10 +1148,30 @@ const basicSetting = {
 							component: OthersCost
 						},
 						{
+							path: '/platform/baseInfo/othersCost/add',
+							name: 'othersCostAddLink',
+							component:  OthersCostAdd
+						},
+						{
+							path: '/platform/baseInfo/othersCost/view/:id',
+							name: 'othersCostViewLink',
+							component:  OthersCostView
+						},
+						{
 							path: '/platform/baseInfo/orderCost',
 							name: 'orderCostLink',
 							component: OrderCost
-						}
+						},
+						{
+							path: '/platform/baseInfo/orderCost/add',
+							name: 'orderCostAddLink',
+							component:  OrderCostAdd
+						},
+						{
+							path: '/platform/baseInfo/orderCost/view/:id',
+							name: 'orderCostViewLink',
+							component:  OrderCostView
+						},
 					]
 				},                  
 				{

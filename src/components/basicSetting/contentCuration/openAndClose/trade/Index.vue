@@ -5,19 +5,20 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<el-container>
-			<el-date-picker type="dates" v-model="dateValue" placeholder="选择日期" style="width: 100%;"></el-date-picker>
-
-			<el-date-picker
-		      v-model="value1"
-		      type="datetime"
-		      placeholder="选择日期时间">
-		    </el-date-picker>
-	      <div class="date_show">
-	      	
-	      </div>
+			<div class="date_wrap">
+				<el-date-picker 
+					type="dates" 
+					v-model="dateValue"
+					@focus="handleFoucs" 
+					placeholder="选择日期">				
+				</el-date-picker>
+			</div>
+			<div class="date_show">
+				展示信息
+			</div>
 	    </el-container>
 	    <el-footer>
-	    	<el-button type="primary" @click="handleSubmit" size="small">保存</el-button>
+	    	<el-button type="primary" @click="init" size="small">保存</el-button>
 		    <el-button @click="handleReset" size="small">取消</el-button>
 	    </el-footer>
 	</div> 
@@ -35,12 +36,11 @@
 					roleName: '',
 					userStatus: ''
 				},
-				dateValue: '',
-				value1:''
+				dateValue: []
 			}
 		},
 		created(){
-			this.init();
+			//this.init();
 		},
 		methods: {
 			handleSubmit(){
@@ -51,6 +51,11 @@
 			},
 		    init(){
 				console.log('date');
+
+				document.querySelector('.account').addEventListener('click', function(){
+					console.log('ce');
+					$('.el-picker-panel').show();
+				})
 				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
@@ -62,6 +67,9 @@
 					.catch(function (error) {
 						console.log(error);
 					})*/
+		    },
+		    handleFoucs(){
+		    	console.log('focus');
 		    }
 		}
 	}

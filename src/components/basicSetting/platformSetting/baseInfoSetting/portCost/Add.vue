@@ -45,7 +45,7 @@
 				return data;
 			};
 			return {
-				msg: '新增客户企业费用类型维护',
+				msg: '港口费用类型',
 				form: {},
 				data: generateData(),
 				props: {}

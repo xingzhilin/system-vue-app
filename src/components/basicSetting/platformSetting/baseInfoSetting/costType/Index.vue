@@ -31,11 +31,8 @@
 		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)" :data-id="scope.row.id">处理</el-button>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="custEnCostType" label="港口费用类型"></el-table-column>
-		    <el-table-column align="center" prop="custEnCostTypeCode" label="港口费用类型code"></el-table-column>
-
-		    <el-table-column align="center" prop="status" label="公司状态"></el-table-column>
-
+		    <el-table-column align="center" prop="custEnCostType" label="客户企业费用类型"></el-table-column>
+		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
 		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">

@@ -5,16 +5,10 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<table class="add_table">
-			<tbody>					
-				<tr>
-					<td class="td_label">是否保证金细分类型：</td>
-					<td>
-						{{viewData.custEnCostType}}
-					</td>
-				</tr>
+			<tbody>
 				<tr>
 					<td class="td_label"><span class="zl_required">*</span>费用类型：</td>
-					<td>{{viewData.isMargin}}</td>
+					<td>{{viewData.shipingCostType}}</td>
 				</tr>
 				<tr>
 					<td class="td_label"><span class="zl_required">*</span>状态：</td>
@@ -34,7 +28,7 @@
 	export default{
 		data(){			
 			return {
-				msg: '查看客户企业费用类型维护',
+				msg: '船务费用类型',
 				viewData: {}
 			}
 		},
@@ -46,19 +40,13 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag;
-				if(_query == 'edit'){
-					console.log('编辑');
-				}else{
-					this.viewData = {
-				      "id":"1",
-				      "custEnCostType": "客户企业费用类型",
-				      "custEnCostTypeCode": "1",
-				      "status": "1",
-				      "isMargin": "1"
-				    }
-				}
-			}
+				this.viewData = {
+			      "id":"1",
+			      "shipingCostType": "港建费",
+			      "shipingCostTypeCode": "1",
+			      "status": "1"
+			    }
+		}
 		}
 	}
 </script>

@@ -28,7 +28,7 @@
 	export default{
 		data(){			
 			return {
-				msg: '查看客户企业费用类型维护',
+				msg: '港口费用类型',
 				viewData: {}
 			}
 		},

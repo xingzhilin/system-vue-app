@@ -58,7 +58,7 @@
 		name: 'Index',
 		data(){
 			return {
-				msg: '客户企业费用类型维护',
+				msg: '港口费用类型',
 				formInline: {
 					userName: '',
 					trueUserName: '',

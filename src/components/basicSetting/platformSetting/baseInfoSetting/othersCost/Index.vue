@@ -31,10 +31,10 @@
 		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)" :data-id="scope.row.id">处理</el-button>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="custEnCostType" label="港口费用类型"></el-table-column>
-		    <el-table-column align="center" prop="custEnCostTypeCode" label="港口费用类型code"></el-table-column>
+		    <el-table-column align="center" prop="otherCostType" label="其他费用类型"></el-table-column>
+		    <el-table-column align="center" prop="otherCostTypeCode" label="其他费用类型code"></el-table-column>
 
-		    <el-table-column align="center" prop="status" label="公司状态"></el-table-column>
+		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
 
 		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
 		</el-table>
@@ -58,7 +58,7 @@
 		name: 'Index',
 		data(){
 			return {
-				msg: '客户企业费用类型维护',
+				msg: '其他费用类型',
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -92,15 +92,15 @@
 			},
 			handleAdd(){
 				console.log('add');
-				this.$router.push({name: 'costTypeAddLink'});
+				this.$router.push({name: 'othersCostAddLink'});
 			},
 			handleCheck(index, row){
 				console.log(row);
-		        this.$router.push({name: 'costTypeViewLink', params: {id: row.id}});
+		        this.$router.push({name: 'othersCostViewLink', params: {id: row.id}});
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
-		        this.$router.push({name: 'costTypeAddLink', query: { flag: 'edit' }});
+		        this.$router.push({name: 'othersCostAddLink', query: { flag: 'edit' }});
 		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
@@ -142,17 +142,15 @@
 				this.tableData = [
 					{
 				      "id":"1",
-				      "modYn":"0",
-				      "custEnCostType": "保证金",
-				      "custEnCostTypeCode": "1",
+				      "otherCostType": "化验费",
+				      "otherCostTypeCode": "1",
 				      "status": "1",
 				      "createDate": "2018/4/28 12:00:11"
 				    },
 				    {
 				      "id":"2",
-				      "modYn":"1",
-				      "custEnCostType": "预付款",
-				      "custEnCostTypeCode": "1",
+				      "otherCostType": "化验费",
+				      "otherCostTypeCode": "1",
 				      "status": "1",
 				      "createDate": "2018/4/28 12:00:11"
 				    }

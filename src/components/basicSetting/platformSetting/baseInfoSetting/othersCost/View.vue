@@ -5,16 +5,10 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<table class="add_table">
-			<tbody>					
+			<tbody>
 				<tr>
-					<td class="td_label">是否保证金细分类型：</td>
-					<td>
-						{{viewData.custEnCostType}}
-					</td>
-				</tr>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>费用类型：</td>
-					<td>{{viewData.isMargin}}</td>
+					<td class="td_label"><span class="zl_required">*</span>其他费用类型：</td>
+					<td>{{viewData.otherCostType}}</td>
 				</tr>
 				<tr>
 					<td class="td_label"><span class="zl_required">*</span>状态：</td>
@@ -34,7 +28,7 @@
 	export default{
 		data(){			
 			return {
-				msg: '查看客户企业费用类型维护',
+				msg: '其他费用类型',
 				viewData: {}
 			}
 		},
@@ -51,11 +45,10 @@
 					console.log('编辑');
 				}else{
 					this.viewData = {
-				      "id":"1",
-				      "custEnCostType": "客户企业费用类型",
-				      "custEnCostTypeCode": "1",
-				      "status": "1",
-				      "isMargin": "1"
+					  "id":"1",
+				      "otherCostType": "化验费",
+				      "otherCostTypeCode": "1",
+				      "status": "1"
 				    }
 				}
 			}

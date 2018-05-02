@@ -6,24 +6,15 @@
 		</el-breadcrumb>
 		<el-form ref="form" :model="form" label-width="80px">
 			<table class="add_table">
-				<tbody>					
+				<tbody>
 					<tr>
-						<td class="td_label">是否保证金细分类型：</td>
-						<td>
-							<el-radio-group v-model="form.resource" size="small">
-						      <el-radio label="是"></el-radio>
-						      <el-radio label="否"></el-radio>
-						    </el-radio-group>
-						</td>
-					</tr>
-					<tr>
-						<td class="td_label"><span class="zl_required">*</span>费用类型：</td>
-						<td><el-input v-model="form.name" size="small"></el-input></td>
+						<td class="td_label"><span class="zl_required">*</span>订单费用类型：</td>
+						<td><el-input v-model="form.orderCostType" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>状态：</td>
 						<td>
-							<el-radio-group v-model="form.resource" size="small">
+							<el-radio-group v-model="form.status" size="small">
 						      <el-radio label="启用"></el-radio>
 						      <el-radio label="停用"></el-radio>
 						    </el-radio-group>
@@ -42,22 +33,9 @@
 	//import eventBus from './../../../../../api/eventBus.js';
 	export default{
 		data(){
-			const generateData = _ => {
-				const data = [];
-				for (let i = 1; i <= 15; i++) {
-					data.push({
-						key: i,
-						label: `备选项 ${ i }`,
-						disabled: false
-					});
-				}
-				return data;
-			};
 			return {
-				msg: '新增客户企业费用类型维护',
-				form: {},
-				data: generateData(),
-				props: {}
+				msg: '订单费用类型',
+				form: {}
 			}
 		},
 		created(){

@@ -4,7 +4,7 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :inline="true" :model="formInline" :rules="rules" ref="formInline" class="demo-form-inline">
+		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
 		  <el-form-item label="用户名" prop="userName">
 		    <el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>
 		  </el-form-item>
@@ -41,23 +41,27 @@
 		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)">处理</el-button>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="userName" label="用户名"></el-table-column>
-		    <el-table-column align="center" prop="trueUserName" label="真实姓名"></el-table-column>
-		    <el-table-column align="center" prop="phoneNum" label="手机号"></el-table-column>
-		    <el-table-column align="center" prop="departName" label="所属部门"></el-table-column>
-		    <el-table-column align="center" prop="roleName" label="角色名称"></el-table-column>
-		    <el-table-column align="center" prop="userStatus" label="用户状态"></el-table-column>
-		    <el-table-column align="center" prop="date" label="注册时间"></el-table-column>
+		    <el-table-column align="center" prop="enName" label="企业名称"></el-table-column>
+		    <el-table-column align="center" prop="enCode" label="企业编码"></el-table-column>
+		    <el-table-column align="center" prop="registerDate" label="注册时间"></el-table-column>
+		    <el-table-column align="center" prop="accessNo" label="准入协议号"></el-table-column>
+		    <el-table-column align="center" prop="startTime" label="准入开始时间"></el-table-column>
+		    <el-table-column align="center" prop="endTime" label="准入失效时间"></el-table-column>
+		    <el-table-column align="center" prop="isUsed" label="准入状态"></el-table-column>
+		    <el-table-column align="center" prop="status" label="公司状态"></el-table-column>
+		    <el-table-column align="center" prop="companyRegisterDate" label="企业注册时间"></el-table-column>
 		</el-table>
-		<el-footer style="height:auto">			
-			<el-pagination
+		<el-footer style="height:auto">
+		    <el-pagination
 		      @size-change="handleSizeChange"
 		      @current-change="handleCurrentChange"
+		      @prev-click="handlePrevChange"  
+		      @next-click="handleNextChange"
 		      :current-page="currentPage"
-		      :page-sizes="[100, 200, 300, 400]"
-		      :page-size="100"
+		      :page-sizes="pageSizes"
+		      :page-size="pageSize"
 		      layout="total, sizes, prev, pager, next, jumper"
-		      :total="400">
+		      :total="totalPage">
 		    </el-pagination>
 		</el-footer>
 	</div>  
@@ -67,7 +71,7 @@
 		name: 'AccountManagement',
 		data(){
 			return {
-				msg: 'AccountManagement',
+				msg: '交易开闭市维护',
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -75,64 +79,15 @@
 					roleName: '',
 					userStatus: ''
 				},
-				tableData: [
-					{
-			          userName: 'Lily',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lily',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lily',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-			          userName: 'Lucy',
-			          trueUserName: 'Lily Li',
-			          phoneNum:'244324',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        }
-		        ],
-		        currentPage: 4,
-
-				rules: {         
-					userName: [
-						{ required: true, message: '请输入用户名', trigger: 'blur' }
-					],
-					trueUserName: [
-						{ required: true, message: '请输入真实姓名', trigger: 'blur' }
-					],
-					departName: [
-						{ required: true, message: '请输入部门名称', trigger: 'blur' }
-					],
-					roleName: [
-						{ required: true, message: '请输入角色名称', trigger: 'blur' }
-					],
-					userStatus: [
-						{ required: true, message: '请选择账号状态', trigger: 'change'}
-					]
-				}
+				tableData: [],
+				pageSize: 10,
+				pageSizes:[2, 3, 5, 10],
+		        currentPage: 1,
+		        totalPage: null
 			}
+		},
+		created(){
+			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleSubmit(formName){
@@ -146,7 +101,6 @@
 				})
 			},
 			handleReset(formName){
-				//this.formInline = {}
 				this.$refs[formName].resetFields();
 			},
 			handleAddAccount(){
@@ -161,11 +115,43 @@
 		        console.log(index, row);
 		        this.$router.push({name: 'editAccountLink'});
 		    },
+		    handlePrevChange(val){
+		    	console.log(`上一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
+		    handleNextChange(val){
+		    	console.log(`下一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);
+		        this.pageSize = val;
+		        console.log(this.pageSize);
+				this.initList(this.currentPage, this.pageSize);
 		    },
 		    handleCurrentChange(val) {
 		        console.log(`当前页: ${val}`);
+		        this.currentPage = val;
+				this.initList(this.currentPage, this.pageSize);
+		    },
+		    initList(toPage, pageSize){
+		    	let sParams = { toPage: toPage , pageSize: pageSize};
+				console.log(sParams);
+				this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+							if(res.status == 200){
+								console.log(res);
+								this.totalPage = res.data.total;
+								this.currentPage = res.data.pageNum;
+								this.pageSize = res.data.pageSize;
+								this.tableData = res.data.list;
+							}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
 		    }
 		}
 	}

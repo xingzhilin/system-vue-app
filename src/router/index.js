@@ -85,19 +85,39 @@ import BusinessManageUsersIncorrupt from './../components/backstageAccount/busin
 
 import BusinessManageTransportIndex from './../components/backstageAccount/businessManage/transport/Index'
 import BusinessManageTransportCompany from './../components/backstageAccount/businessManage/transport/company/Index'
+import BusinessManageTransportCompanyAdd from './../components/backstageAccount/businessManage/transport/company/Add'
+import BusinessManageTransportCompanySee from './../components/backstageAccount/businessManage/transport/company/See'
+import BusinessManageTransportCompanyDeal from './../components/backstageAccount/businessManage/transport/company/Deal'
 import BusinessManageTransportBank from './../components/backstageAccount/businessManage/transport/bank/Index'
+import BusinessManageTransportBankAdd from './../components/backstageAccount/businessManage/transport/bank/Add'
+import BusinessManageTransportBankBianji from './../components/backstageAccount/businessManage/transport/bank/Bianji'
 
 import BusinessManagePortsIndex from './../components/backstageAccount/businessManage/ports/Index'
 import BusinessManagePortsCompany from './../components/backstageAccount/businessManage/ports/company/Index'
+import BusinessManagePortsCompanyAdd from './../components/backstageAccount/businessManage/ports/company/Add'
+import BusinessManagePortsCompanySee from './../components/backstageAccount/businessManage/ports/company/See'
+import BusinessManagePortsCompanyDeal from './../components/backstageAccount/businessManage/ports/company/Deal'
 import BusinessManagePortsBank from './../components/backstageAccount/businessManage/ports/bank/Index'
+import BusinessManagePortsBankAdd from './../components/backstageAccount/businessManage/ports/bank/Add'
+import BusinessManagePortsBankBianji from './../components/backstageAccount/businessManage/ports/bank/Bianji'
 
 import BusinessManageLaboratoryIndex from './../components/backstageAccount/businessManage/laboratory/Index'
 import BusinessManageLaboratoryCompany from './../components/backstageAccount/businessManage/laboratory/company/Index'
+import BusinessManageLaboratoryCompanyAdd from './../components/backstageAccount/businessManage/laboratory/company/Add'
+import BusinessManageLaboratoryCompanySee from './../components/backstageAccount/businessManage/laboratory/company/See'
+import BusinessManageLaboratoryCompanyDeal from './../components/backstageAccount/businessManage/laboratory/company/Deal'
 import BusinessManageLaboratoryBank from './../components/backstageAccount/businessManage/laboratory/bank/Index'
+import BusinessManageLaboratoryBankAdd from './../components/backstageAccount/businessManage/laboratory/bank/Add'
+import BusinessManageLaboratoryBankBianji from './../components/backstageAccount/businessManage/laboratory/bank/Bianji'
 
 import BusinessManageOthersIndex from './../components/backstageAccount/businessManage/others/Index'
 import BusinessManageOthersCompany from './../components/backstageAccount/businessManage/others/company/Index'
+import BusinessManageOthersCompanyAdd from './../components/backstageAccount/businessManage/others/company/Add'
+import BusinessManageOthersCompanySee from './../components/backstageAccount/businessManage/others/company/See'
+import BusinessManageOthersCompanyDeal from './../components/backstageAccount/businessManage/others/company/Deal'
 import BusinessManageOthersBank from './../components/backstageAccount/businessManage/others/bank/Index'
+import BusinessManageOthersBankAdd from './../components/backstageAccount/businessManage/others/bank/Add'
+import BusinessManageOthersBankDeal from './../components/backstageAccount/businessManage/others/bank/Deal'
 
 
 //前台账户管理  frontAccounts
@@ -202,6 +222,8 @@ import BaseInfoSetting from './../components/basicSetting/platformSetting/baseIn
 import BusinessType from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/Index'
 import BusinessTypeList from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Index'
 import BusinessTypeAdd from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Add'
+import BusinessTypeBianji from './../components/basicSetting/platformSetting/baseInfoSetting/businessType/businessTypeList/Bianji'
+
 import Standard from './../components/basicSetting/platformSetting/baseInfoSetting/standard/Index'
 import Delivery from './../components/basicSetting/platformSetting/baseInfoSetting/delivery/Index'
 import Ratio from './../components/basicSetting/platformSetting/baseInfoSetting/ratio/Index'
@@ -244,6 +266,10 @@ import CategoryValueIndex from './../components/basicSetting/platformSetting/coa
 import CategoryValueEditor from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/Editor'
 import CategoryValueSee from './../components/basicSetting/platformSetting/coalType/categoryValue/pages/See'
 import JydCoal from './../components/basicSetting/platformSetting/coalType/jydCoal/Index'
+import JydCoalIndex from './../components/basicSetting/platformSetting/coalType/jydCoal/pages/Index.vue'
+import JydCoalEditor from './../components/basicSetting/platformSetting/coalType/jydCoal/pages/Editor.vue'
+import JydCoalAdd from './../components/basicSetting/platformSetting/coalType/jydCoal/pages/Add.vue'
+import JydCoalSee from './../components/basicSetting/platformSetting/coalType/jydCoal/pages/See.vue'
 import BrandRelease from './../components/basicSetting/platformSetting/coalType/brandRelease/Index'
 
 import FeaturedFirst from './../components/basicSetting/platformSetting/featuredFirst/Index'
@@ -279,6 +305,8 @@ import Cms from './../components/basicSetting/contentCuration/cms/Index'
 
 import OpenAndCloseIndex from './../components/basicSetting/contentCuration/openAndClose/Index'
 import Trade from './../components/basicSetting/contentCuration/openAndClose/trade/Index'
+import TradeSetting from './../components/basicSetting/contentCuration/openAndClose/trade/Setting'
+
 import ValenceOfVertex from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/Index'
 import NoticeInfo from './../components/basicSetting/contentCuration/noticeInfo/Index'
 
@@ -617,10 +645,37 @@ const backstageAccount = {
 							component: BusinessManageTransportCompany,
 						},
 						{
+							path: '/business/transport/company/Add',
+							name: 'transportCompanyAdd',
+							component: BusinessManageTransportCompanyAdd,
+						},
+						{
+							path: '/business/transport/company/See',
+							name: 'transportCompanySee',
+							component: BusinessManageTransportCompanySee,
+						},
+						,
+						{
+							path: '/business/transport/company/Deal',
+							name: 'transportCompanyDeal',
+							component: BusinessManageTransportCompanyDeal,
+						},
+						{
 							path: '/business/transport/bank',
 							name: 'transportBankLink',
 							component: BusinessManageTransportBank,
+						},
+						{
+							path: '/business/transport/bank/Add',
+							name: 'transportBankAdd',
+							component: BusinessManageTransportBankAdd,
+						},
+						{
+							path: '/business/transport/bank/Bianji',
+							name: 'transportBankBianji',
+							component: BusinessManageTransportBankBianji,
 						}
+						
 					]
 				},
 				{
@@ -634,10 +689,36 @@ const backstageAccount = {
 							component: BusinessManagePortsCompany,
 						},
 						{
+							path: '/business/ports/company/Add',
+							name: 'portsCompanyAdd',
+							component: BusinessManagePortsCompanyAdd,
+						},
+						{
+							path: '/business/ports/company/See',
+							name: 'portsCompanySee',
+							component: BusinessManagePortsCompanySee,
+						},
+						,
+						{
+							path: '/business/ports/company/Deal',
+							name: 'portsCompanyDeal',
+							component: BusinessManagePortsCompanyDeal,
+						},
+						{
 							path: '/business/ports/bank',
 							name: 'portsBankLink',
 							component: BusinessManagePortsBank,
-						}
+						},
+						{
+					 	    path: '/business/ports/bank/Add',
+						 	name: 'portsBankAdd',
+						 	component: BusinessManagePortsBankAdd,
+						},
+					    {
+						 	path: '/business/ports/bank/Bianji',
+						 	name: 'portsBankBianji',
+						 	component: BusinessManagePortsBankBianji,
+						 }
 					]
 				},
 				{
@@ -651,10 +732,35 @@ const backstageAccount = {
 							component: BusinessManageLaboratoryCompany,
 						},
 						{
+							path: '/business/laboratory/company/Add',
+							name: 'laboratoryCompanyAdd',
+							component: BusinessManageLaboratoryCompanyAdd,
+						},
+						{
+							path: '/business/laboratory/company/See',
+							name: 'laboratoryCompanySee',
+							component: BusinessManageLaboratoryCompanySee,
+						},
+						{
+							path: '/business/laboratory/company/Deal',
+							name: 'laboratoryCompanyDeal',
+							component: BusinessManageLaboratoryCompanyDeal,
+						},
+						{
 							path: '/business/laboratory/bank',
 							name: 'laboratoryBankLink',
 							component: BusinessManageLaboratoryBank,
-						}
+						},
+						{
+					 	    path: '/business/laboratory/bank/Add',
+						 	name: 'laboratoryBankAdd',
+						 	component: BusinessManageLaboratoryBankAdd,
+						},
+					    {
+						 	path: '/business/laboratory/bank/Bianji',
+						 	name: 'laboratoryBankBianji',
+						 	component: BusinessManageLaboratoryBankBianji,
+						 }
 					]
 				},
 				{
@@ -668,10 +774,35 @@ const backstageAccount = {
 							component: BusinessManageOthersCompany,
 						},
 						{
+							path: '/business/others/company/Add',
+							name: 'othersCompanyAdd',
+							component: BusinessManageOthersCompanyAdd,
+						},
+						{
+							path: '/business/others/company/See',
+							name: 'othersCompanySee',
+							component: BusinessManageOthersCompanySee,
+						},
+						{
+							path: '/business/others/company/Deal',
+							name: 'othersCompanyDeal',
+							component: BusinessManageOthersCompanyDeal,
+						},
+						{
 							path: '/business/others/bank',
 							name: 'othersBankLink',
 							component: BusinessManageOthersBank,
-						}
+						},
+						{
+					 	    path: '/business/others/bank/Add',
+						 	name: 'othersBankAdd',
+						 	component: BusinessManageOthersBankAdd,
+						},
+					    {
+						 	path: '/business/others/bank/Deal',
+						 	name: 'othersBankDeal',
+						 	component: BusinessManageOthersBankDeal,
+						 }
 					]
 				}
 			]
@@ -1064,6 +1195,11 @@ const basicSetting = {
 									path: '/platform/baseInfo/businessType/Add',
 									name: 'BusinessTypeAdd',
 									component: BusinessTypeAdd,
+								},
+								{
+									path: '/platform/baseInfo/businessType/Bianji',
+									name: 'BusinessTypeBianji',
+									component: BusinessTypeBianji,
 								}
 							]
 						},
@@ -1241,12 +1377,32 @@ const basicSetting = {
 						{
 							path: '/platform/coalType/jydCoal',
 							name: 'jydCoalLink',
-							component: JydCoal
+                            redirect:'/platform/coalType/jydCoal/index',
+							component: JydCoal,
+                            children:[
+                                {
+                                    path: '/platform/coalType/jydCoal/index',
+                                    name: 'platformCoalTypejydCoalIndex',
+                                    component: JydCoalIndex,
+                                },{
+                                    path: '/platform/coalType/jydCoal/editor',
+                                    name: 'platformCoalTypejydCoalEditor',
+                                    component: JydCoalEditor,
+                                },{
+                                    path: '/platform/coalType/jydCoal/see',
+                                    name: 'platformCoalTypejydCoalSee',
+                                    component: JydCoalSee,
+                                },{
+                                    path: '/platform/coalType/jydCoal/add',
+                                    name: 'platformCoalTypejydCoalAdd',
+                                    component: JydCoalAdd,
+                                }
+                            ]
 						},
 						{
 							path: '/platform/coalType/brandRelease',
 							name: 'brandReleaseLink',
-							component: BrandRelease
+							component: BrandRelease,
 						}
 					]
 				},        
@@ -1387,6 +1543,11 @@ const basicSetting = {
 							path: '/content/trade',
 							name: 'tradeLink',
 							component: Trade
+						},
+						{
+							path: '/content/tradeSetting',
+							name: 'tradeSettingLink',
+							component: TradeSetting
 						},
 						{
 							path: '/content/valenceOfVertex',

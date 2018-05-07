@@ -6,16 +6,19 @@
 		</el-breadcrumb>
 		<el-container>
 			<div class="date_wrap">
-				<el-date-picker 
-					type="dates" 
-					v-model="dateValue"
-					@focus="handleFoucs" 
-					placeholder="选择日期">				
-				</el-date-picker>
+				<!-- <vue-event-calendar :events="demoEvents" @monthChanged="monthChange" @dayChanged="dayChange"></vue-event-calendar> -->
+				<vue-event-calendar
+			      :events="demoEvents"
+			      @day-changed="handleDayChanged"
+			      @month-changed="handleMonthChanged"
+			    ></vue-event-calendar>
 			</div>
-			<div class="date_show">
+			<div class="set_btn" @click="handleSetDate">
+				<span>开闭市设置</span>
+			</div>
+			<!-- <div class="date_show">
 				展示信息
-			</div>
+			</div> -->
 	    </el-container>
 	    <el-footer>
 	    	<el-button type="primary" @click="init" size="small">保存</el-button>
@@ -24,6 +27,7 @@
 	</div> 
 </template>
 <script>
+	let today = new Date()
 	export default {
 		name: 'Index',
 		data(){
@@ -36,7 +40,19 @@
 					roleName: '',
 					userStatus: ''
 				},
-				dateValue: []
+				dateValue: [],
+				demoEvents: [{
+			        date: `${today.getFullYear()}/${today.getMonth() + 1}/15`,
+			        title: 'Title-1',
+			        desc: 'longlonglong description'
+			      },{
+			        date: `${today.getFullYear()}/${today.getMonth() + 1}/24`,
+			        title: 'Title-2'
+			      },{
+			        date: `${today.getFullYear()}/${today.getMonth() === 11 ? 1 : today.getMonth() + 2}/06`,
+			        title: 'Title-3',
+			        desc: 'description'
+			      }]
 			}
 		},
 		created(){
@@ -68,15 +84,21 @@
 						console.log(error);
 					})*/
 		    },
-		    handleFoucs(){
-		    	console.log('focus');
+		    handleSetDate(){
+		    	this.$router.push({name: 'tradeSettingLink'});
+		    },
+		    handleDayChanged (data) {
+		      console.log('date-changed', data)
+		    },
+		    handleMonthChanged (data) {
+		      console.log('month-changed', data)
 		    }
 		}
 	}
 </script>
 <style scoped lang="scss">
 	.date_wrap{
-		width: 400px;
+		width: 90%;
 		height: 500px;
 		border:1px solid #ccc;
 		float: left;

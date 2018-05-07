@@ -32,9 +32,16 @@
 		data(){
 			return {
 				msg: '交易开闭市维护',
+				formInline: {
+					userName: '',
+					trueUserName: '',
+					departName: '',
+					roleName: '',
+					userStatus: ''
+				},
 				dateValue: [],
 				demoEvents: [{
-			        date: '2018/05/27',
+			        date: `${today.getFullYear()}/${today.getMonth() + 1}/15`,
 			        title: 'Title-1',
 			        desc: 'longlonglong description'
 			      },{

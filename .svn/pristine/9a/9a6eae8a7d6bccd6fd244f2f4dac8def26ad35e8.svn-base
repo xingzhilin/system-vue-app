@@ -65,9 +65,6 @@ import BusinessManageUsersList from './../components/backstageAccount/businessMa
 import BusinessManageUsersListIndex from './../components/backstageAccount/businessManage/users/list/pages/Index'
 import BusinessManageUsersListAdd from './../components/backstageAccount/businessManage/users/list/pages/Add'
 import BusinessManageUsersListEditor from './../components/backstageAccount/businessManage/users/list/pages/Editor'
-import BusinessManageUsersListView from './../components/backstageAccount/businessManage/users/list/views/BaseInfo'
-
-
 import BusinessManageUsersAttri from './../components/backstageAccount/businessManage/users/attri/Index'
 import BusinessManageUsersAttriIndex from './../components/backstageAccount/businessManage/users/attri/pages/Index'
 import BusinessManageUsersAttriEditor from './../components/backstageAccount/businessManage/users/attri/pages/Editor'
@@ -544,10 +541,6 @@ const backstageAccount = {
 									path: '/business/users/list/editor',
 									name: 'BusinessManageUsersListEditor',
 									component: BusinessManageUsersListEditor
-								},{
-									path: '/business/users/list/view',
-									name: 'businessManageUsersListViewLink',
-									component: BusinessManageUsersListView									
 								}
 							]
 						},

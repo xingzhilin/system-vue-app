@@ -1,0 +1,315 @@
+<template>
+    <div class="views_wrap">
+        
+        <el-tabs v-model="activeName" @tab-click="handleClick">
+            <el-tab-pane label="企业基本信息" name="list">
+                <table class="add_table">
+                    <tbody>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>企业名称：</td>
+                            <td>123</td>
+                        </tr>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>企业编码：</td>
+                            <td>123</td>
+                        </tr>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>省份：</td>
+                            <td>
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>统一社会信用代码：</td>
+                            <td>
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">企业法人：</td>
+                            <td>123</td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">企业邮箱：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">办公地址：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">联系人：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">联系电话：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">企业简介：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">是否启用：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label">企业证件属性：</td>
+                            <td class="td_text">
+                                123
+                                <ul>
+                                    <li>社会统一信用代码证</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    
+                    </tbody>
+                </table>
+            </el-tab-pane>
+            <el-tab-pane label="企业属性" name="attri">
+                <table class="add_table">
+                    <tbody>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>是否是供应链公司：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>是否交货地交货：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_label"><span class="zl_required">*</span>客户类别：</td>
+                            <td class="td_text">
+                                123
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </el-tab-pane>
+            <el-tab-pane label="签章" name="sign">签章</el-tab-pane>
+            <el-tab-pane label="银行账号" name="bank">银行账号</el-tab-pane>
+            <el-tab-pane label="发票信息" name="invoices">发票信息</el-tab-pane>
+            <el-tab-pane label="准入协议" name="admittance">准入协议</el-tab-pane>
+            <el-tab-pane label="点价保证金及销售期" name="inviteBids">点价保证金及销售期</el-tab-pane>
+            <el-tab-pane label="廉政协议签署维护" name="incorrupt">廉政协议签署维护</el-tab-pane>
+        </el-tabs>
+        <el-footer>
+            <el-button @click="handleGoBack()" size="small">返回</el-button>
+        </el-footer>
+    </div>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                activeName: 'list',
+                ruleForm: {
+                    name1: '',
+                    name2: '',
+                    region: '',
+                    date1: '',
+                    date2: '',
+                    delivery: false,
+                    type: [],
+                    resource: '',
+                    desc: ''
+                },
+                rules: {
+                    name1: [{
+                            required: true,
+                            message: '请输入企业名称',
+                            trigger: 'blur'
+                        },
+                        {
+                            min: 3,
+                            max: 5,
+                            message: '长度在 3 到 5 个字符',
+                            trigger: 'blur'
+                        }
+                    ],
+                    name2: [{
+                            required: true,
+                            message: '请输入企业编码',
+                            trigger: 'blur'
+                        },
+                        {
+                            min: 3,
+                            max: 5,
+                            message: '长度在 3 到 5 个字符',
+                            trigger: 'blur'
+                        }
+                    ],
+                    region: [{
+                        required: true,
+                        message: '请选择活动区域',
+                        trigger: 'change'
+                    }],
+                    date1: [{
+                        type: 'date',
+                        required: true,
+                        message: '请选择日期',
+                        trigger: 'change'
+                    }],
+                    date2: [{
+                        type: 'date',
+                        required: true,
+                        message: '请选择时间',
+                        trigger: 'change'
+                    }],
+                    type: [{
+                        type: 'array',
+                        required: true,
+                        message: '请至少选择一个活动性质',
+                        trigger: 'change'
+                    }],
+                    resource: [{
+                        required: true,
+                        message: '请选择活动资源',
+                        trigger: 'change'
+                    }],
+                    desc: [{
+                        required: true,
+                        message: '请填写活动形式',
+                        trigger: 'blur'
+                    }]
+                }
+            };
+        },
+        tableData: [{
+                userName: '宇宙',
+                trueUserName: '8748599900',
+                phoneNum: '010-1222332',
+                departName: '2017-12-12 12：00',
+                roleName: '启用',
+                roleTime: '是'
+    
+            },
+            {
+                userName: '',
+                trueUserName: '',
+                phoneNum: '',
+                departName: '',
+                roleName: '',
+                roleTime: ''
+    
+            },
+            {
+                userName: '',
+                trueUserName: '',
+                phoneNum: '',
+                departName: '',
+                roleName: '',
+                roleTime: ''
+    
+            },
+            {
+                userName: '',
+                trueUserName: '',
+                phoneNum: '',
+                departName: '',
+                roleName: '',
+                roleTime: ''
+    
+            }
+    
+        ],
+    
+        methods: {
+            handleGoBack(){
+                this.$router.push({name:'BusinessManageUsersListIndex'});
+            },
+            handleClick(tab, event) {
+                console.log(tab, event);
+                switch (tab.name) {                   
+                    case 'list':
+                        console.log(111);
+                        break;
+                    case 'attri':
+                        
+                        console.log(222);
+                        break;
+                    case 'sign':
+                        console.log(333);
+                        break;
+                    case 'bank':
+                        console.log(444);
+                        break;
+                    case 'invoices':
+                        console.log(555);
+                        break;
+                    case 'admittance':
+                        console.log(666);
+                        break;
+                    case 'inviteBids':
+                        console.log(777);
+                        break;
+                    case 'incorrupt':
+                        console.log(888);
+                        break;
+                }
+            }
+
+        }
+    };
+</script>
+
+<style scoped>
+
+    @import './../../../../../../assets/css/table_view.css';
+    .zl_required{
+        color: gray;
+    }
+    .add_table{
+        width: 96%;
+        margin: 30px auto;
+        font-size:12px;
+        
+    }
+    table td{
+        border: 1px solid #ebeef5;
+        padding: 10px;
+        text-align: left;
+    }
+    .td_label{
+        width: 160px;
+        text-align:right;
+        vertical-align: top;
+        line-height: 40px;
+    }
+    .el-input{
+        width: 260px;
+    }
+    .td_button{
+        text-align: center;
+    }
+    .el-footer{
+        text-align: center;
+    }       
+    .el-transfer{
+        width: 600px;
+        margin: 15px auto;
+        .el-transfer-panel{
+            width:245px;
+        }
+    }
+    .el-tabs .el-tabs__nav-wrap::after {
+        display: none;
+    }
+</style>

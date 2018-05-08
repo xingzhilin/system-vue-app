@@ -284,6 +284,7 @@
         secondShow:false,
         ruleForm: {
           enName: '',
+          enId: '',
           enCode: '',
           provinceId: '',
           taxpayerIdentityNo: '',
@@ -365,6 +366,10 @@
         }],
       };
     },
+    created(){
+      let enId = this.$route.query.enId;
+      this.getEnDetail(enId);
+    },
     methods: {
       submitForm() {
         if(this.show){
@@ -442,6 +447,55 @@
             return false;
           }
         });
+      },
+      getEnDetail(enId){
+          // this.$http.get('/api/basics/enterpriseInfo/basic',{params:{enId}}).then(res=>{
+
+          // });
+          var res = {
+              "status": 200,
+              "message": "操作成功",
+              "enName": "测试企业",
+              "enCode": "xee123",
+              "enId": "1111",
+              "province": "山东省",
+              "taxpayerIdentityNo":"10002222",
+              "legalPerson":"zhangsan",
+              "enMall": "123123@123.com",
+              "enAddress":"北京三元桥",
+              "linkman":"lisi",
+              "telephone":"13723221123",
+              "enIntroduce":"Lorem ipsum dolor sit ",
+              "status": "1",
+              "isMerge":"1",
+              "files":{
+                    "taxpayerIdentityNoFilePath":"",
+                    "AccountOpeningPermitFilePath":"",
+                    "stampDocumentFilePath":"",
+                    "signatureScanDocumentFilePath":"",
+                    "entrustmentSignatureAgreementFilePath":"",
+                    "digitalCertificateFilePath":"",
+                    "agentIDCardFilePath":"",
+                    "businessLicenseFilePath":"",
+                    "taxRegistrationCertificateFilePath":""
+              }
+          };
+          this.ruleForm = {
+            enName: res.enName,
+            enId: res.enId,
+            enCode: res.enCode,
+            provinceId: res.provinceId,
+            taxpayerIdentityNo: res.taxpayerIdentityNo,
+            legalPerson: res.legalPerson,
+            enMall: res.enMall,
+            status: res.status,
+            enAddress: res.enAddress,
+            enPostCode:res.enPostCode,
+            linkman:res.linkman,
+            telephone:res.telephone,
+            enIntroduce:res.enIntroduce,
+            isMerge:res.isMerge
+          };
       }
     }
   }

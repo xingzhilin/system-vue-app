@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>权限查看</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/权限查看/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/权限查看/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32228" class="ax_default box_2">
+        <div id="u32228_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32229" class="text">
+          <p><span>交割库权限设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32230" class="ax_default box_2">
+        <div id="u32230_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32231" class="text">
+          <p><span>数据权限</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u32232" class="ax_default line">
+        <img id="u32232_img" class="img " src="images/设置权限（交割库）/u32203.png"/>
+        <!-- Unnamed () -->
+        <div id="u32233" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32234" class="ax_default _三级标题">
+        <div id="u32234_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32235" class="text">
+          <p><span>C</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32236" class="ax_default label">
+        <div id="u32236_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32237" class="text">
+          <p><span>曹妃甸二期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32238" class="ax_default label">
+        <div id="u32238_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32239" class="text">
+          <p><span>曹妃甸国投</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32240" class="ax_default _三级标题">
+        <div id="u32240_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32241" class="text">
+          <p><span>T</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32242" class="ax_default label">
+        <div id="u32242_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32243" class="text">
+          <p><span>天津港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32244" class="ax_default label">
+        <div id="u32244_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32245" class="text">
+          <p><span>天津港煤码头</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32246" class="ax_default primary_button">
+        <div id="u32246_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32247" class="text">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32248" class="ax_default sticky_1">
+        <div id="u32248_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32249" class="text">
+          <p><span>1、此处只显示设置到该部门的交割库的名称</span></p><p><span>2、按照首字母进行正序排序，显示如原型所示</span></p><p><span>3、数据权限也是只显示设置到该部门的数据权限</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

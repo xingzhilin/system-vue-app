@@ -1,0 +1,621 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>添加品种</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/添加品种/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/添加品种/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9387" class="ax_default box_2">
+        <div id="u9387_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9388" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u9389" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9390" class="ax_default table_cell">
+          <img id="u9390_img" class="img " src="images/修改信息/u4702.png"/>
+          <!-- Unnamed () -->
+          <div id="u9391" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9392" class="ax_default table_cell">
+          <img id="u9392_img" class="img " src="images/修改信息/u4704.png"/>
+          <!-- Unnamed () -->
+          <div id="u9393" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9394" class="ax_default label">
+        <div id="u9394_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9395" class="text">
+          <p><span>品类信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9396" class="ax_default primary_button">
+        <div id="u9396_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9397" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9398" class="ax_default primary_button">
+        <div id="u9398_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9399" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9400" class="ax_default label">
+        <div id="u9400_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9401" class="text">
+          <p><span>技术参数值根据不同的品类进行变化</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u9402" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9403" class="ax_default table_cell">
+          <img id="u9403_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9404" class="text">
+            <p><span style="color:#FF9900;">*</span><span>发热量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9405" class="ax_default table_cell">
+          <img id="u9405_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9406" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9407" class="ax_default table_cell">
+          <img id="u9407_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9408" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">全水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9409" class="ax_default table_cell">
+          <img id="u9409_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9410" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9411" class="ax_default table_cell">
+          <img id="u9411_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9412" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">全硫</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9413" class="ax_default table_cell">
+          <img id="u9413_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9414" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9415" class="ax_default table_cell">
+          <img id="u9415_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9416" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">灰分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9417" class="ax_default table_cell">
+          <img id="u9417_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9418" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9419" class="ax_default table_cell">
+          <img id="u9419_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9420" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">挥发分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9421" class="ax_default table_cell">
+          <img id="u9421_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9422" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9423" class="ax_default table_cell">
+          <img id="u9423_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9424" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">焦渣特性</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9425" class="ax_default table_cell">
+          <img id="u9425_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9426" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9427" class="ax_default table_cell">
+          <img id="u9427_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9428" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">固定碳</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9429" class="ax_default table_cell">
+          <img id="u9429_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9430" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9431" class="ax_default table_cell">
+          <img id="u9431_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9432" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">灰熔点</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9433" class="ax_default table_cell">
+          <img id="u9433_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9434" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9435" class="ax_default table_cell">
+          <img id="u9435_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9436" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">粒度</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9437" class="ax_default table_cell">
+          <img id="u9437_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9438" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9439" class="ax_default table_cell">
+          <img id="u9439_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9440" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">干基灰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9441" class="ax_default table_cell">
+          <img id="u9441_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9442" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9443" class="ax_default table_cell">
+          <img id="u9443_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9444" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">内水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9445" class="ax_default table_cell">
+          <img id="u9445_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9446" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9447" class="ax_default table_cell">
+          <img id="u9447_img" class="img " src="images/添加品种/u9447.png"/>
+          <!-- Unnamed () -->
+          <div id="u9448" class="text">
+            <p><span>详细说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9449" class="ax_default table_cell">
+          <img id="u9449_img" class="img " src="images/添加品种/u9449.png"/>
+          <!-- Unnamed () -->
+          <div id="u9450" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u9451" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9452" class="ax_default table_cell">
+          <img id="u9452_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9453" class="text">
+            <p><span>归属频道</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9454" class="ax_default table_cell">
+          <img id="u9454_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9455" class="text">
+            <p><span>煤炭</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9456" class="ax_default table_cell">
+          <img id="u9456_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9457" class="text">
+            <p><span style="color:#FF0000;">*</span><span>归属品类：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9458" class="ax_default table_cell">
+          <img id="u9458_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9459" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9460" class="ax_default table_cell">
+          <img id="u9460_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9461" class="text">
+            <p><span style="color:#FF0000;">*</span><span>选择品牌：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9462" class="ax_default table_cell">
+          <img id="u9462_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9463" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9464" class="ax_default table_cell">
+          <img id="u9464_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9465" class="text">
+            <p><span style="color:#FF0000;">*</span><span>品种名称：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9466" class="ax_default table_cell">
+          <img id="u9466_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9467" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9468" class="ax_default table_cell">
+          <img id="u9468_img" class="img " src="images/修改信息/u4683.png"/>
+          <!-- Unnamed () -->
+          <div id="u9469" class="text">
+            <p><span>产地</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9470" class="ax_default table_cell">
+          <img id="u9470_img" class="img " src="images/修改信息/u4685.png"/>
+          <!-- Unnamed () -->
+          <div id="u9471" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9472" class="ax_default droplist">
+        <select id="u9472_input">
+          <option selected value="动力煤">动力煤</option>
+          <option value="炼焦煤">炼焦煤</option>
+          <option value="喷吹煤">喷吹煤</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9473" class="ax_default droplist">
+        <select id="u9473_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9474" class="ax_default box_1">
+        <div id="u9474_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9475" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9476" class="ax_default box_1">
+        <div id="u9476_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9477" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u9478" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9479" class="ax_default table_cell">
+          <img id="u9479_img" class="img " src="images/修改信息/u4702.png"/>
+          <!-- Unnamed () -->
+          <div id="u9480" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u9481" class="ax_default table_cell">
+          <img id="u9481_img" class="img " src="images/修改信息/u4704.png"/>
+          <!-- Unnamed () -->
+          <div id="u9482" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9483" class="ax_default label">
+        <div id="u9483_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9484" class="text">
+          <p><span>技术参数信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9485" class="ax_default droplist">
+        <select id="u9485_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9486" class="ax_default droplist">
+        <select id="u9486_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9487" class="ax_default droplist">
+        <select id="u9487_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9488" class="ax_default droplist">
+        <select id="u9488_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9489" class="ax_default droplist">
+        <select id="u9489_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9490" class="ax_default droplist">
+        <select id="u9490_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9491" class="ax_default droplist">
+        <select id="u9491_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9492" class="ax_default droplist">
+        <select id="u9492_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9493" class="ax_default droplist">
+        <select id="u9493_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9494" class="ax_default droplist">
+        <select id="u9494_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9495" class="ax_default droplist">
+        <select id="u9495_input">
+          <option selected value="请选择">请选择</option>
+          <option value="金银岛">金银岛</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9496" class="ax_default box_1">
+        <div id="u9496_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9497" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u9498" class="ax_default droplist">
+        <select id="u9498_input">
+          <option selected value="收到基">收到基</option>
+          <option value="空干基">空干基</option>
+          <option value="干燥剂">干燥剂</option>
+          <option value="干燥无灰基">干燥无灰基</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u9499" class="ax_default sticky_1">
+        <div id="u9499_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9500" class="text">
+          <p><span>全硫需要额外显示全硫的类型，默认选择的为收到基</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

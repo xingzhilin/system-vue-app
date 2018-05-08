@@ -1,0 +1,416 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>客户企业付款</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/客户企业付款/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/客户企业付款/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (表格) -->
+      <div id="u39833" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39834" class="ax_default table_cell">
+          <img id="u39834_img" class="img " src="images/查看明细/u22601.png"/>
+          <!-- Unnamed () -->
+          <div id="u39835" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39836" class="ax_default table_cell">
+          <img id="u39836_img" class="img " src="images/客户企业付款/u39836.png"/>
+          <!-- Unnamed () -->
+          <div id="u39837" class="text">
+            <p><span>收款方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39838" class="ax_default table_cell">
+          <img id="u39838_img" class="img " src="images/查看明细/u22601.png"/>
+          <!-- Unnamed () -->
+          <div id="u39839" class="text">
+            <p><span>付款方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39840" class="ax_default table_cell">
+          <img id="u39840_img" class="img " src="images/查看明细/u22601.png"/>
+          <!-- Unnamed () -->
+          <div id="u39841" class="text">
+            <p><span>历史支付预付款总金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39842" class="ax_default table_cell">
+          <img id="u39842_img" class="img " src="images/查看明细/u22601.png"/>
+          <!-- Unnamed () -->
+          <div id="u39843" class="text">
+            <p><span>历史已核减总金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39844" class="ax_default table_cell">
+          <img id="u39844_img" class="img " src="images/客户企业付款/u39844.png"/>
+          <!-- Unnamed () -->
+          <div id="u39845" class="text">
+            <p><span>可用金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39846" class="ax_default table_cell">
+          <img id="u39846_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39847" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39848" class="ax_default table_cell">
+          <img id="u39848_img" class="img " src="images/客户企业付款/u39848.png"/>
+          <!-- Unnamed () -->
+          <div id="u39849" class="text">
+            <p><span>XXXX公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39850" class="ax_default table_cell">
+          <img id="u39850_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39851" class="text">
+            <p><span>金银岛(宁夏)供应链</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39852" class="ax_default table_cell">
+          <img id="u39852_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39853" class="text">
+            <p><span>40,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39854" class="ax_default table_cell">
+          <img id="u39854_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39855" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39856" class="ax_default table_cell">
+          <img id="u39856_img" class="img " src="images/客户企业付款/u39856.png"/>
+          <!-- Unnamed () -->
+          <div id="u39857" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39858" class="ax_default table_cell">
+          <img id="u39858_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39859" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39860" class="ax_default table_cell">
+          <img id="u39860_img" class="img " src="images/客户企业付款/u39848.png"/>
+          <!-- Unnamed () -->
+          <div id="u39861" class="text">
+            <p><span>XXXX公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39862" class="ax_default table_cell">
+          <img id="u39862_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39863" class="text">
+            <p><span>金银岛(内蒙古)供应链</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39864" class="ax_default table_cell">
+          <img id="u39864_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39865" class="text">
+            <p><span>40,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39866" class="ax_default table_cell">
+          <img id="u39866_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39867" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39868" class="ax_default table_cell">
+          <img id="u39868_img" class="img " src="images/客户企业付款/u39856.png"/>
+          <!-- Unnamed () -->
+          <div id="u39869" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39870" class="ax_default table_cell">
+          <img id="u39870_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39871" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39872" class="ax_default table_cell">
+          <img id="u39872_img" class="img " src="images/客户企业付款/u39848.png"/>
+          <!-- Unnamed () -->
+          <div id="u39873" class="text">
+            <p><span>XXXX公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39874" class="ax_default table_cell">
+          <img id="u39874_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39875" class="text">
+            <p><span>金银岛(宁夏)供应链</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39876" class="ax_default table_cell">
+          <img id="u39876_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39877" class="text">
+            <p><span>40,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39878" class="ax_default table_cell">
+          <img id="u39878_img" class="img " src="images/客户企业付款/u39846.png"/>
+          <!-- Unnamed () -->
+          <div id="u39879" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39880" class="ax_default table_cell">
+          <img id="u39880_img" class="img " src="images/客户企业付款/u39856.png"/>
+          <!-- Unnamed () -->
+          <div id="u39881" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39882" class="ax_default table_cell">
+          <img id="u39882_img" class="img " src="images/客户企业付款/u39882.png"/>
+          <!-- Unnamed () -->
+          <div id="u39883" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39884" class="ax_default table_cell">
+          <img id="u39884_img" class="img " src="images/客户企业付款/u39884.png"/>
+          <!-- Unnamed () -->
+          <div id="u39885" class="text">
+            <p><span>XXXX公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39886" class="ax_default table_cell">
+          <img id="u39886_img" class="img " src="images/客户企业付款/u39882.png"/>
+          <!-- Unnamed () -->
+          <div id="u39887" class="text">
+            <p><span>金银岛(内蒙古)供应链</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39888" class="ax_default table_cell">
+          <img id="u39888_img" class="img " src="images/客户企业付款/u39882.png"/>
+          <!-- Unnamed () -->
+          <div id="u39889" class="text">
+            <p><span>40,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39890" class="ax_default table_cell">
+          <img id="u39890_img" class="img " src="images/客户企业付款/u39882.png"/>
+          <!-- Unnamed () -->
+          <div id="u39891" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39892" class="ax_default table_cell">
+          <img id="u39892_img" class="img " src="images/客户企业付款/u39892.png"/>
+          <!-- Unnamed () -->
+          <div id="u39893" class="text">
+            <p><span>20,000</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39894" class="ax_default primary_button">
+        <div id="u39894_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39895" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39896" class="ax_default primary_button">
+        <div id="u39896_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39897" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39898" class="ax_default label">
+        <div id="u39898_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39899" class="text">
+          <p><span>企业名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u39900" class="ax_default text_field">
+        <input id="u39900_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39901" class="ax_default box_1">
+        <div id="u39901_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39902" class="text">
+          <p><span>&nbsp;说明：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39903" class="ax_default box_1">
+        <div id="u39903_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39904" class="text">
+          <p><span>1、列表显示所有准入客户企业</span></p><p><span>2、企业类型包含港口、运输、化验、其他类企业</span></p><p><span>3、历史支付总金额为所有供应链公司向该企业支付款项总和</span></p><p><span>4、历史认票总金额为所有供应链公司确认该企业发票总和</span></p><p><span>5、未核销金额为历史支付总金额-历史认票总金额</span></p><p><span>6、列表顺序按照可用余额正序排列</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39905" class="ax_default box_1">
+        <div id="u39905_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39906" class="text">
+          <p><span>付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39907" class="ax_default box_1">
+        <div id="u39907_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39908" class="text">
+          <p><span>付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39909" class="ax_default box_1">
+        <div id="u39909_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39910" class="text">
+          <p><span>付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39911" class="ax_default box_1">
+        <div id="u39911_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39912" class="text">
+          <p><span>付款</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

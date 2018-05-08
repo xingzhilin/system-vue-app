@@ -1,0 +1,820 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>全局说明</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/全局说明/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/全局说明/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u0" class="ax_default _三级标题">
+        <div id="u0_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span>统一性要求</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2" class="ax_default _文本段落">
+        <div id="u2_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span>1、所有页面的翻页，列表，查询，错误报错信息的显示样式全部需要统一</span></p><p><span>2、后台的侧边栏菜单支持开合</span></p><p><span>3、页面查询之后进入详情，返回到列表页面需要定位到进入之前的地方</span></p><p><span>4、所有的查询全部支持模糊组合查询；涉及到时间查询的全部支持控件录入的时间当日信息</span></p><p><span>5、所有的查询全部支持重置操作，重置指的为重置为初始状态，不是重置为清空</span></p><p><span>6、列表显示，如果列表要有选择操作的时候，必须有全选操作，如果点击全选，则为跨页全选，但是全选受限于查询条件的控制</span></p><p><span>7、列表中含有编号，时间类的字段的时候，必须支持点击表头进行升降序排序切换</span></p><p><span>8、所有的备注信息必须支持200汉字录入，并且如果录入超过一定给出【备注信息过长】提示，研发可以自行选择提示方式，但是所有必须保持一致；录入框必须是textarea</span></p><p><span>9、所有的时间控件，无特殊说明，支持到秒</span></p><p><span>10、列表展示中，如果有省略显示的字，鼠标滑过必须支持飘出全部显示</span></p><p><span>11、录入页面中的必填项（红点标记），必填项未录入的提示，必须全部指定统一标准，所有页面务必保持一致，提示语统一为【XXX不可为空】，页面中有多个错误提示时，采用序列报错，即对最开始的错误检测显示即可</span></p><p><span>12、没有特殊说明，所有的录入，修改页面全部要有保存，取消按钮</span></p><p><span>13、所有涉及到附件上传的，无特殊说明全部支持多附件上传</span></p><p><span>14、对于图片查看的，全部支持点击放大缩小查看，并且支持左右切换进行全附件查看</span></p><p><span>15、对于需求中提到的附件下载，单张下载为源文件，多个下载支持压缩下载</span></p><p><span>16、涉及到金额，吨数显示的全部无特殊说明，支持两位小数，并且要求进行国际制式转换</span></p><p><span>17、涉及到查询条件中有下拉菜单的，无特殊说明，默认为请选择</span></p><p><span>18、付款类的，发起的付款金额必须有对应的大写金额显示</span></p><p><span>19、所有页面的宽度，里面各种元素控件，所有页面必须保持严格一致</span></p><p><span>20、所有的点击事件，鼠标滑过，在PC上要变为小手</span></p><p><span>21、对于列表中无数据时，要有默认显示，如下所示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4" class="ax_default _三级标题">
+        <div id="u4_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u5" class="text">
+          <p><span>硬性需求</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u6" class="ax_default _文本段落">
+        <div id="u6_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7" class="text">
+          <p><span>1、所有的审批，全部能够在详情页面看到审批历史，包括单前状态，待XX审批，XX如果为角色，则显示角色名称，如果为用户，则显示用户名</span></p><p><span>2、所有保存，提交审核的按钮，必须要进行二次按压控制</span></p><p><span>3、本次的权限控制，要精确到按钮级别</span></p><p><span>4、菜单要支持4级菜单显示；另外用到树形结构的，支持n级节点添加</span></p><p><span>5、涉及到所有为用户录入的，或自动生成的要暴露给用户的编码或者订单编号等类似字段，产品规划均有可能会进行修改，请勿将其当做主键使用</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u8" class="ax_default _三级标题">
+        <div id="u8_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u9" class="text">
+          <p><span>如下文字为全局说明，所有的涉及如下部分的，无特殊说明的按照如下规则进行实现</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u10" class="ax_default _三级标题">
+        <div id="u10_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11" class="text">
+          <p><span>关于权限的说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u12" class="ax_default _文本段落">
+        <div id="u12_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u13" class="text">
+          <p><span>1、权限要求支持到按钮级别</span></p><p><span>2、有些数据的显示要考虑角色不同而显示不同，请考虑此种的预备</span></p><p><span>3、对于数据的所属要有分类，例如下单及供货类数据，财务类数据等，对于这种不同的数据所属不同角色，有的可见，有的不可见</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u14" class="ax_default label">
+        <div id="u14_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15" class="text">
+          <p><span>HI,小太阳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u16" class="ax_default label">
+        <div id="u16_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17" class="text">
+          <p><span>退出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u18" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u19" class="ax_default table_cell">
+          <img id="u19_img" class="img " src="images/全局说明/regen/u19.png"/>
+          <!-- Unnamed () -->
+          <div id="u20" class="text">
+            <p><span>表头</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u21" class="ax_default table_cell">
+          <img id="u21_img" class="img " src="images/全局说明/regen/u21.png"/>
+          <!-- Unnamed () -->
+          <div id="u22" class="text">
+            <p><span>表头</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u23" class="ax_default table_cell">
+          <img id="u23_img" class="img " src="images/全局说明/regen/u21.png"/>
+          <!-- Unnamed () -->
+          <div id="u24" class="text">
+            <p><span>表头</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u25" class="ax_default table_cell">
+          <img id="u25_img" class="img " src="images/全局说明/regen/u21.png"/>
+          <!-- Unnamed () -->
+          <div id="u26" class="text">
+            <p><span>表头</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u27" class="ax_default table_cell">
+          <img id="u27_img" class="img " src="images/全局说明/regen/u21.png"/>
+          <!-- Unnamed () -->
+          <div id="u28" class="text">
+            <p><span>表头</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u29" class="ax_default table_cell">
+          <img id="u29_img" class="img " src="images/全局说明/regen/u29.png"/>
+          <!-- Unnamed () -->
+          <div id="u30" class="text">
+            <p><span>表头</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31" class="ax_default box_1">
+        <div id="u31_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u33" class="ax_default _图片">
+        <img id="u33_img" class="img " src="images/全局说明/regen/u33.png"/>
+        <!-- Unnamed () -->
+        <div id="u34" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u35" class="ax_default _文本段落">
+        <div id="u35_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36" class="text">
+          <p><span>暂无相关数据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37" class="ax_default _三级标题">
+        <div id="u37_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38" class="text">
+          <p><span>其他说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39" class="ax_default _文本段落">
+        <div id="u39_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40" class="text">
+          <p><span>1、原型中涉及到的业务类型，全部来源于平台基础设置→业务类型配置管理→业务类型配置里面，如果是下拉选择的并且为查询条件，默认为请选择</span></p><p><span>2、列表中出现的时间显示格式为：yyyy-mm-dd&nbsp; hh:mm</span></p><p><span>3、没有特殊说明，列表默认20条一翻页</span></p><p><span>4、所有业务中，涉及到删除操作的，在点击删除按钮时，无特殊说明，均需弹出如下提示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41" class="ax_default box_2">
+        <div id="u41_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43" class="ax_default _三级标题">
+        <div id="u43_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44" class="text">
+          <p><span>提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45" class="ax_default label">
+        <div id="u45_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46" class="text">
+          <p><span>是否删除该项数据？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u47" class="ax_default line">
+        <img id="u47_img" class="img " src="images/全局说明/regen/u47.png"/>
+        <!-- Unnamed () -->
+        <div id="u48" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u49" class="ax_default line">
+        <img id="u49_img" class="img " src="images/全局说明/regen/u49.png"/>
+        <!-- Unnamed () -->
+        <div id="u50" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u51" class="ax_default label">
+        <div id="u51_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u52" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u53" class="ax_default label">
+        <div id="u53_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54" class="text">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55" class="ax_default _文本段落">
+        <div id="u55_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56" class="text">
+          <p><span>点击是，则删除成功，否则不执行任何操作</span></p><p><span>5、在本系统中，所有的成功均需要给出提示，例如保存成功，提交审核成功等，提示框样式如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u57" class="ax_default box_2">
+        <div id="u57_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u58" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u59" class="ax_default _图片">
+        <img id="u59_img" class="img " src="images/全局说明/regen/u59.png"/>
+        <!-- Unnamed () -->
+        <div id="u60" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u61" class="ax_default label">
+        <div id="u61_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u62" class="text">
+          <p><span>恭喜您，信息保存成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u63" class="ax_default _文本段落">
+        <div id="u63_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u64" class="text">
+          <p><span>情况列举：</span></p><p><span>①、保存成功提示：恭喜您，信息保存成功</span></p><p><span>②、提交审核成功提示：恭喜您，审核已提交</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u65" class="ax_default _文本段落">
+        <div id="u65_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u66" class="text">
+          <p><span>6、涉及到起停用的，编辑的时候全部采用radio控件，并且默认选择的为启用，如所示：</span></p><p><span>7、涉及到录入的，尤其是文本录入的，要对前后空格进行去除</span></p><p><span>8、进入到系统中，默认的显示页为首页，即工作台，如果点击其他菜单进入，则工作区中左上角显示：首页/点击的一级菜单/点击的二级菜单/......,，其中只有首页可点击，跳转回工作台，其他的不可点击</span></p><p><span>9、涉及到图片上传的，全部使用按钮</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u67" class="ax_default radio_button">
+        <label for="u67_input">
+          <!-- Unnamed () -->
+          <div id="u68" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u67_input" type="radio" value="radio" name="u67" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u69" class="ax_default radio_button">
+        <label for="u69_input">
+          <!-- Unnamed () -->
+          <div id="u70" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u69_input" type="radio" value="radio" name="u69"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u71" class="ax_default primary_button">
+        <img id="u71_img" class="img " src="images/全局说明/regen/u71.png"/>
+        <!-- Unnamed () -->
+        <div id="u72" class="text">
+          <p><span>+添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u73" class="ax_default _文本段落">
+        <div id="u73_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u74" class="text">
+          <p><span>添加完毕后，显示图片缩略图，并且可以随时删除，具体显示如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u75" class="ax_default _图片">
+        <img id="u75_img" class="img " src="images/全局说明/regen/u75.png"/>
+        <!-- Unnamed () -->
+        <div id="u76" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u77" class="ax_default _图片">
+        <img id="u77_img" class="img " src="images/全局说明/regen/u77.png"/>
+        <!-- Unnamed () -->
+        <div id="u78" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u79" class="ax_default _文本段落">
+        <div id="u79_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u80" class="text">
+          <p><span>点击红叉，可以将图片删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u81" class="ax_default _文本段落">
+        <div id="u81_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u82" class="text">
+          <p><span>10、涉及到批量图片上传的，需要使用类似qq空间的批量图片上传功能，支持批量上传，批量下载。做成异步的。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u83" class="ax_default _文本段落">
+        <div id="u83_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u84" class="text">
+          <p><span>11、所有涉及到启用或停用的信息，提示的文案均如下显示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u85" class="ax_default box_2">
+        <div id="u85_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u86" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u87" class="ax_default _三级标题">
+        <div id="u87_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u88" class="text">
+          <p><span>提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u89" class="ax_default label">
+        <div id="u89_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u90" class="text">
+          <p><span>是否停用此项信息？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u91" class="ax_default line">
+        <img id="u91_img" class="img " src="images/全局说明/regen/u47.png"/>
+        <!-- Unnamed () -->
+        <div id="u92" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u93" class="ax_default line">
+        <img id="u93_img" class="img " src="images/全局说明/regen/u49.png"/>
+        <!-- Unnamed () -->
+        <div id="u94" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u95" class="ax_default label">
+        <div id="u95_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u96" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u97" class="ax_default label">
+        <div id="u97_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u98" class="text">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u99" class="ax_default box_2">
+        <div id="u99_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u100" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u101" class="ax_default _三级标题">
+        <div id="u101_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u102" class="text">
+          <p><span>提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u103" class="ax_default label">
+        <div id="u103_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u104" class="text">
+          <p><span>是否启用此项信息？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u105" class="ax_default line">
+        <img id="u105_img" class="img " src="images/全局说明/regen/u47.png"/>
+        <!-- Unnamed () -->
+        <div id="u106" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u107" class="ax_default line">
+        <img id="u107_img" class="img " src="images/全局说明/regen/u49.png"/>
+        <!-- Unnamed () -->
+        <div id="u108" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u109" class="ax_default label">
+        <div id="u109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u110" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u111" class="ax_default label">
+        <div id="u111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u112" class="text">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u113" class="ax_default _文本段落">
+        <div id="u113_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u114" class="text">
+          <p><span>12、所有的关于异常情况的提示，请研发区分详细，例如：</span></p><p><span>①、网络请求失败</span></p><p><span>②、XXX字段长度有问题</span></p><p><span>.....</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u115" class="ax_default _三级标题">
+        <div id="u115_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u116" class="text">
+          <p><span>适配手机端需求</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u117" class="ax_default _文本段落">
+        <div id="u117_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u118" class="text">
+          <p><span>1、app上关于圈的控制与后台的一级菜单的权限控制为一套</span></p><p><span>2、app上点击进入的页面为h5，后面的多层级联跳转点击上面的返回则返回上一级，如果点击关闭则为关闭掉后面打开的所有h5，直接返回到工作页面</span></p><p><span>3、关于app头部关闭按钮出现的，如果是向前进入则不出现，返回一级后则关闭按钮一直显示，请参照钉钉</span></p><p><span>4、对于一级菜单下面的二级或者多级菜单，跳转同PC，但是菜单显示全部显示为圈圈形式，另外，从二级菜单开始全部都是h5页面</span></p><p><span>5、关于图片的显示和加载，如果涉及到当页要展示图片很多时，考虑懒加载</span></p><p><span>6、手机上面上传图片的时候，能够调取相册或者调取手机拍照功能，做成同类似手机app的上传图片样式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u119" class="ax_default _文本段落">
+        <div id="u119_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u120" class="text">
+          <p><span>13、对于可选择的树结构，选择父节点，子节点即被选择</span></p><p><span>14、本次改版的列表页面，尽量不使用tab进行状态切换，状态变成查询条件；登录后的人员根据当前的数据控制，优先显示需要的人审核及被驳回状态中需要处理的数据，其余的按照发起时间倒叙排序；如果涉及到需要驳回至前台用户的，则需要对驳回给用户之前的历史数据进行保留，以便用户更改信息后进行信息比对</span></p><p><span style="color:#FF0000;"><br></span></p><p><span style="color:#FF0000;"><br></span></p><p><span>16、导出功能所有的都为所见即所导，受限于查询条件</span></p><p><span>17、带有查询条件的页面，如果有上级页面，上级页面跳转过来的一定按照上级页面的限制条件去显示查询结果页面，无特殊说明，均按照此规则实现</span></p><p><span>18、关于列表中涉及到按照字母排序的，列表头默认显示</span></p><p><span><br></span></p><p><span><br></span></p><p><span>19、关于历史记录保存情况说明：对此编辑之前的信息都需要重新生成一条新数据进行保存，禁止对原有数据进行更改，针对备注信息保存修改详情。</span></p><p><span>20、单号生成规则：</span></p><p><span>&nbsp;1、确认单编号：当年年份+业务类型缩写+供应链企业缩写+合同乙方企业缩写+00001，其中00001为当日流水号，例如：2018DJJYDTSY000001</span></p><p><span>2、准入协议：合同甲方企业编码-合同乙方企业编码-yyyymmdd00001，其中00001为当日流水号</span></p><p><span>3、货物批次号：年年份+业务类型缩写+供应链企业缩写+合同乙方企业缩写+港口缩写+该确认单批次当序列流水号，例如： 2018-DJ-JYD-TSY-TJG-001, 2018-DJ-JYD-TSY-TJG-00002</span></p><p><span>4、结算单:当年年份+JSD+供应链企业缩写+合同乙方企业缩写+该确认单结算单序列流水号，例如：2018-JSD-JYD-TSY-00001, 2018-JSD-JYD-TSY-00002</span></p><p><span>5、收款：SK+当日日期+00001 ，其中00001当日序列流水号</span></p><p><span>6、付款：FK+当日日期+00001 ，其中00001当日序列流水号</span></p><p><span>6、摊销：TX+当日日期+00001 ，其中00001当日序列流水号</span></p><p><span>7、核销：HX+当日日期+00001 ，其中00001当日序列流水号</span></p><p><span>8、扣除保证金：KC+当日日期+00001 ，其中00001当日序列流水号</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u121" class="ax_default _文本段落">
+        <div id="u121_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u122" class="text">
+          <p><span>22、关于所有的列表操作栏中，操作中的按钮顺序显示如下：查看，编辑，删除，停用（启用）；如果按钮在操作栏之外，则显示在列表外面左上角，适配到手机端显示请前端规定统一样式</span></p><p><span>23、事件提醒和消息的区别，消息为内部审核等引发的提醒；如果是前台用户操作引发的，归类到事件提醒中。</span></p><p><span>24、需求中无特殊说明，所有的编辑页面同新增页面，只不过编辑页面要将之前数据带回显示，查看页面同编辑页面，但是所有元素可看不可改</span></p><p><span>25、所有的选择交割库和品种都做成模糊匹配带回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u123" class="ax_default _三级标题">
+        <div id="u123_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u124" class="text">
+          <p><span>短信整理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u125" class="ax_default _文本段落">
+        <div id="u125_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u126" class="text">
+          <p><span>1、前台用户下单发送短信给相关人员，短信内容：【金银岛】XXXXX于yyyymmdd hh：mm在AAAA模式下下单RRRRR吨，请您知晓。其中，XXXX为客户企业名称，AAAA为业务模式，RRRR为下单量</span></p><p><span>2、前台用户点价发送短信给相关人员，短信内容：【金银岛】XXXX于yyyymmdd hh：mm对确认单（AAAA）完成点价，请您知晓。其中，XXX为客户企业名称，AAA为确认单号</span></p><p><span>3、签章过期给相关企业联系人发送短信提醒，短信内容：【金银岛】尊敬的客户，您好，您的签章已经过期，请您及时在CA进行签章认证。回复TD退订</span></p><p><span>4、准入过期给相关企业联系人发送短信提醒，短信内容：【金银岛】尊敬的客户，您好，您的准入协议（XXXXX）已经过期，请您及时登录金银岛煤炭APP重新签署供货框架协议。回复TD退订</span></p><p><span>其中XXX为对应的准入协议号</span></p><p><span>5、后台开通前台账号信息，发送短信提醒，短信内容：【金银岛】尊敬的客户，您好，您已经成为金银岛的用户，请使用您手机号登录金银岛煤炭APP，密码XXXX。回复TD退订</span></p><p><span>6、后台重置前台用户密码，发送短信提醒，短信内容：【金银岛】尊敬的客户，您的XXX密码已被重置为AAAA，为了您的账号安全，请您及时登录金银岛煤炭更改密码。回复TD退订</span></p><p><span>其中XXX为密码类型，AAA为被重置成的密码</span></p><p><span>7、基准价发生变化将短信发给所有客户，短信内容：【金银岛】尊敬的客户，当前点价基准价发生变化：云供应商基准价为XXX元/吨；云采购商基准价为xxx元/吨，以金银岛煤炭APP公布为准。回复TD退订</span></p><p><span>其中XXX为对应的价格</span></p><p><span>如上发送的短信中，1,2条发送给如下手机号：孙大宇&nbsp; 13811606606&nbsp; 张虎&nbsp; 15010157664&nbsp;&nbsp; 郭磊 15313909639&nbsp; 胡雪芳 15011523061</span></p><p><span>8、用户前台下单并且后台审核通过之后，给下单用户发送短信内容：【金银岛】尊敬的客户，您在锁价交易的下单（确认单号：XXXXX）已生效，请您依照合同约定处理后续事宜。回复TD退订</span></p><p><span>其中锁价交易根据业务模式的不同而不同，XXXX为确认单号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u127" class="ax_default icon">
+        <img id="u127_img" class="img " src="images/全局说明/regen/u127.png"/>
+        <!-- Unnamed () -->
+        <div id="u128" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u129" class="ax_default _文本段落">
+        <div id="u129_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u130" class="text">
+          <p><span>切换为降序变为：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u131" class="ax_default icon">
+        <img id="u131_img" class="img " src="images/全局说明/regen/u131.png"/>
+        <!-- Unnamed () -->
+        <div id="u132" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u133" class="ax_default _文本段落">
+        <div id="u133_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u134" class="text">
+          <p><span>日期排序的，如果是倒叙，默认显示为：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u135" class="ax_default icon">
+        <img id="u135_img" class="img " src="images/全局说明/regen/u135.png"/>
+        <!-- Unnamed () -->
+        <div id="u136" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u137" class="ax_default _文本段落">
+        <div id="u137_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u138" class="text">
+          <p><span>如果是正序排序，默认显示为：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u139" class="ax_default icon">
+        <img id="u139_img" class="img " src="images/全局说明/regen/u139.png"/>
+        <!-- Unnamed () -->
+        <div id="u140" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u141" class="ax_default _文本段落">
+        <div id="u141_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u142" class="text">
+          <p><span>21、关于省份的选择，点击下拉之后，全部显示如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u143" class="ax_default box_1">
+        <div id="u143_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u144" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u145" class="ax_default _三级标题">
+        <div id="u145_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u146" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u147" class="ax_default _三级标题">
+        <div id="u147_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u148" class="text">
+          <p><span>B</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u149" class="ax_default label">
+        <div id="u149_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u150" class="text">
+          <p><span>北京市</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u151" class="ax_default _三级标题">
+        <div id="u151_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u152" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u153" class="ax_default _三级标题">
+        <div id="u153_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u154" class="text">
+          <p><span>A</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u155" class="ax_default label">
+        <div id="u155_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u156" class="text">
+          <p><span>安徽省</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u157" class="ax_default _文本段落">
+        <div id="u157_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u158" class="text">
+          <p><span>按照首字母进行排序显示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u159" class="ax_default _文本段落">
+        <div id="u159_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u160" class="text">
+          <p><span>22、系统中涉及到编辑及添加的时间段范围的时候，后面录入的日期一定不能小于前面的日期，要做校验和对应提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u161" class="ax_default _文本段落">
+        <div id="u161_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u162" class="text">
+          <p><span>23、对于不同状态的列表显示，要按照该业务涉及的登录人当前所处的审批节点优先需要处理的事件优先排序，例如：</span></p><p><span>设置审批流程第一个节点的人或者角色登录，优先显示的为当前需要发起审核的；如果是审核人角色登录的，优先看到的是当前需要处理审核的，所有的列表显示均通用此规则。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u163" class="ax_default _文本段落">
+        <div id="u163_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u164" class="text">
+          <p><span>24、发票从票加加处获取的发票本身的类别按照原有规则在系统中存储记录即可，不需要做特殊处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u165" class="ax_default _文本段落">
+        <div id="u165_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u166" class="text">
+          <p><span>25、所有涉及到加权概念的，算法为：∑（加权的项目*对应吨数）/∑对应吨数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u167" class="ax_default _文本段落">
+        <div id="u167_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u168" class="text">
+          <p><span>26、平仓价=到场价+对应的港杂费（交割库维护处获取），港杂费去当时入库时候对应的港杂费</span></p><p><span>27、入库流程参照svn地址：https://192.168.20.50:8443/svn/loan/Chad/金银岛电商产品/相关需求资料/业务流程图/app流程图.pdf</span></p><p><span>28、签章管理中依然有999999的概念，如果签章编码为999999为免签章</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

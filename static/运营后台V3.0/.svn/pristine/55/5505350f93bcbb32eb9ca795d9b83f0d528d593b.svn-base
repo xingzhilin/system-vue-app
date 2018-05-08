@@ -1,0 +1,470 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>结算单列表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/结算单列表_1/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/结算单列表_1/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (页头) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47472" class="ax_default box_2">
+        <div id="u47472_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47473" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47474" class="ax_default _形状">
+        <img id="u47474_img" class="img " src="images/订单/u46160.png"/>
+        <!-- Unnamed () -->
+        <div id="u47475" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u47476" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47477" class="ax_default _一级标题">
+        <div id="u47477_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47478" class="text">
+          <p><span>结算单列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47479" class="ax_default _图片">
+        <img id="u47479_img" class="img " src="images/订单/u46165.png"/>
+        <!-- Unnamed () -->
+        <div id="u47480" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47482" class="ax_default box_2">
+        <div id="u47482_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47483" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47484" class="ax_default box_2">
+        <div id="u47484_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47485" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47486" class="ax_default label">
+        <div id="u47486_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47487" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单号：JSDH&nbsp; 201601010</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47488" class="ax_default label">
+        <div id="u47488_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47489" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单位：北京XXXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47490" class="ax_default label">
+        <div id="u47490_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47491" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47492" class="ax_default _三级标题">
+        <div id="u47492_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47493" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">10,000,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47494" class="ax_default label">
+        <div id="u47494_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47495" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2016-12-10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47496" class="ax_default _图片">
+        <img id="u47496_img" class="img " src="images/我的/u15563.png"/>
+        <!-- Unnamed () -->
+        <div id="u47497" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47498" class="ax_default box_2">
+        <div id="u47498_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47499" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47500" class="ax_default label">
+        <div id="u47500_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47501" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单号：JSDH&nbsp; 201601010</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47502" class="ax_default label">
+        <div id="u47502_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47503" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单位：北京XXXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47504" class="ax_default label">
+        <div id="u47504_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47505" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47506" class="ax_default _三级标题">
+        <div id="u47506_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47507" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">10,000,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47508" class="ax_default label">
+        <div id="u47508_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47509" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2016-12-10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47510" class="ax_default _图片">
+        <img id="u47510_img" class="img " src="images/我的/u15563.png"/>
+        <!-- Unnamed () -->
+        <div id="u47511" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47512" class="ax_default label">
+        <div id="u47512_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47513" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47514" class="ax_default label">
+        <div id="u47514_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47515" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47516" class="ax_default box_2">
+        <div id="u47516_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47517" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47518" class="ax_default label">
+        <div id="u47518_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47519" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单号：JSDH&nbsp; 201601010</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47520" class="ax_default label">
+        <div id="u47520_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47521" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单位：北京XXXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47522" class="ax_default label">
+        <div id="u47522_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47523" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47524" class="ax_default label">
+        <div id="u47524_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47525" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47526" class="ax_default _三级标题">
+        <div id="u47526_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47527" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">10,000,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47528" class="ax_default label">
+        <div id="u47528_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47529" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2016-12-10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47530" class="ax_default _图片">
+        <img id="u47530_img" class="img " src="images/结算单列表_1/u47530.png"/>
+        <!-- Unnamed () -->
+        <div id="u47531" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47532" class="ax_default _图片">
+        <img id="u47532_img" class="img " src="images/我的/u15563.png"/>
+        <!-- Unnamed () -->
+        <div id="u47533" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47534" class="ax_default box_2">
+        <div id="u47534_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47535" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47536" class="ax_default label">
+        <div id="u47536_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47537" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单号：JSDH&nbsp; 201601010</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47538" class="ax_default label">
+        <div id="u47538_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47539" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单位：北京XXXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47540" class="ax_default label">
+        <div id="u47540_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47541" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47542" class="ax_default _三级标题">
+        <div id="u47542_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47543" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">10,000,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47544" class="ax_default label">
+        <div id="u47544_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47545" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2016-12-10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47546" class="ax_default _图片">
+        <img id="u47546_img" class="img " src="images/我的/u15563.png"/>
+        <!-- Unnamed () -->
+        <div id="u47547" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47548" class="ax_default label">
+        <div id="u47548_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47549" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47550" class="ax_default _图片">
+        <img id="u47550_img" class="img " src="images/结算单列表_1/u47550.png"/>
+        <!-- Unnamed () -->
+        <div id="u47551" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u47552" class="ax_default marker">
+        <img id="u47552_img" class="img " src="images/消息/u14977.png"/>
+        <!-- Unnamed () -->
+        <div id="u47553" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47554" class="ax_default _文本段落">
+        <div id="u47554_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47555" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">如果用户拒绝签章，则出现已拒绝的标记</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47556" class="ax_default _三级标题">
+        <div id="u47556_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u47557" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">V4.3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u47558" class="ax_default _连接线">
+        <img id="u47558_seg0" class="img " src="images/结算单列表_1/u47558_seg0.png" alt="u47558_seg0"/>
+        <img id="u47558_seg1" class="img " src="images/结算单列表_1/u47558_seg1.png" alt="u47558_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u47559" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47560" class="ax_default _图片">
+        <img id="u47560_img" class="img " src="images/结算单列表_1/u47560.png"/>
+        <!-- Unnamed () -->
+        <div id="u47561" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u47562" class="ax_default _图片">
+        <img id="u47562_img" class="img " src="images/结算单列表_1/u47560.png"/>
+        <!-- Unnamed () -->
+        <div id="u47563" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

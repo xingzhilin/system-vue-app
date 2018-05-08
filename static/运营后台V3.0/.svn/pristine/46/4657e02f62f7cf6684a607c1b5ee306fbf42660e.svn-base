@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>审批设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/审批设置/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/审批设置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42476" class="ax_default box_2">
+        <div id="u42476_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42477" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42478" class="ax_default _文本段落">
+        <div id="u42478_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42479" class="text">
+          <p><span>1、审批设置以后权限配置给研发人员</span></p><p><span>2、配置完毕的审核流程，审批按照配置的审核流程进行审核</span></p><p><span>3、审核中支持会审（即同一个阶段，多人同时审核，或者统一个阶段，多人中的指定人员审核即可）</span></p><p><span>4、本次审批设置后，所有涉及流程的，下面的流程日志显示如下：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42480" class="ax_default _图片">
+        <img id="u42480_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42481" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42482" class="ax_default label">
+        <div id="u42482_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42483" class="text">
+          <p><span>王五</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42484" class="ax_default label">
+        <div id="u42484_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42485" class="text">
+          <p><span>发起申请</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42486" class="ax_default label">
+        <div id="u42486_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42487" class="text">
+          <p><span>2018-12-12 12：00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u42488" class="ax_default line">
+        <img id="u42488_img" class="img " src="images/审批设置/u42488.png"/>
+        <!-- Unnamed () -->
+        <div id="u42489" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42490" class="ax_default _文本段落">
+        <div id="u42490_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42491" class="text">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42492" class="ax_default _图片">
+        <img id="u42492_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42493" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42494" class="ax_default label">
+        <div id="u42494_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42495" class="text">
+          <p><span>刘波</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42496" class="ax_default label">
+        <div id="u42496_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42497" class="text">
+          <p><span>已同意</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42498" class="ax_default label">
+        <div id="u42498_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42499" class="text">
+          <p><span>2018-12-12 12：00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42500" class="ax_default _文本段落">
+        <div id="u42500_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42501" class="text">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u42502" class="ax_default line">
+        <img id="u42502_img" class="img " src="images/审批设置/u42488.png"/>
+        <!-- Unnamed () -->
+        <div id="u42503" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42504" class="ax_default _图片">
+        <img id="u42504_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42505" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42506" class="ax_default label">
+        <div id="u42506_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42507" class="text">
+          <p><span>刘波1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42508" class="ax_default label">
+        <div id="u42508_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42509" class="text">
+          <p><span>已拒绝</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42510" class="ax_default label">
+        <div id="u42510_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42511" class="text">
+          <p><span>2018-12-12 12：00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42512" class="ax_default _文本段落">
+        <div id="u42512_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42513" class="text">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42514" class="ax_default _图片">
+        <img id="u42514_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42515" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42516" class="ax_default label">
+        <div id="u42516_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42517" class="text">
+          <p><span>王五</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42518" class="ax_default label">
+        <div id="u42518_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42519" class="text">
+          <p><span>重新发起</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42520" class="ax_default label">
+        <div id="u42520_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42521" class="text">
+          <p><span>2018-12-12 12：00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42522" class="ax_default _文本段落">
+        <div id="u42522_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42523" class="text">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u42524" class="ax_default line">
+        <img id="u42524_img" class="img " src="images/审批设置/u42524.png"/>
+        <!-- Unnamed () -->
+        <div id="u42525" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42526" class="ax_default _图片">
+        <img id="u42526_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42527" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42528" class="ax_default label">
+        <div id="u42528_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42529" class="text">
+          <p><span>刘波</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42530" class="ax_default label">
+        <div id="u42530_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42531" class="text">
+          <p><span>审批中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u42532" class="ax_default line">
+        <img id="u42532_img" class="img " src="images/审批设置/u42524.png"/>
+        <!-- Unnamed () -->
+        <div id="u42533" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42534" class="ax_default _图片">
+        <img id="u42534_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42535" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42536" class="ax_default label">
+        <div id="u42536_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42537" class="text">
+          <p><span>刘波2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u42538" class="ax_default line">
+        <img id="u42538_img" class="img " src="images/审批设置/u42524.png"/>
+        <!-- Unnamed () -->
+        <div id="u42539" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u42540" class="ax_default _图片">
+        <img id="u42540_img" class="img " src="images/审批设置/u42480.png"/>
+        <!-- Unnamed () -->
+        <div id="u42541" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42542" class="ax_default label">
+        <div id="u42542_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42543" class="text">
+          <p><span>刘波3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u42544" class="ax_default line">
+        <img id="u42544_img" class="img " src="images/审批设置/u42524.png"/>
+        <!-- Unnamed () -->
+        <div id="u42545" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42546" class="ax_default _文本段落">
+        <div id="u42546_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42547" class="text">
+          <p><span>5、流程日志中，显示的元素有用户的头像，角色名称（或者审核人用户名）【如果配置的审核节点为角色，则显示角色名称，如果配置的为个体人员，则显示的为人员的用户名】</span></p><p><span>6、如果用户头像没有设置，则显示默认用户头像（前端自己决定）</span></p><p><span>7、发起人后面对应的文字为：发起申请；后面审核角色或人对应的为：</span></p><p><span>①、如果已经同意为已同意</span></p><p><span>②、如果不同意，则为已拒绝</span></p><p><span>③、如果待他审批，则为审批中</span></p><p><span>④、如果未到达其审批，则不显示</span></p><p><span>8、审批日志中的整个流程节点的角色名称或者人员全部显示</span></p><p><span>9、审批或者发起的时间精确到分钟</span></p><p><span>10、有审核过程中填入审批备注的，则备注全部显示，并且长短自适应显示</span></p><p><span>11、如果是没有审核权限的，进入的流程日志如上所示，如有审核权限，进入的流程日志下面加入如下显示，其中审批意见不是必填项，最大支持300汉字录入，控制机制可以是录入300字后无法再录入，也可以点击通过或者驳回报错【审批意见不得超过300汉字】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42548" class="ax_default box_2">
+        <div id="u42548_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42549" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42550" class="ax_default _三级标题">
+        <div id="u42550_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42551" class="text">
+          <p><span>审批意见</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42552" class="ax_default box_1">
+        <div id="u42552_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42553" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42554" class="ax_default label">
+        <div id="u42554_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42555" class="text">
+          <p><span>请输入审批意见</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42556" class="ax_default primary_button">
+        <div id="u42556_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42557" class="text">
+          <p><span>通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u42558" class="ax_default primary_button">
+        <div id="u42558_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u42559" class="text">
+          <p><span>驳回</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

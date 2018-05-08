@@ -1,0 +1,3100 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>查看化验单</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/查看化验单/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/查看化验单/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34045" class="ax_default box_2">
+        <div id="u34045_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34046" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34047" class="ax_default box_3">
+        <div id="u34047_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34048" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34049" class="ax_default label">
+        <div id="u34049_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34050" class="text">
+          <p><span>订单信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u34051" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34052" class="ax_default table_cell">
+          <img id="u34052_img" class="img " src="images/银行账号/u16011.png"/>
+          <!-- Unnamed () -->
+          <div id="u34053" class="text">
+            <p><span>订单编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34054" class="ax_default table_cell">
+          <img id="u34054_img" class="img " src="images/按订单录入化验信息/u31666.png"/>
+          <!-- Unnamed () -->
+          <div id="u34055" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; Y201806824547</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34056" class="ax_default table_cell">
+          <img id="u34056_img" class="img " src="images/点价保证金及销售期/u3993.png"/>
+          <!-- Unnamed () -->
+          <div id="u34057" class="text">
+            <p><span>批次号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34058" class="ax_default table_cell">
+          <img id="u34058_img" class="img " src="images/按订单录入化验信息/u31670.png"/>
+          <!-- Unnamed () -->
+          <div id="u34059" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; PC20186589798</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34060" class="ax_default table_cell">
+          <img id="u34060_img" class="img " src="images/银行账号/u16011.png"/>
+          <!-- Unnamed () -->
+          <div id="u34061" class="text">
+            <p><span>客户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34062" class="ax_default table_cell">
+          <img id="u34062_img" class="img " src="images/按订单录入化验信息/u31666.png"/>
+          <!-- Unnamed () -->
+          <div id="u34063" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; 某某煤炭公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34064" class="ax_default table_cell">
+          <img id="u34064_img" class="img " src="images/点价保证金及销售期/u3993.png"/>
+          <!-- Unnamed () -->
+          <div id="u34065" class="text">
+            <p><span>供应链公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34066" class="ax_default table_cell">
+          <img id="u34066_img" class="img " src="images/按订单录入化验信息/u31670.png"/>
+          <!-- Unnamed () -->
+          <div id="u34067" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; 金银岛(宁夏)供应链有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34068" class="ax_default table_cell">
+          <img id="u34068_img" class="img " src="images/银行账号/u16011.png"/>
+          <!-- Unnamed () -->
+          <div id="u34069" class="text">
+            <p><span>交割库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34070" class="ax_default table_cell">
+          <img id="u34070_img" class="img " src="images/按订单录入化验信息/u31666.png"/>
+          <!-- Unnamed () -->
+          <div id="u34071" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; 天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34072" class="ax_default table_cell">
+          <img id="u34072_img" class="img " src="images/点价保证金及销售期/u3993.png"/>
+          <!-- Unnamed () -->
+          <div id="u34073" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34074" class="ax_default table_cell">
+          <img id="u34074_img" class="img " src="images/按订单录入化验信息/u31670.png"/>
+          <!-- Unnamed () -->
+          <div id="u34075" class="text">
+            <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 金银岛1号#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34076" class="ax_default table_cell">
+          <img id="u34076_img" class="img " src="images/银行账号/u16043.png"/>
+          <!-- Unnamed () -->
+          <div id="u34077" class="text">
+            <p><span>下单量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34078" class="ax_default table_cell">
+          <img id="u34078_img" class="img " src="images/按订单录入化验信息/u31690.png"/>
+          <!-- Unnamed () -->
+          <div id="u34079" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; 500.00 吨</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34080" class="ax_default table_cell">
+          <img id="u34080_img" class="img " src="images/点价保证金及销售期/u4021.png"/>
+          <!-- Unnamed () -->
+          <div id="u34081" class="text">
+            <p><span>下单时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34082" class="ax_default table_cell">
+          <img id="u34082_img" class="img " src="images/按订单录入化验信息/u31694.png"/>
+          <!-- Unnamed () -->
+          <div id="u34083" class="text">
+            <p style="font-size:14px;"><span style="font-size:13px;">&nbsp;&nbsp;&nbsp; </span><span>2018-03-15 12:00</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34084" class="ax_default box_3">
+        <div id="u34084_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34085" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34086" class="ax_default label">
+        <div id="u34086_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34087" class="text">
+          <p><span>化验单信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u34088" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34089" class="ax_default table_cell">
+          <img id="u34089_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34090" class="text">
+            <p><span style="color:#FF0000;">*</span><span> 化验单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34091" class="ax_default table_cell">
+          <img id="u34091_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34092" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; HYD2018010320</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34093" class="ax_default table_cell">
+          <img id="u34093_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34094" class="text">
+            <p><span style="color:#FF0000;">*</span><span> 化验方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34095" class="ax_default table_cell">
+          <img id="u34095_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34096" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; 跺采</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34097" class="ax_default table_cell">
+          <img id="u34097_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34098" class="text">
+            <p><span style="color:#FF0000;">*</span><span> 化验数量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34099" class="ax_default table_cell">
+          <img id="u34099_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34100" class="text">
+            <p><span>&nbsp;&nbsp;&nbsp; 500.00 吨</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34101" class="ax_default table_cell">
+          <img id="u34101_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34102" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34103" class="ax_default table_cell">
+          <img id="u34103_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34104" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34105" class="ax_default table_cell">
+          <img id="u34105_img" class="img " src="images/新增发布/u26024.png"/>
+          <!-- Unnamed () -->
+          <div id="u34106" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34107" class="ax_default table_cell">
+          <img id="u34107_img" class="img " src="images/按订单录入化验信息/u31037.png"/>
+          <!-- Unnamed () -->
+          <div id="u34108" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34109" class="ax_default table_cell">
+          <img id="u34109_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34110" class="text">
+            <p><span>全水分 Mt%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34111" class="ax_default table_cell">
+          <img id="u34111_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34112" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34113" class="ax_default table_cell">
+          <img id="u34113_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34114" class="text">
+            <p><span>空干基分 Mad%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34115" class="ax_default table_cell">
+          <img id="u34115_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34116" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34117" class="ax_default table_cell">
+          <img id="u34117_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34118" class="text">
+            <p><span>高位发热量 Qgr,V MJ/KG(kcal/kg)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34119" class="ax_default table_cell">
+          <img id="u34119_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34120" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34121" class="ax_default table_cell">
+          <img id="u34121_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34122" class="text">
+            <p><span>低位发热量 Qent,ar MJ/KG(kcal/kg)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34123" class="ax_default table_cell">
+          <img id="u34123_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34124" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34125" class="ax_default table_cell">
+          <img id="u34125_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34126" class="text">
+            <p><span>灰分 A%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34127" class="ax_default table_cell">
+          <img id="u34127_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34128" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34129" class="ax_default table_cell">
+          <img id="u34129_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34130" class="text">
+            <p><span>挥发分V%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34131" class="ax_default table_cell">
+          <img id="u34131_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34132" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34133" class="ax_default table_cell">
+          <img id="u34133_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34134" class="text">
+            <p><span>固定碳 Fc%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34135" class="ax_default table_cell">
+          <img id="u34135_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34136" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34137" class="ax_default table_cell">
+          <img id="u34137_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34138" class="text">
+            <p><span>全硫 St%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34139" class="ax_default table_cell">
+          <img id="u34139_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34140" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34141" class="ax_default table_cell">
+          <img id="u34141_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34142" class="text">
+            <p><span>氢 H%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34143" class="ax_default table_cell">
+          <img id="u34143_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34144" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34145" class="ax_default table_cell">
+          <img id="u34145_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34146" class="text">
+            <p><span>G值 GRJ Mt</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34147" class="ax_default table_cell">
+          <img id="u34147_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34148" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34149" class="ax_default table_cell">
+          <img id="u34149_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34150" class="text">
+            <p><span>Y值 Y mm</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34151" class="ax_default table_cell">
+          <img id="u34151_img" class="img " src="images/新增定价招标发布/u24967.png"/>
+          <!-- Unnamed () -->
+          <div id="u34152" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34153" class="ax_default table_cell">
+          <img id="u34153_img" class="img " src="images/按订单录入化验信息/u31083.png"/>
+          <!-- Unnamed () -->
+          <div id="u34154" class="text">
+            <p><span>灰熔度AFt ℃</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34155" class="ax_default table_cell">
+          <img id="u34155_img" class="img " src="images/按订单录入化验信息/u31085.png"/>
+          <!-- Unnamed () -->
+          <div id="u34156" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34157" class="ax_default table_cell">
+          <img id="u34157_img" class="img " src="images/新增定价招标发布/u24993.png"/>
+          <!-- Unnamed () -->
+          <div id="u34158" class="text">
+            <p><span>颗粒度</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34159" class="ax_default table_cell">
+          <img id="u34159_img" class="img " src="images/新增定价招标发布/u24995.png"/>
+          <!-- Unnamed () -->
+          <div id="u34160" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34161" class="ax_default primary_button">
+        <div id="u34161_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34162" class="text">
+          <p><span>提交审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34163" class="ax_default primary_button">
+        <div id="u34163_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34164" class="text">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34165" class="ax_default box_3">
+        <div id="u34165_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34166" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34167" class="ax_default label">
+        <div id="u34167_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34168" class="text">
+          <p><span>填写化验信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u34169" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34170" class="ax_default table_cell">
+          <img id="u34170_img" class="img " src="images/新增发布/u26024.png"/>
+          <!-- Unnamed () -->
+          <div id="u34171" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34172" class="ax_default table_cell">
+          <img id="u34172_img" class="img " src="images/按订单录入化验信息/u31102.png"/>
+          <!-- Unnamed () -->
+          <div id="u34173" class="text">
+            <p><span>ar:收到基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34174" class="ax_default table_cell">
+          <img id="u34174_img" class="img " src="images/按订单录入化验信息/u31102.png"/>
+          <!-- Unnamed () -->
+          <div id="u34175" class="text">
+            <p><span>ad:空气干燥基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34176" class="ax_default table_cell">
+          <img id="u34176_img" class="img " src="images/按订单录入化验信息/u31102.png"/>
+          <!-- Unnamed () -->
+          <div id="u34177" class="text">
+            <p><span>d:干燥基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34178" class="ax_default table_cell">
+          <img id="u34178_img" class="img " src="images/按订单录入化验信息/u31108.png"/>
+          <!-- Unnamed () -->
+          <div id="u34179" class="text">
+            <p><span>daf:干燥无灰基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34180" class="ax_default table_cell">
+          <img id="u34180_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34181" class="text">
+            <p><span>全水分 Mt%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34182" class="ax_default table_cell">
+          <img id="u34182_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34183" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34184" class="ax_default table_cell">
+          <img id="u34184_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34185" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34186" class="ax_default table_cell">
+          <img id="u34186_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34187" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34188" class="ax_default table_cell">
+          <img id="u34188_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34189" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34190" class="ax_default table_cell">
+          <img id="u34190_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34191" class="text">
+            <p><span>空干基分 Mad%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34192" class="ax_default table_cell">
+          <img id="u34192_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34193" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34194" class="ax_default table_cell">
+          <img id="u34194_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34195" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34196" class="ax_default table_cell">
+          <img id="u34196_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34197" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34198" class="ax_default table_cell">
+          <img id="u34198_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34199" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34200" class="ax_default table_cell">
+          <img id="u34200_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34201" class="text">
+            <p><span>高位发热量 Qgr,V MJ/KG(kcal/kg)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34202" class="ax_default table_cell">
+          <img id="u34202_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34203" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34204" class="ax_default table_cell">
+          <img id="u34204_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34205" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34206" class="ax_default table_cell">
+          <img id="u34206_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34207" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34208" class="ax_default table_cell">
+          <img id="u34208_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34209" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34210" class="ax_default table_cell">
+          <img id="u34210_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34211" class="text">
+            <p><span>低位发热量 Qent,ar MJ/KG(kcal/kg)</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34212" class="ax_default table_cell">
+          <img id="u34212_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34213" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34214" class="ax_default table_cell">
+          <img id="u34214_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34215" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34216" class="ax_default table_cell">
+          <img id="u34216_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34217" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34218" class="ax_default table_cell">
+          <img id="u34218_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34219" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34220" class="ax_default table_cell">
+          <img id="u34220_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34221" class="text">
+            <p><span>灰分 A%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34222" class="ax_default table_cell">
+          <img id="u34222_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34223" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34224" class="ax_default table_cell">
+          <img id="u34224_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34225" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34226" class="ax_default table_cell">
+          <img id="u34226_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34227" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34228" class="ax_default table_cell">
+          <img id="u34228_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34229" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34230" class="ax_default table_cell">
+          <img id="u34230_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34231" class="text">
+            <p><span>挥发分V%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34232" class="ax_default table_cell">
+          <img id="u34232_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34233" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34234" class="ax_default table_cell">
+          <img id="u34234_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34235" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34236" class="ax_default table_cell">
+          <img id="u34236_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34237" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34238" class="ax_default table_cell">
+          <img id="u34238_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34239" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34240" class="ax_default table_cell">
+          <img id="u34240_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34241" class="text">
+            <p><span>固定碳 Fc%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34242" class="ax_default table_cell">
+          <img id="u34242_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34243" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34244" class="ax_default table_cell">
+          <img id="u34244_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34245" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34246" class="ax_default table_cell">
+          <img id="u34246_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34247" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34248" class="ax_default table_cell">
+          <img id="u34248_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34249" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34250" class="ax_default table_cell">
+          <img id="u34250_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34251" class="text">
+            <p><span>全硫 St%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34252" class="ax_default table_cell">
+          <img id="u34252_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34253" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34254" class="ax_default table_cell">
+          <img id="u34254_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34255" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34256" class="ax_default table_cell">
+          <img id="u34256_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34257" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34258" class="ax_default table_cell">
+          <img id="u34258_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34259" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34260" class="ax_default table_cell">
+          <img id="u34260_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34261" class="text">
+            <p><span>氢 H%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34262" class="ax_default table_cell">
+          <img id="u34262_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34263" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34264" class="ax_default table_cell">
+          <img id="u34264_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34265" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34266" class="ax_default table_cell">
+          <img id="u34266_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34267" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34268" class="ax_default table_cell">
+          <img id="u34268_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34269" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34270" class="ax_default table_cell">
+          <img id="u34270_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34271" class="text">
+            <p><span>G值 GRJ Mt</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34272" class="ax_default table_cell">
+          <img id="u34272_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34273" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34274" class="ax_default table_cell">
+          <img id="u34274_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34275" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34276" class="ax_default table_cell">
+          <img id="u34276_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34277" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34278" class="ax_default table_cell">
+          <img id="u34278_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34279" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34280" class="ax_default table_cell">
+          <img id="u34280_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34281" class="text">
+            <p><span>Y值 Y mm</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34282" class="ax_default table_cell">
+          <img id="u34282_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34283" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34284" class="ax_default table_cell">
+          <img id="u34284_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34285" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34286" class="ax_default table_cell">
+          <img id="u34286_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34287" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34288" class="ax_default table_cell">
+          <img id="u34288_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34289" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34290" class="ax_default table_cell">
+          <img id="u34290_img" class="img " src="images/按订单录入化验信息/u31083.png"/>
+          <!-- Unnamed () -->
+          <div id="u34291" class="text">
+            <p><span>灰熔度AFt ℃</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34292" class="ax_default table_cell">
+          <img id="u34292_img" class="img " src="images/按订单录入化验信息/u31222.png"/>
+          <!-- Unnamed () -->
+          <div id="u34293" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34294" class="ax_default table_cell">
+          <img id="u34294_img" class="img " src="images/按订单录入化验信息/u31222.png"/>
+          <!-- Unnamed () -->
+          <div id="u34295" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34296" class="ax_default table_cell">
+          <img id="u34296_img" class="img " src="images/按订单录入化验信息/u31222.png"/>
+          <!-- Unnamed () -->
+          <div id="u34297" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34298" class="ax_default table_cell">
+          <img id="u34298_img" class="img " src="images/按订单录入化验信息/u31228.png"/>
+          <!-- Unnamed () -->
+          <div id="u34299" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34300" class="ax_default table_cell">
+          <img id="u34300_img" class="img " src="images/新增定价招标发布/u24993.png"/>
+          <!-- Unnamed () -->
+          <div id="u34301" class="text">
+            <p><span>颗粒度</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34302" class="ax_default table_cell">
+          <img id="u34302_img" class="img " src="images/用户企业管理/u2981.png"/>
+          <!-- Unnamed () -->
+          <div id="u34303" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34304" class="ax_default table_cell">
+          <img id="u34304_img" class="img " src="images/用户企业管理/u2981.png"/>
+          <!-- Unnamed () -->
+          <div id="u34305" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34306" class="ax_default table_cell">
+          <img id="u34306_img" class="img " src="images/用户企业管理/u2981.png"/>
+          <!-- Unnamed () -->
+          <div id="u34307" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34308" class="ax_default table_cell">
+          <img id="u34308_img" class="img " src="images/按订单录入化验信息/u31238.png"/>
+          <!-- Unnamed () -->
+          <div id="u34309" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34310" class="ax_default box_1">
+        <div id="u34310_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34311" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34312" class="ax_default box_1">
+        <div id="u34312_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34313" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34314" class="ax_default box_1">
+        <div id="u34314_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34315" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34316" class="ax_default box_1">
+        <div id="u34316_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34317" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34318" class="ax_default box_1">
+        <div id="u34318_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34319" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34320" class="ax_default box_1">
+        <div id="u34320_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34321" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34322" class="ax_default box_1">
+        <div id="u34322_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34323" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34324" class="ax_default box_1">
+        <div id="u34324_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34325" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34326" class="ax_default box_1">
+        <div id="u34326_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34327" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34328" class="ax_default box_1">
+        <div id="u34328_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34329" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34330" class="ax_default box_1">
+        <div id="u34330_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34331" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34332" class="ax_default box_1">
+        <div id="u34332_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34333" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34334" class="ax_default box_1">
+        <div id="u34334_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34335" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34336" class="ax_default box_1">
+        <div id="u34336_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34337" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34338" class="ax_default box_1">
+        <div id="u34338_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34339" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34340" class="ax_default box_1">
+        <div id="u34340_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34341" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34342" class="ax_default box_1">
+        <div id="u34342_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34343" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34344" class="ax_default box_1">
+        <div id="u34344_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34345" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34346" class="ax_default box_1">
+        <div id="u34346_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34347" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34348" class="ax_default box_1">
+        <div id="u34348_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34349" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34350" class="ax_default box_1">
+        <div id="u34350_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34351" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34352" class="ax_default box_1">
+        <div id="u34352_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34353" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34354" class="ax_default box_1">
+        <div id="u34354_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34355" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34356" class="ax_default box_1">
+        <div id="u34356_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34357" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34358" class="ax_default box_1">
+        <div id="u34358_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34359" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34360" class="ax_default box_1">
+        <div id="u34360_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34361" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34362" class="ax_default box_1">
+        <div id="u34362_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34363" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34364" class="ax_default box_1">
+        <div id="u34364_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34365" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34366" class="ax_default box_1">
+        <div id="u34366_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34367" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34368" class="ax_default box_1">
+        <div id="u34368_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34369" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34370" class="ax_default box_1">
+        <div id="u34370_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34371" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34372" class="ax_default box_1">
+        <div id="u34372_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34373" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34374" class="ax_default box_1">
+        <div id="u34374_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34375" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34376" class="ax_default box_1">
+        <div id="u34376_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34377" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34378" class="ax_default box_1">
+        <div id="u34378_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34379" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34380" class="ax_default box_1">
+        <div id="u34380_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34381" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34382" class="ax_default box_1">
+        <div id="u34382_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34383" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34384" class="ax_default box_1">
+        <div id="u34384_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34385" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34386" class="ax_default box_1">
+        <div id="u34386_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34387" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34388" class="ax_default box_1">
+        <div id="u34388_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34389" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34390" class="ax_default box_1">
+        <div id="u34390_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34391" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34392" class="ax_default box_1">
+        <div id="u34392_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34393" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34394" class="ax_default box_1">
+        <div id="u34394_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34395" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34396" class="ax_default box_1">
+        <div id="u34396_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34397" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34398" class="ax_default box_1">
+        <div id="u34398_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34399" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34400" class="ax_default box_1">
+        <div id="u34400_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34401" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34402" class="ax_default box_1">
+        <div id="u34402_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34403" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34404" class="ax_default box_1">
+        <div id="u34404_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34405" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34406" class="ax_default box_1">
+        <div id="u34406_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34407" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34408" class="ax_default box_1">
+        <div id="u34408_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34409" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34410" class="ax_default box_1">
+        <div id="u34410_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34411" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34412" class="ax_default box_1">
+        <div id="u34412_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34413" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34414" class="ax_default box_3">
+        <div id="u34414_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34415" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u34416" class="ax_default _文本段落">
+        <img id="u34416_img" class="img " src="images/按订单录入化验信息/u31346.png"/>
+        <!-- Unnamed () -->
+        <div id="u34417" class="text">
+          <p><span>备注</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34418" class="ax_default box_1">
+        <div id="u34418_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34419" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34420" class="ax_default box_3">
+        <div id="u34420_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34421" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34422" class="ax_default box_1">
+        <div id="u34422_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34423" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u34424" class="ax_default _文本段落">
+        <img id="u34424_img" class="img " src="images/按订单录入化验信息/u31354.png"/>
+        <!-- Unnamed () -->
+        <div id="u34425" class="text">
+          <p><span>化验单照片</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u34426" class="ax_default placeholder">
+        <img id="u34426_img" class="img " src="images/按订单录入化验信息/u31356.png"/>
+        <!-- Unnamed () -->
+        <div id="u34427" class="text">
+          <p><span>上传照片</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34428" class="ax_default box_1">
+        <div id="u34428_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34429" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34430" class="ax_default label">
+        <div id="u34430_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34431" class="text">
+          <p><span>可填写 200 字</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (占位符) -->
+      <div id="u34432" class="ax_default placeholder">
+        <img id="u34432_img" class="img " src="images/按订单录入化验信息/u31362.png"/>
+        <!-- Unnamed () -->
+        <div id="u34433" class="text">
+          <p><span>已上传图片</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34434" class="ax_default box_1">
+        <div id="u34434_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34435" class="text">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (填写化验信息) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34437" class="ax_default label">
+        <div id="u34437_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34438" class="text">
+          <p><span>填写化验信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u34439" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34440" class="ax_default table_cell">
+          <img id="u34440_img" class="img " src="images/新增发布/u26024.png"/>
+          <!-- Unnamed () -->
+          <div id="u34441" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34442" class="ax_default table_cell">
+          <img id="u34442_img" class="img " src="images/按订单录入化验信息/u31102.png"/>
+          <!-- Unnamed () -->
+          <div id="u34443" class="text">
+            <p><span>ar:收到基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34444" class="ax_default table_cell">
+          <img id="u34444_img" class="img " src="images/按订单录入化验信息/u31102.png"/>
+          <!-- Unnamed () -->
+          <div id="u34445" class="text">
+            <p><span>ad:空气干燥基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34446" class="ax_default table_cell">
+          <img id="u34446_img" class="img " src="images/按订单录入化验信息/u31102.png"/>
+          <!-- Unnamed () -->
+          <div id="u34447" class="text">
+            <p><span>d:干燥基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34448" class="ax_default table_cell">
+          <img id="u34448_img" class="img " src="images/按订单录入化验信息/u31108.png"/>
+          <!-- Unnamed () -->
+          <div id="u34449" class="text">
+            <p><span>daf:干燥无灰基</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34450" class="ax_default table_cell">
+          <img id="u34450_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34451" class="text">
+            <p><span>低位发热量 Qent,ar 大卡/kg</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34452" class="ax_default table_cell">
+          <img id="u34452_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34453" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34454" class="ax_default table_cell">
+          <img id="u34454_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34455" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34456" class="ax_default table_cell">
+          <img id="u34456_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34457" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34458" class="ax_default table_cell">
+          <img id="u34458_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34459" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34460" class="ax_default table_cell">
+          <img id="u34460_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34461" class="text">
+            <p><span>全硫 St%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34462" class="ax_default table_cell">
+          <img id="u34462_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34463" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34464" class="ax_default table_cell">
+          <img id="u34464_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34465" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34466" class="ax_default table_cell">
+          <img id="u34466_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34467" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34468" class="ax_default table_cell">
+          <img id="u34468_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34469" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34470" class="ax_default table_cell">
+          <img id="u34470_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34471" class="text">
+            <p><span>全水分 Mt%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34472" class="ax_default table_cell">
+          <img id="u34472_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34473" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34474" class="ax_default table_cell">
+          <img id="u34474_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34475" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34476" class="ax_default table_cell">
+          <img id="u34476_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34477" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34478" class="ax_default table_cell">
+          <img id="u34478_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34479" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34480" class="ax_default table_cell">
+          <img id="u34480_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34481" class="text">
+            <p><span>水分 Mad%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34482" class="ax_default table_cell">
+          <img id="u34482_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34483" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34484" class="ax_default table_cell">
+          <img id="u34484_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34485" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34486" class="ax_default table_cell">
+          <img id="u34486_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34487" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34488" class="ax_default table_cell">
+          <img id="u34488_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34489" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34490" class="ax_default table_cell">
+          <img id="u34490_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34491" class="text">
+            <p><span>低位发热量 Qent,ar 兆焦/kg</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34492" class="ax_default table_cell">
+          <img id="u34492_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34493" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34494" class="ax_default table_cell">
+          <img id="u34494_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34495" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34496" class="ax_default table_cell">
+          <img id="u34496_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34497" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34498" class="ax_default table_cell">
+          <img id="u34498_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34499" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34500" class="ax_default table_cell">
+          <img id="u34500_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34501" class="text">
+            <p><span>高位发热量 Qgr,V 大卡/kg</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34502" class="ax_default table_cell">
+          <img id="u34502_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34503" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34504" class="ax_default table_cell">
+          <img id="u34504_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34505" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34506" class="ax_default table_cell">
+          <img id="u34506_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34507" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34508" class="ax_default table_cell">
+          <img id="u34508_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34509" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34510" class="ax_default table_cell">
+          <img id="u34510_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34511" class="text">
+            <p><span>高位发热量 Qgr,V 兆焦/kg</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34512" class="ax_default table_cell">
+          <img id="u34512_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34513" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34514" class="ax_default table_cell">
+          <img id="u34514_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34515" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34516" class="ax_default table_cell">
+          <img id="u34516_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34517" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34518" class="ax_default table_cell">
+          <img id="u34518_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34519" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34520" class="ax_default table_cell">
+          <img id="u34520_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34521" class="text">
+            <p><span>灰分 A%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34522" class="ax_default table_cell">
+          <img id="u34522_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34523" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34524" class="ax_default table_cell">
+          <img id="u34524_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34525" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34526" class="ax_default table_cell">
+          <img id="u34526_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34527" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34528" class="ax_default table_cell">
+          <img id="u34528_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34529" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34530" class="ax_default table_cell">
+          <img id="u34530_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34531" class="text">
+            <p><span>挥发份V%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34532" class="ax_default table_cell">
+          <img id="u34532_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34533" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34534" class="ax_default table_cell">
+          <img id="u34534_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34535" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34536" class="ax_default table_cell">
+          <img id="u34536_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34537" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34538" class="ax_default table_cell">
+          <img id="u34538_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34539" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34540" class="ax_default table_cell">
+          <img id="u34540_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34541" class="text">
+            <p><span>固定碳 Fc%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34542" class="ax_default table_cell">
+          <img id="u34542_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34543" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34544" class="ax_default table_cell">
+          <img id="u34544_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34545" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34546" class="ax_default table_cell">
+          <img id="u34546_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34547" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34548" class="ax_default table_cell">
+          <img id="u34548_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34549" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34550" class="ax_default table_cell">
+          <img id="u34550_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34551" class="text">
+            <p><span>氢 H%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34552" class="ax_default table_cell">
+          <img id="u34552_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34553" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34554" class="ax_default table_cell">
+          <img id="u34554_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34555" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34556" class="ax_default table_cell">
+          <img id="u34556_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34557" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34558" class="ax_default table_cell">
+          <img id="u34558_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34559" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34560" class="ax_default table_cell">
+          <img id="u34560_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34561" class="text">
+            <p><span>G值 GRJ Mt</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34562" class="ax_default table_cell">
+          <img id="u34562_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34563" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34564" class="ax_default table_cell">
+          <img id="u34564_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34565" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34566" class="ax_default table_cell">
+          <img id="u34566_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34567" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34568" class="ax_default table_cell">
+          <img id="u34568_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34569" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34570" class="ax_default table_cell">
+          <img id="u34570_img" class="img " src="images/新增定价招标发布/u24965.png"/>
+          <!-- Unnamed () -->
+          <div id="u34571" class="text">
+            <p><span>Y值 Y mm</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34572" class="ax_default table_cell">
+          <img id="u34572_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34573" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34574" class="ax_default table_cell">
+          <img id="u34574_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34575" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34576" class="ax_default table_cell">
+          <img id="u34576_img" class="img " src="images/用户企业管理/u2941.png"/>
+          <!-- Unnamed () -->
+          <div id="u34577" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34578" class="ax_default table_cell">
+          <img id="u34578_img" class="img " src="images/按订单录入化验信息/u31118.png"/>
+          <!-- Unnamed () -->
+          <div id="u34579" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34580" class="ax_default table_cell">
+          <img id="u34580_img" class="img " src="images/按订单录入化验信息/u31083.png"/>
+          <!-- Unnamed () -->
+          <div id="u34581" class="text">
+            <p><span>灰熔度AFt ℃</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34582" class="ax_default table_cell">
+          <img id="u34582_img" class="img " src="images/按订单录入化验信息/u31222.png"/>
+          <!-- Unnamed () -->
+          <div id="u34583" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34584" class="ax_default table_cell">
+          <img id="u34584_img" class="img " src="images/按订单录入化验信息/u31222.png"/>
+          <!-- Unnamed () -->
+          <div id="u34585" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34586" class="ax_default table_cell">
+          <img id="u34586_img" class="img " src="images/按订单录入化验信息/u31222.png"/>
+          <!-- Unnamed () -->
+          <div id="u34587" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34588" class="ax_default table_cell">
+          <img id="u34588_img" class="img " src="images/按订单录入化验信息/u31228.png"/>
+          <!-- Unnamed () -->
+          <div id="u34589" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34590" class="ax_default table_cell">
+          <img id="u34590_img" class="img " src="images/新增定价招标发布/u24993.png"/>
+          <!-- Unnamed () -->
+          <div id="u34591" class="text">
+            <p><span>颗粒度</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34592" class="ax_default table_cell">
+          <img id="u34592_img" class="img " src="images/用户企业管理/u2981.png"/>
+          <!-- Unnamed () -->
+          <div id="u34593" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34594" class="ax_default table_cell">
+          <img id="u34594_img" class="img " src="images/用户企业管理/u2981.png"/>
+          <!-- Unnamed () -->
+          <div id="u34595" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34596" class="ax_default table_cell">
+          <img id="u34596_img" class="img " src="images/用户企业管理/u2981.png"/>
+          <!-- Unnamed () -->
+          <div id="u34597" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34598" class="ax_default table_cell">
+          <img id="u34598_img" class="img " src="images/按订单录入化验信息/u31238.png"/>
+          <!-- Unnamed () -->
+          <div id="u34599" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34600" class="ax_default box_1">
+        <div id="u34600_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34601" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34602" class="ax_default box_1">
+        <div id="u34602_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34603" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34604" class="ax_default box_1">
+        <div id="u34604_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34605" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34606" class="ax_default box_1">
+        <div id="u34606_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34607" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34608" class="ax_default box_1">
+        <div id="u34608_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34609" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34610" class="ax_default box_1">
+        <div id="u34610_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34611" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34612" class="ax_default box_1">
+        <div id="u34612_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34613" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34614" class="ax_default box_1">
+        <div id="u34614_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34615" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34616" class="ax_default box_1">
+        <div id="u34616_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34617" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34618" class="ax_default box_1">
+        <div id="u34618_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34619" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34620" class="ax_default box_1">
+        <div id="u34620_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34621" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34622" class="ax_default box_1">
+        <div id="u34622_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34623" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34624" class="ax_default box_1">
+        <div id="u34624_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34625" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34626" class="ax_default box_1">
+        <div id="u34626_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34627" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34628" class="ax_default box_1">
+        <div id="u34628_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34629" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34630" class="ax_default box_1">
+        <div id="u34630_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34631" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34632" class="ax_default box_1">
+        <div id="u34632_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34633" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34634" class="ax_default box_1">
+        <div id="u34634_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34635" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34636" class="ax_default box_1">
+        <div id="u34636_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34637" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34638" class="ax_default box_1">
+        <div id="u34638_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34639" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34640" class="ax_default box_1">
+        <div id="u34640_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34641" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34642" class="ax_default box_1">
+        <div id="u34642_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34643" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34644" class="ax_default box_1">
+        <div id="u34644_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34645" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34646" class="ax_default box_1">
+        <div id="u34646_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34647" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34648" class="ax_default box_1">
+        <div id="u34648_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34649" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34650" class="ax_default box_1">
+        <div id="u34650_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34651" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34652" class="ax_default box_1">
+        <div id="u34652_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34653" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34654" class="ax_default box_1">
+        <div id="u34654_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34655" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34656" class="ax_default box_1">
+        <div id="u34656_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34657" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34658" class="ax_default box_1">
+        <div id="u34658_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34659" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34660" class="ax_default box_1">
+        <div id="u34660_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34661" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34662" class="ax_default box_1">
+        <div id="u34662_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34663" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34664" class="ax_default box_1">
+        <div id="u34664_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34665" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34666" class="ax_default box_1">
+        <div id="u34666_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34667" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34668" class="ax_default box_1">
+        <div id="u34668_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34669" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34670" class="ax_default box_1">
+        <div id="u34670_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34671" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34672" class="ax_default box_1">
+        <div id="u34672_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34673" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34674" class="ax_default box_1">
+        <div id="u34674_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34675" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34676" class="ax_default box_1">
+        <div id="u34676_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34677" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34678" class="ax_default box_1">
+        <div id="u34678_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34679" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34680" class="ax_default box_1">
+        <div id="u34680_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34681" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34682" class="ax_default box_1">
+        <div id="u34682_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34683" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34684" class="ax_default box_1">
+        <div id="u34684_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34685" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34686" class="ax_default box_1">
+        <div id="u34686_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34687" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34688" class="ax_default box_1">
+        <div id="u34688_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34689" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34690" class="ax_default box_1">
+        <div id="u34690_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34691" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34692" class="ax_default box_1">
+        <div id="u34692_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34693" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34694" class="ax_default box_1">
+        <div id="u34694_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34695" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34696" class="ax_default box_1">
+        <div id="u34696_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34697" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34698" class="ax_default box_1">
+        <div id="u34698_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34699" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34700" class="ax_default box_1">
+        <div id="u34700_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34701" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34702" class="ax_default box_1">
+        <div id="u34702_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34703" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34704" class="ax_default box_1">
+        <div id="u34704_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34705" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34706" class="ax_default box_1">
+        <div id="u34706_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34707" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34708" class="ax_default box_1">
+        <div id="u34708_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34709" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34710" class="ax_default box_1">
+        <div id="u34710_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34711" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34712" class="ax_default box_1">
+        <div id="u34712_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34713" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34714" class="ax_default box_1">
+        <div id="u34714_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34715" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34716" class="ax_default box_1">
+        <div id="u34716_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34717" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34718" class="ax_default box_1">
+        <div id="u34718_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34719" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34720" class="ax_default primary_button">
+        <div id="u34720_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34721" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

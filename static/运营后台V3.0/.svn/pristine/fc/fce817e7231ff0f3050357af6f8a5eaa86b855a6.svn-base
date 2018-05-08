@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>消息配置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/消息配置/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/消息配置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32585" class="ax_default box_2">
+        <div id="u32585_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32586" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32587" class="ax_default checkbox">
+        <label for="u32587_input">
+          <!-- Unnamed () -->
+          <div id="u32588" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32587_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32589" class="ax_default checkbox">
+        <label for="u32589_input">
+          <!-- Unnamed () -->
+          <div id="u32590" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32589_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32591" class="ax_default checkbox">
+        <label for="u32591_input">
+          <!-- Unnamed () -->
+          <div id="u32592" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32591_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32593" class="ax_default label">
+        <div id="u32593_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32594" class="text">
+          <p><span>入库消息推送</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32595" class="ax_default label">
+        <div id="u32595_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32596" class="text">
+          <p><span>出库消息推送</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32597" class="ax_default label">
+        <div id="u32597_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32598" class="text">
+          <p><span>准入协议审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32599" class="ax_default label">
+        <div id="u32599_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32600" class="text">
+          <p><span>款项信息推送</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32601" class="ax_default label">
+        <div id="u32601_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32602" class="text">
+          <p><span>发票推送</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u32603" class="ax_default line">
+        <img id="u32603_img" class="img " src="images/选择所属部门/u31726.png"/>
+        <!-- Unnamed () -->
+        <div id="u32604" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u32605" class="ax_default line">
+        <img id="u32605_img" class="img " src="images/选择所属部门/u31728.png"/>
+        <!-- Unnamed () -->
+        <div id="u32606" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32607" class="ax_default label">
+        <div id="u32607_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32608" class="text">
+          <p><span>&nbsp;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u32609" class="ax_default line">
+        <img id="u32609_img" class="img " src="images/选择所属部门/u31728.png"/>
+        <!-- Unnamed () -->
+        <div id="u32610" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32611" class="ax_default label">
+        <div id="u32611_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32612" class="text">
+          <p><span>通过</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u32613" class="ax_default line">
+        <img id="u32613_img" class="img " src="images/选择所属部门/u31728.png"/>
+        <!-- Unnamed () -->
+        <div id="u32614" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32615" class="ax_default label">
+        <div id="u32615_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32616" class="text">
+          <p><span>驳回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32617" class="ax_default checkbox">
+        <label for="u32617_input">
+          <!-- Unnamed () -->
+          <div id="u32618" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32617_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32619" class="ax_default checkbox">
+        <label for="u32619_input">
+          <!-- Unnamed () -->
+          <div id="u32620" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32619_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32621" class="ax_default checkbox">
+        <label for="u32621_input">
+          <!-- Unnamed () -->
+          <div id="u32622" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32621_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32623" class="ax_default checkbox">
+        <label for="u32623_input">
+          <!-- Unnamed () -->
+          <div id="u32624" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32623_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32625" class="ax_default checkbox">
+        <label for="u32625_input">
+          <!-- Unnamed () -->
+          <div id="u32626" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u32625_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32627" class="ax_default primary_button">
+        <div id="u32627_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32628" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32629" class="ax_default primary_button">
+        <div id="u32629_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32630" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32631" class="ax_default label">
+        <div id="u32631_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32632" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32633" class="ax_default checkbox">
+        <label for="u32633_input">
+          <!-- Unnamed () -->
+          <div id="u32634" class="text">
+            <p><span>全选</span></p>
+          </div>
+        </label>
+        <input id="u32633_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32635" class="ax_default box_2">
+        <div id="u32635_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32636" class="text">
+          <p><span>业务权限设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32637" class="ax_default box_2">
+        <div id="u32637_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32638" class="text">
+          <p><span>消息推送设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32639" class="ax_default sticky_1">
+        <div id="u32639_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32640" class="text">
+          <p><span>1、此处获取的为消息设置中设置好的消息类型</span></p><p><span>2、每个下面都包括查看，通过和驳回</span></p><p><span>3、树默认全部展开显示</span></p><p><span>4、选择子节点，父节点直接被选择，选中父节点，子节点直接被选择，子节点可单独取消选择</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

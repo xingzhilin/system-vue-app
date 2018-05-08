@@ -1,0 +1,920 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>钱和票的关系 (1)</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/钱和票的关系__1_/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/钱和票的关系__1_/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u594" class="ax_default button">
+        <div id="u594_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u595" class="text">
+          <p><span>企业账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u596" class="ax_default button">
+        <div id="u596_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u597" class="text">
+          <p><span>钱</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u598" class="ax_default button">
+        <div id="u598_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u599" class="text">
+          <p><span>票</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u600" class="ax_default button">
+        <div id="u600_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u601" class="text">
+          <p><span>客户企业</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u602" class="ax_default button">
+        <div id="u602_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u603" class="text">
+          <p><span>非客户企业</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u604" class="ax_default button">
+        <div id="u604_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u605" class="text">
+          <p><span>预付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u606" class="ax_default button">
+        <div id="u606_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u607" class="text">
+          <p><span>保证金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u608" class="ax_default button">
+        <div id="u608_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u609" class="text">
+          <p><span>云供应保证金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u610" class="ax_default button">
+        <div id="u610_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u611" class="text">
+          <p><span>锁价交易保证金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u612" class="ax_default button">
+        <div id="u612_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u613" class="text">
+          <p><span>维护的各种费用类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u614" class="ax_default _连接线">
+        <img id="u614_seg0" class="img " src="images/钱和票的关系/u444_seg0.png" alt="u614_seg0"/>
+        <img id="u614_seg1" class="img " src="images/钱和票的关系/u444_seg1.png" alt="u614_seg1"/>
+        <img id="u614_seg2" class="img " src="images/钱和票的关系/u444_seg2.png" alt="u614_seg2"/>
+        <img id="u614_seg3" class="img " src="images/钱和票的关系/u444_seg3.png" alt="u614_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u615" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u616" class="ax_default _连接线">
+        <img id="u616_seg0" class="img " src="images/钱和票的关系/u446_seg0.png" alt="u616_seg0"/>
+        <img id="u616_seg1" class="img " src="images/钱和票的关系/u446_seg1.png" alt="u616_seg1"/>
+        <img id="u616_seg2" class="img " src="images/钱和票的关系/u446_seg2.png" alt="u616_seg2"/>
+        <img id="u616_seg3" class="img " src="images/钱和票的关系/u446_seg3.png" alt="u616_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u617" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u618" class="ax_default _连接线">
+        <img id="u618_seg0" class="img " src="images/钱和票的关系/u444_seg0.png" alt="u618_seg0"/>
+        <img id="u618_seg1" class="img " src="images/钱和票的关系/u448_seg1.png" alt="u618_seg1"/>
+        <img id="u618_seg2" class="img " src="images/钱和票的关系/u448_seg2.png" alt="u618_seg2"/>
+        <img id="u618_seg3" class="img " src="images/钱和票的关系/u448_seg3.png" alt="u618_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u619" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u620" class="ax_default _连接线">
+        <img id="u620_seg0" class="img " src="images/钱和票的关系/u446_seg0.png" alt="u620_seg0"/>
+        <img id="u620_seg1" class="img " src="images/钱和票的关系/u450_seg1.png" alt="u620_seg1"/>
+        <img id="u620_seg2" class="img " src="images/钱和票的关系/u450_seg2.png" alt="u620_seg2"/>
+        <img id="u620_seg3" class="img " src="images/钱和票的关系/u450_seg3.png" alt="u620_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u621" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u622" class="ax_default _连接线">
+        <img id="u622_seg0" class="img " src="images/钱和票的关系/u452_seg0.png" alt="u622_seg0"/>
+        <img id="u622_seg1" class="img " src="images/钱和票的关系/u452_seg1.png" alt="u622_seg1"/>
+        <img id="u622_seg2" class="img " src="images/钱和票的关系/u452_seg2.png" alt="u622_seg2"/>
+        <img id="u622_seg3" class="img " src="images/钱和票的关系/u452_seg3.png" alt="u622_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u623" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u624" class="ax_default _连接线">
+        <img id="u624_seg0" class="img " src="images/钱和票的关系/u454_seg0.png" alt="u624_seg0"/>
+        <img id="u624_seg1" class="img " src="images/钱和票的关系/u454_seg1.png" alt="u624_seg1"/>
+        <img id="u624_seg2" class="img " src="images/钱和票的关系/u454_seg2.png" alt="u624_seg2"/>
+        <img id="u624_seg3" class="img " src="images/钱和票的关系/u454_seg3.png" alt="u624_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u625" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u626" class="ax_default _连接线">
+        <img id="u626_seg0" class="img " src="images/钱和票的关系/u456_seg0.png" alt="u626_seg0"/>
+        <img id="u626_seg1" class="img " src="images/钱和票的关系/u456_seg1.png" alt="u626_seg1"/>
+        <img id="u626_seg2" class="img " src="images/钱和票的关系/u456_seg2.png" alt="u626_seg2"/>
+        <img id="u626_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u626_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u627" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u628" class="ax_default _连接线">
+        <img id="u628_seg0" class="img " src="images/钱和票的关系/u458_seg0.png" alt="u628_seg0"/>
+        <img id="u628_seg1" class="img " src="images/钱和票的关系/u458_seg1.png" alt="u628_seg1"/>
+        <img id="u628_seg2" class="img " src="images/钱和票的关系/u458_seg2.png" alt="u628_seg2"/>
+        <img id="u628_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u628_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u629" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u630" class="ax_default primary_button">
+        <div id="u630_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u631" class="text">
+          <p><span>1、付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u632" class="ax_default primary_button">
+        <div id="u632_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u633" class="text">
+          <p><span>2、收款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u634" class="ax_default primary_button">
+        <div id="u634_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u635" class="text">
+          <p><span>3、摊销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u636" class="ax_default primary_button">
+        <div id="u636_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u637" class="text">
+          <p><span>4、核减</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u638" class="ax_default primary_button">
+        <div id="u638_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u639" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u640" class="ax_default primary_button">
+        <div id="u640_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u641" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u642" class="ax_default primary_button">
+        <div id="u642_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u643" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u644" class="ax_default primary_button">
+        <div id="u644_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u645" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u646" class="ax_default primary_button">
+        <div id="u646_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u647" class="text">
+          <p><span>5、扣除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u648" class="ax_default primary_button">
+        <div id="u648_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u649" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u650" class="ax_default primary_button">
+        <div id="u650_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u651" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u652" class="ax_default primary_button">
+        <div id="u652_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u653" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u654" class="ax_default primary_button">
+        <div id="u654_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u655" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u656" class="ax_default _连接线">
+        <img id="u656_seg0" class="img " src="images/钱和票的关系/u486_seg0.png" alt="u656_seg0"/>
+        <img id="u656_seg1" class="img " src="images/钱和票的关系/u486_seg1.png" alt="u656_seg1"/>
+        <img id="u656_seg2" class="img " src="images/钱和票的关系/u456_seg2.png" alt="u656_seg2"/>
+        <img id="u656_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u656_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u657" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u658" class="ax_default _连接线">
+        <img id="u658_seg0" class="img " src="images/钱和票的关系/u488_seg0.png" alt="u658_seg0"/>
+        <img id="u658_seg1" class="img " src="images/钱和票的关系/u488_seg1.png" alt="u658_seg1"/>
+        <img id="u658_seg2" class="img " src="images/钱和票的关系/u488_seg2.png" alt="u658_seg2"/>
+        <img id="u658_seg3" class="img " src="images/钱和票的关系/u488_seg3.png" alt="u658_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u659" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u660" class="ax_default _连接线">
+        <img id="u660_seg0" class="img " src="images/钱和票的关系/u490_seg0.png" alt="u660_seg0"/>
+        <img id="u660_seg1" class="img " src="images/钱和票的关系/u490_seg1.png" alt="u660_seg1"/>
+        <img id="u660_seg2" class="img " src="images/钱和票的关系/u490_seg2.png" alt="u660_seg2"/>
+        <img id="u660_seg3" class="img " src="images/钱和票的关系/u490_seg3.png" alt="u660_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u661" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u662" class="ax_default _连接线">
+        <img id="u662_seg0" class="img " src="images/钱和票的关系/u492_seg0.png" alt="u662_seg0"/>
+        <img id="u662_seg1" class="img " src="images/钱和票的关系/u492_seg1.png" alt="u662_seg1"/>
+        <img id="u662_seg2" class="img " src="images/钱和票的关系/u454_seg2.png" alt="u662_seg2"/>
+        <img id="u662_seg3" class="img " src="images/钱和票的关系/u454_seg3.png" alt="u662_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u663" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u664" class="ax_default _连接线">
+        <img id="u664_seg0" class="img " src="images/钱和票的关系/u492_seg0.png" alt="u664_seg0"/>
+        <img id="u664_seg1" class="img " src="images/钱和票的关系/u494_seg1.png" alt="u664_seg1"/>
+        <img id="u664_seg2" class="img " src="images/钱和票的关系/u454_seg2.png" alt="u664_seg2"/>
+        <img id="u664_seg3" class="img " src="images/钱和票的关系/u454_seg3.png" alt="u664_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u665" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u666" class="ax_default _连接线">
+        <img id="u666_seg0" class="img " src="images/钱和票的关系/u490_seg0.png" alt="u666_seg0"/>
+        <img id="u666_seg1" class="img " src="images/钱和票的关系/u496_seg1.png" alt="u666_seg1"/>
+        <img id="u666_seg2" class="img " src="images/钱和票的关系/u452_seg2.png" alt="u666_seg2"/>
+        <img id="u666_seg3" class="img " src="images/钱和票的关系/u452_seg3.png" alt="u666_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u667" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u668" class="ax_default _连接线">
+        <img id="u668_seg0" class="img " src="images/钱和票的关系/u490_seg0.png" alt="u668_seg0"/>
+        <img id="u668_seg1" class="img " src="images/钱和票的关系/u498_seg1.png" alt="u668_seg1"/>
+        <img id="u668_seg2" class="img " src="images/钱和票的关系/u452_seg2.png" alt="u668_seg2"/>
+        <img id="u668_seg3" class="img " src="images/钱和票的关系/u452_seg3.png" alt="u668_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u669" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u670" class="ax_default _连接线">
+        <img id="u670_seg0" class="img " src="images/钱和票的关系/u500_seg0.png" alt="u670_seg0"/>
+        <img id="u670_seg1" class="img " src="images/钱和票的关系/u500_seg1.png" alt="u670_seg1"/>
+        <img id="u670_seg2" class="img " src="images/钱和票的关系/u500_seg2.png" alt="u670_seg2"/>
+        <img id="u670_seg3" class="img " src="images/钱和票的关系/u500_seg3.png" alt="u670_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u671" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u672" class="ax_default _连接线">
+        <img id="u672_seg0" class="img " src="images/钱和票的关系/u456_seg0.png" alt="u672_seg0"/>
+        <img id="u672_seg1" class="img " src="images/钱和票的关系/u502_seg1.png" alt="u672_seg1"/>
+        <img id="u672_seg2" class="img " src="images/钱和票的关系/u444_seg2.png" alt="u672_seg2"/>
+        <img id="u672_seg3" class="img " src="images/钱和票的关系/u444_seg3.png" alt="u672_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u673" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u674" class="ax_default _连接线">
+        <img id="u674_seg0" class="img " src="images/钱和票的关系/u504_seg0.png" alt="u674_seg0"/>
+        <img id="u674_seg1" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u674_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u675" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u676" class="ax_default _连接线">
+        <img id="u676_seg0" class="img " src="images/钱和票的关系/u458_seg0.png" alt="u676_seg0"/>
+        <img id="u676_seg1" class="img " src="images/钱和票的关系/u506_seg1.png" alt="u676_seg1"/>
+        <img id="u676_seg2" class="img " src="images/钱和票的关系/u446_seg2.png" alt="u676_seg2"/>
+        <img id="u676_seg3" class="img " src="images/钱和票的关系/u446_seg3.png" alt="u676_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u677" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u678" class="ax_default _连接线">
+        <img id="u678_seg0" class="img " src="images/钱和票的关系/u508_seg0.png" alt="u678_seg0"/>
+        <img id="u678_seg1" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u678_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u679" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u680" class="ax_default sticky_1">
+        <div id="u680_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u681" class="text">
+          <p><span>1、付款企业的预付款总额要相加</span></p><p><span>2、核减，要将可用预付款金额和减掉，如果为0不允许核减，此处在针对批次或者结算单付款时使用</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u682" class="ax_default sticky_1">
+        <div id="u682_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u683" class="text">
+          <p><span>1、收款后各自类型的保证金可用金额分别累加</span></p><p><span>2、退款（付款）后将各自对应的保证金减去，为0不允许发起退款</span></p><p><span>3、扣除要将各自对应的钱减去，为0也可以进行扣除，记为负数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u684" class="ax_default primary_button">
+        <div id="u684_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u685" class="text">
+          <p><span>6、核销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u686" class="ax_default sticky_1">
+        <div id="u686_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u687" class="text">
+          <p><span>1、付款在对应的付款类型上金额要相加</span></p><p><span>2、退款在对应的类型上减去</span></p><p><span>3、总额为0不允许退款</span></p><p><span>4、摊销要作为单独的模块，分为摊销给金银岛和摊销给客户的，0允许摊销，记为负数，如果是摊销给客户的，在生成结算单时计算到垫付费用里</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u688" class="ax_default button">
+        <div id="u688_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u689" class="text">
+          <p><span>客户企业</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u690" class="ax_default button">
+        <div id="u690_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u691" class="text">
+          <p><span>非客户企业</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u692" class="ax_default button">
+        <div id="u692_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u693" class="text">
+          <p><span>针对结算单核销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u694" class="ax_default button">
+        <div id="u694_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u695" class="text">
+          <p><span>针对费用类型进行钱和票的总额核销</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u696" class="ax_default button">
+        <div id="u696_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u697" class="text">
+          <p><span>港务</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u698" class="ax_default button">
+        <div id="u698_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u699" class="text">
+          <p><span>运输</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u700" class="ax_default button">
+        <div id="u700_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u701" class="text">
+          <p><span>化验</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u702" class="ax_default button">
+        <div id="u702_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u703" class="text">
+          <p><span>其他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u704" class="ax_default primary_button">
+        <div id="u704_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u705" class="text">
+          <p><span>6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u706" class="ax_default primary_button">
+        <div id="u706_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u707" class="text">
+          <p><span>6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u708" class="ax_default button">
+        <div id="u708_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u709" class="text">
+          <p><span>已核减</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u710" class="ax_default button">
+        <div id="u710_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u711" class="text">
+          <p><span>未核减</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u712" class="ax_default _连接线">
+        <img id="u712_seg0" class="img " src="images/钱和票的关系/u542_seg0.png" alt="u712_seg0"/>
+        <img id="u712_seg1" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u712_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u713" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u714" class="ax_default _连接线">
+        <img id="u714_seg0" class="img " src="images/钱和票的关系/u544_seg0.png" alt="u714_seg0"/>
+        <img id="u714_seg1" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u714_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u715" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u716" class="ax_default _连接线">
+        <img id="u716_seg0" class="img " src="images/钱和票的关系/u542_seg0.png" alt="u716_seg0"/>
+        <img id="u716_seg1" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u716_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u717" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u718" class="ax_default _连接线">
+        <img id="u718_seg0" class="img " src="images/钱和票的关系/u544_seg0.png" alt="u718_seg0"/>
+        <img id="u718_seg1" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u718_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u719" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u720" class="ax_default _连接线">
+        <img id="u720_seg0" class="img " src="images/钱和票的关系/u550_seg0.png" alt="u720_seg0"/>
+        <img id="u720_seg1" class="img " src="images/钱和票的关系/u550_seg1.png" alt="u720_seg1"/>
+        <img id="u720_seg2" class="img " src="images/钱和票的关系/u448_seg2.png" alt="u720_seg2"/>
+        <img id="u720_seg3" class="img " src="images/钱和票的关系/u448_seg3.png" alt="u720_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u721" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u722" class="ax_default _连接线">
+        <img id="u722_seg0" class="img " src="images/钱和票的关系/u550_seg0.png" alt="u722_seg0"/>
+        <img id="u722_seg1" class="img " src="images/钱和票的关系/u552_seg1.png" alt="u722_seg1"/>
+        <img id="u722_seg2" class="img " src="images/钱和票的关系/u448_seg2.png" alt="u722_seg2"/>
+        <img id="u722_seg3" class="img " src="images/钱和票的关系/u448_seg3.png" alt="u722_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u723" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u724" class="ax_default _连接线">
+        <img id="u724_seg0" class="img " src="images/钱和票的关系/u554_seg0.png" alt="u724_seg0"/>
+        <img id="u724_seg1" class="img " src="images/钱和票的关系/u554_seg1.png" alt="u724_seg1"/>
+        <img id="u724_seg2" class="img " src="images/钱和票的关系/u450_seg2.png" alt="u724_seg2"/>
+        <img id="u724_seg3" class="img " src="images/钱和票的关系/u450_seg3.png" alt="u724_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u725" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u726" class="ax_default _连接线">
+        <img id="u726_seg0" class="img " src="images/钱和票的关系/u554_seg0.png" alt="u726_seg0"/>
+        <img id="u726_seg1" class="img " src="images/钱和票的关系/u556_seg1.png" alt="u726_seg1"/>
+        <img id="u726_seg2" class="img " src="images/钱和票的关系/u450_seg2.png" alt="u726_seg2"/>
+        <img id="u726_seg3" class="img " src="images/钱和票的关系/u450_seg3.png" alt="u726_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u727" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u728" class="ax_default _连接线">
+        <img id="u728_seg0" class="img " src="images/钱和票的关系/u454_seg0.png" alt="u728_seg0"/>
+        <img id="u728_seg1" class="img " src="images/钱和票的关系/u558_seg1.png" alt="u728_seg1"/>
+        <img id="u728_seg2" class="img " src="images/钱和票的关系/u558_seg2.png" alt="u728_seg2"/>
+        <img id="u728_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u728_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u729" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u730" class="ax_default _连接线">
+        <img id="u730_seg0" class="img " src="images/钱和票的关系/u454_seg0.png" alt="u730_seg0"/>
+        <img id="u730_seg1" class="img " src="images/钱和票的关系/u560_seg1.png" alt="u730_seg1"/>
+        <img id="u730_seg2" class="img " src="images/钱和票的关系/u558_seg2.png" alt="u730_seg2"/>
+        <img id="u730_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u730_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u731" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u732" class="ax_default _连接线">
+        <img id="u732_seg0" class="img " src="images/钱和票的关系/u452_seg0.png" alt="u732_seg0"/>
+        <img id="u732_seg1" class="img " src="images/钱和票的关系/u562_seg1.png" alt="u732_seg1"/>
+        <img id="u732_seg2" class="img " src="images/钱和票的关系/u562_seg2.png" alt="u732_seg2"/>
+        <img id="u732_seg3" class="img " src="images/钱和票的关系/u562_seg3.png" alt="u732_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u733" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u734" class="ax_default _连接线">
+        <img id="u734_seg0" class="img " src="images/钱和票的关系/u454_seg0.png" alt="u734_seg0"/>
+        <img id="u734_seg1" class="img " src="images/钱和票的关系/u564_seg1.png" alt="u734_seg1"/>
+        <img id="u734_seg2" class="img " src="images/钱和票的关系/u558_seg2.png" alt="u734_seg2"/>
+        <img id="u734_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u734_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u735" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u736" class="ax_default _连接线">
+        <img id="u736_seg0" class="img " src="images/钱和票的关系/u452_seg0.png" alt="u736_seg0"/>
+        <img id="u736_seg1" class="img " src="images/钱和票的关系/u566_seg1.png" alt="u736_seg1"/>
+        <img id="u736_seg2" class="img " src="images/钱和票的关系/u562_seg2.png" alt="u736_seg2"/>
+        <img id="u736_seg3" class="img " src="images/钱和票的关系/u562_seg3.png" alt="u736_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u737" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u738" class="ax_default _连接线">
+        <img id="u738_seg0" class="img " src="images/钱和票的关系/u454_seg0.png" alt="u738_seg0"/>
+        <img id="u738_seg1" class="img " src="images/钱和票的关系/u506_seg1.png" alt="u738_seg1"/>
+        <img id="u738_seg2" class="img " src="images/钱和票的关系/u558_seg2.png" alt="u738_seg2"/>
+        <img id="u738_seg3" class="img " src="images/钱和票的关系/u456_seg3.png" alt="u738_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u739" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u740" class="ax_default _连接线">
+        <img id="u740_seg0" class="img " src="images/钱和票的关系/u452_seg0.png" alt="u740_seg0"/>
+        <img id="u740_seg1" class="img " src="images/钱和票的关系/u570_seg1.png" alt="u740_seg1"/>
+        <img id="u740_seg2" class="img " src="images/钱和票的关系/u562_seg2.png" alt="u740_seg2"/>
+        <img id="u740_seg3" class="img " src="images/钱和票的关系/u562_seg3.png" alt="u740_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u741" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u742" class="ax_default _连接线">
+        <img id="u742_seg0" class="img " src="images/钱和票的关系/u452_seg0.png" alt="u742_seg0"/>
+        <img id="u742_seg1" class="img " src="images/钱和票的关系/u572_seg1.png" alt="u742_seg1"/>
+        <img id="u742_seg2" class="img " src="images/钱和票的关系/u562_seg2.png" alt="u742_seg2"/>
+        <img id="u742_seg3" class="img " src="images/钱和票的关系/u562_seg3.png" alt="u742_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u743" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u744" class="ax_default _连接线">
+        <img id="u744_seg0" class="img " src="images/钱和票的关系/u444_seg0.png" alt="u744_seg0"/>
+        <img id="u744_seg1" class="img " src="images/钱和票的关系/u574_seg1.png" alt="u744_seg1"/>
+        <img id="u744_seg2" class="img " src="images/钱和票的关系/u448_seg2.png" alt="u744_seg2"/>
+        <img id="u744_seg3" class="img " src="images/钱和票的关系/u448_seg3.png" alt="u744_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u745" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u746" class="ax_default _连接线">
+        <img id="u746_seg0" class="img " src="images/钱和票的关系/u446_seg0.png" alt="u746_seg0"/>
+        <img id="u746_seg1" class="img " src="images/钱和票的关系/u576_seg1.png" alt="u746_seg1"/>
+        <img id="u746_seg2" class="img " src="images/钱和票的关系/u450_seg2.png" alt="u746_seg2"/>
+        <img id="u746_seg3" class="img " src="images/钱和票的关系/u450_seg3.png" alt="u746_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u747" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u748" class="ax_default sticky_1">
+        <div id="u748_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u749" class="text">
+          <p><span>1、核减的时候，钱小于票的额度时，不允许核减</span></p><p><span>2、认票后变为已认票</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u750" class="ax_default button">
+        <div id="u750_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u751" class="text">
+          <p><span>已核减</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u752" class="ax_default button">
+        <div id="u752_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u753" class="text">
+          <p><span>未核减</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u754" class="ax_default _连接线">
+        <img id="u754_seg0" class="img " src="images/钱和票的关系/u584_seg0.png" alt="u754_seg0"/>
+        <img id="u754_seg1" class="img " src="images/钱和票的关系/u584_seg1.png" alt="u754_seg1"/>
+        <img id="u754_seg2" class="img " src="images/钱和票的关系/u584_seg2.png" alt="u754_seg2"/>
+        <img id="u754_seg3" class="img " src="images/钱和票的关系/u584_seg3.png" alt="u754_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u755" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u756" class="ax_default _连接线">
+        <img id="u756_seg0" class="img " src="images/钱和票的关系/u586_seg0.png" alt="u756_seg0"/>
+        <img id="u756_seg1" class="img " src="images/钱和票的关系/u586_seg1.png" alt="u756_seg1"/>
+        <img id="u756_seg2" class="img " src="images/钱和票的关系/u586_seg2.png" alt="u756_seg2"/>
+        <img id="u756_seg3" class="img " src="images/钱和票的关系/u586_seg3.png" alt="u756_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u757" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u758" class="ax_default sticky_1">
+        <div id="u758_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u759" class="text">
+          <p><span>1、核减的时候，钱小于票的额度时，不允许核减</span></p><p><span>2、认票后，核减的结算单要标记为已收票</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u760" class="ax_default _三级标题">
+        <div id="u760_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u761" class="text">
+          <p><span>发生的事件：</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

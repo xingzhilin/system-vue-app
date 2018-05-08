@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>账号编辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/账号编辑/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/账号编辑/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31863" class="ax_default box_2">
+        <div id="u31863_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31864" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31865" class="ax_default box_1">
+        <div id="u31865_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31866" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31867" class="ax_default label">
+        <div id="u31867_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31868" class="text">
+          <p><span style="color:#FF0000;">*</span><span>真实姓名：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31869" class="ax_default box_1">
+        <div id="u31869_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31870" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31871" class="ax_default label">
+        <div id="u31871_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31872" class="text">
+          <p><span style="color:#FF0000;">*</span><span>手机号码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31873" class="ax_default label">
+        <div id="u31873_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31874" class="text">
+          <p><span>所属部门：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31875" class="ax_default label">
+        <div id="u31875_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31876" class="text">
+          <p><span style="color:#FF0000;">*</span><span>所属角色：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31877" class="ax_default primary_button">
+        <div id="u31877_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31878" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31879" class="ax_default primary_button">
+        <div id="u31879_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31880" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31881" class="ax_default label">
+        <div id="u31881_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31882" class="text">
+          <p><span>用户头像：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u31883" class="ax_default _图片">
+        <img id="u31883_img" class="img " src="images/个人资料页/u1055.png"/>
+        <!-- Unnamed () -->
+        <div id="u31884" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u31885" class="ax_default checkbox">
+        <label for="u31885_input">
+          <!-- Unnamed () -->
+          <div id="u31886" class="text">
+            <p><span style="text-decoration:underline;">运营专员</span></p>
+          </div>
+        </label>
+        <input id="u31885_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u31887" class="ax_default checkbox">
+        <label for="u31887_input">
+          <!-- Unnamed () -->
+          <div id="u31888" class="text">
+            <p><span style="text-decoration:underline;">运营负责人</span></p>
+          </div>
+        </label>
+        <input id="u31887_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u31889" class="ax_default checkbox">
+        <label for="u31889_input">
+          <!-- Unnamed () -->
+          <div id="u31890" class="text">
+            <p><span style="text-decoration:underline;">物流专员</span></p>
+          </div>
+        </label>
+        <input id="u31889_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u31891" class="ax_default checkbox">
+        <label for="u31891_input">
+          <!-- Unnamed () -->
+          <div id="u31892" class="text">
+            <p><span style="text-decoration:underline;">物流负责人</span></p>
+          </div>
+        </label>
+        <input id="u31891_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u31893" class="ax_default checkbox">
+        <label for="u31893_input">
+          <!-- Unnamed () -->
+          <div id="u31894" class="text">
+            <p><span style="text-decoration:underline;">财务专员</span></p>
+          </div>
+        </label>
+        <input id="u31893_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u31895" class="ax_default checkbox">
+        <label for="u31895_input">
+          <!-- Unnamed () -->
+          <div id="u31896" class="text">
+            <p><span style="text-decoration:underline;">财务负责人</span></p>
+          </div>
+        </label>
+        <input id="u31895_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31897" class="ax_default box_1">
+        <div id="u31897_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31898" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31899" class="ax_default label">
+        <div id="u31899_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31900" class="text">
+          <p><span style="color:#FF0000;">*</span><span>修改密码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u31901" class="ax_default _图片">
+        <img id="u31901_img" class="img " src="images/个人资料页/u1065.png"/>
+        <!-- Unnamed () -->
+        <div id="u31902" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31903" class="ax_default label">
+        <div id="u31903_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31904" class="text">
+          <p><span>物流中心/物流一部/现场物流</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31905" class="ax_default primary_button">
+        <div id="u31905_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31906" class="text">
+          <p><span>选择部门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31907" class="ax_default label">
+        <div id="u31907_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31908" class="text">
+          <p><span>账号状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u31909" class="ax_default radio_button">
+        <label for="u31909_input">
+          <!-- Unnamed () -->
+          <div id="u31910" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u31909_input" type="radio" value="radio" name="u31909" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u31911" class="ax_default radio_button">
+        <label for="u31911_input">
+          <!-- Unnamed () -->
+          <div id="u31912" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u31911_input" type="radio" value="radio" name="u31911"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31913" class="ax_default box_1">
+        <div id="u31913_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31914" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31915" class="ax_default label">
+        <div id="u31915_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31916" class="text">
+          <p><span>固定电话：</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

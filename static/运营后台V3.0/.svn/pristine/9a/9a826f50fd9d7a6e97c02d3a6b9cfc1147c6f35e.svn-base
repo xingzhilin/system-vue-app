@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>交割库权限设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/交割库权限设置/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/交割库权限设置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45101" class="ax_default box_2">
+        <div id="u45101_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45102" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45103" class="ax_default box_2">
+        <div id="u45103_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45104" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45105" class="ax_default box_2">
+        <div id="u45105_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45106" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45107" class="ax_default box_2">
+        <div id="u45107_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45108" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45109" class="ax_default box_1">
+        <div id="u45109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45110" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45111" class="ax_default box_1">
+        <div id="u45111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45112" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45113" class="ax_default box_1">
+        <div id="u45113_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45114" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45115" class="ax_default label">
+        <div id="u45115_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45116" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45117" class="ax_default box_1">
+        <div id="u45117_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45118" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45119" class="ax_default box_2">
+        <div id="u45119_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45120" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45121" class="ax_default box_2">
+        <div id="u45121_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45122" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45123" class="ax_default box_2">
+        <div id="u45123_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45124" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45125" class="ax_default label">
+        <div id="u45125_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45126" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u45127" class="ax_default _图片">
+        <img id="u45127_img" class="img " src="images/事件提醒列表/u1220.png"/>
+        <!-- Unnamed () -->
+        <div id="u45128" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45129" class="ax_default box_2">
+        <div id="u45129_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45130" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45131" class="ax_default box_2">
+        <div id="u45131_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45132" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u45133" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45134" class="ax_default table_cell">
+          <img id="u45134_img" class="img " src="images/交割库权限设置/u45134.png"/>
+          <!-- Unnamed () -->
+          <div id="u45135" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45136" class="ax_default table_cell">
+          <img id="u45136_img" class="img " src="images/交割库权限设置/u45134.png"/>
+          <!-- Unnamed () -->
+          <div id="u45137" class="text">
+            <p><span>交割库名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45138" class="ax_default table_cell">
+          <img id="u45138_img" class="img " src="images/交割库权限设置/u45138.png"/>
+          <!-- Unnamed () -->
+          <div id="u45139" class="text">
+            <p><span>交割库状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45140" class="ax_default table_cell">
+          <img id="u45140_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45141" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45142" class="ax_default table_cell">
+          <img id="u45142_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45143" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45144" class="ax_default table_cell">
+          <img id="u45144_img" class="img " src="images/交割库权限设置/u45144.png"/>
+          <!-- Unnamed () -->
+          <div id="u45145" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45146" class="ax_default table_cell">
+          <img id="u45146_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45147" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45148" class="ax_default table_cell">
+          <img id="u45148_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45149" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45150" class="ax_default table_cell">
+          <img id="u45150_img" class="img " src="images/交割库权限设置/u45144.png"/>
+          <!-- Unnamed () -->
+          <div id="u45151" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45152" class="ax_default table_cell">
+          <img id="u45152_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45153" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45154" class="ax_default table_cell">
+          <img id="u45154_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45155" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45156" class="ax_default table_cell">
+          <img id="u45156_img" class="img " src="images/交割库权限设置/u45144.png"/>
+          <!-- Unnamed () -->
+          <div id="u45157" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45158" class="ax_default table_cell">
+          <img id="u45158_img" class="img " src="images/交割库权限设置/u45158.png"/>
+          <!-- Unnamed () -->
+          <div id="u45159" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45160" class="ax_default table_cell">
+          <img id="u45160_img" class="img " src="images/交割库权限设置/u45158.png"/>
+          <!-- Unnamed () -->
+          <div id="u45161" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45162" class="ax_default table_cell">
+          <img id="u45162_img" class="img " src="images/交割库权限设置/u45162.png"/>
+          <!-- Unnamed () -->
+          <div id="u45163" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45164" class="ax_default table_cell">
+          <img id="u45164_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45165" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45166" class="ax_default table_cell">
+          <img id="u45166_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45167" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45168" class="ax_default table_cell">
+          <img id="u45168_img" class="img " src="images/交割库权限设置/u45144.png"/>
+          <!-- Unnamed () -->
+          <div id="u45169" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45170" class="ax_default table_cell">
+          <img id="u45170_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45171" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45172" class="ax_default table_cell">
+          <img id="u45172_img" class="img " src="images/交割库权限设置/u45140.png"/>
+          <!-- Unnamed () -->
+          <div id="u45173" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45174" class="ax_default table_cell">
+          <img id="u45174_img" class="img " src="images/交割库权限设置/u45144.png"/>
+          <!-- Unnamed () -->
+          <div id="u45175" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45176" class="ax_default table_cell">
+          <img id="u45176_img" class="img " src="images/交割库权限设置/u45176.png"/>
+          <!-- Unnamed () -->
+          <div id="u45177" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45178" class="ax_default table_cell">
+          <img id="u45178_img" class="img " src="images/交割库权限设置/u45176.png"/>
+          <!-- Unnamed () -->
+          <div id="u45179" class="text">
+            <p><span>曹妃甸（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u45180" class="ax_default table_cell">
+          <img id="u45180_img" class="img " src="images/交割库权限设置/u45180.png"/>
+          <!-- Unnamed () -->
+          <div id="u45181" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45182" class="ax_default label">
+        <div id="u45182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45183" class="text">
+          <p><span>交割库名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45184" class="ax_default primary_button">
+        <div id="u45184_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45185" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45186" class="ax_default primary_button">
+        <div id="u45186_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45187" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45188" class="ax_default box_1">
+        <div id="u45188_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45189" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45190" class="ax_default label">
+        <div id="u45190_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45191" class="text">
+          <p><span>排序：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u45192" class="ax_default droplist">
+        <select id="u45192_input">
+          <option value="请选择">请选择</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45193" class="ax_default sticky_1">
+        <div id="u45193_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45194" class="text">
+          <p><span>1、交割库排序规则：按照交割库首字母ABCD...顺序排列，支持通过首字母查询</span></p><p><span>2、默认显示启用的</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45195" class="ax_default label">
+        <div id="u45195_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45196" class="text">
+          <p><span>交割库状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u45197" class="ax_default droplist">
+        <select id="u45197_input">
+          <option value="请选择">请选择</option>
+          <option selected value="启用">启用</option>
+          <option value="停用">停用</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45198" class="ax_default box_1">
+        <div id="u45198_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45199" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u45200" class="ax_default box_1">
+        <div id="u45200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u45201" class="text">
+          <p><span>处理</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

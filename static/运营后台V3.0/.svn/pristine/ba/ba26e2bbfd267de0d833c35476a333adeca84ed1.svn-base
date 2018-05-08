@@ -1,0 +1,948 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>添加品类参数值</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/添加品类参数值/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/添加品类参数值/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38043" class="ax_default box_2">
+        <div id="u38043_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38044" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38045" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38046" class="ax_default table_cell">
+          <img id="u38046_img" class="img " src="images/前台准入编辑/u27364.png"/>
+          <!-- Unnamed () -->
+          <div id="u38047" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38048" class="ax_default table_cell">
+          <img id="u38048_img" class="img " src="images/前台准入编辑/u27366.png"/>
+          <!-- Unnamed () -->
+          <div id="u38049" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38050" class="ax_default label">
+        <div id="u38050_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38051" class="text">
+          <p><span>品类信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38052" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38053" class="ax_default table_cell">
+          <img id="u38053_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38054" class="text">
+            <p><span>归属频道</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38055" class="ax_default table_cell">
+          <img id="u38055_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38056" class="text">
+            <p><span>煤炭</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38057" class="ax_default table_cell">
+          <img id="u38057_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38058" class="text">
+            <p><span style="color:#FF0000;">*</span><span>归属品类：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38059" class="ax_default table_cell">
+          <img id="u38059_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38060" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38061" class="ax_default table_cell">
+          <img id="u38061_img" class="img " src="images/添加品类参数值/u38061.png"/>
+          <!-- Unnamed () -->
+          <div id="u38062" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38063" class="ax_default table_cell">
+          <img id="u38063_img" class="img " src="images/添加品类参数值/u38063.png"/>
+          <!-- Unnamed () -->
+          <div id="u38064" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38065" class="ax_default table_cell">
+          <img id="u38065_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38066" class="text">
+            <p><span style="color:#FF9900;">*</span><span>发热量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38067" class="ax_default table_cell">
+          <img id="u38067_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38068" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38069" class="ax_default table_cell">
+          <img id="u38069_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38070" class="text" style="display:none; visibility: hidden">
+            <p><span style="color:#000000;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38071" class="ax_default table_cell">
+          <img id="u38071_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38072" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38073" class="ax_default table_cell">
+          <img id="u38073_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38074" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">全水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38075" class="ax_default table_cell">
+          <img id="u38075_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38076" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38077" class="ax_default table_cell">
+          <img id="u38077_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38078" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">全硫</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38079" class="ax_default table_cell">
+          <img id="u38079_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38080" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38081" class="ax_default table_cell">
+          <img id="u38081_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38082" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">灰分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38083" class="ax_default table_cell">
+          <img id="u38083_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38084" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38085" class="ax_default table_cell">
+          <img id="u38085_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38086" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">挥发分</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38087" class="ax_default table_cell">
+          <img id="u38087_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38088" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38089" class="ax_default table_cell">
+          <img id="u38089_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38090" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">焦渣特性</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38091" class="ax_default table_cell">
+          <img id="u38091_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38092" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38093" class="ax_default table_cell">
+          <img id="u38093_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38094" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">固定碳</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38095" class="ax_default table_cell">
+          <img id="u38095_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38096" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38097" class="ax_default table_cell">
+          <img id="u38097_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38098" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">灰熔点</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38099" class="ax_default table_cell">
+          <img id="u38099_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38100" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38101" class="ax_default table_cell">
+          <img id="u38101_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38102" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">粒度</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38103" class="ax_default table_cell">
+          <img id="u38103_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38104" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38105" class="ax_default table_cell">
+          <img id="u38105_img" class="img " src="images/前台准入编辑/u27349.png"/>
+          <!-- Unnamed () -->
+          <div id="u38106" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">干基灰</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38107" class="ax_default table_cell">
+          <img id="u38107_img" class="img " src="images/前台准入编辑/u27351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38108" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38109" class="ax_default table_cell">
+          <img id="u38109_img" class="img " src="images/前台准入编辑/u27403.png"/>
+          <!-- Unnamed () -->
+          <div id="u38110" class="text">
+            <p><span style="color:#FF9900;">*</span><span style="color:#000000;">内水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38111" class="ax_default table_cell">
+          <img id="u38111_img" class="img " src="images/前台准入编辑/u27405.png"/>
+          <!-- Unnamed () -->
+          <div id="u38112" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u38113" class="ax_default droplist">
+        <select id="u38113_input">
+          <option selected value="动力煤">动力煤</option>
+          <option value="炼焦煤">炼焦煤</option>
+          <option value="喷吹煤">喷吹煤</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38114" class="ax_default label">
+        <div id="u38114_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38115" class="text">
+          <p><span>技术参数信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38116" class="ax_default primary_button">
+        <div id="u38116_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38117" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38118" class="ax_default primary_button">
+        <div id="u38118_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38119" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38120" class="ax_default box_1">
+        <div id="u38120_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38121" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38122" class="ax_default box_1">
+        <div id="u38122_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38123" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38124" class="ax_default box_1">
+        <div id="u38124_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38125" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38126" class="ax_default box_1">
+        <div id="u38126_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38127" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38128" class="ax_default primary_button">
+        <div id="u38128_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38129" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38130" class="ax_default box_1">
+        <div id="u38130_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38131" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38132" class="ax_default box_1">
+        <div id="u38132_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38133" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38134" class="ax_default box_1">
+        <div id="u38134_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38135" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38136" class="ax_default box_1">
+        <div id="u38136_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38137" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38138" class="ax_default primary_button">
+        <div id="u38138_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38139" class="text">
+          <p><span>删除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38140" class="ax_default box_1">
+        <div id="u38140_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38141" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38142" class="ax_default box_1">
+        <div id="u38142_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38143" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38144" class="ax_default box_1">
+        <div id="u38144_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38145" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38146" class="ax_default box_1">
+        <div id="u38146_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38147" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38148" class="ax_default primary_button">
+        <div id="u38148_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38149" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38150" class="ax_default box_1">
+        <div id="u38150_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38151" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38152" class="ax_default box_1">
+        <div id="u38152_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38153" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38154" class="ax_default box_1">
+        <div id="u38154_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38155" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38156" class="ax_default box_1">
+        <div id="u38156_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38157" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38158" class="ax_default primary_button">
+        <div id="u38158_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38159" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38160" class="ax_default box_1">
+        <div id="u38160_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38161" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38162" class="ax_default box_1">
+        <div id="u38162_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38163" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38164" class="ax_default box_1">
+        <div id="u38164_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38165" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38166" class="ax_default box_1">
+        <div id="u38166_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38167" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38168" class="ax_default primary_button">
+        <div id="u38168_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38169" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38170" class="ax_default box_1">
+        <div id="u38170_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38171" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38172" class="ax_default box_1">
+        <div id="u38172_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38173" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38174" class="ax_default box_1">
+        <div id="u38174_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38175" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38176" class="ax_default box_1">
+        <div id="u38176_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38177" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38178" class="ax_default primary_button">
+        <div id="u38178_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38179" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38180" class="ax_default box_1">
+        <div id="u38180_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38181" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38182" class="ax_default box_1">
+        <div id="u38182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38183" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38184" class="ax_default box_1">
+        <div id="u38184_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38185" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38186" class="ax_default box_1">
+        <div id="u38186_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38187" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38188" class="ax_default primary_button">
+        <div id="u38188_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38189" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38190" class="ax_default box_1">
+        <div id="u38190_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38191" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38192" class="ax_default box_1">
+        <div id="u38192_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38193" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38194" class="ax_default box_1">
+        <div id="u38194_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38195" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38196" class="ax_default box_1">
+        <div id="u38196_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38197" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38198" class="ax_default primary_button">
+        <div id="u38198_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38199" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38200" class="ax_default box_1">
+        <div id="u38200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38201" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38202" class="ax_default box_1">
+        <div id="u38202_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38203" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38204" class="ax_default box_1">
+        <div id="u38204_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38205" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38206" class="ax_default box_1">
+        <div id="u38206_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38207" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38208" class="ax_default primary_button">
+        <div id="u38208_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38209" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38210" class="ax_default box_1">
+        <div id="u38210_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38211" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38212" class="ax_default box_1">
+        <div id="u38212_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38213" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38214" class="ax_default box_1">
+        <div id="u38214_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38215" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38216" class="ax_default box_1">
+        <div id="u38216_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38217" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38218" class="ax_default primary_button">
+        <div id="u38218_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38219" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38220" class="ax_default box_1">
+        <div id="u38220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38221" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38222" class="ax_default box_1">
+        <div id="u38222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38223" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38224" class="ax_default box_1">
+        <div id="u38224_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38225" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38226" class="ax_default box_1">
+        <div id="u38226_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38227" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38228" class="ax_default primary_button">
+        <div id="u38228_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38229" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38230" class="ax_default box_1">
+        <div id="u38230_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38231" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38232" class="ax_default box_1">
+        <div id="u38232_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38233" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38234" class="ax_default box_1">
+        <div id="u38234_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38235" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38236" class="ax_default box_1">
+        <div id="u38236_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38237" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38238" class="ax_default primary_button">
+        <div id="u38238_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38239" class="text">
+          <p><span>添加</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

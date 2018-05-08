@@ -1,0 +1,622 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>订单</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/订单/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/订单/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (页头) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48230" class="ax_default box_2">
+        <div id="u48230_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48231" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48232" class="ax_default _形状">
+        <img id="u48232_img" class="img " src="images/订单/u48232.png"/>
+        <!-- Unnamed () -->
+        <div id="u48233" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u48234" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48235" class="ax_default _一级标题">
+        <div id="u48235_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48236" class="text">
+          <p><span>订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u48237" class="ax_default _图片">
+        <img id="u48237_img" class="img " src="images/订单/u48237.png"/>
+        <!-- Unnamed () -->
+        <div id="u48238" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48240" class="ax_default box_2">
+        <div id="u48240_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48241" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48242" class="ax_default box_2">
+        <div id="u48242_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48243" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48244" class="ax_default label">
+        <div id="u48244_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48245" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u48246" class="ax_default line">
+        <img id="u48246_img" class="img " src="images/订单/u48246.png"/>
+        <!-- Unnamed () -->
+        <div id="u48247" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48248" class="ax_default label">
+        <div id="u48248_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48249" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">品种：金银岛3#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48250" class="ax_default label">
+        <div id="u48250_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48251" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">购买吨数：</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">100.00吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48252" class="ax_default label">
+        <div id="u48252_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48253" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">货款金额：</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">20000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48254" class="ax_default label">
+        <div id="u48254_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48255" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">下单时间：2017-06-26&nbsp; 12：08</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48256" class="ax_default box_2">
+        <div id="u48256_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48257" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48258" class="ax_default label">
+        <div id="u48258_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48259" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u48260" class="ax_default line">
+        <img id="u48260_img" class="img " src="images/订单/u48246.png"/>
+        <!-- Unnamed () -->
+        <div id="u48261" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48262" class="ax_default label">
+        <div id="u48262_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48263" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">订单吨数：</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">100.00吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48264" class="ax_default label">
+        <div id="u48264_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48265" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">参考金额：</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">20000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48266" class="ax_default box_2">
+        <div id="u48266_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48267" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48268" class="ax_default label">
+        <div id="u48268_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48269" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u48270" class="ax_default line">
+        <img id="u48270_img" class="img " src="images/订单/u48246.png"/>
+        <!-- Unnamed () -->
+        <div id="u48271" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48272" class="ax_default label">
+        <div id="u48272_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48273" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">已点价吨数：</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">100.00吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48274" class="ax_default box_2">
+        <div id="u48274_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48275" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48276" class="ax_default label">
+        <div id="u48276_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48277" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48278" class="ax_default label">
+        <div id="u48278_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48279" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">下单时间：2017-06-26&nbsp; 12：08</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48280" class="ax_default label">
+        <div id="u48280_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48281" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">下单时间：2017-06-26&nbsp; 12：08</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48282" class="ax_default label">
+        <div id="u48282_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48283" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">下单时间：2017-06-26&nbsp; 12：08</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48284" class="ax_default label">
+        <div id="u48284_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48285" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">待平台方确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48286" class="ax_default label">
+        <div id="u48286_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48287" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">回执待确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48288" class="ax_default label">
+        <div id="u48288_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48289" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">执行中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48290" class="ax_default label">
+        <div id="u48290_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48291" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">执行完成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48292" class="ax_default label">
+        <div id="u48292_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48293" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">品种：金银岛3#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48294" class="ax_default label">
+        <div id="u48294_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48295" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">可点价吨数：</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">100.00吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48296" class="ax_default label">
+        <div id="u48296_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48297" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交割地：曹妃甸</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48298" class="ax_default label">
+        <div id="u48298_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48299" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">品种：金银岛3#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48300" class="ax_default label">
+        <div id="u48300_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48301" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交易类型：煤炭商城</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48302" class="ax_default label">
+        <div id="u48302_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48303" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交易类型：云采购商点价</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48304" class="ax_default label">
+        <div id="u48304_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48305" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交易类型：云供应商点价</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48306" class="ax_default label">
+        <div id="u48306_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48307" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">供货量：200吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48308" class="ax_default label">
+        <div id="u48308_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48309" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交易类型：定期招标（定价）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48310" class="ax_default label">
+        <div id="u48310_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48311" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">品种：金银岛3#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48312" class="ax_default label">
+        <div id="u48312_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48313" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交割地：曹妃甸</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48314" class="ax_default label">
+        <div id="u48314_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48315" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">供货量：200吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48316" class="ax_default label">
+        <div id="u48316_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48317" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">参考到场价：200元/吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48318" class="ax_default label">
+        <div id="u48318_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48319" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">基础价：200元/吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48320" class="ax_default box_2">
+        <div id="u48320_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48321" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48322" class="ax_default label">
+        <div id="u48322_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48323" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48324" class="ax_default label">
+        <div id="u48324_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48325" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">下单时间：2017-06-26&nbsp; 12：08</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48326" class="ax_default label">
+        <div id="u48326_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48327" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单关闭</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48328" class="ax_default label">
+        <div id="u48328_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48329" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交易类型：定期招标（竞价）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48330" class="ax_default label">
+        <div id="u48330_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48331" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">品种：金银岛3#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48332" class="ax_default label">
+        <div id="u48332_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48333" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交割地：曹妃甸</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48334" class="ax_default label">
+        <div id="u48334_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48335" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">供货量：200吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48336" class="ax_default label">
+        <div id="u48336_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48337" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">投标价：200元/吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48338" class="ax_default box_2">
+        <div id="u48338_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48339" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48340" class="ax_default label">
+        <div id="u48340_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48341" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48342" class="ax_default label">
+        <div id="u48342_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48343" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">下单时间：2017-06-26&nbsp; 12：08</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48344" class="ax_default label">
+        <div id="u48344_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48345" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">订单关闭</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48346" class="ax_default label">
+        <div id="u48346_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48347" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交易类型：锁价交易</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48348" class="ax_default label">
+        <div id="u48348_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48349" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">品种：金银岛3#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48350" class="ax_default label">
+        <div id="u48350_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48351" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">交割地：曹妃甸</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48352" class="ax_default label">
+        <div id="u48352_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48353" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">供货量：200吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48354" class="ax_default label">
+        <div id="u48354_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48355" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">基础价：200元/吨</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

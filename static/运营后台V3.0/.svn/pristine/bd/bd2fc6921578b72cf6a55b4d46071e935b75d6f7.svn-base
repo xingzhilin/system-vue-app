@@ -1,0 +1,1210 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>结算单付款</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/结算单付款/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/结算单付款/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (表格) -->
+      <div id="u38346" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38347" class="ax_default table_cell">
+          <img id="u38347_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38348" class="text">
+            <p><span>付款单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38349" class="ax_default table_cell">
+          <img id="u38349_img" class="img " src="images/批次付款/u38121.png"/>
+          <!-- Unnamed () -->
+          <div id="u38350" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38351" class="ax_default table_cell">
+          <img id="u38351_img" class="img " src="images/结算单付款/u38351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38352" class="text">
+            <p><span>订单编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38353" class="ax_default table_cell">
+          <img id="u38353_img" class="img " src="images/批次付款/u38125.png"/>
+          <!-- Unnamed () -->
+          <div id="u38354" class="text">
+            <p><span style="text-decoration:underline;">Y290180203</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38355" class="ax_default table_cell">
+          <img id="u38355_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38356" class="text">
+            <p><span>结算单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38357" class="ax_default table_cell">
+          <img id="u38357_img" class="img " src="images/批次付款/u38121.png"/>
+          <!-- Unnamed () -->
+          <div id="u38358" class="text">
+            <p><span style="text-decoration:underline;">JSD2018</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38359" class="ax_default table_cell">
+          <img id="u38359_img" class="img " src="images/结算单付款/u38351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38360" class="text">
+            <p><span>业务类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38361" class="ax_default table_cell">
+          <img id="u38361_img" class="img " src="images/批次付款/u38125.png"/>
+          <!-- Unnamed () -->
+          <div id="u38362" class="text">
+            <p><span>供货招标</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38363" class="ax_default table_cell">
+          <img id="u38363_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38364" class="text">
+            <p><span>批次号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38365" class="ax_default table_cell">
+          <img id="u38365_img" class="img " src="images/批次付款/u38121.png"/>
+          <!-- Unnamed () -->
+          <div id="u38366" class="text">
+            <p><span style="text-decoration:underline;">2018PC0001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38367" class="ax_default table_cell">
+          <img id="u38367_img" class="img " src="images/结算单付款/u38351.png"/>
+          <!-- Unnamed () -->
+          <div id="u38368" class="text">
+            <p><span>货权信息</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38369" class="ax_default table_cell">
+          <img id="u38369_img" class="img " src="images/批次付款/u38125.png"/>
+          <!-- Unnamed () -->
+          <div id="u38370" class="text">
+            <p><span style="text-decoration:underline;">查看</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38371" class="ax_default table_cell">
+          <img id="u38371_img" class="img " src="images/批次付款/u38156.png"/>
+          <!-- Unnamed () -->
+          <div id="u38372" class="text">
+            <p><span>发票信息</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38373" class="ax_default table_cell">
+          <img id="u38373_img" class="img " src="images/批次付款/u38137.png"/>
+          <!-- Unnamed () -->
+          <div id="u38374" class="text">
+            <p><span style="text-decoration:underline;">查看</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38375" class="ax_default table_cell">
+          <img id="u38375_img" class="img " src="images/结算单付款/u38375.png"/>
+          <!-- Unnamed () -->
+          <div id="u38376" class="text">
+            <p><span>是否加急</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38377" class="ax_default table_cell">
+          <img id="u38377_img" class="img " src="images/批次付款/u38141.png"/>
+          <!-- Unnamed () -->
+          <div id="u38378" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38379" class="ax_default box_2">
+        <div id="u38379_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38380" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38381" class="ax_default _三级标题">
+        <div id="u38381_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38382" class="text">
+          <p><span>收款方</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38383" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38384" class="ax_default table_cell">
+          <img id="u38384_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38385" class="text">
+            <p><span>全称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38386" class="ax_default table_cell">
+          <img id="u38386_img" class="img " src="images/批次付款/u38150.png"/>
+          <!-- Unnamed () -->
+          <div id="u38387" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38388" class="ax_default table_cell">
+          <img id="u38388_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38389" class="text">
+            <p><span>账户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38390" class="ax_default table_cell">
+          <img id="u38390_img" class="img " src="images/批次付款/u38150.png"/>
+          <!-- Unnamed () -->
+          <div id="u38391" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38392" class="ax_default table_cell">
+          <img id="u38392_img" class="img " src="images/批次付款/u38156.png"/>
+          <!-- Unnamed () -->
+          <div id="u38393" class="text">
+            <p><span>开户行</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38394" class="ax_default table_cell">
+          <img id="u38394_img" class="img " src="images/批次付款/u38158.png"/>
+          <!-- Unnamed () -->
+          <div id="u38395" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38396" class="ax_default text_field">
+        <input id="u38396_input" type="text" value="南通赛孚燃料检验有限公司"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38397" class="ax_default text_field">
+        <input id="u38397_input" type="text" value="工行青年路支行"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38398" class="ax_default box_2">
+        <div id="u38398_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38399" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38400" class="ax_default _三级标题">
+        <div id="u38400_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38401" class="text">
+          <p><span>付款方</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38402" class="ax_default label">
+        <div id="u38402_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38403" class="text">
+          <p><span>*</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u38404" class="ax_default droplist">
+        <select id="u38404_input">
+          <option selected value="12221222222222">12221222222222</option>
+          <option value="23232323232323">23232323232323</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38405" class="ax_default radio_button">
+        <label for="u38405_input">
+          <!-- Unnamed () -->
+          <div id="u38406" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u38405_input" type="radio" value="radio" name="u38405" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38407" class="ax_default radio_button">
+        <label for="u38407_input">
+          <!-- Unnamed () -->
+          <div id="u38408" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u38407_input" type="radio" value="radio" name="u38407"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38409" class="ax_default label">
+        <div id="u38409_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38410" class="text">
+          <p><span>*</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38411" class="ax_default sticky_1">
+        <div id="u38411_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38412" class="text">
+          <p><span>1、申请付款后需要生成付款单号，付款单号的生成规则为：FK+年月日+流水号，例如：FK2017120100001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38413" class="ax_default sticky_1">
+        <div id="u38413_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38414" class="text">
+          <p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">1、申请付款后需要生成付款单号，付款单号的生成规则为：FK+年月日+流水号，例如：FK2017120100001</span></p><p style="font-size:14px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-size:13px;">2、非预付款时，原发票的计算，需要去掉，</span><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;color:#FF0000;">已收到对方发票额：1000元，欠收发票额：3000元&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38415" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38416" class="ax_default table_cell">
+          <img id="u38416_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38417" class="text">
+            <p><span>付款单位全称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38418" class="ax_default table_cell">
+          <img id="u38418_img" class="img " src="images/批次付款/u38150.png"/>
+          <!-- Unnamed () -->
+          <div id="u38419" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38420" class="ax_default table_cell">
+          <img id="u38420_img" class="img " src="images/批次付款/u38148.png"/>
+          <!-- Unnamed () -->
+          <div id="u38421" class="text">
+            <p><span>账户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38422" class="ax_default table_cell">
+          <img id="u38422_img" class="img " src="images/批次付款/u38150.png"/>
+          <!-- Unnamed () -->
+          <div id="u38423" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38424" class="ax_default table_cell">
+          <img id="u38424_img" class="img " src="images/批次付款/u38156.png"/>
+          <!-- Unnamed () -->
+          <div id="u38425" class="text">
+            <p><span>开户行</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38426" class="ax_default table_cell">
+          <img id="u38426_img" class="img " src="images/批次付款/u38158.png"/>
+          <!-- Unnamed () -->
+          <div id="u38427" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38428" class="ax_default text_field">
+        <input id="u38428_input" type="text" value="金银岛（宁夏）供应链管理有限公司" disabled/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38429" class="ax_default label">
+        <div id="u38429_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38430" class="text">
+          <p><span>*</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38431" class="ax_default text_field">
+        <input id="u38431_input" type="text" value="工行青年路支行"/>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u38432" class="ax_default droplist">
+        <select id="u38432_input">
+          <option value="12221222222222">12221222222222</option>
+          <option selected value="23232323232323">23232323232323</option>
+          <option value="请选择">请选择</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38433" class="ax_default box_2">
+        <div id="u38433_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38434" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38435" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38436" class="ax_default table_cell">
+          <img id="u38436_img" class="img " src="images/批次付款/u38283.png"/>
+          <!-- Unnamed () -->
+          <div id="u38437" class="text">
+            <p><span>选择付款类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38438" class="ax_default table_cell">
+          <img id="u38438_img" class="img " src="images/批次付款/u38285.png"/>
+          <!-- Unnamed () -->
+          <div id="u38439" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38440" class="ax_default table_cell">
+          <img id="u38440_img" class="img " src="images/批次付款/u38287.png"/>
+          <!-- Unnamed () -->
+          <div id="u38441" class="text">
+            <p><span>付款方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38442" class="ax_default table_cell">
+          <img id="u38442_img" class="img " src="images/批次付款/u38289.png"/>
+          <!-- Unnamed () -->
+          <div id="u38443" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38444" class="ax_default checkbox">
+        <label for="u38444_input">
+          <!-- Unnamed () -->
+          <div id="u38445" class="text">
+            <p><span>货款</span></p>
+          </div>
+        </label>
+        <input id="u38444_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38446" class="ax_default checkbox">
+        <label for="u38446_input">
+          <!-- Unnamed () -->
+          <div id="u38447" class="text">
+            <p><span>其他</span></p>
+          </div>
+        </label>
+        <input id="u38446_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38448" class="ax_default text_field">
+        <input id="u38448_input" type="text" value="&nbsp;请输入其他付款类型"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38449" class="ax_default _三级标题">
+        <div id="u38449_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38450" class="text">
+          <p><span>付款类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38451" class="ax_default checkbox">
+        <label for="u38451_input">
+          <!-- Unnamed () -->
+          <div id="u38452" class="text">
+            <p><span>现金</span></p>
+          </div>
+        </label>
+        <input id="u38451_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38453" class="ax_default checkbox">
+        <label for="u38453_input">
+          <!-- Unnamed () -->
+          <div id="u38454" class="text">
+            <p><span>支票</span></p>
+          </div>
+        </label>
+        <input id="u38453_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38455" class="ax_default checkbox">
+        <label for="u38455_input">
+          <!-- Unnamed () -->
+          <div id="u38456" class="text">
+            <p><span>转账</span></p>
+          </div>
+        </label>
+        <input id="u38455_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38457" class="ax_default checkbox">
+        <label for="u38457_input">
+          <!-- Unnamed () -->
+          <div id="u38458" class="text">
+            <p><span>承兑</span></p>
+          </div>
+        </label>
+        <input id="u38457_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38459" class="ax_default checkbox">
+        <label for="u38459_input">
+          <!-- Unnamed () -->
+          <div id="u38460" class="text">
+            <p><span>其他</span></p>
+          </div>
+        </label>
+        <input id="u38459_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38461" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38462" class="ax_default table_cell">
+          <img id="u38462_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38463" class="text">
+            <p><span>结算数量（吨）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38464" class="ax_default table_cell">
+          <img id="u38464_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38465" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38466" class="ax_default table_cell">
+          <img id="u38466_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38467" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38468" class="ax_default table_cell">
+          <img id="u38468_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38469" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38470" class="ax_default table_cell">
+          <img id="u38470_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38471" class="text">
+            <p><span>下单价格（元/吨）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38472" class="ax_default table_cell">
+          <img id="u38472_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38473" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38474" class="ax_default table_cell">
+          <img id="u38474_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38475" class="text">
+            <p><span>结算价格（元/吨）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38476" class="ax_default table_cell">
+          <img id="u38476_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38477" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38478" class="ax_default table_cell">
+          <img id="u38478_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38479" class="text">
+            <p><span>总价（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38480" class="ax_default table_cell">
+          <img id="u38480_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38481" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38482" class="ax_default table_cell">
+          <img id="u38482_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38483" class="text">
+            <p><span>本结算单已付款（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38484" class="ax_default table_cell">
+          <img id="u38484_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38485" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38486" class="ax_default table_cell">
+          <img id="u38486_img" class="img " src="images/批次付款/u38190.png"/>
+          <!-- Unnamed () -->
+          <div id="u38487" class="text">
+            <p><span style="color:#FF0000;">*</span><span>应付款金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38488" class="ax_default table_cell">
+          <img id="u38488_img" class="img " src="images/批次付款/u38192.png"/>
+          <!-- Unnamed () -->
+          <div id="u38489" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38490" class="ax_default table_cell">
+          <img id="u38490_img" class="img " src="images/结算单付款/u38490.png"/>
+          <!-- Unnamed () -->
+          <div id="u38491" class="text">
+            <p><span style="color:#FF0000;">*</span><span>本次付款金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38492" class="ax_default table_cell">
+          <img id="u38492_img" class="img " src="images/结算单付款/u38492.png"/>
+          <!-- Unnamed () -->
+          <div id="u38493" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38494" class="ax_default table_cell">
+          <img id="u38494_img" class="img " src="images/批次付款/u38194.png"/>
+          <!-- Unnamed () -->
+          <div id="u38495" class="text">
+            <p><span>是否核减预付款</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38496" class="ax_default table_cell">
+          <img id="u38496_img" class="img " src="images/批次付款/u38196.png"/>
+          <!-- Unnamed () -->
+          <div id="u38497" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38498" class="ax_default table_cell">
+          <img id="u38498_img" class="img " src="images/结算单付款/u38498.png"/>
+          <!-- Unnamed () -->
+          <div id="u38499" class="text">
+            <p><span>本次核减金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38500" class="ax_default table_cell">
+          <img id="u38500_img" class="img " src="images/结算单付款/u38500.png"/>
+          <!-- Unnamed () -->
+          <div id="u38501" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38502" class="ax_default table_cell">
+          <img id="u38502_img" class="img " src="images/批次付款/u38194.png"/>
+          <!-- Unnamed () -->
+          <div id="u38503" class="text">
+            <p><span>是否核划分保证金</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38504" class="ax_default table_cell">
+          <img id="u38504_img" class="img " src="images/批次付款/u38196.png"/>
+          <!-- Unnamed () -->
+          <div id="u38505" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38506" class="ax_default table_cell">
+          <img id="u38506_img" class="img " src="images/批次付款/u38194.png"/>
+          <!-- Unnamed () -->
+          <div id="u38507" class="text">
+            <p><span>划分保证金类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38508" class="ax_default table_cell">
+          <img id="u38508_img" class="img " src="images/批次付款/u38196.png"/>
+          <!-- Unnamed () -->
+          <div id="u38509" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38510" class="ax_default table_cell">
+          <img id="u38510_img" class="img " src="images/批次付款/u38210.png"/>
+          <!-- Unnamed () -->
+          <div id="u38511" class="text">
+            <p><span>本次划分金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38512" class="ax_default table_cell">
+          <img id="u38512_img" class="img " src="images/批次付款/u38212.png"/>
+          <!-- Unnamed () -->
+          <div id="u38513" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38514" class="ax_default text_field">
+        <input id="u38514_input" type="text" value="2,000.00" disabled/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38515" class="ax_default text_field">
+        <input id="u38515_input" type="text" value="煤" disabled/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38516" class="ax_default text_field">
+        <input id="u38516_input" type="text" value="500" disabled/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38517" class="ax_default text_field">
+        <input id="u38517_input" type="text" value="450" disabled/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38518" class="ax_default text_field">
+        <input id="u38518_input" type="text" value="300,000.00" disabled/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38519" class="ax_default box_2">
+        <div id="u38519_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38520" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38521" class="ax_default _三级标题">
+        <div id="u38521_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38522" class="text">
+          <p><span>付款信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u38523" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38524" class="ax_default table_cell">
+          <img id="u38524_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38525" class="text">
+            <p><span style="color:#FF0000;">*</span><span>本次实际付款金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38526" class="ax_default table_cell">
+          <img id="u38526_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38527" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38528" class="ax_default table_cell">
+          <img id="u38528_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38529" class="text">
+            <p><span>大写</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38530" class="ax_default table_cell">
+          <img id="u38530_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38531" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38532" class="ax_default table_cell">
+          <img id="u38532_img" class="img " src="images/批次付款/u38166.png"/>
+          <!-- Unnamed () -->
+          <div id="u38533" class="text">
+            <p><span>结算单是否完结</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38534" class="ax_default table_cell">
+          <img id="u38534_img" class="img " src="images/批次付款/u38168.png"/>
+          <!-- Unnamed () -->
+          <div id="u38535" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38536" class="ax_default table_cell">
+          <img id="u38536_img" class="img " src="images/批次付款/u38236.png"/>
+          <!-- Unnamed () -->
+          <div id="u38537" class="text">
+            <p><span>备注</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u38538" class="ax_default table_cell">
+          <img id="u38538_img" class="img " src="images/批次付款/u38238.png"/>
+          <!-- Unnamed () -->
+          <div id="u38539" class="text" style="display:none; visibility: hidden">
+            <p><span style="text-decoration:underline;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38540" class="ax_default text_field">
+        <input id="u38540_input" type="text" value="700,000.00" disabled/>
+      </div>
+
+      <!-- Unnamed (多行文本框) -->
+      <div id="u38541" class="ax_default text_area">
+        <textarea id="u38541_input"></textarea>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38542" class="ax_default radio_button">
+        <label for="u38542_input">
+          <!-- Unnamed () -->
+          <div id="u38543" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u38542_input" type="radio" value="radio" name="u38542"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38544" class="ax_default radio_button">
+        <label for="u38544_input">
+          <!-- Unnamed () -->
+          <div id="u38545" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u38544_input" type="radio" value="radio" name="u38544" checked/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38546" class="ax_default text_field">
+        <input id="u38546_input" type="text" value="" disabled/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38547" class="ax_default label">
+        <div id="u38547_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38548" class="text">
+          <p><span>壹拾贰万叁仟壹佰贰拾叁元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38549" class="ax_default box_1">
+        <div id="u38549_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38550" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38551" class="ax_default checkbox">
+        <label for="u38551_input">
+          <!-- Unnamed () -->
+          <div id="u38552" class="text">
+            <p><span>已查看货物货权信息&nbsp; </span></p>
+          </div>
+        </label>
+        <input id="u38551_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38553" class="ax_default primary_button">
+        <div id="u38553_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38554" class="text">
+          <p><span>预览付款单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38555" class="ax_default primary_button">
+        <div id="u38555_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38556" class="text">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u38557" class="ax_default _文本段落">
+        <img id="u38557_img" class="img " src="images/查看_4/u8952.png"/>
+        <!-- Unnamed () -->
+        <div id="u38558" class="text">
+          <p><a id="u38559" class="link"><span>点击查看</span></a></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38560" class="ax_default text_field">
+        <input id="u38560_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38561" class="ax_default label">
+        <div id="u38561_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38562" class="text">
+          <p style="font-size:14px;"><span>可</span><span style="font-size:13px;">核减</span><span>金额：500 元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u38563" class="ax_default _文本段落">
+        <img id="u38563_img" class="img " src="images/批次付款/u38317.png"/>
+        <!-- Unnamed () -->
+        <div id="u38564" class="text">
+          <p><span>&nbsp;&nbsp;&nbsp; 货款：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38565" class="ax_default text_field">
+        <input id="u38565_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u38566" class="ax_default checkbox">
+        <label for="u38566_input">
+          <!-- Unnamed () -->
+          <div id="u38567" class="text">
+            <p><span>已查看发票信息&nbsp; </span></p>
+          </div>
+        </label>
+        <input id="u38566_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u38568" class="ax_default _文本段落">
+        <img id="u38568_img" class="img " src="images/查看_4/u8952.png"/>
+        <!-- Unnamed () -->
+        <div id="u38569" class="text">
+          <p><a id="u38570" class="link"><span>点击查看</span></a></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38571" class="ax_default box_1">
+        <div id="u38571_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38572" class="text">
+          <p><span>&nbsp;说明：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38573" class="ax_default box_1">
+        <div id="u38573_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38574" class="text">
+          <p style="font-size:13px;"><span>1、系统自动生成付款单号规则详见全局说明-其他说明-19</span></p><p style="font-size:13px;"><span>2、货权信息获取规则为优先查看批次货权信息，若批次货权信息没有查看企业期限货权信息</span></p><p style="font-size:13px;"><span>3、发票信息获取规则为该结算单认票完成后根据先进先出的原则匹配不同税率的发票</span></p><p style="font-size:13px;"><span>3、加急默认为否</span></p><p style="font-size:13px;"><span>4、付款方默认确认单甲方账户默认项，支持修改账户信息</span></p><p style="font-size:13px;"><span>5、收款方默认确认单乙方账户默认项，支持修改账户信息</span></p><p style="font-size:13px;"><span>6、付款类型：货款及其他，勾选其他需填写备注</span></p><p style="font-size:13px;"><span>7、付款方式：现金、支票、转账、汇款、其他</span></p><p style="font-size:13px;"><span>8、付款信息</span></p><p style="font-size:13px;"><span>&nbsp;结算数量为结算单结算数量</span></p><p style="font-size:13px;"><span>&nbsp;品种为批次入库品种</span></p><p style="font-size:13px;"><span>&nbsp;价格为品种在交割库基准价</span></p><p style="font-size:13px;"><span>&nbsp;总价为结算数量*结算价格</span></p><p style="font-size:12px;"><span>&nbsp;结算单已付款金额=所有批次本次付款金额+结算单本次付款金额+在涂批次本次付款金额+在途结算单本次付款金额</span></p><p style="font-size:12px;"><span>&nbsp;应付款金额为总价-已付款金额</span></p><p style="font-size:13px;"><span>&nbsp;本次付款金额无默认，用户填写</span></p><p style="font-size:13px;"><span>&nbsp;是否核减默认为否</span></p><p style="font-size:13px;"><span>&nbsp;本次核减金额无默认，用户填写填写内容不得大于可核减金额，可核减金额为该供应链公司向该企业支付预付款金额- 历史该供应链与该企业已核减金额</span></p><p style="font-size:13px;"><span>&nbsp;是否划分为保证金默认为否</span></p><p style="font-size:13px;"><span>&nbsp;本次划分金额无默认，用户填写填写内容不得大于本次付款金额</span></p><p style="font-size:13px;"><span>&nbsp;本次实际付款金额为本次付款金额-本次核减金额-本次划分保证金金额</span></p><p style="font-size:13px;"><span>&nbsp;已付款比例至为用户填写</span></p><p style="font-size:13px;"><span>&nbsp;备注为用户填写</span></p><p style="font-size:13px;"><span>9、必须勾选已查看发票信息才可以提交结算单付款</span></p><p style="font-size:13px;"><span>10、必须勾选已查看货权信息才可以提交结算单付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38575" class="ax_default box_2">
+        <div id="u38575_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38576" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u38577" class="ax_default _三级标题">
+        <div id="u38577_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u38578" class="text">
+          <p><span>业务付款审批单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38579" class="ax_default radio_button">
+        <label for="u38579_input">
+          <!-- Unnamed () -->
+          <div id="u38580" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u38579_input" type="radio" value="radio" name="u38579"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38581" class="ax_default radio_button">
+        <label for="u38581_input">
+          <!-- Unnamed () -->
+          <div id="u38582" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u38581_input" type="radio" value="radio" name="u38581" checked/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38583" class="ax_default text_field">
+        <input id="u38583_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38584" class="ax_default radio_button">
+        <label for="u38584_input">
+          <!-- Unnamed () -->
+          <div id="u38585" class="text">
+            <p><span>云供应点价交易保证金</span></p>
+          </div>
+        </label>
+        <input id="u38584_input" type="radio" value="radio" name="付款类型"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38586" class="ax_default radio_button">
+        <label for="u38586_input">
+          <!-- Unnamed () -->
+          <div id="u38587" class="text">
+            <p><span>采购锁价交易保证金</span></p>
+          </div>
+        </label>
+        <input id="u38586_input" type="radio" value="radio" name="付款类型"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38588" class="ax_default radio_button">
+        <label for="u38588_input">
+          <!-- Unnamed () -->
+          <div id="u38589" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u38588_input" type="radio" value="radio" name="u38588"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u38590" class="ax_default radio_button">
+        <label for="u38590_input">
+          <!-- Unnamed () -->
+          <div id="u38591" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u38590_input" type="radio" value="radio" name="u38590" checked/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u38592" class="ax_default text_field">
+        <input id="u38592_input" type="text" value="1,000,000.00" disabled/>
+      </div>
+    </div>
+  </body>
+</html>

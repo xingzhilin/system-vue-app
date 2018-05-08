@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>编辑业务类型</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/编辑业务类型/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/编辑业务类型/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44940" class="ax_default box_2">
+        <div id="u44940_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44941" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44942" class="ax_default label">
+        <div id="u44942_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44943" class="text">
+          <p><span style="color:#FF0000;">*</span><span>业务类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44944" class="ax_default box_1">
+        <div id="u44944_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44945" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44946" class="ax_default label">
+        <div id="u44946_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44947" class="text">
+          <p><span>起停用状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u44948" class="ax_default radio_button">
+        <label for="u44948_input">
+          <!-- Unnamed () -->
+          <div id="u44949" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u44948_input" type="radio" value="radio" name="u44948" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u44950" class="ax_default radio_button">
+        <label for="u44950_input">
+          <!-- Unnamed () -->
+          <div id="u44951" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u44950_input" type="radio" value="radio" name="u44950"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44952" class="ax_default sticky_1">
+        <div id="u44952_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44953" class="text">
+          <p><span>1、起停用规则见全局说明</span></p><p><span>2、如果是编辑进入的该页面，则需要带回之前的信息显示</span></p><p><span>3、如果是新增页面，此处的业务类型，缩写码要进行前后空格去除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44954" class="ax_default label">
+        <div id="u44954_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44955" class="text">
+          <p><span>缩写码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44956" class="ax_default box_1">
+        <div id="u44956_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44957" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44958" class="ax_default primary_button">
+        <div id="u44958_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44959" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44960" class="ax_default primary_button">
+        <div id="u44960_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44961" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44962" class="ax_default label">
+        <div id="u44962_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44963" class="text">
+          <p><span style="color:#FF0000;">*</span><span>所属业务种类：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u44964" class="ax_default droplist">
+        <select id="u44964_input">
+          <option selected value="请选择">请选择</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

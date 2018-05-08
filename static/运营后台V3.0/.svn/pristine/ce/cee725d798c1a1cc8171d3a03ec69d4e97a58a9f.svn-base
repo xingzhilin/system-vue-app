@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>新增版本信息</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/新增版本信息/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/新增版本信息/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46310" class="ax_default box_2">
+        <div id="u46310_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46311" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46312" class="ax_default _文本段落">
+        <div id="u46312_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46313" class="text">
+          <p style="font-size:13px;"><span>1.类型、渠道下拉显示。</span></p><p style="font-size:13px;"><span>2.点击确定内容保存。</span></p><p style="font-size:13px;"><span>3.点击</span><span style="color:#000000;">取消返回上一页。</span></p><p style="font-size:13px;"><span>4.做如上必填校验。</span></p><p style="font-size:14px;"><span>5.版本号需要校验！必须大于数据库内存在数据。</span></p><p style="font-size:14px;"><span>6.渠道为维护的所有渠道，多选可多选。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u46314" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46315" class="ax_default table_cell">
+          <img id="u46315_img" class="img " src="images/点价升贴水设置/u1177.png"/>
+          <!-- Unnamed () -->
+          <div id="u46316" class="text">
+            <p><span style="color:#FF0000;">*</span><span>类型：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46317" class="ax_default table_cell">
+          <img id="u46317_img" class="img " src="images/新增版本信息/u46317.png"/>
+          <!-- Unnamed () -->
+          <div id="u46318" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46319" class="ax_default table_cell">
+          <img id="u46319_img" class="img " src="images/点价升贴水设置/u1177.png"/>
+          <!-- Unnamed () -->
+          <div id="u46320" class="text">
+            <p><span style="color:#FF0000;">*</span><span>版本名称：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46321" class="ax_default table_cell">
+          <img id="u46321_img" class="img " src="images/新增版本信息/u46317.png"/>
+          <!-- Unnamed () -->
+          <div id="u46322" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46323" class="ax_default table_cell">
+          <img id="u46323_img" class="img " src="images/点价升贴水设置/u1177.png"/>
+          <!-- Unnamed () -->
+          <div id="u46324" class="text">
+            <p><span style="color:#FF0000;">*</span><span>版本号：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46325" class="ax_default table_cell">
+          <img id="u46325_img" class="img " src="images/新增版本信息/u46317.png"/>
+          <!-- Unnamed () -->
+          <div id="u46326" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46327" class="ax_default table_cell">
+          <img id="u46327_img" class="img " src="images/新增版本信息/u46327.png"/>
+          <!-- Unnamed () -->
+          <div id="u46328" class="text">
+            <p><span style="color:#FF0000;">*</span><span>更新日志：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46329" class="ax_default table_cell">
+          <img id="u46329_img" class="img " src="images/新增版本信息/u46329.png"/>
+          <!-- Unnamed () -->
+          <div id="u46330" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46331" class="ax_default table_cell">
+          <img id="u46331_img" class="img " src="images/新增版本信息/u46331.png"/>
+          <!-- Unnamed () -->
+          <div id="u46332" class="text">
+            <p><span style="color:#FF0000;">*</span><span>渠道：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46333" class="ax_default table_cell">
+          <img id="u46333_img" class="img " src="images/新增版本信息/u46333.png"/>
+          <!-- Unnamed () -->
+          <div id="u46334" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46335" class="ax_default table_cell">
+          <img id="u46335_img" class="img " src="images/新增版本信息/u46335.png"/>
+          <!-- Unnamed () -->
+          <div id="u46336" class="text">
+            <p><span style="color:#FF0000;">*</span><span>下载链接：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46337" class="ax_default table_cell">
+          <img id="u46337_img" class="img " src="images/新增版本信息/u46337.png"/>
+          <!-- Unnamed () -->
+          <div id="u46338" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46339" class="ax_default table_cell">
+          <img id="u46339_img" class="img " src="images/总出入库总览/u10804.png"/>
+          <!-- Unnamed () -->
+          <div id="u46340" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46341" class="ax_default table_cell">
+          <img id="u46341_img" class="img " src="images/新增版本信息/u46341.png"/>
+          <!-- Unnamed () -->
+          <div id="u46342" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46343" class="ax_default box_1">
+        <div id="u46343_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46344" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46345" class="ax_default primary_button">
+        <div id="u46345_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46346" class="text">
+          <p><span>确定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46347" class="ax_default button">
+        <div id="u46347_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46348" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u46349" class="ax_default droplist">
+        <select id="u46349_input">
+          <option value="前台APP-金银岛煤炭">前台APP-金银岛煤炭</option>
+          <option value="运营APP-煤炭业务支持">运营APP-煤炭业务支持</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46350" class="ax_default box_1">
+        <div id="u46350_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46351" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46352" class="ax_default box_1">
+        <div id="u46352_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46353" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (多行文本框) -->
+      <div id="u46354" class="ax_default text_area">
+        <textarea id="u46354_input"></textarea>
+      </div>
+
+      <!-- Unnamed (多行文本框) -->
+      <div id="u46355" class="ax_default text_area">
+        <textarea id="u46355_input"></textarea>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46356" class="ax_default label">
+        <div id="u46356_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46357" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46358" class="ax_default label">
+        <div id="u46358_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46359" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u46360" class="ax_default droplist">
+        <select id="u46360_input">
+          <option value="请选择">请选择</option>
+          <option value="百度">百度</option>
+          <option value="阿里">阿里</option>
+          <option value="腾讯">腾讯</option>
+          <option value="Apple store">Apple store</option>
+          <option value="更多">更多</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>发票编辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/发票编辑/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/发票编辑/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (表格) -->
+      <div id="u34155" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34156" class="ax_default table_cell">
+          <img id="u34156_img" class="img " src="images/编辑_2/u33929.png"/>
+          <!-- Unnamed () -->
+          <div id="u34157" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34158" class="ax_default table_cell">
+          <img id="u34158_img" class="img " src="images/签章管理/u7262.png"/>
+          <!-- Unnamed () -->
+          <div id="u34159" class="text">
+            <p><span>企业名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34160" class="ax_default table_cell">
+          <img id="u34160_img" class="img " src="images/付款单查询/u18028.png"/>
+          <!-- Unnamed () -->
+          <div id="u34161" class="text">
+            <p><span>纳税人识别号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34162" class="ax_default table_cell">
+          <img id="u34162_img" class="img " src="images/付款单查询/u18028.png"/>
+          <!-- Unnamed () -->
+          <div id="u34163" class="text">
+            <p><span>联系电话</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34164" class="ax_default table_cell">
+          <img id="u34164_img" class="img " src="images/销项发票/u19979.png"/>
+          <!-- Unnamed () -->
+          <div id="u34165" class="text">
+            <p><span>发票地址</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34166" class="ax_default table_cell">
+          <img id="u34166_img" class="img " src="images/销项发票/u19979.png"/>
+          <!-- Unnamed () -->
+          <div id="u34167" class="text">
+            <p><span>开户行</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34168" class="ax_default table_cell">
+          <img id="u34168_img" class="img " src="images/付款单查询/u18028.png"/>
+          <!-- Unnamed () -->
+          <div id="u34169" class="text">
+            <p><span>银行账号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34170" class="ax_default table_cell">
+          <img id="u34170_img" class="img " src="images/事件提醒列表/u1325.png"/>
+          <!-- Unnamed () -->
+          <div id="u34171" class="text">
+            <p><span>发票状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34172" class="ax_default table_cell">
+          <img id="u34172_img" class="img " src="images/发票编辑/u34172.png"/>
+          <!-- Unnamed () -->
+          <div id="u34173" class="text">
+            <p><span>维护时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34174" class="ax_default table_cell">
+          <img id="u34174_img" class="img " src="images/编辑_2/u33943.png"/>
+          <!-- Unnamed () -->
+          <div id="u34175" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34176" class="ax_default table_cell">
+          <img id="u34176_img" class="img " src="images/货物拒收/u13033.png"/>
+          <!-- Unnamed () -->
+          <div id="u34177" class="text">
+            <p><span>月半科技</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34178" class="ax_default table_cell">
+          <img id="u34178_img" class="img " src="images/付款单查询/u18076.png"/>
+          <!-- Unnamed () -->
+          <div id="u34179" class="text">
+            <p><span>99999999999</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34180" class="ax_default table_cell">
+          <img id="u34180_img" class="img " src="images/付款单查询/u18076.png"/>
+          <!-- Unnamed () -->
+          <div id="u34181" class="text">
+            <p><span>0222</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34182" class="ax_default table_cell">
+          <img id="u34182_img" class="img " src="images/销项发票/u20007.png"/>
+          <!-- Unnamed () -->
+          <div id="u34183" class="text">
+            <p><span>地球</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34184" class="ax_default table_cell">
+          <img id="u34184_img" class="img " src="images/销项发票/u20007.png"/>
+          <!-- Unnamed () -->
+          <div id="u34185" class="text">
+            <p><span>宇宙</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34186" class="ax_default table_cell">
+          <img id="u34186_img" class="img " src="images/付款单查询/u18076.png"/>
+          <!-- Unnamed () -->
+          <div id="u34187" class="text">
+            <p><span>8748599900</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34188" class="ax_default table_cell">
+          <img id="u34188_img" class="img " src="images/事件提醒列表/u1353.png"/>
+          <!-- Unnamed () -->
+          <div id="u34189" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34190" class="ax_default table_cell">
+          <img id="u34190_img" class="img " src="images/发票编辑/u34190.png"/>
+          <!-- Unnamed () -->
+          <div id="u34191" class="text">
+            <p><span>2018-12-12 12:00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34192" class="ax_default table_cell">
+          <img id="u34192_img" class="img " src="images/编辑_2/u33943.png"/>
+          <!-- Unnamed () -->
+          <div id="u34193" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34194" class="ax_default table_cell">
+          <img id="u34194_img" class="img " src="images/货物拒收/u13033.png"/>
+          <!-- Unnamed () -->
+          <div id="u34195" class="text">
+            <p><span>月半科技</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34196" class="ax_default table_cell">
+          <img id="u34196_img" class="img " src="images/付款单查询/u18076.png"/>
+          <!-- Unnamed () -->
+          <div id="u34197" class="text">
+            <p><span>99999999999</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34198" class="ax_default table_cell">
+          <img id="u34198_img" class="img " src="images/付款单查询/u18076.png"/>
+          <!-- Unnamed () -->
+          <div id="u34199" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34200" class="ax_default table_cell">
+          <img id="u34200_img" class="img " src="images/销项发票/u20007.png"/>
+          <!-- Unnamed () -->
+          <div id="u34201" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34202" class="ax_default table_cell">
+          <img id="u34202_img" class="img " src="images/销项发票/u20007.png"/>
+          <!-- Unnamed () -->
+          <div id="u34203" class="text">
+            <p><span>宇宙</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34204" class="ax_default table_cell">
+          <img id="u34204_img" class="img " src="images/付款单查询/u18076.png"/>
+          <!-- Unnamed () -->
+          <div id="u34205" class="text">
+            <p><span>88888888888</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34206" class="ax_default table_cell">
+          <img id="u34206_img" class="img " src="images/事件提醒列表/u1353.png"/>
+          <!-- Unnamed () -->
+          <div id="u34207" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34208" class="ax_default table_cell">
+          <img id="u34208_img" class="img " src="images/发票编辑/u34190.png"/>
+          <!-- Unnamed () -->
+          <div id="u34209" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34210" class="ax_default table_cell">
+          <img id="u34210_img" class="img " src="images/认票2/u21947.png"/>
+          <!-- Unnamed () -->
+          <div id="u34211" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34212" class="ax_default table_cell">
+          <img id="u34212_img" class="img " src="images/签章管理/u7422.png"/>
+          <!-- Unnamed () -->
+          <div id="u34213" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34214" class="ax_default table_cell">
+          <img id="u34214_img" class="img " src="images/发票编辑/u34214.png"/>
+          <!-- Unnamed () -->
+          <div id="u34215" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34216" class="ax_default table_cell">
+          <img id="u34216_img" class="img " src="images/发票编辑/u34214.png"/>
+          <!-- Unnamed () -->
+          <div id="u34217" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34218" class="ax_default table_cell">
+          <img id="u34218_img" class="img " src="images/进项发票_业务类）/u20678.png"/>
+          <!-- Unnamed () -->
+          <div id="u34219" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34220" class="ax_default table_cell">
+          <img id="u34220_img" class="img " src="images/进项发票_业务类）/u20678.png"/>
+          <!-- Unnamed () -->
+          <div id="u34221" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34222" class="ax_default table_cell">
+          <img id="u34222_img" class="img " src="images/发票编辑/u34214.png"/>
+          <!-- Unnamed () -->
+          <div id="u34223" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34224" class="ax_default table_cell">
+          <img id="u34224_img" class="img " src="images/事件提醒列表/u1367.png"/>
+          <!-- Unnamed () -->
+          <div id="u34225" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u34226" class="ax_default table_cell">
+          <img id="u34226_img" class="img " src="images/发票编辑/u34226.png"/>
+          <!-- Unnamed () -->
+          <div id="u34227" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34228" class="ax_default primary_button">
+        <div id="u34228_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34229" class="text">
+          <p><span>新增</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34230" class="ax_default box_1">
+        <div id="u34230_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34231" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34232" class="ax_default sticky_3">
+        <div id="u34232_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34233" class="text">
+          <p><span>1、按照维护时间倒叙排序</span></p><p><span>2、联系电话、发票地址、开户行、银行账号任一条件不同时，均单独作为一条显示</span></p><p><span>3、点击新增进入新增页面，企业名称和纳税人识别号自动带回且不可改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u34234" class="ax_default box_1">
+        <div id="u34234_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u34235" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

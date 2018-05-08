@@ -10,7 +10,7 @@
 					type="dates" 
 					v-model="dateValue"
 					@focus="handleFoucs" 
-					placeholder="选择日期">				
+					placeholder="请选择选择日期">
 				</el-date-picker>
 			</div>
 			<dl class="time_wrap">

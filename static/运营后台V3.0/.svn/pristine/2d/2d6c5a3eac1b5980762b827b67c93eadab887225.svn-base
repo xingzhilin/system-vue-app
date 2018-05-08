@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>编辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/编辑/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/编辑/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u16994" class="ax_default box_2">
+        <div id="u16994_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u16995" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u16996" class="ax_default label">
+        <div id="u16996_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u16997" class="text">
+          <p><span style="color:#FF0000;">*</span><span>是否是供应链公司：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u16998" class="ax_default label">
+        <div id="u16998_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u16999" class="text">
+          <p><span style="color:#FF0000;">*</span><span>是否交货地交货：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17000" class="ax_default radio_button">
+        <label for="u17000_input">
+          <!-- Unnamed () -->
+          <div id="u17001" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u17000_input" type="radio" value="radio" name="u17000" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17002" class="ax_default radio_button">
+        <label for="u17002_input">
+          <!-- Unnamed () -->
+          <div id="u17003" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u17002_input" type="radio" value="radio" name="u17002" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17004" class="ax_default radio_button">
+        <label for="u17004_input">
+          <!-- Unnamed () -->
+          <div id="u17005" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u17004_input" type="radio" value="radio" name="u17004"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17006" class="ax_default radio_button">
+        <label for="u17006_input">
+          <!-- Unnamed () -->
+          <div id="u17007" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u17006_input" type="radio" value="radio" name="u17006" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17008" class="ax_default label">
+        <div id="u17008_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17009" class="text">
+          <p><span>企业名称：北京XXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17010" class="ax_default primary_button">
+        <div id="u17010_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17011" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17012" class="ax_default primary_button">
+        <div id="u17012_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17013" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17014" class="ax_default label">
+        <div id="u17014_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17015" class="text">
+          <p><span style="color:#FF0000;">*</span><span>客户类别：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17016" class="ax_default radio_button">
+        <label for="u17016_input">
+          <!-- Unnamed () -->
+          <div id="u17017" class="text">
+            <p><span>采购商</span></p>
+          </div>
+        </label>
+        <input id="u17016_input" type="radio" value="radio" name="u17016"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17018" class="ax_default radio_button">
+        <label for="u17018_input">
+          <!-- Unnamed () -->
+          <div id="u17019" class="text">
+            <p><span>采购中间商</span></p>
+          </div>
+        </label>
+        <input id="u17018_input" type="radio" value="radio" name="u17018"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17020" class="ax_default radio_button">
+        <label for="u17020_input">
+          <!-- Unnamed () -->
+          <div id="u17021" class="text">
+            <p><span>供应商</span></p>
+          </div>
+        </label>
+        <input id="u17020_input" type="radio" value="radio" name="u17020"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u17022" class="ax_default radio_button">
+        <label for="u17022_input">
+          <!-- Unnamed () -->
+          <div id="u17023" class="text">
+            <p><span>销售中间商</span></p>
+          </div>
+        </label>
+        <input id="u17022_input" type="radio" value="radio" name="u17022"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17024" class="ax_default sticky_1">
+        <div id="u17024_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17025" class="text">
+          <p><span>1、默认供应链公司为否，如果选择为是，则是否交货地交货和客户类别均不显示。</span></p><p><span>2、是否交货地默认为否</span></p><p><span>3、当供应公司选择为否，此处的用户类别必须维护</span></p><p><span>4、保存之后，与用后进行同步对接，对接的字段包括编号，省份，客户名称，客户类别</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (动态面板) -->
+      <div id="u17026" class="ax_default ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u17026_state0" class="panel_state" data-label="State1">
+          <div id="u17026_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u17027" class="ax_default box_2">
+              <div id="u17027_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u17028" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

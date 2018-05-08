@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>修改信息</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/修改信息/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/修改信息/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39623" class="ax_default box_2">
+        <div id="u39623_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39624" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u39625" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39626" class="ax_default table_cell">
+          <img id="u39626_img" class="img " src="images/前台准入编辑/u36444.png"/>
+          <!-- Unnamed () -->
+          <div id="u39627" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39628" class="ax_default table_cell">
+          <img id="u39628_img" class="img " src="images/前台准入编辑/u36446.png"/>
+          <!-- Unnamed () -->
+          <div id="u39629" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39630" class="ax_default table_cell">
+          <img id="u39630_img" class="img " src="images/前台准入编辑/u36448.png"/>
+          <!-- Unnamed () -->
+          <div id="u39631" class="text">
+            <p><span>用户名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39632" class="ax_default table_cell">
+          <img id="u39632_img" class="img " src="images/前台准入编辑/u36450.png"/>
+          <!-- Unnamed () -->
+          <div id="u39633" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39634" class="ax_default table_cell">
+          <img id="u39634_img" class="img " src="images/前台准入编辑/u36448.png"/>
+          <!-- Unnamed () -->
+          <div id="u39635" class="text">
+            <p><span>手机号码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39636" class="ax_default table_cell">
+          <img id="u39636_img" class="img " src="images/前台准入编辑/u36450.png"/>
+          <!-- Unnamed () -->
+          <div id="u39637" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39638" class="ax_default table_cell">
+          <img id="u39638_img" class="img " src="images/修改信息/u39638.png"/>
+          <!-- Unnamed () -->
+          <div id="u39639" class="text">
+            <p><span>用户状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39640" class="ax_default table_cell">
+          <img id="u39640_img" class="img " src="images/修改信息/u39640.png"/>
+          <!-- Unnamed () -->
+          <div id="u39641" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39642" class="ax_default table_cell">
+          <img id="u39642_img" class="img " src="images/前台准入编辑/u36456.png"/>
+          <!-- Unnamed () -->
+          <div id="u39643" class="text">
+            <p><span>注册来源</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39644" class="ax_default table_cell">
+          <img id="u39644_img" class="img " src="images/前台准入编辑/u36458.png"/>
+          <!-- Unnamed () -->
+          <div id="u39645" class="text">
+            <p><span>后台</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39646" class="ax_default label">
+        <div id="u39646_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39647" class="text">
+          <p><span>用户信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u39648" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39649" class="ax_default table_cell">
+          <img id="u39649_img" class="img " src="images/前台准入编辑/u36463.png"/>
+          <!-- Unnamed () -->
+          <div id="u39650" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39651" class="ax_default table_cell">
+          <img id="u39651_img" class="img " src="images/前台准入编辑/u36465.png"/>
+          <!-- Unnamed () -->
+          <div id="u39652" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39653" class="ax_default label">
+        <div id="u39653_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39654" class="text">
+          <p><span>密码重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u39655" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39656" class="ax_default table_cell">
+          <img id="u39656_img" class="img " src="images/前台准入编辑/u36448.png"/>
+          <!-- Unnamed () -->
+          <div id="u39657" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39658" class="ax_default table_cell">
+          <img id="u39658_img" class="img " src="images/前台准入编辑/u36450.png"/>
+          <!-- Unnamed () -->
+          <div id="u39659" class="text">
+            <p><span>登录密码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39660" class="ax_default table_cell">
+          <img id="u39660_img" class="img " src="images/前台准入编辑/u36502.png"/>
+          <!-- Unnamed () -->
+          <div id="u39661" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39662" class="ax_default table_cell">
+          <img id="u39662_img" class="img " src="images/前台准入编辑/u36504.png"/>
+          <!-- Unnamed () -->
+          <div id="u39663" class="text">
+            <p><span>签章密码</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u39664" class="ax_default checkbox">
+        <label for="u39664_input">
+          <!-- Unnamed () -->
+          <div id="u39665" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u39664_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u39666" class="ax_default checkbox">
+        <label for="u39666_input">
+          <!-- Unnamed () -->
+          <div id="u39667" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u39666_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39668" class="ax_default primary_button">
+        <div id="u39668_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39669" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39670" class="ax_default primary_button">
+        <div id="u39670_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39671" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39672" class="ax_default box_1">
+        <div id="u39672_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39673" class="text">
+          <p><span>小太阳呀</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39674" class="ax_default box_1">
+        <div id="u39674_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39675" class="text">
+          <p><span>13146066605</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u39676" class="ax_default radio_button">
+        <label for="u39676_input">
+          <!-- Unnamed () -->
+          <div id="u39677" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u39676_input" type="radio" value="radio" name="u39676" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u39678" class="ax_default radio_button">
+        <label for="u39678_input">
+          <!-- Unnamed () -->
+          <div id="u39679" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u39678_input" type="radio" value="radio" name="u39678"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39680" class="ax_default sticky_1">
+        <div id="u39680_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39681" class="text">
+          <p><span>1、修改是带出原来添加时候的信息</span></p><p><span>2、选择要修改的密码，保存之后被勾选的密码被重置为888888，并且给该用户的手机发送重置密码短信，短信内容为：【金银岛】您的{登录密码}、{签章密码}已被重置为888888，为了您的账号安全，请您及时登录APP修改密码。退订回复TD</span></p><p><span>其中，登录密码或者签章密码根据勾选的情况决定，请注意顿号什么时候有，什么时候无</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,800 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>前台APP消息设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/前台app消息设置/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/前台app消息设置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40155" class="ax_default box_2">
+        <div id="u40155_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40156" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40157" class="ax_default box_2">
+        <div id="u40157_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40158" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40159" class="ax_default box_2">
+        <div id="u40159_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40160" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40161" class="ax_default box_2">
+        <div id="u40161_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40162" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40163" class="ax_default box_1">
+        <div id="u40163_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40164" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40165" class="ax_default box_1">
+        <div id="u40165_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40166" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40167" class="ax_default box_1">
+        <div id="u40167_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40168" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40169" class="ax_default label">
+        <div id="u40169_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40170" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40171" class="ax_default box_1">
+        <div id="u40171_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40172" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40173" class="ax_default box_2">
+        <div id="u40173_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40174" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40175" class="ax_default box_2">
+        <div id="u40175_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40176" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40177" class="ax_default box_2">
+        <div id="u40177_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40178" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40179" class="ax_default label">
+        <div id="u40179_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40180" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u40181" class="ax_default _图片">
+        <img id="u40181_img" class="img " src="images/事件提醒列表/u808.png"/>
+        <!-- Unnamed () -->
+        <div id="u40182" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40183" class="ax_default box_2">
+        <div id="u40183_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40184" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40185" class="ax_default box_2">
+        <div id="u40185_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40186" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u40187" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40188" class="ax_default table_cell">
+          <img id="u40188_img" class="img " src="images/摊销费用列表/u11579.png"/>
+          <!-- Unnamed () -->
+          <div id="u40189" class="text">
+            <p><span>序号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40190" class="ax_default table_cell">
+          <img id="u40190_img" class="img " src="images/前台app消息设置/u40190.png"/>
+          <!-- Unnamed () -->
+          <div id="u40191" class="text">
+            <p><span>消息标题</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40192" class="ax_default table_cell">
+          <img id="u40192_img" class="img " src="images/摊销费用列表/u11585.png"/>
+          <!-- Unnamed () -->
+          <div id="u40193" class="text">
+            <p><span>创建时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40194" class="ax_default table_cell">
+          <img id="u40194_img" class="img " src="images/煤炭品牌管理/u37440.png"/>
+          <!-- Unnamed () -->
+          <div id="u40195" class="text">
+            <p><span>创建者</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40196" class="ax_default table_cell">
+          <img id="u40196_img" class="img " src="images/煤炭品种发布管理/u38257.png"/>
+          <!-- Unnamed () -->
+          <div id="u40197" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40198" class="ax_default table_cell">
+          <img id="u40198_img" class="img " src="images/点价升贴水设置/u1007.png"/>
+          <!-- Unnamed () -->
+          <div id="u40199" class="text">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40200" class="ax_default table_cell">
+          <img id="u40200_img" class="img " src="images/前台app消息设置/u40200.png"/>
+          <!-- Unnamed () -->
+          <div id="u40201" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40202" class="ax_default table_cell">
+          <img id="u40202_img" class="img " src="images/摊销费用/u11232.png"/>
+          <!-- Unnamed () -->
+          <div id="u40203" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40204" class="ax_default table_cell">
+          <img id="u40204_img" class="img " src="images/煤炭品牌管理/u37452.png"/>
+          <!-- Unnamed () -->
+          <div id="u40205" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40206" class="ax_default table_cell">
+          <img id="u40206_img" class="img " src="images/煤炭品种发布管理/u38265.png"/>
+          <!-- Unnamed () -->
+          <div id="u40207" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40208" class="ax_default table_cell">
+          <img id="u40208_img" class="img " src="images/点价升贴水设置/u1007.png"/>
+          <!-- Unnamed () -->
+          <div id="u40209" class="text">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40210" class="ax_default table_cell">
+          <img id="u40210_img" class="img " src="images/前台app消息设置/u40200.png"/>
+          <!-- Unnamed () -->
+          <div id="u40211" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40212" class="ax_default table_cell">
+          <img id="u40212_img" class="img " src="images/摊销费用/u11232.png"/>
+          <!-- Unnamed () -->
+          <div id="u40213" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40214" class="ax_default table_cell">
+          <img id="u40214_img" class="img " src="images/煤炭品牌管理/u37452.png"/>
+          <!-- Unnamed () -->
+          <div id="u40215" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40216" class="ax_default table_cell">
+          <img id="u40216_img" class="img " src="images/煤炭品种发布管理/u38265.png"/>
+          <!-- Unnamed () -->
+          <div id="u40217" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40218" class="ax_default table_cell">
+          <img id="u40218_img" class="img " src="images/点价升贴水设置/u1007.png"/>
+          <!-- Unnamed () -->
+          <div id="u40219" class="text">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40220" class="ax_default table_cell">
+          <img id="u40220_img" class="img " src="images/前台app消息设置/u40200.png"/>
+          <!-- Unnamed () -->
+          <div id="u40221" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40222" class="ax_default table_cell">
+          <img id="u40222_img" class="img " src="images/摊销费用/u11232.png"/>
+          <!-- Unnamed () -->
+          <div id="u40223" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40224" class="ax_default table_cell">
+          <img id="u40224_img" class="img " src="images/煤炭品牌管理/u37452.png"/>
+          <!-- Unnamed () -->
+          <div id="u40225" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40226" class="ax_default table_cell">
+          <img id="u40226_img" class="img " src="images/煤炭品种发布管理/u38265.png"/>
+          <!-- Unnamed () -->
+          <div id="u40227" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40228" class="ax_default table_cell">
+          <img id="u40228_img" class="img " src="images/点价升贴水设置/u1007.png"/>
+          <!-- Unnamed () -->
+          <div id="u40229" class="text">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40230" class="ax_default table_cell">
+          <img id="u40230_img" class="img " src="images/前台app消息设置/u40200.png"/>
+          <!-- Unnamed () -->
+          <div id="u40231" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40232" class="ax_default table_cell">
+          <img id="u40232_img" class="img " src="images/摊销费用/u11232.png"/>
+          <!-- Unnamed () -->
+          <div id="u40233" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40234" class="ax_default table_cell">
+          <img id="u40234_img" class="img " src="images/煤炭品牌管理/u37452.png"/>
+          <!-- Unnamed () -->
+          <div id="u40235" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40236" class="ax_default table_cell">
+          <img id="u40236_img" class="img " src="images/煤炭品种发布管理/u38265.png"/>
+          <!-- Unnamed () -->
+          <div id="u40237" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40238" class="ax_default table_cell">
+          <img id="u40238_img" class="img " src="images/点价升贴水设置/u1007.png"/>
+          <!-- Unnamed () -->
+          <div id="u40239" class="text">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40240" class="ax_default table_cell">
+          <img id="u40240_img" class="img " src="images/前台app消息设置/u40200.png"/>
+          <!-- Unnamed () -->
+          <div id="u40241" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40242" class="ax_default table_cell">
+          <img id="u40242_img" class="img " src="images/摊销费用/u11232.png"/>
+          <!-- Unnamed () -->
+          <div id="u40243" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40244" class="ax_default table_cell">
+          <img id="u40244_img" class="img " src="images/煤炭品牌管理/u37452.png"/>
+          <!-- Unnamed () -->
+          <div id="u40245" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40246" class="ax_default table_cell">
+          <img id="u40246_img" class="img " src="images/煤炭品种发布管理/u38265.png"/>
+          <!-- Unnamed () -->
+          <div id="u40247" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40248" class="ax_default table_cell">
+          <img id="u40248_img" class="img " src="images/点价升贴水设置/u1007.png"/>
+          <!-- Unnamed () -->
+          <div id="u40249" class="text">
+            <p><span>6</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40250" class="ax_default table_cell">
+          <img id="u40250_img" class="img " src="images/前台app消息设置/u40200.png"/>
+          <!-- Unnamed () -->
+          <div id="u40251" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40252" class="ax_default table_cell">
+          <img id="u40252_img" class="img " src="images/摊销费用/u11232.png"/>
+          <!-- Unnamed () -->
+          <div id="u40253" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40254" class="ax_default table_cell">
+          <img id="u40254_img" class="img " src="images/煤炭品牌管理/u37452.png"/>
+          <!-- Unnamed () -->
+          <div id="u40255" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40256" class="ax_default table_cell">
+          <img id="u40256_img" class="img " src="images/煤炭品种发布管理/u38265.png"/>
+          <!-- Unnamed () -->
+          <div id="u40257" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40258" class="ax_default table_cell">
+          <img id="u40258_img" class="img " src="images/总出入库总览/u10634.png"/>
+          <!-- Unnamed () -->
+          <div id="u40259" class="text">
+            <p><span>7</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40260" class="ax_default table_cell">
+          <img id="u40260_img" class="img " src="images/前台app消息设置/u40260.png"/>
+          <!-- Unnamed () -->
+          <div id="u40261" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40262" class="ax_default table_cell">
+          <img id="u40262_img" class="img " src="images/摊销费用/u11268.png"/>
+          <!-- Unnamed () -->
+          <div id="u40263" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40264" class="ax_default table_cell">
+          <img id="u40264_img" class="img " src="images/煤炭品牌管理/u37476.png"/>
+          <!-- Unnamed () -->
+          <div id="u40265" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u40266" class="ax_default table_cell">
+          <img id="u40266_img" class="img " src="images/煤炭品种发布管理/u38281.png"/>
+          <!-- Unnamed () -->
+          <div id="u40267" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40268" class="ax_default label">
+        <div id="u40268_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40269" class="text">
+          <p><span>消息标题：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40270" class="ax_default primary_button">
+        <div id="u40270_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40271" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40272" class="ax_default primary_button">
+        <div id="u40272_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40273" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40274" class="ax_default primary_button">
+        <div id="u40274_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40275" class="text">
+          <p><span>新增</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40276" class="ax_default box_1">
+        <div id="u40276_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40277" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40278" class="ax_default box_1">
+        <div id="u40278_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40279" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40280" class="ax_default box_1">
+        <div id="u40280_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40281" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40282" class="ax_default box_1">
+        <div id="u40282_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40283" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40284" class="ax_default box_1">
+        <div id="u40284_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40285" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40286" class="ax_default box_1">
+        <div id="u40286_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40287" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40288" class="ax_default box_1">
+        <div id="u40288_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40289" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40290" class="ax_default box_1">
+        <div id="u40290_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40291" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40292" class="ax_default box_1">
+        <div id="u40292_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40293" class="text">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40294" class="ax_default box_1">
+        <div id="u40294_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40295" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40296" class="ax_default box_1">
+        <div id="u40296_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40297" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40298" class="ax_default box_1">
+        <div id="u40298_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40299" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40300" class="ax_default box_1">
+        <div id="u40300_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40301" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40302" class="ax_default box_1">
+        <div id="u40302_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40303" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40304" class="ax_default box_1">
+        <div id="u40304_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40305" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40306" class="ax_default box_1">
+        <div id="u40306_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40307" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40308" class="ax_default box_1">
+        <div id="u40308_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40309" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40310" class="ax_default box_1">
+        <div id="u40310_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40311" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40312" class="ax_default box_1">
+        <div id="u40312_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40313" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40314" class="ax_default box_1">
+        <div id="u40314_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40315" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40316" class="ax_default box_1">
+        <div id="u40316_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40317" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40318" class="ax_default box_1">
+        <div id="u40318_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40319" class="text">
+          <p><span>撤回</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>结算单查看</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/结算单查看/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/结算单查看/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46115" class="ax_default box_2">
+        <div id="u46115_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46116" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u46117" class="ax_default _图片">
+        <img id="u46117_img" class="img " src="images/结算单预览/u36472.png"/>
+        <!-- Unnamed () -->
+        <div id="u46118" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u46119" class="ax_default _图片">
+        <img id="u46119_img" class="img " src="images/结算单预览/u36474.png"/>
+        <!-- Unnamed () -->
+        <div id="u46120" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46121" class="ax_default primary_button">
+        <div id="u46121_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46122" class="text">
+          <p><span>打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u46123" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46124" class="ax_default table_cell">
+          <img id="u46124_img" class="img " src="images/结算单客户已签章/u37283.png"/>
+          <!-- Unnamed () -->
+          <div id="u46125" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46126" class="ax_default table_cell">
+          <img id="u46126_img" class="img " src="images/结算单客户已签章/u37285.png"/>
+          <!-- Unnamed () -->
+          <div id="u46127" class="text">
+            <p><span>审批人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46128" class="ax_default table_cell">
+          <img id="u46128_img" class="img " src="images/结算单客户已签章/u37287.png"/>
+          <!-- Unnamed () -->
+          <div id="u46129" class="text">
+            <p><span>审批说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46130" class="ax_default table_cell">
+          <img id="u46130_img" class="img " src="images/结算单客户已签章/u37283.png"/>
+          <!-- Unnamed () -->
+          <div id="u46131" class="text">
+            <p><span>运营中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46132" class="ax_default table_cell">
+          <img id="u46132_img" class="img " src="images/结算单客户已签章/u37285.png"/>
+          <!-- Unnamed () -->
+          <div id="u46133" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46134" class="ax_default table_cell">
+          <img id="u46134_img" class="img " src="images/结算单客户已签章/u37287.png"/>
+          <!-- Unnamed () -->
+          <div id="u46135" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46136" class="ax_default table_cell">
+          <img id="u46136_img" class="img " src="images/结算单客户已签章/u37283.png"/>
+          <!-- Unnamed () -->
+          <div id="u46137" class="text">
+            <p><span>运营负责人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46138" class="ax_default table_cell">
+          <img id="u46138_img" class="img " src="images/结算单客户已签章/u37285.png"/>
+          <!-- Unnamed () -->
+          <div id="u46139" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46140" class="ax_default table_cell">
+          <img id="u46140_img" class="img " src="images/结算单客户已签章/u37287.png"/>
+          <!-- Unnamed () -->
+          <div id="u46141" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46142" class="ax_default table_cell">
+          <img id="u46142_img" class="img " src="images/结算单客户已签章/u37283.png"/>
+          <!-- Unnamed () -->
+          <div id="u46143" class="text">
+            <p><span>Tony</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46144" class="ax_default table_cell">
+          <img id="u46144_img" class="img " src="images/结算单客户已签章/u37285.png"/>
+          <!-- Unnamed () -->
+          <div id="u46145" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46146" class="ax_default table_cell">
+          <img id="u46146_img" class="img " src="images/结算单客户已签章/u37287.png"/>
+          <!-- Unnamed () -->
+          <div id="u46147" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46148" class="ax_default table_cell">
+          <img id="u46148_img" class="img " src="images/结算单客户已签章/u37307.png"/>
+          <!-- Unnamed () -->
+          <div id="u46149" class="text">
+            <p><span>交易服中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46150" class="ax_default table_cell">
+          <img id="u46150_img" class="img " src="images/结算单客户已签章/u37309.png"/>
+          <!-- Unnamed () -->
+          <div id="u46151" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46152" class="ax_default table_cell">
+          <img id="u46152_img" class="img " src="images/结算单客户已签章/u37311.png"/>
+          <!-- Unnamed () -->
+          <div id="u46153" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46154" class="ax_default table_cell">
+          <img id="u46154_img" class="img " src="images/结算单客户已签章/u37307.png"/>
+          <!-- Unnamed () -->
+          <div id="u46155" class="text">
+            <p><span>财务中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46156" class="ax_default table_cell">
+          <img id="u46156_img" class="img " src="images/结算单客户已签章/u37309.png"/>
+          <!-- Unnamed () -->
+          <div id="u46157" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46158" class="ax_default table_cell">
+          <img id="u46158_img" class="img " src="images/结算单客户已签章/u37311.png"/>
+          <!-- Unnamed () -->
+          <div id="u46159" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46160" class="ax_default table_cell">
+          <img id="u46160_img" class="img " src="images/结算单客户已签章/u37319.png"/>
+          <!-- Unnamed () -->
+          <div id="u46161" class="text">
+            <p><span>财务负责人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46162" class="ax_default table_cell">
+          <img id="u46162_img" class="img " src="images/结算单客户已签章/u37321.png"/>
+          <!-- Unnamed () -->
+          <div id="u46163" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u46164" class="ax_default table_cell">
+          <img id="u46164_img" class="img " src="images/结算单客户已签章/u37323.png"/>
+          <!-- Unnamed () -->
+          <div id="u46165" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46166" class="ax_default _三级标题">
+        <div id="u46166_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u46167" class="text">
+          <p><span>审核</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

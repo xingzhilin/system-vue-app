@@ -1,0 +1,896 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>进项发票信息查询</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/进项发票信息查询/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/进项发票信息查询/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44053" class="ax_default box_2">
+        <div id="u44053_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44054" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44056" class="ax_default box_2">
+        <div id="u44056_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44057" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44058" class="ax_default box_2">
+        <div id="u44058_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44059" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44060" class="ax_default box_2">
+        <div id="u44060_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44061" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44062" class="ax_default box_2">
+        <div id="u44062_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44063" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44064" class="ax_default box_1">
+        <div id="u44064_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44065" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44066" class="ax_default box_1">
+        <div id="u44066_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44067" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44068" class="ax_default box_1">
+        <div id="u44068_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44069" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44070" class="ax_default label">
+        <div id="u44070_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44071" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44072" class="ax_default box_1">
+        <div id="u44072_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44073" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44074" class="ax_default box_2">
+        <div id="u44074_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44075" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44076" class="ax_default box_2">
+        <div id="u44076_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44077" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44078" class="ax_default box_2">
+        <div id="u44078_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44079" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44080" class="ax_default label">
+        <div id="u44080_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44081" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u44082" class="ax_default _图片">
+        <img id="u44082_img" class="img " src="images/事件提醒列表/u1220.png"/>
+        <!-- Unnamed () -->
+        <div id="u44083" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44084" class="ax_default box_2">
+        <div id="u44084_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44085" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44086" class="ax_default box_2">
+        <div id="u44086_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44087" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u44088" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44089" class="ax_default table_cell">
+          <img id="u44089_img" class="img " src="images/进项发票信息查询/u44089.png"/>
+          <!-- Unnamed () -->
+          <div id="u44090" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44091" class="ax_default table_cell">
+          <img id="u44091_img" class="img " src="images/进项发票信息查询/u44091.png"/>
+          <!-- Unnamed () -->
+          <div id="u44092" class="text">
+            <p><span>发票号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44093" class="ax_default table_cell">
+          <img id="u44093_img" class="img " src="images/进项发票信息查询/u44089.png"/>
+          <!-- Unnamed () -->
+          <div id="u44094" class="text">
+            <p><span>企业名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44095" class="ax_default table_cell">
+          <img id="u44095_img" class="img " src="images/进项发票信息查询/u44095.png"/>
+          <!-- Unnamed () -->
+          <div id="u44096" class="text">
+            <p><span>发票类别</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44097" class="ax_default table_cell">
+          <img id="u44097_img" class="img " src="images/进项发票信息查询/u44097.png"/>
+          <!-- Unnamed () -->
+          <div id="u44098" class="text">
+            <p><span>发票类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44099" class="ax_default table_cell">
+          <img id="u44099_img" class="img " src="images/进项发票信息查询/u44099.png"/>
+          <!-- Unnamed () -->
+          <div id="u44100" class="text">
+            <p><span>发票联数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44101" class="ax_default table_cell">
+          <img id="u44101_img" class="img " src="images/进项发票信息查询/u44101.png"/>
+          <!-- Unnamed () -->
+          <div id="u44102" class="text">
+            <p><span>发票张数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44103" class="ax_default table_cell">
+          <img id="u44103_img" class="img " src="images/进项发票信息查询/u44097.png"/>
+          <!-- Unnamed () -->
+          <div id="u44104" class="text">
+            <p><span>税率</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44105" class="ax_default table_cell">
+          <img id="u44105_img" class="img " src="images/进项发票信息查询/u44105.png"/>
+          <!-- Unnamed () -->
+          <div id="u44106" class="text">
+            <p><span>数量（吨）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44107" class="ax_default table_cell">
+          <img id="u44107_img" class="img " src="images/进项发票信息查询/u44097.png"/>
+          <!-- Unnamed () -->
+          <div id="u44108" class="text">
+            <p><span>税金（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44109" class="ax_default table_cell">
+          <img id="u44109_img" class="img " src="images/进项发票信息查询/u44097.png"/>
+          <!-- Unnamed () -->
+          <div id="u44110" class="text">
+            <p><span>价税合计（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44111" class="ax_default table_cell">
+          <img id="u44111_img" class="img " src="images/进项发票信息查询/u44097.png"/>
+          <!-- Unnamed () -->
+          <div id="u44112" class="text">
+            <p><span>开票时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44113" class="ax_default table_cell">
+          <img id="u44113_img" class="img " src="images/进项发票信息查询/u44113.png"/>
+          <!-- Unnamed () -->
+          <div id="u44114" class="text">
+            <p><span>收票时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44115" class="ax_default table_cell">
+          <img id="u44115_img" class="img " src="images/进项发票信息查询/u44097.png"/>
+          <!-- Unnamed () -->
+          <div id="u44116" class="text">
+            <p><span>退票时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44117" class="ax_default table_cell">
+          <img id="u44117_img" class="img " src="images/进项发票信息查询/u44117.png"/>
+          <!-- Unnamed () -->
+          <div id="u44118" class="text">
+            <p><span>发票状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44119" class="ax_default table_cell">
+          <img id="u44119_img" class="img " src="images/进项发票信息查询/u44119.png"/>
+          <!-- Unnamed () -->
+          <div id="u44120" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44121" class="ax_default table_cell">
+          <img id="u44121_img" class="img " src="images/进项发票信息查询/u44121.png"/>
+          <!-- Unnamed () -->
+          <div id="u44122" class="text">
+            <p><span>05587948</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44123" class="ax_default table_cell">
+          <img id="u44123_img" class="img " src="images/进项发票信息查询/u44119.png"/>
+          <!-- Unnamed () -->
+          <div id="u44124" class="text">
+            <p><span>内蒙古聚鑫缘经...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44125" class="ax_default table_cell">
+          <img id="u44125_img" class="img " src="images/进项发票信息查询/u44125.png"/>
+          <!-- Unnamed () -->
+          <div id="u44126" class="text">
+            <p><span>货款 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44127" class="ax_default table_cell">
+          <img id="u44127_img" class="img " src="images/进项发票信息查询/u44127.png"/>
+          <!-- Unnamed () -->
+          <div id="u44128" class="text">
+            <p><span>专票 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44129" class="ax_default table_cell">
+          <img id="u44129_img" class="img " src="images/进项发票信息查询/u44129.png"/>
+          <!-- Unnamed () -->
+          <div id="u44130" class="text">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44131" class="ax_default table_cell">
+          <img id="u44131_img" class="img " src="images/进项发票信息查询/u44131.png"/>
+          <!-- Unnamed () -->
+          <div id="u44132" class="text">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44133" class="ax_default table_cell">
+          <img id="u44133_img" class="img " src="images/进项发票信息查询/u44127.png"/>
+          <!-- Unnamed () -->
+          <div id="u44134" class="text">
+            <p><span>17% </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44135" class="ax_default table_cell">
+          <img id="u44135_img" class="img " src="images/进项发票信息查询/u44135.png"/>
+          <!-- Unnamed () -->
+          <div id="u44136" class="text">
+            <p><span>265.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44137" class="ax_default table_cell">
+          <img id="u44137_img" class="img " src="images/进项发票信息查询/u44127.png"/>
+          <!-- Unnamed () -->
+          <div id="u44138" class="text">
+            <p><span>16,998.87</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44139" class="ax_default table_cell">
+          <img id="u44139_img" class="img " src="images/进项发票信息查询/u44127.png"/>
+          <!-- Unnamed () -->
+          <div id="u44140" class="text">
+            <p><span>116,992.20</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44141" class="ax_default table_cell">
+          <img id="u44141_img" class="img " src="images/进项发票信息查询/u44127.png"/>
+          <!-- Unnamed () -->
+          <div id="u44142" class="text">
+            <p><span>2018-03-29 14:36</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44143" class="ax_default table_cell">
+          <img id="u44143_img" class="img " src="images/进项发票信息查询/u44143.png"/>
+          <!-- Unnamed () -->
+          <div id="u44144" class="text">
+            <p><span>2018-03-29 14:36</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44145" class="ax_default table_cell">
+          <img id="u44145_img" class="img " src="images/进项发票信息查询/u44127.png"/>
+          <!-- Unnamed () -->
+          <div id="u44146" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44147" class="ax_default table_cell">
+          <img id="u44147_img" class="img " src="images/进项发票信息查询/u44147.png"/>
+          <!-- Unnamed () -->
+          <div id="u44148" class="text">
+            <p><span>已收票</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44149" class="ax_default table_cell">
+          <img id="u44149_img" class="img " src="images/进项发票信息查询/u44149.png"/>
+          <!-- Unnamed () -->
+          <div id="u44150" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44151" class="ax_default table_cell">
+          <img id="u44151_img" class="img " src="images/进项发票信息查询/u44151.png"/>
+          <!-- Unnamed () -->
+          <div id="u44152" class="text">
+            <p><span>05587947</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44153" class="ax_default table_cell">
+          <img id="u44153_img" class="img " src="images/进项发票信息查询/u44149.png"/>
+          <!-- Unnamed () -->
+          <div id="u44154" class="text">
+            <p><span>内蒙古聚鑫缘经...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44155" class="ax_default table_cell">
+          <img id="u44155_img" class="img " src="images/进项发票信息查询/u44155.png"/>
+          <!-- Unnamed () -->
+          <div id="u44156" class="text">
+            <p><span>货款 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44157" class="ax_default table_cell">
+          <img id="u44157_img" class="img " src="images/进项发票信息查询/u44157.png"/>
+          <!-- Unnamed () -->
+          <div id="u44158" class="text">
+            <p><span>专票 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44159" class="ax_default table_cell">
+          <img id="u44159_img" class="img " src="images/进项发票信息查询/u44159.png"/>
+          <!-- Unnamed () -->
+          <div id="u44160" class="text">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44161" class="ax_default table_cell">
+          <img id="u44161_img" class="img " src="images/进项发票信息查询/u44161.png"/>
+          <!-- Unnamed () -->
+          <div id="u44162" class="text">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44163" class="ax_default table_cell">
+          <img id="u44163_img" class="img " src="images/进项发票信息查询/u44157.png"/>
+          <!-- Unnamed () -->
+          <div id="u44164" class="text">
+            <p><span>17% </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44165" class="ax_default table_cell">
+          <img id="u44165_img" class="img " src="images/进项发票信息查询/u44165.png"/>
+          <!-- Unnamed () -->
+          <div id="u44166" class="text">
+            <p><span>265.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44167" class="ax_default table_cell">
+          <img id="u44167_img" class="img " src="images/进项发票信息查询/u44157.png"/>
+          <!-- Unnamed () -->
+          <div id="u44168" class="text">
+            <p><span>16,998.87</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44169" class="ax_default table_cell">
+          <img id="u44169_img" class="img " src="images/进项发票信息查询/u44157.png"/>
+          <!-- Unnamed () -->
+          <div id="u44170" class="text">
+            <p><span>116,992.20</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44171" class="ax_default table_cell">
+          <img id="u44171_img" class="img " src="images/进项发票信息查询/u44157.png"/>
+          <!-- Unnamed () -->
+          <div id="u44172" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44173" class="ax_default table_cell">
+          <img id="u44173_img" class="img " src="images/进项发票信息查询/u44173.png"/>
+          <!-- Unnamed () -->
+          <div id="u44174" class="text">
+            <p><span>2018-03-28 14:36</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44175" class="ax_default table_cell">
+          <img id="u44175_img" class="img " src="images/进项发票信息查询/u44157.png"/>
+          <!-- Unnamed () -->
+          <div id="u44176" class="text">
+            <p><span>2018-03-28 14:36</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u44177" class="ax_default table_cell">
+          <img id="u44177_img" class="img " src="images/进项发票信息查询/u44177.png"/>
+          <!-- Unnamed () -->
+          <div id="u44178" class="text">
+            <p><span>已退票</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44179" class="ax_default label">
+        <div id="u44179_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44180" class="text">
+          <p><span>发票类别：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u44181" class="ax_default droplist">
+        <select id="u44181_input">
+          <option value="请选择">请选择</option>
+          <option value="货款">货款</option>
+          <option value="港杂费">港杂费</option>
+          <option value="运费">运费</option>
+          <option value="化验费">化验费</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44182" class="ax_default label">
+        <div id="u44182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44183" class="text">
+          <p><span>发票类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u44184" class="ax_default droplist">
+        <select id="u44184_input">
+          <option value="请选择">请选择</option>
+          <option value="普票">普票</option>
+          <option value="专票">专票</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44185" class="ax_default label">
+        <div id="u44185_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44186" class="text">
+          <p><span>收票时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44187" class="ax_default box_1">
+        <div id="u44187_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44188" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u44189" class="ax_default _图片">
+        <img id="u44189_img" class="img " src="images/事件提醒列表/u1236.png"/>
+        <!-- Unnamed () -->
+        <div id="u44190" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44191" class="ax_default label">
+        <div id="u44191_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44192" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44193" class="ax_default box_1">
+        <div id="u44193_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44194" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u44195" class="ax_default _图片">
+        <img id="u44195_img" class="img " src="images/事件提醒列表/u1236.png"/>
+        <!-- Unnamed () -->
+        <div id="u44196" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44197" class="ax_default primary_button">
+        <div id="u44197_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44198" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44199" class="ax_default primary_button">
+        <div id="u44199_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44200" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44201" class="ax_default box_1">
+        <div id="u44201_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44202" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44203" class="ax_default box_1">
+        <div id="u44203_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44204" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44205" class="ax_default sticky_1">
+        <div id="u44205_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44206" class="text">
+          <p style="font-size:13px;"><span>1、此处显示从票加加处获取的发票信息</span></p><p style="font-size:13px;"><span>2、按照收票时间倒叙排序</span></p><p style="font-size:13px;"><span>3、对于已经退票的，底色用不用颜色标记，并且要记录退票时间</span></p><p style="font-size:13px;"><span>4、点击查看，如果该票是客户类企业开票信息其已经有对应的结算单，则跳转到页面【</span><span style="font-size:11px;color:#000000;">对应详情（结算单）</span><span>】；如果该票是合作类企业开票信息，其已经有对应的付款信息，则跳转到页面【</span><span style="font-size:11px;color:#000000;">对应详情（付款）</span><span>】，如果票没有对应的结算单或者付款信息，则跳转到页面【</span><span style="font-size:11px;color:#000000;">对应详情（只有发票）</span><span>】</span></p><p style="font-size:13px;"><span>5、查询条件中默认的为已收票</span></p><p style="font-size:13px;"><span>6、总计依赖查询条件，总收票为总收到的票金额，已认票为查询条件下，核减票额总和，未认票=总收票-已认票</span></p><p style="font-size:13px;"><span>7、对于已退票的，点击查看跳转到页面【</span><span style="font-size:11px;color:#000000;">对应详情（只有发票）</span><span>】</span></p><p style="font-size:13px;"><span>8、总计发票金额为符合查询条件的所有发票金额总和</span></p><p style="font-size:13px;"><span>9、从企业资产管理处跳转过来的，需要带着跳转过来的企业信息，查询时间段及对应的供应链公司</span></p><p style="font-size:13px;"><span>10、按照单个发票显示</span></p><p style="font-size:13px;"><span>11、开票时间为发票里面的开票时间，收票时间为扫描到系统中的时间记为收票时间，退票时间为退票的时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44207" class="ax_default label">
+        <div id="u44207_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44208" class="text">
+          <p><span>开票企业：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44209" class="ax_default box_1">
+        <div id="u44209_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44210" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44211" class="ax_default label">
+        <div id="u44211_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44212" class="text">
+          <p><span>发票状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u44213" class="ax_default droplist">
+        <select id="u44213_input">
+          <option value="请选择">请选择</option>
+          <option selected value="已收票">已收票</option>
+          <option value="已退票">已退票</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44214" class="ax_default label">
+        <div id="u44214_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44215" class="text">
+          <p><span>企业类型：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u44216" class="ax_default droplist">
+        <select id="u44216_input">
+          <option selected value="请选择">请选择</option>
+          <option value="客户企业">客户企业</option>
+          <option value="运输企业">运输企业</option>
+          <option value="港务企业">港务企业</option>
+          <option value="化验企业">化验企业</option>
+          <option value="其他企业">其他企业</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44217" class="ax_default label">
+        <div id="u44217_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44218" class="text">
+          <p><span>供应链公司：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u44219" class="ax_default droplist">
+        <select id="u44219_input">
+          <option selected value="金银岛（宁夏）供应链管理有限公司">金银岛（宁夏）供应链管理有限公司</option>
+          <option value="金银岛（内蒙）供应链管理有限公司">金银岛（内蒙）供应链管理有限公司</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44220" class="ax_default box_1">
+        <div id="u44220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44221" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44222" class="ax_default label">
+        <div id="u44222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44223" class="text">
+          <p><span>总收票</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44224" class="ax_default _三级标题">
+        <div id="u44224_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44225" class="text">
+          <p><span>10,000,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44226" class="ax_default label">
+        <div id="u44226_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44227" class="text">
+          <p><span>已认票</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44228" class="ax_default _三级标题">
+        <div id="u44228_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44229" class="text">
+          <p><span>5,000,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44230" class="ax_default label">
+        <div id="u44230_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44231" class="text">
+          <p><span>未认票</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44232" class="ax_default _三级标题">
+        <div id="u44232_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44233" class="text">
+          <p><span>10,000,000.00</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

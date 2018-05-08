@@ -1,0 +1,477 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>结算单详情（未确认）</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/结算单详情（未确认）/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/结算单详情（未确认）/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (页头) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49723" class="ax_default box_2">
+        <div id="u49723_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49724" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49725" class="ax_default _形状">
+        <img id="u49725_img" class="img " src="images/订单/u48232.png"/>
+        <!-- Unnamed () -->
+        <div id="u49726" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u49727" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49728" class="ax_default _一级标题">
+        <div id="u49728_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49729" class="text">
+          <p><span>结算单详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49730" class="ax_default _图片">
+        <img id="u49730_img" class="img " src="images/订单/u48237.png"/>
+        <!-- Unnamed () -->
+        <div id="u49731" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49733" class="ax_default box_2">
+        <div id="u49733_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49734" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49735" class="ax_default box_2">
+        <div id="u49735_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49736" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49737" class="ax_default _三级标题">
+        <div id="u49737_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49738" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">确认无误后请输入您的签章密码进行签章</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49739" class="ax_default _图片">
+        <img id="u49739_img" class="img " src="images/结算单详情（未确认）/u49739.png"/>
+        <!-- Unnamed () -->
+        <div id="u49740" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49741" class="ax_default label">
+        <div id="u49741_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49742" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">输入密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49743" class="ax_default _图片">
+        <img id="u49743_img" class="img " src="images/结算单详情（未确认）/u49743.png"/>
+        <!-- Unnamed () -->
+        <div id="u49744" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u49745" class="ax_default checkbox">
+        <label for="u49745_input">
+          <!-- Unnamed () -->
+          <div id="u49746" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;color:#666666;">我已阅读并同意</span><span style="font-family:'微软雅黑';font-weight:400;color:#FF0000;">《金银岛电商平台电子签章协议》</span></p>
+          </div>
+        </label>
+        <input id="u49745_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u49747" class="ax_default line">
+        <img id="u49747_img" class="img " src="images/结算单详情（未确认）/u49747.png"/>
+        <!-- Unnamed () -->
+        <div id="u49748" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49749" class="ax_default box_2">
+        <div id="u49749_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49750" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49751" class="ax_default _图片">
+        <img id="u49751_img" class="img " src="images/全局说明/u330.png"/>
+        <!-- Unnamed () -->
+        <div id="u49752" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49753" class="ax_default label">
+        <div id="u49753_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49754" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">您的结算单已签章成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49755" class="ax_default _图片">
+        <img id="u49755_img" class="img " src="images/结算单详情（未确认）/u49755.png"/>
+        <!-- Unnamed () -->
+        <div id="u49756" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49757" class="ax_default label">
+        <div id="u49757_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49758" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">1、签章完成给运营App成功提醒中推送此push</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49759" class="ax_default box_2">
+        <div id="u49759_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49760" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49761" class="ax_default box_2">
+        <div id="u49761_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49762" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49763" class="ax_default label">
+        <div id="u49763_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49764" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;text-decoration:underline;">忘记密码？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u49765" class="ax_default marker">
+        <img id="u49765_img" class="img " src="images/消息/u15568.png"/>
+        <!-- Unnamed () -->
+        <div id="u49766" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49767" class="ax_default _文本段落">
+        <div id="u49767_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49768" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">1、此处图片可点击，点击之后占满整个屏幕显示，并且支持放大，缩小查看</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">2、再次点击之后回到现在的页面状态</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">3、结算单有横版，也有竖版，请适应屏幕显示，高度不定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u49769" class="ax_default _连接线">
+        <img id="u49769_seg0" class="img " src="images/结算单详情（未确认）/u49769_seg0.png" alt="u49769_seg0"/>
+        <img id="u49769_seg1" class="img " src="images/结算单详情（未确认）/u49769_seg1.png" alt="u49769_seg1"/>
+        <img id="u49769_seg2" class="img " src="images/结算单详情（未确认）/u49769_seg2.png" alt="u49769_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u49770" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49771" class="ax_default box_2">
+        <div id="u49771_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49772" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">拒绝签章</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49773" class="ax_default box_2">
+        <div id="u49773_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49774" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">签章确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49775" class="ax_default _文本段落">
+        <div id="u49775_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49776" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">点击拒绝签章，弹出如下对话框：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49777" class="ax_default box_2">
+        <div id="u49777_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49778" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u49779" class="ax_default primary_button">
+        <img id="u49779_img" class="img " src="images/结算单详情（未确认）/u49779.png"/>
+        <!-- Unnamed () -->
+        <div id="u49780" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">确 定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49781" class="ax_default _三级标题">
+        <div id="u49781_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49782" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">请输入拒绝理由</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49783" class="ax_default box_1">
+        <div id="u49783_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49784" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49785" class="ax_default _文本段落">
+        <div id="u49785_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49786" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">此处不是必填项，提交之后给发起结算单的运营专员发送如下push</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49787" class="ax_default _三级标题">
+        <div id="u49787_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49788" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">结算单签章驳回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49789" class="ax_default label">
+        <div id="u49789_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49790" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">订单D0001的结算单XXX用户已拒绝签章，请您查看并处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u49791" class="ax_default marker">
+        <img id="u49791_img" class="img " src="images/消息/u15592.png"/>
+        <!-- Unnamed () -->
+        <div id="u49792" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">结算单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u49793" class="ax_default marker">
+        <img id="u49793_img" class="img " src="images/消息/u15568.png"/>
+        <!-- Unnamed () -->
+        <div id="u49794" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49795" class="ax_default _三级标题">
+        <div id="u49795_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49796" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">V4.3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u49797" class="ax_default _连接线">
+        <img id="u49797_seg0" class="img " src="images/结算单详情（未确认）/u49797_seg0.png" alt="u49797_seg0"/>
+        <img id="u49797_seg1" class="img " src="images/结算单详情（未确认）/u49797_seg1.png" alt="u49797_seg1"/>
+        <img id="u49797_seg2" class="img " src="images/结算单详情（未确认）/u49797_seg2.png" alt="u49797_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u49798" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u49799" class="ax_default marker">
+        <img id="u49799_img" class="img " src="images/消息/u15568.png"/>
+        <!-- Unnamed () -->
+        <div id="u49800" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49801" class="ax_default _文本段落">
+        <div id="u49801_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49802" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2、如果密码输入错误，提示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49803" class="ax_default box_2">
+        <div id="u49803_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49804" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">您输入的密码不正确，请重新输入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49805" class="ax_default _文本段落">
+        <div id="u49805_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49806" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">3、检测签章是否可用，不可用给出提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49807" class="ax_default box_2">
+        <div id="u49807_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49808" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">您签章不可用，请联系金银岛客服</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49809" class="ax_default _文本段落">
+        <div id="u49809_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49810" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">1、如果协议未勾选，提示如下</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49811" class="ax_default box_2">
+        <div id="u49811_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49812" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">请您勾选并确认签章协议</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u49813" class="ax_default _连接线">
+        <img id="u49813_seg0" class="img " src="images/结算单详情（未确认）/u49813_seg0.png" alt="u49813_seg0"/>
+        <img id="u49813_seg1" class="img " src="images/结算单详情（未确认）/u49813_seg1.png" alt="u49813_seg1"/>
+        <img id="u49813_seg2" class="img " src="images/结算单详情（未确认）/u49813_seg2.png" alt="u49813_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u49814" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

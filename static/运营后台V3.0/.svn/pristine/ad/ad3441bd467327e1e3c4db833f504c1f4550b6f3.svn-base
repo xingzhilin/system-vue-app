@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>选择所属部门</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/选择所属部门/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/选择所属部门/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18710" class="ax_default box_2">
+        <div id="u18710_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18711" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18712" class="ax_default checkbox">
+        <label for="u18712_input">
+          <!-- Unnamed () -->
+          <div id="u18713" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18712_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18714" class="ax_default checkbox">
+        <label for="u18714_input">
+          <!-- Unnamed () -->
+          <div id="u18715" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18714_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18716" class="ax_default checkbox">
+        <label for="u18716_input">
+          <!-- Unnamed () -->
+          <div id="u18717" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18716_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18718" class="ax_default _图片">
+        <img id="u18718_img" class="img " src="images/选择所属部门/u18718.png"/>
+        <!-- Unnamed () -->
+        <div id="u18719" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18720" class="ax_default label">
+        <div id="u18720_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18721" class="text" style="visibility: visible;">
+          <p><span>业务中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18722" class="ax_default _图片">
+        <img id="u18722_img" class="img " src="images/选择所属部门/u18718.png"/>
+        <!-- Unnamed () -->
+        <div id="u18723" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18724" class="ax_default label">
+        <div id="u18724_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18725" class="text" style="visibility: visible;">
+          <p><span>运营中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18726" class="ax_default _图片">
+        <img id="u18726_img" class="img " src="images/选择所属部门/u18718.png"/>
+        <!-- Unnamed () -->
+        <div id="u18727" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18728" class="ax_default label">
+        <div id="u18728_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18729" class="text" style="visibility: visible;">
+          <p><span>财务中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18730" class="ax_default _图片">
+        <img id="u18730_img" class="img " src="images/选择所属部门/u18718.png"/>
+        <!-- Unnamed () -->
+        <div id="u18731" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18732" class="ax_default label">
+        <div id="u18732_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18733" class="text" style="visibility: visible;">
+          <p><span>交易服务中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18734" class="ax_default _图片">
+        <img id="u18734_img" class="img " src="images/选择所属部门/u18718.png"/>
+        <!-- Unnamed () -->
+        <div id="u18735" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18736" class="ax_default label">
+        <div id="u18736_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18737" class="text" style="visibility: visible;">
+          <p><span>物流中心</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u18738" class="ax_default line">
+        <img id="u18738_img" class="img " src="images/选择所属部门/u18738.png"/>
+        <!-- Unnamed () -->
+        <div id="u18739" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u18740" class="ax_default line">
+        <img id="u18740_img" class="img " src="images/选择所属部门/u18740.png"/>
+        <!-- Unnamed () -->
+        <div id="u18741" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18742" class="ax_default _图片">
+        <img id="u18742_img" class="img " src="images/选择所属部门/u18742.png"/>
+        <!-- Unnamed () -->
+        <div id="u18743" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18744" class="ax_default label">
+        <div id="u18744_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18745" class="text" style="visibility: visible;">
+          <p><span>物流一部</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u18746" class="ax_default line">
+        <img id="u18746_img" class="img " src="images/选择所属部门/u18740.png"/>
+        <!-- Unnamed () -->
+        <div id="u18747" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18748" class="ax_default _图片">
+        <img id="u18748_img" class="img " src="images/选择所属部门/u18742.png"/>
+        <!-- Unnamed () -->
+        <div id="u18749" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18750" class="ax_default label">
+        <div id="u18750_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18751" class="text" style="visibility: visible;">
+          <p><span>物流二部</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u18752" class="ax_default line">
+        <img id="u18752_img" class="img " src="images/选择所属部门/u18740.png"/>
+        <!-- Unnamed () -->
+        <div id="u18753" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18754" class="ax_default _图片">
+        <img id="u18754_img" class="img " src="images/选择所属部门/u18742.png"/>
+        <!-- Unnamed () -->
+        <div id="u18755" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18756" class="ax_default label">
+        <div id="u18756_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18757" class="text" style="visibility: visible;">
+          <p><span>物流三部</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u18758" class="ax_default line">
+        <img id="u18758_img" class="img " src="images/选择所属部门/u18758.png"/>
+        <!-- Unnamed () -->
+        <div id="u18759" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u18760" class="ax_default line">
+        <img id="u18760_img" class="img " src="images/选择所属部门/u18740.png"/>
+        <!-- Unnamed () -->
+        <div id="u18761" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18762" class="ax_default _图片">
+        <img id="u18762_img" class="img " src="images/选择所属部门/u18762.png"/>
+        <!-- Unnamed () -->
+        <div id="u18763" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18764" class="ax_default label">
+        <div id="u18764_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18765" class="text" style="visibility: visible;">
+          <p><span>现场物流</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u18766" class="ax_default line">
+        <img id="u18766_img" class="img " src="images/选择所属部门/u18740.png"/>
+        <!-- Unnamed () -->
+        <div id="u18767" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18768" class="ax_default _图片">
+        <img id="u18768_img" class="img " src="images/选择所属部门/u18762.png"/>
+        <!-- Unnamed () -->
+        <div id="u18769" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18770" class="ax_default label">
+        <div id="u18770_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18771" class="text" style="visibility: visible;">
+          <p><span>称重化验</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u18772" class="ax_default line">
+        <img id="u18772_img" class="img " src="images/选择所属部门/u18740.png"/>
+        <!-- Unnamed () -->
+        <div id="u18773" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u18774" class="ax_default _图片">
+        <img id="u18774_img" class="img " src="images/选择所属部门/u18762.png"/>
+        <!-- Unnamed () -->
+        <div id="u18775" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18776" class="ax_default label">
+        <div id="u18776_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18777" class="text" style="visibility: visible;">
+          <p><span>信息审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18778" class="ax_default checkbox">
+        <label for="u18778_input">
+          <!-- Unnamed () -->
+          <div id="u18779" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18778_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18780" class="ax_default checkbox">
+        <label for="u18780_input">
+          <!-- Unnamed () -->
+          <div id="u18781" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18780_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18782" class="ax_default checkbox">
+        <label for="u18782_input">
+          <!-- Unnamed () -->
+          <div id="u18783" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18782_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18784" class="ax_default checkbox">
+        <label for="u18784_input">
+          <!-- Unnamed () -->
+          <div id="u18785" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18784_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18786" class="ax_default checkbox">
+        <label for="u18786_input">
+          <!-- Unnamed () -->
+          <div id="u18787" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18786_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18788" class="ax_default checkbox">
+        <label for="u18788_input">
+          <!-- Unnamed () -->
+          <div id="u18789" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18788_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18790" class="ax_default checkbox">
+        <label for="u18790_input">
+          <!-- Unnamed () -->
+          <div id="u18791" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18790_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u18792" class="ax_default checkbox">
+        <label for="u18792_input">
+          <!-- Unnamed () -->
+          <div id="u18793" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u18792_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18794" class="ax_default primary_button">
+        <div id="u18794_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18795" class="text" style="visibility: visible;">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18796" class="ax_default primary_button">
+        <div id="u18796_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18797" class="text" style="visibility: visible;">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

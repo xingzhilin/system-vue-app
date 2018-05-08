@@ -1,0 +1,881 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>企业属性管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/企业属性管理/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/企业属性管理/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15729" class="ax_default box_2">
+        <div id="u15729_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15730" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15731" class="ax_default box_2">
+        <div id="u15731_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15732" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15733" class="ax_default box_2">
+        <div id="u15733_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15734" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15735" class="ax_default box_2">
+        <div id="u15735_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15736" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15737" class="ax_default box_1">
+        <div id="u15737_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15738" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15739" class="ax_default box_1">
+        <div id="u15739_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15740" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15741" class="ax_default box_1">
+        <div id="u15741_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15742" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15743" class="ax_default label">
+        <div id="u15743_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15744" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15745" class="ax_default box_1">
+        <div id="u15745_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15746" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15747" class="ax_default box_2">
+        <div id="u15747_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15748" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15749" class="ax_default box_2">
+        <div id="u15749_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15750" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15751" class="ax_default box_2">
+        <div id="u15751_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15752" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15753" class="ax_default label">
+        <div id="u15753_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15754" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u15755" class="ax_default _图片">
+        <img id="u15755_img" class="img " src="images/事件提醒列表/u1220.png"/>
+        <!-- Unnamed () -->
+        <div id="u15756" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15757" class="ax_default box_2">
+        <div id="u15757_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15758" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15759" class="ax_default box_2">
+        <div id="u15759_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15760" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u15761" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15762" class="ax_default table_cell">
+          <img id="u15762_img" class="img " src="images/发票维护/u3495.png"/>
+          <!-- Unnamed () -->
+          <div id="u15763" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15764" class="ax_default table_cell">
+          <img id="u15764_img" class="img " src="images/企业属性管理/u15764.png"/>
+          <!-- Unnamed () -->
+          <div id="u15765" class="text">
+            <p><span>企业名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15766" class="ax_default table_cell">
+          <img id="u15766_img" class="img " src="images/企业属性管理/u15766.png"/>
+          <!-- Unnamed () -->
+          <div id="u15767" class="text">
+            <p><span>企业编码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15768" class="ax_default table_cell">
+          <img id="u15768_img" class="img " src="images/企业属性管理/u15768.png"/>
+          <!-- Unnamed () -->
+          <div id="u15769" class="text">
+            <p><span>是否供应链公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15770" class="ax_default table_cell">
+          <img id="u15770_img" class="img " src="images/企业属性管理/u15770.png"/>
+          <!-- Unnamed () -->
+          <div id="u15771" class="text">
+            <p><span>是否交货地交货</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15772" class="ax_default table_cell">
+          <img id="u15772_img" class="img " src="images/企业属性管理/u15772.png"/>
+          <!-- Unnamed () -->
+          <div id="u15773" class="text">
+            <p><span>客户类别</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15774" class="ax_default table_cell">
+          <img id="u15774_img" class="img " src="images/企业属性管理/u15774.png"/>
+          <!-- Unnamed () -->
+          <div id="u15775" class="text">
+            <p><span>公司状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15776" class="ax_default table_cell">
+          <img id="u15776_img" class="img " src="images/企业属性管理/u15776.png"/>
+          <!-- Unnamed () -->
+          <div id="u15777" class="text">
+            <p><span>与用友同步状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15778" class="ax_default table_cell">
+          <img id="u15778_img" class="img " src="images/企业属性管理/u15778.png"/>
+          <!-- Unnamed () -->
+          <div id="u15779" class="text">
+            <p><span>注册时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15780" class="ax_default table_cell">
+          <img id="u15780_img" class="img " src="images/企业属性管理/u15780.png"/>
+          <!-- Unnamed () -->
+          <div id="u15781" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15782" class="ax_default table_cell">
+          <img id="u15782_img" class="img " src="images/企业属性管理/u15782.png"/>
+          <!-- Unnamed () -->
+          <div id="u15783" class="text">
+            <p><span>月半商贸有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15784" class="ax_default table_cell">
+          <img id="u15784_img" class="img " src="images/企业属性管理/u15784.png"/>
+          <!-- Unnamed () -->
+          <div id="u15785" class="text">
+            <p><span>2018JYD0001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15786" class="ax_default table_cell">
+          <img id="u15786_img" class="img " src="images/企业属性管理/u15786.png"/>
+          <!-- Unnamed () -->
+          <div id="u15787" class="text">
+            <p><span>是</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15788" class="ax_default table_cell">
+          <img id="u15788_img" class="img " src="images/签章管理_1/u3298.png"/>
+          <!-- Unnamed () -->
+          <div id="u15789" class="text">
+            <p><span>是</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15790" class="ax_default table_cell">
+          <img id="u15790_img" class="img " src="images/企业属性管理/u15790.png"/>
+          <!-- Unnamed () -->
+          <div id="u15791" class="text">
+            <p><span>供应商企业</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15792" class="ax_default table_cell">
+          <img id="u15792_img" class="img " src="images/企业属性管理/u15792.png"/>
+          <!-- Unnamed () -->
+          <div id="u15793" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15794" class="ax_default table_cell">
+          <img id="u15794_img" class="img " src="images/企业属性管理/u15794.png"/>
+          <!-- Unnamed () -->
+          <div id="u15795" class="text">
+            <p><span>未同步</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15796" class="ax_default table_cell">
+          <img id="u15796_img" class="img " src="images/企业属性管理/u15796.png"/>
+          <!-- Unnamed () -->
+          <div id="u15797" class="text">
+            <p><span>2018-12-12 12:00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15798" class="ax_default table_cell">
+          <img id="u15798_img" class="img " src="images/发票维护/u3511.png"/>
+          <!-- Unnamed () -->
+          <div id="u15799" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15800" class="ax_default table_cell">
+          <img id="u15800_img" class="img " src="images/企业属性管理/u15800.png"/>
+          <!-- Unnamed () -->
+          <div id="u15801" class="text">
+            <p><span>月半半商贸有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15802" class="ax_default table_cell">
+          <img id="u15802_img" class="img " src="images/企业属性管理/u15802.png"/>
+          <!-- Unnamed () -->
+          <div id="u15803" class="text">
+            <p><span>2018JYD0002</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15804" class="ax_default table_cell">
+          <img id="u15804_img" class="img " src="images/准入协议/u3793.png"/>
+          <!-- Unnamed () -->
+          <div id="u15805" class="text">
+            <p><span>是</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15806" class="ax_default table_cell">
+          <img id="u15806_img" class="img " src="images/企业属性管理/u15806.png"/>
+          <!-- Unnamed () -->
+          <div id="u15807" class="text">
+            <p><span>是</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15808" class="ax_default table_cell">
+          <img id="u15808_img" class="img " src="images/企业属性管理/u15808.png"/>
+          <!-- Unnamed () -->
+          <div id="u15809" class="text">
+            <p><span>采购商企业</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15810" class="ax_default table_cell">
+          <img id="u15810_img" class="img " src="images/企业属性管理/u15810.png"/>
+          <!-- Unnamed () -->
+          <div id="u15811" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15812" class="ax_default table_cell">
+          <img id="u15812_img" class="img " src="images/企业属性管理/u15812.png"/>
+          <!-- Unnamed () -->
+          <div id="u15813" class="text">
+            <p><span>同步中</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15814" class="ax_default table_cell">
+          <img id="u15814_img" class="img " src="images/企业属性管理/u15814.png"/>
+          <!-- Unnamed () -->
+          <div id="u15815" class="text">
+            <p><span>2018-12-11 12:00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15816" class="ax_default table_cell">
+          <img id="u15816_img" class="img " src="images/发票维护/u3511.png"/>
+          <!-- Unnamed () -->
+          <div id="u15817" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15818" class="ax_default table_cell">
+          <img id="u15818_img" class="img " src="images/企业属性管理/u15800.png"/>
+          <!-- Unnamed () -->
+          <div id="u15819" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15820" class="ax_default table_cell">
+          <img id="u15820_img" class="img " src="images/企业属性管理/u15802.png"/>
+          <!-- Unnamed () -->
+          <div id="u15821" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15822" class="ax_default table_cell">
+          <img id="u15822_img" class="img " src="images/准入协议/u3793.png"/>
+          <!-- Unnamed () -->
+          <div id="u15823" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15824" class="ax_default table_cell">
+          <img id="u15824_img" class="img " src="images/企业属性管理/u15806.png"/>
+          <!-- Unnamed () -->
+          <div id="u15825" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15826" class="ax_default table_cell">
+          <img id="u15826_img" class="img " src="images/企业属性管理/u15808.png"/>
+          <!-- Unnamed () -->
+          <div id="u15827" class="text">
+            <p><span>销售中间商</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15828" class="ax_default table_cell">
+          <img id="u15828_img" class="img " src="images/企业属性管理/u15810.png"/>
+          <!-- Unnamed () -->
+          <div id="u15829" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15830" class="ax_default table_cell">
+          <img id="u15830_img" class="img " src="images/企业属性管理/u15812.png"/>
+          <!-- Unnamed () -->
+          <div id="u15831" class="text">
+            <p><span>已完成</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15832" class="ax_default table_cell">
+          <img id="u15832_img" class="img " src="images/企业属性管理/u15814.png"/>
+          <!-- Unnamed () -->
+          <div id="u15833" class="text">
+            <p><span>2018-12-10 12:00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15834" class="ax_default table_cell">
+          <img id="u15834_img" class="img " src="images/企业属性管理/u15834.png"/>
+          <!-- Unnamed () -->
+          <div id="u15835" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15836" class="ax_default table_cell">
+          <img id="u15836_img" class="img " src="images/企业属性管理/u15836.png"/>
+          <!-- Unnamed () -->
+          <div id="u15837" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15838" class="ax_default table_cell">
+          <img id="u15838_img" class="img " src="images/企业属性管理/u15838.png"/>
+          <!-- Unnamed () -->
+          <div id="u15839" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15840" class="ax_default table_cell">
+          <img id="u15840_img" class="img " src="images/企业属性管理/u15840.png"/>
+          <!-- Unnamed () -->
+          <div id="u15841" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15842" class="ax_default table_cell">
+          <img id="u15842_img" class="img " src="images/企业属性管理/u15842.png"/>
+          <!-- Unnamed () -->
+          <div id="u15843" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15844" class="ax_default table_cell">
+          <img id="u15844_img" class="img " src="images/企业属性管理/u15844.png"/>
+          <!-- Unnamed () -->
+          <div id="u15845" class="text">
+            <p><span>采购中间商</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15846" class="ax_default table_cell">
+          <img id="u15846_img" class="img " src="images/企业属性管理/u15846.png"/>
+          <!-- Unnamed () -->
+          <div id="u15847" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15848" class="ax_default table_cell">
+          <img id="u15848_img" class="img " src="images/企业属性管理/u15848.png"/>
+          <!-- Unnamed () -->
+          <div id="u15849" class="text">
+            <p><span>同步失败</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u15850" class="ax_default table_cell">
+          <img id="u15850_img" class="img " src="images/企业属性管理/u15850.png"/>
+          <!-- Unnamed () -->
+          <div id="u15851" class="text">
+            <p><span>2018-12-09 12:00</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15852" class="ax_default box_1">
+        <div id="u15852_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15853" class="text">
+          <p><span>处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15854" class="ax_default primary_button">
+        <div id="u15854_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15855" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15856" class="ax_default primary_button">
+        <div id="u15856_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15857" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15858" class="ax_default box_1">
+        <div id="u15858_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15859" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15860" class="ax_default sticky_3">
+        <div id="u15860_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15861" class="text">
+          <p><span>1、查询条及哦按的公司状态默认为启用的</span></p><p><span>2、下面公司按照注册时间倒叙排序</span></p><p><span>3、列表中有与用友同步状态，未同步显示未同步，同步中显示同步中，同步完成显示已完成，同步失败显示同步失败，同步失败的有不同底色显示</span></p><p><span>4、同步失败的显示同步按钮，点击则重新将该数据与用友交互同步</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15862" class="ax_default box_1">
+        <div id="u15862_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15863" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15864" class="ax_default box_1">
+        <div id="u15864_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15865" class="text">
+          <p><span>处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15866" class="ax_default label">
+        <div id="u15866_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15867" class="text">
+          <p><span>是否供应链公司：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u15868" class="ax_default droplist">
+        <select id="u15868_input">
+          <option selected value="请选择">请选择</option>
+          <option value="是">是</option>
+          <option value="否">否</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15869" class="ax_default label">
+        <div id="u15869_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15870" class="text">
+          <p><span>是否交货地交货：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u15871" class="ax_default droplist">
+        <select id="u15871_input">
+          <option selected value="请选择">请选择</option>
+          <option value="是">是</option>
+          <option value="否">否</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15872" class="ax_default box_1">
+        <div id="u15872_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15873" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15874" class="ax_default label">
+        <div id="u15874_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15875" class="text">
+          <p><span>企业名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15876" class="ax_default label">
+        <div id="u15876_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15877" class="text">
+          <p><span>客户类别：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u15878" class="ax_default droplist">
+        <select id="u15878_input">
+          <option value="供应商企业">供应商企业</option>
+          <option value="采购商企业">采购商企业</option>
+          <option value="销售中间商">销售中间商</option>
+          <option value="采购中间商">采购中间商</option>
+          <option selected value="请选择">请选择</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15879" class="ax_default label">
+        <div id="u15879_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15880" class="text">
+          <p><span>省份：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u15881" class="ax_default droplist">
+        <select id="u15881_input">
+          <option value="北京市">北京市</option>
+          <option value="天津市">天津市</option>
+          <option value="上海市">上海市</option>
+          <option value="重庆市">重庆市</option>
+          <option value="河北省">河北省</option>
+          <option value="河南省">河南省</option>
+          <option value="云南省">云南省</option>
+          <option value="辽宁省">辽宁省</option>
+          <option value="黑龙江省">黑龙江省</option>
+          <option value="湖南省">湖南省</option>
+          <option value="安徽省">安徽省</option>
+          <option value="山东省">山东省</option>
+          <option value="新疆维吾尔">新疆维吾尔</option>
+          <option value="江苏省">江苏省</option>
+          <option value="浙江省">浙江省</option>
+          <option value="江西省">江西省</option>
+          <option value="湖北省">湖北省</option>
+          <option value="广西壮族">广西壮族</option>
+          <option value="甘肃省">甘肃省</option>
+          <option value="山西省">山西省</option>
+          <option value="内蒙古">内蒙古</option>
+          <option value="陕西省">陕西省</option>
+          <option value="吉林省">吉林省</option>
+          <option value="福建省">福建省</option>
+          <option value="贵州省">贵州省</option>
+          <option value="广东省">广东省</option>
+          <option value="青海省">青海省</option>
+          <option value="西藏">西藏</option>
+          <option value="四川省">四川省</option>
+          <option value="宁夏回族">宁夏回族</option>
+          <option value="海南省">海南省</option>
+          <option value="台湾省">台湾省</option>
+          <option value="香港特别行政区">香港特别行政区</option>
+          <option value="澳门特别行政区">澳门特别行政区</option>
+          <option selected value="请选择">请选择</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15882" class="ax_default box_1">
+        <div id="u15882_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15883" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15884" class="ax_default label">
+        <div id="u15884_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15885" class="text">
+          <p><span>企业编码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15886" class="ax_default label">
+        <div id="u15886_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15887" class="text">
+          <p><span>公司状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u15888" class="ax_default droplist">
+        <select id="u15888_input">
+          <option value="请选择">请选择</option>
+          <option selected value="启用">启用</option>
+          <option value="停用">停用</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15889" class="ax_default box_1">
+        <div id="u15889_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15890" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15891" class="ax_default box_1">
+        <div id="u15891_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15892" class="text">
+          <p><span>处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15893" class="ax_default box_1">
+        <div id="u15893_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15894" class="text">
+          <p><span>同步</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u15895" class="ax_default label">
+        <div id="u15895_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u15896" class="text">
+          <p><span>用友同步状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u15897" class="ax_default droplist">
+        <select id="u15897_input">
+          <option selected value="请选择">请选择</option>
+          <option value="未同步">未同步</option>
+          <option value="同步中">同步中</option>
+          <option value="已完成">已完成</option>
+          <option value="同步失败">同步失败</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1405 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>货权维护</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/货权维护/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/货权维护/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36797" class="ax_default box_2">
+        <div id="u36797_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36798" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36799" class="ax_default box_2">
+        <div id="u36799_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36800" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36801" class="ax_default box_2">
+        <div id="u36801_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36802" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36803" class="ax_default box_2">
+        <div id="u36803_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36804" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36805" class="ax_default box_1">
+        <div id="u36805_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36806" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36807" class="ax_default box_1">
+        <div id="u36807_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36808" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36809" class="ax_default box_1">
+        <div id="u36809_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36810" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36811" class="ax_default label">
+        <div id="u36811_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36812" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36813" class="ax_default box_1">
+        <div id="u36813_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36814" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36815" class="ax_default box_2">
+        <div id="u36815_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36816" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36817" class="ax_default box_2">
+        <div id="u36817_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36818" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36819" class="ax_default box_2">
+        <div id="u36819_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36820" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36821" class="ax_default label">
+        <div id="u36821_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36822" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u36823" class="ax_default _图片">
+        <img id="u36823_img" class="img " src="images/事件提醒列表/u1185.png"/>
+        <!-- Unnamed () -->
+        <div id="u36824" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36825" class="ax_default box_2">
+        <div id="u36825_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36826" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36827" class="ax_default box_2">
+        <div id="u36827_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36828" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36829" class="ax_default box_2">
+        <div id="u36829_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36830" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36831" class="ax_default box_2">
+        <div id="u36831_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36832" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36833" class="ax_default box_2">
+        <div id="u36833_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36834" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36835" class="ax_default box_1">
+        <div id="u36835_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36836" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36837" class="ax_default box_1">
+        <div id="u36837_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36838" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36839" class="ax_default box_1">
+        <div id="u36839_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36840" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36841" class="ax_default label">
+        <div id="u36841_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36842" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36843" class="ax_default box_1">
+        <div id="u36843_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36844" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36845" class="ax_default box_2">
+        <div id="u36845_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36846" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36847" class="ax_default box_2">
+        <div id="u36847_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36848" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36849" class="ax_default box_2">
+        <div id="u36849_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36850" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36851" class="ax_default label">
+        <div id="u36851_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36852" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u36853" class="ax_default _图片">
+        <img id="u36853_img" class="img " src="images/事件提醒列表/u1185.png"/>
+        <!-- Unnamed () -->
+        <div id="u36854" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36855" class="ax_default box_2">
+        <div id="u36855_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36856" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36857" class="ax_default box_2">
+        <div id="u36857_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36858" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36859" class="ax_default box_1">
+        <div id="u36859_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36860" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u36861" class="ax_default _图片">
+        <img id="u36861_img" class="img " src="images/事件提醒列表/u1201.png"/>
+        <!-- Unnamed () -->
+        <div id="u36862" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36863" class="ax_default label">
+        <div id="u36863_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36864" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36865" class="ax_default box_1">
+        <div id="u36865_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36866" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u36867" class="ax_default _图片">
+        <img id="u36867_img" class="img " src="images/事件提醒列表/u1201.png"/>
+        <!-- Unnamed () -->
+        <div id="u36868" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36869" class="ax_default label">
+        <div id="u36869_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36870" class="text">
+          <p><span>下单时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36871" class="ax_default primary_button">
+        <div id="u36871_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36872" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36873" class="ax_default primary_button">
+        <div id="u36873_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36874" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36875" class="ax_default label">
+        <div id="u36875_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36876" class="text">
+          <p><span>企业名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36877" class="ax_default box_1">
+        <div id="u36877_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36878" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36879" class="ax_default label">
+        <div id="u36879_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36880" class="text">
+          <p><span>订单编号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36881" class="ax_default box_1">
+        <div id="u36881_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36882" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36883" class="ax_default box_1">
+        <div id="u36883_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36884" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36885" class="ax_default label">
+        <div id="u36885_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36886" class="text">
+          <p><span>订单编号:Y20180321</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36887" class="ax_default label">
+        <div id="u36887_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36888" class="text">
+          <p><span>交割库:天津港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36889" class="ax_default label">
+        <div id="u36889_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36890" class="text">
+          <p><span>品种:金银岛1号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36891" class="ax_default label">
+        <div id="u36891_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36892" class="text">
+          <p><span>下单量:5000.00 吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u36893" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36894" class="ax_default table_cell">
+          <img id="u36894_img" class="img " src="images/入库录入/u30813.png"/>
+          <!-- Unnamed () -->
+          <div id="u36895" class="text">
+            <p><span>批次号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36896" class="ax_default table_cell">
+          <img id="u36896_img" class="img " src="images/货权维护/u36896.png"/>
+          <!-- Unnamed () -->
+          <div id="u36897" class="text">
+            <p><span>交割库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36898" class="ax_default table_cell">
+          <img id="u36898_img" class="img " src="images/货物拒收/u36232.png"/>
+          <!-- Unnamed () -->
+          <div id="u36899" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36900" class="ax_default table_cell">
+          <img id="u36900_img" class="img " src="images/货物拒收/u36226.png"/>
+          <!-- Unnamed () -->
+          <div id="u36901" class="text">
+            <p><span>货权所属</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36902" class="ax_default table_cell">
+          <img id="u36902_img" class="img " src="images/货物拒收/u36226.png"/>
+          <!-- Unnamed () -->
+          <div id="u36903" class="text">
+            <p><span>是否拒收</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36904" class="ax_default table_cell">
+          <img id="u36904_img" class="img " src="images/货物拒收/u36236.png"/>
+          <!-- Unnamed () -->
+          <div id="u36905" class="text">
+            <p><span>入库吨数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36906" class="ax_default table_cell">
+          <img id="u36906_img" class="img " src="images/货物拒收/u36238.png"/>
+          <!-- Unnamed () -->
+          <div id="u36907" class="text">
+            <p><span>入库时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36908" class="ax_default table_cell">
+          <img id="u36908_img" class="img " src="images/货物拒收/u36240.png"/>
+          <!-- Unnamed () -->
+          <div id="u36909" class="text">
+            <p><span>化验单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36910" class="ax_default table_cell">
+          <img id="u36910_img" class="img " src="images/运输公司管理/u3985.png"/>
+          <!-- Unnamed () -->
+          <div id="u36911" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801312</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36912" class="ax_default table_cell">
+          <img id="u36912_img" class="img " src="images/货权维护/u36912.png"/>
+          <!-- Unnamed () -->
+          <div id="u36913" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36914" class="ax_default table_cell">
+          <img id="u36914_img" class="img " src="images/船务合同/u4665.png"/>
+          <!-- Unnamed () -->
+          <div id="u36915" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36916" class="ax_default table_cell">
+          <img id="u36916_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u36917" class="text">
+            <p><span>煤炭公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36918" class="ax_default table_cell">
+          <img id="u36918_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u36919" class="text">
+            <p><span>否</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36920" class="ax_default table_cell">
+          <img id="u36920_img" class="img " src="images/账号管理/u1368.png"/>
+          <!-- Unnamed () -->
+          <div id="u36921" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36922" class="ax_default table_cell">
+          <img id="u36922_img" class="img " src="images/货物拒收/u36271.png"/>
+          <!-- Unnamed () -->
+          <div id="u36923" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36924" class="ax_default table_cell">
+          <img id="u36924_img" class="img " src="images/cci_指数维护/u13599.png"/>
+          <!-- Unnamed () -->
+          <div id="u36925" class="text">
+            <p><a id="u36926" class="link"><span>HY2018031515</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36927" class="ax_default table_cell">
+          <img id="u36927_img" class="img " src="images/运输公司管理/u3985.png"/>
+          <!-- Unnamed () -->
+          <div id="u36928" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801312</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36929" class="ax_default table_cell">
+          <img id="u36929_img" class="img " src="images/货权维护/u36912.png"/>
+          <!-- Unnamed () -->
+          <div id="u36930" class="text">
+            <p><span>天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36931" class="ax_default table_cell">
+          <img id="u36931_img" class="img " src="images/船务合同/u4665.png"/>
+          <!-- Unnamed () -->
+          <div id="u36932" class="text">
+            <p><span>金银岛1#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36933" class="ax_default table_cell">
+          <img id="u36933_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u36934" class="text">
+            <p><span>金银岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36935" class="ax_default table_cell">
+          <img id="u36935_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u36936" class="text">
+            <p><span>否</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36937" class="ax_default table_cell">
+          <img id="u36937_img" class="img " src="images/账号管理/u1368.png"/>
+          <!-- Unnamed () -->
+          <div id="u36938" class="text">
+            <p><span>5000.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36939" class="ax_default table_cell">
+          <img id="u36939_img" class="img " src="images/货物拒收/u36271.png"/>
+          <!-- Unnamed () -->
+          <div id="u36940" class="text">
+            <p><span>2018-01-01 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36941" class="ax_default table_cell">
+          <img id="u36941_img" class="img " src="images/cci_指数维护/u13599.png"/>
+          <!-- Unnamed () -->
+          <div id="u36942" class="text">
+            <p><a id="u36943" class="link"><span>HY2018031515</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36944" class="ax_default table_cell">
+          <img id="u36944_img" class="img " src="images/运输公司管理/u3985.png"/>
+          <!-- Unnamed () -->
+          <div id="u36945" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801313</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36946" class="ax_default table_cell">
+          <img id="u36946_img" class="img " src="images/货权维护/u36912.png"/>
+          <!-- Unnamed () -->
+          <div id="u36947" class="text">
+            <p><span>天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36948" class="ax_default table_cell">
+          <img id="u36948_img" class="img " src="images/船务合同/u4665.png"/>
+          <!-- Unnamed () -->
+          <div id="u36949" class="text">
+            <p><span>金银岛1#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36950" class="ax_default table_cell">
+          <img id="u36950_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u36951" class="text">
+            <p><span>金银岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36952" class="ax_default table_cell">
+          <img id="u36952_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u36953" class="text">
+            <p><span>否</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36954" class="ax_default table_cell">
+          <img id="u36954_img" class="img " src="images/账号管理/u1368.png"/>
+          <!-- Unnamed () -->
+          <div id="u36955" class="text">
+            <p><span>5000.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36956" class="ax_default table_cell">
+          <img id="u36956_img" class="img " src="images/货物拒收/u36271.png"/>
+          <!-- Unnamed () -->
+          <div id="u36957" class="text">
+            <p><span>2018-01-01 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36958" class="ax_default table_cell">
+          <img id="u36958_img" class="img " src="images/cci_指数维护/u13599.png"/>
+          <!-- Unnamed () -->
+          <div id="u36959" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36960" class="ax_default table_cell">
+          <img id="u36960_img" class="img " src="images/运输公司管理/u4013.png"/>
+          <!-- Unnamed () -->
+          <div id="u36961" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801313</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36962" class="ax_default table_cell">
+          <img id="u36962_img" class="img " src="images/签章管理/u29848.png"/>
+          <!-- Unnamed () -->
+          <div id="u36963" class="text">
+            <p><span>天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36964" class="ax_default table_cell">
+          <img id="u36964_img" class="img " src="images/船务合同/u4731.png"/>
+          <!-- Unnamed () -->
+          <div id="u36965" class="text">
+            <p><span>金银岛1#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36966" class="ax_default table_cell">
+          <img id="u36966_img" class="img " src="images/编辑_3/u17404.png"/>
+          <!-- Unnamed () -->
+          <div id="u36967" class="text">
+            <p><span>煤炭公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36968" class="ax_default table_cell">
+          <img id="u36968_img" class="img " src="images/编辑_3/u17404.png"/>
+          <!-- Unnamed () -->
+          <div id="u36969" class="text">
+            <p><span>是</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36970" class="ax_default table_cell">
+          <img id="u36970_img" class="img " src="images/账号管理/u1400.png"/>
+          <!-- Unnamed () -->
+          <div id="u36971" class="text">
+            <p><span>5000.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36972" class="ax_default table_cell">
+          <img id="u36972_img" class="img " src="images/货物拒收/u36304.png"/>
+          <!-- Unnamed () -->
+          <div id="u36973" class="text">
+            <p><span>2018-01-01 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36974" class="ax_default table_cell">
+          <img id="u36974_img" class="img " src="images/cci_指数维护/u13695.png"/>
+          <!-- Unnamed () -->
+          <div id="u36975" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36976" class="ax_default label">
+        <div id="u36976_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36977" class="text">
+          <p><span>企业名称:煤炭公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u36978" class="ax_default ellipse">
+        <img id="u36978_img" class="img " src="images/入库录入/u30907.png"/>
+        <!-- Unnamed () -->
+        <div id="u36979" class="text">
+          <p><span>定价</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36980" class="ax_default box_1">
+        <div id="u36980_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36981" class="text">
+          <p><span>货权维护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36982" class="ax_default box_1">
+        <div id="u36982_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36983" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36984" class="ax_default label">
+        <div id="u36984_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36985" class="text">
+          <p><span>订单编号:Y20180321</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36986" class="ax_default label">
+        <div id="u36986_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36987" class="text">
+          <p><span>交割库:天津港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36988" class="ax_default label">
+        <div id="u36988_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36989" class="text">
+          <p><span>品种:金银岛1号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u36990" class="ax_default label">
+        <div id="u36990_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u36991" class="text">
+          <p><span>下单量:5000.0000 吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u36992" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36993" class="ax_default table_cell">
+          <img id="u36993_img" class="img " src="images/入库录入/u30813.png"/>
+          <!-- Unnamed () -->
+          <div id="u36994" class="text">
+            <p><span>批次号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36995" class="ax_default table_cell">
+          <img id="u36995_img" class="img " src="images/货物拒收/u36230.png"/>
+          <!-- Unnamed () -->
+          <div id="u36996" class="text">
+            <p><span>交割库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36997" class="ax_default table_cell">
+          <img id="u36997_img" class="img " src="images/货物拒收/u36232.png"/>
+          <!-- Unnamed () -->
+          <div id="u36998" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u36999" class="ax_default table_cell">
+          <img id="u36999_img" class="img " src="images/货物拒收/u36226.png"/>
+          <!-- Unnamed () -->
+          <div id="u37000" class="text">
+            <p><span>货权所属</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37001" class="ax_default table_cell">
+          <img id="u37001_img" class="img " src="images/货物拒收/u36226.png"/>
+          <!-- Unnamed () -->
+          <div id="u37002" class="text">
+            <p><span>是否拒收</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37003" class="ax_default table_cell">
+          <img id="u37003_img" class="img " src="images/货物拒收/u36236.png"/>
+          <!-- Unnamed () -->
+          <div id="u37004" class="text">
+            <p><span>入库吨数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37005" class="ax_default table_cell">
+          <img id="u37005_img" class="img " src="images/货物拒收/u36238.png"/>
+          <!-- Unnamed () -->
+          <div id="u37006" class="text">
+            <p><span>入库时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37007" class="ax_default table_cell">
+          <img id="u37007_img" class="img " src="images/货物拒收/u36240.png"/>
+          <!-- Unnamed () -->
+          <div id="u37008" class="text">
+            <p><span>化验单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37009" class="ax_default table_cell">
+          <img id="u37009_img" class="img " src="images/运输公司管理/u3985.png"/>
+          <!-- Unnamed () -->
+          <div id="u37010" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801312</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37011" class="ax_default table_cell">
+          <img id="u37011_img" class="img " src="images/发票编辑/u3466.png"/>
+          <!-- Unnamed () -->
+          <div id="u37012" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37013" class="ax_default table_cell">
+          <img id="u37013_img" class="img " src="images/船务合同/u4665.png"/>
+          <!-- Unnamed () -->
+          <div id="u37014" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37015" class="ax_default table_cell">
+          <img id="u37015_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u37016" class="text">
+            <p><span>煤炭公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37017" class="ax_default table_cell">
+          <img id="u37017_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u37018" class="text">
+            <p><span>否</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37019" class="ax_default table_cell">
+          <img id="u37019_img" class="img " src="images/账号管理/u1368.png"/>
+          <!-- Unnamed () -->
+          <div id="u37020" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37021" class="ax_default table_cell">
+          <img id="u37021_img" class="img " src="images/货物拒收/u36271.png"/>
+          <!-- Unnamed () -->
+          <div id="u37022" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37023" class="ax_default table_cell">
+          <img id="u37023_img" class="img " src="images/cci_指数维护/u13599.png"/>
+          <!-- Unnamed () -->
+          <div id="u37024" class="text">
+            <p><a id="u37025" class="link"><span>HY2018031515</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37026" class="ax_default table_cell">
+          <img id="u37026_img" class="img " src="images/运输公司管理/u3985.png"/>
+          <!-- Unnamed () -->
+          <div id="u37027" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801312</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37028" class="ax_default table_cell">
+          <img id="u37028_img" class="img " src="images/发票编辑/u3466.png"/>
+          <!-- Unnamed () -->
+          <div id="u37029" class="text">
+            <p><span>天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37030" class="ax_default table_cell">
+          <img id="u37030_img" class="img " src="images/船务合同/u4665.png"/>
+          <!-- Unnamed () -->
+          <div id="u37031" class="text">
+            <p><span>金银岛1#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37032" class="ax_default table_cell">
+          <img id="u37032_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u37033" class="text">
+            <p><span>金银岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37034" class="ax_default table_cell">
+          <img id="u37034_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u37035" class="text">
+            <p><span>否</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37036" class="ax_default table_cell">
+          <img id="u37036_img" class="img " src="images/账号管理/u1368.png"/>
+          <!-- Unnamed () -->
+          <div id="u37037" class="text">
+            <p><span>5000.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37038" class="ax_default table_cell">
+          <img id="u37038_img" class="img " src="images/货物拒收/u36271.png"/>
+          <!-- Unnamed () -->
+          <div id="u37039" class="text">
+            <p><span>2018-01-01 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37040" class="ax_default table_cell">
+          <img id="u37040_img" class="img " src="images/cci_指数维护/u13599.png"/>
+          <!-- Unnamed () -->
+          <div id="u37041" class="text">
+            <p><a id="u37042" class="link"><span>HY2018031515</span></a></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37043" class="ax_default table_cell">
+          <img id="u37043_img" class="img " src="images/运输公司管理/u3985.png"/>
+          <!-- Unnamed () -->
+          <div id="u37044" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801313</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37045" class="ax_default table_cell">
+          <img id="u37045_img" class="img " src="images/发票编辑/u3466.png"/>
+          <!-- Unnamed () -->
+          <div id="u37046" class="text">
+            <p><span>天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37047" class="ax_default table_cell">
+          <img id="u37047_img" class="img " src="images/船务合同/u4665.png"/>
+          <!-- Unnamed () -->
+          <div id="u37048" class="text">
+            <p><span>金银岛1#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37049" class="ax_default table_cell">
+          <img id="u37049_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u37050" class="text">
+            <p><span>金银岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37051" class="ax_default table_cell">
+          <img id="u37051_img" class="img " src="images/编辑_3/u17356.png"/>
+          <!-- Unnamed () -->
+          <div id="u37052" class="text">
+            <p><span>否</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37053" class="ax_default table_cell">
+          <img id="u37053_img" class="img " src="images/账号管理/u1368.png"/>
+          <!-- Unnamed () -->
+          <div id="u37054" class="text">
+            <p><span>5000.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37055" class="ax_default table_cell">
+          <img id="u37055_img" class="img " src="images/货物拒收/u36271.png"/>
+          <!-- Unnamed () -->
+          <div id="u37056" class="text">
+            <p><span>2018-01-01 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37057" class="ax_default table_cell">
+          <img id="u37057_img" class="img " src="images/cci_指数维护/u13599.png"/>
+          <!-- Unnamed () -->
+          <div id="u37058" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37059" class="ax_default table_cell">
+          <img id="u37059_img" class="img " src="images/运输公司管理/u4013.png"/>
+          <!-- Unnamed () -->
+          <div id="u37060" class="text">
+            <p><span style="text-decoration:underline;">煤炭网201801313</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37061" class="ax_default table_cell">
+          <img id="u37061_img" class="img " src="images/发票编辑/u3502.png"/>
+          <!-- Unnamed () -->
+          <div id="u37062" class="text">
+            <p><span>天津港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37063" class="ax_default table_cell">
+          <img id="u37063_img" class="img " src="images/船务合同/u4731.png"/>
+          <!-- Unnamed () -->
+          <div id="u37064" class="text">
+            <p><span>金银岛1#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37065" class="ax_default table_cell">
+          <img id="u37065_img" class="img " src="images/编辑_3/u17404.png"/>
+          <!-- Unnamed () -->
+          <div id="u37066" class="text">
+            <p><span>煤炭公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37067" class="ax_default table_cell">
+          <img id="u37067_img" class="img " src="images/编辑_3/u17404.png"/>
+          <!-- Unnamed () -->
+          <div id="u37068" class="text">
+            <p><span>是</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37069" class="ax_default table_cell">
+          <img id="u37069_img" class="img " src="images/账号管理/u1400.png"/>
+          <!-- Unnamed () -->
+          <div id="u37070" class="text">
+            <p><span>5000.00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37071" class="ax_default table_cell">
+          <img id="u37071_img" class="img " src="images/货物拒收/u36304.png"/>
+          <!-- Unnamed () -->
+          <div id="u37072" class="text">
+            <p><span>2018-01-01 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u37073" class="ax_default table_cell">
+          <img id="u37073_img" class="img " src="images/cci_指数维护/u13695.png"/>
+          <!-- Unnamed () -->
+          <div id="u37074" class="text">
+            <p><span>-</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37075" class="ax_default label">
+        <div id="u37075_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37076" class="text">
+          <p><span>企业名称:煤炭公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u37077" class="ax_default ellipse">
+        <img id="u37077_img" class="img " src="images/入库录入/u30907.png"/>
+        <!-- Unnamed () -->
+        <div id="u37078" class="text">
+          <p><span>采购锁价</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37079" class="ax_default box_1">
+        <div id="u37079_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37080" class="text">
+          <p><span>货权维护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37081" class="ax_default sticky_1">
+        <div id="u37081_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37082" class="text">
+          <p><span>1、对于同一批次可以多次维护货权</span></p><p><span>2、通过订单展示该订单下多个批次，订单显示为多个，需注意</span></p><p><span>3、列表显示规则为最近下单时间倒序排列</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37083" class="ax_default label">
+        <div id="u37083_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37084" class="text">
+          <p><span>批次号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37085" class="ax_default box_1">
+        <div id="u37085_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37086" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37087" class="ax_default primary_button">
+        <div id="u37087_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37088" class="text">
+          <p><span>新增货权维护</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37089" class="ax_default label">
+        <div id="u37089_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37090" class="text">
+          <p><span>供应链:金银岛(宁夏)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37091" class="ax_default label">
+        <div id="u37091_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37092" class="text">
+          <p><span>下单时间:2018-03-15 12:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37093" class="ax_default label">
+        <div id="u37093_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37094" class="text">
+          <p><span>供应链:金银岛(宁夏)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37095" class="ax_default label">
+        <div id="u37095_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37096" class="text">
+          <p><span>下单时间:2018-03-15 12:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u37097" class="ax_default label">
+        <div id="u37097_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u37098" class="text">
+          <p><span>供应链：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u37099" class="ax_default droplist">
+        <select id="u37099_input">
+          <option value="请选择">请选择</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

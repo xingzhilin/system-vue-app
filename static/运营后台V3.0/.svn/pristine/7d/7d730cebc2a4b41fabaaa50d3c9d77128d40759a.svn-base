@@ -1,0 +1,845 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>交割库排序</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/交割库排序/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/交割库排序/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u10938" class="ax_default box_2">
+        <div id="u10938_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u10939" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u10940" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10941" class="ax_default table_cell">
+          <img id="u10941_img" class="img " src="images/交割库排序/u10941.png"/>
+          <!-- Unnamed () -->
+          <div id="u10942" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10943" class="ax_default table_cell">
+          <img id="u10943_img" class="img " src="images/交割库排序/u10943.png"/>
+          <!-- Unnamed () -->
+          <div id="u10944" class="text">
+            <p><span>交割库名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10945" class="ax_default table_cell">
+          <img id="u10945_img" class="img " src="images/船只管理/u4121.png"/>
+          <!-- Unnamed () -->
+          <div id="u10946" class="text">
+            <p><span>所在港口</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10947" class="ax_default table_cell">
+          <img id="u10947_img" class="img " src="images/船务合同/u4627.png"/>
+          <!-- Unnamed () -->
+          <div id="u10948" class="text">
+            <p><span>所在地区</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10949" class="ax_default table_cell">
+          <img id="u10949_img" class="img " src="images/准入管理/u5919.png"/>
+          <!-- Unnamed () -->
+          <div id="u10950" class="text">
+            <p><span>详细地址</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10951" class="ax_default table_cell">
+          <img id="u10951_img" class="img " src="images/船只管理/u4133.png"/>
+          <!-- Unnamed () -->
+          <div id="u10952" class="text">
+            <p><span>仓库类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10953" class="ax_default table_cell">
+          <img id="u10953_img" class="img " src="images/交割库排序/u10953.png"/>
+          <!-- Unnamed () -->
+          <div id="u10954" class="text">
+            <p><span>仓库状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10955" class="ax_default table_cell">
+          <img id="u10955_img" class="img " src="images/交割库排序/u10955.png"/>
+          <!-- Unnamed () -->
+          <div id="u10956" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10957" class="ax_default table_cell">
+          <img id="u10957_img" class="img " src="images/交割库排序/u10957.png"/>
+          <!-- Unnamed () -->
+          <div id="u10958" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10959" class="ax_default table_cell">
+          <img id="u10959_img" class="img " src="images/船只管理/u4139.png"/>
+          <!-- Unnamed () -->
+          <div id="u10960" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10961" class="ax_default table_cell">
+          <img id="u10961_img" class="img " src="images/船务合同/u4649.png"/>
+          <!-- Unnamed () -->
+          <div id="u10962" class="text">
+            <p><span>北方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10963" class="ax_default table_cell">
+          <img id="u10963_img" class="img " src="images/准入管理/u5931.png"/>
+          <!-- Unnamed () -->
+          <div id="u10964" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10965" class="ax_default table_cell">
+          <img id="u10965_img" class="img " src="images/船只管理/u4151.png"/>
+          <!-- Unnamed () -->
+          <div id="u10966" class="text">
+            <p><span>合作仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10967" class="ax_default table_cell">
+          <img id="u10967_img" class="img " src="images/交割库排序/u10967.png"/>
+          <!-- Unnamed () -->
+          <div id="u10968" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10969" class="ax_default table_cell">
+          <img id="u10969_img" class="img " src="images/交割库排序/u10955.png"/>
+          <!-- Unnamed () -->
+          <div id="u10970" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10971" class="ax_default table_cell">
+          <img id="u10971_img" class="img " src="images/交割库排序/u10957.png"/>
+          <!-- Unnamed () -->
+          <div id="u10972" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10973" class="ax_default table_cell">
+          <img id="u10973_img" class="img " src="images/船只管理/u4139.png"/>
+          <!-- Unnamed () -->
+          <div id="u10974" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10975" class="ax_default table_cell">
+          <img id="u10975_img" class="img " src="images/船务合同/u4649.png"/>
+          <!-- Unnamed () -->
+          <div id="u10976" class="text">
+            <p><span>南方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10977" class="ax_default table_cell">
+          <img id="u10977_img" class="img " src="images/准入管理/u5931.png"/>
+          <!-- Unnamed () -->
+          <div id="u10978" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10979" class="ax_default table_cell">
+          <img id="u10979_img" class="img " src="images/船只管理/u4151.png"/>
+          <!-- Unnamed () -->
+          <div id="u10980" class="text">
+            <p><span>自建仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10981" class="ax_default table_cell">
+          <img id="u10981_img" class="img " src="images/交割库排序/u10967.png"/>
+          <!-- Unnamed () -->
+          <div id="u10982" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10983" class="ax_default table_cell">
+          <img id="u10983_img" class="img " src="images/交割库排序/u10955.png"/>
+          <!-- Unnamed () -->
+          <div id="u10984" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10985" class="ax_default table_cell">
+          <img id="u10985_img" class="img " src="images/交割库排序/u10957.png"/>
+          <!-- Unnamed () -->
+          <div id="u10986" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10987" class="ax_default table_cell">
+          <img id="u10987_img" class="img " src="images/船只管理/u4139.png"/>
+          <!-- Unnamed () -->
+          <div id="u10988" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10989" class="ax_default table_cell">
+          <img id="u10989_img" class="img " src="images/船务合同/u4649.png"/>
+          <!-- Unnamed () -->
+          <div id="u10990" class="text">
+            <p><span>南方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10991" class="ax_default table_cell">
+          <img id="u10991_img" class="img " src="images/准入管理/u5931.png"/>
+          <!-- Unnamed () -->
+          <div id="u10992" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10993" class="ax_default table_cell">
+          <img id="u10993_img" class="img " src="images/船只管理/u4151.png"/>
+          <!-- Unnamed () -->
+          <div id="u10994" class="text">
+            <p><span>合作仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10995" class="ax_default table_cell">
+          <img id="u10995_img" class="img " src="images/交割库排序/u10967.png"/>
+          <!-- Unnamed () -->
+          <div id="u10996" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10997" class="ax_default table_cell">
+          <img id="u10997_img" class="img " src="images/交割库排序/u10955.png"/>
+          <!-- Unnamed () -->
+          <div id="u10998" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u10999" class="ax_default table_cell">
+          <img id="u10999_img" class="img " src="images/交割库排序/u10957.png"/>
+          <!-- Unnamed () -->
+          <div id="u11000" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11001" class="ax_default table_cell">
+          <img id="u11001_img" class="img " src="images/船只管理/u4139.png"/>
+          <!-- Unnamed () -->
+          <div id="u11002" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11003" class="ax_default table_cell">
+          <img id="u11003_img" class="img " src="images/船务合同/u4649.png"/>
+          <!-- Unnamed () -->
+          <div id="u11004" class="text">
+            <p><span>南方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11005" class="ax_default table_cell">
+          <img id="u11005_img" class="img " src="images/准入管理/u5931.png"/>
+          <!-- Unnamed () -->
+          <div id="u11006" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11007" class="ax_default table_cell">
+          <img id="u11007_img" class="img " src="images/船只管理/u4151.png"/>
+          <!-- Unnamed () -->
+          <div id="u11008" class="text">
+            <p><span>合作仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11009" class="ax_default table_cell">
+          <img id="u11009_img" class="img " src="images/交割库排序/u10967.png"/>
+          <!-- Unnamed () -->
+          <div id="u11010" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11011" class="ax_default table_cell">
+          <img id="u11011_img" class="img " src="images/交割库排序/u10955.png"/>
+          <!-- Unnamed () -->
+          <div id="u11012" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11013" class="ax_default table_cell">
+          <img id="u11013_img" class="img " src="images/交割库排序/u10957.png"/>
+          <!-- Unnamed () -->
+          <div id="u11014" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11015" class="ax_default table_cell">
+          <img id="u11015_img" class="img " src="images/船只管理/u4139.png"/>
+          <!-- Unnamed () -->
+          <div id="u11016" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11017" class="ax_default table_cell">
+          <img id="u11017_img" class="img " src="images/船务合同/u4649.png"/>
+          <!-- Unnamed () -->
+          <div id="u11018" class="text">
+            <p><span>南方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11019" class="ax_default table_cell">
+          <img id="u11019_img" class="img " src="images/准入管理/u5931.png"/>
+          <!-- Unnamed () -->
+          <div id="u11020" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11021" class="ax_default table_cell">
+          <img id="u11021_img" class="img " src="images/船只管理/u4151.png"/>
+          <!-- Unnamed () -->
+          <div id="u11022" class="text">
+            <p><span>合作仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11023" class="ax_default table_cell">
+          <img id="u11023_img" class="img " src="images/交割库排序/u10967.png"/>
+          <!-- Unnamed () -->
+          <div id="u11024" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11025" class="ax_default table_cell">
+          <img id="u11025_img" class="img " src="images/交割库排序/u10955.png"/>
+          <!-- Unnamed () -->
+          <div id="u11026" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11027" class="ax_default table_cell">
+          <img id="u11027_img" class="img " src="images/交割库排序/u10957.png"/>
+          <!-- Unnamed () -->
+          <div id="u11028" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11029" class="ax_default table_cell">
+          <img id="u11029_img" class="img " src="images/船只管理/u4139.png"/>
+          <!-- Unnamed () -->
+          <div id="u11030" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11031" class="ax_default table_cell">
+          <img id="u11031_img" class="img " src="images/船务合同/u4649.png"/>
+          <!-- Unnamed () -->
+          <div id="u11032" class="text">
+            <p><span>南方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11033" class="ax_default table_cell">
+          <img id="u11033_img" class="img " src="images/准入管理/u5931.png"/>
+          <!-- Unnamed () -->
+          <div id="u11034" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11035" class="ax_default table_cell">
+          <img id="u11035_img" class="img " src="images/船只管理/u4151.png"/>
+          <!-- Unnamed () -->
+          <div id="u11036" class="text">
+            <p><span>合作仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11037" class="ax_default table_cell">
+          <img id="u11037_img" class="img " src="images/交割库排序/u10967.png"/>
+          <!-- Unnamed () -->
+          <div id="u11038" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11039" class="ax_default table_cell">
+          <img id="u11039_img" class="img " src="images/交割库排序/u11039.png"/>
+          <!-- Unnamed () -->
+          <div id="u11040" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11041" class="ax_default table_cell">
+          <img id="u11041_img" class="img " src="images/交割库排序/u11041.png"/>
+          <!-- Unnamed () -->
+          <div id="u11042" class="text">
+            <p><span>曹妃甸港（二期）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11043" class="ax_default table_cell">
+          <img id="u11043_img" class="img " src="images/船只管理/u4175.png"/>
+          <!-- Unnamed () -->
+          <div id="u11044" class="text">
+            <p><span>曹妃甸港</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11045" class="ax_default table_cell">
+          <img id="u11045_img" class="img " src="images/船务合同/u4715.png"/>
+          <!-- Unnamed () -->
+          <div id="u11046" class="text">
+            <p><span>南方</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11047" class="ax_default table_cell">
+          <img id="u11047_img" class="img " src="images/准入管理/u5979.png"/>
+          <!-- Unnamed () -->
+          <div id="u11048" class="text">
+            <p><span>河北省唐山市曹妃甸工业区港池岛</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11049" class="ax_default table_cell">
+          <img id="u11049_img" class="img " src="images/船只管理/u4187.png"/>
+          <!-- Unnamed () -->
+          <div id="u11050" class="text">
+            <p><span>合作仓库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11051" class="ax_default table_cell">
+          <img id="u11051_img" class="img " src="images/交割库排序/u11051.png"/>
+          <!-- Unnamed () -->
+          <div id="u11052" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11053" class="ax_default box_1">
+        <div id="u11053_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11054" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11055" class="ax_default box_1">
+        <div id="u11055_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11056" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11057" class="ax_default box_1">
+        <div id="u11057_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11058" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11059" class="ax_default box_1">
+        <div id="u11059_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11060" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11061" class="ax_default box_1">
+        <div id="u11061_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11062" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11063" class="ax_default box_1">
+        <div id="u11063_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11064" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11065" class="ax_default box_1">
+        <div id="u11065_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11066" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11067" class="ax_default box_1">
+        <div id="u11067_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11068" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11069" class="ax_default box_1">
+        <div id="u11069_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11070" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11071" class="ax_default box_1">
+        <div id="u11071_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11072" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11073" class="ax_default box_1">
+        <div id="u11073_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11074" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11075" class="ax_default box_1">
+        <div id="u11075_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11076" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11077" class="ax_default primary_button">
+        <div id="u11077_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11078" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11079" class="ax_default box_1">
+        <div id="u11079_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11080" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11081" class="ax_default box_1">
+        <div id="u11081_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11082" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11083" class="ax_default box_1">
+        <div id="u11083_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11084" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11085" class="ax_default box_1">
+        <div id="u11085_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11086" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11087" class="ax_default box_1">
+        <div id="u11087_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11088" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11089" class="ax_default box_1">
+        <div id="u11089_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11090" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11091" class="ax_default box_1">
+        <div id="u11091_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11092" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11093" class="ax_default box_1">
+        <div id="u11093_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11094" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11095" class="ax_default box_1">
+        <div id="u11095_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11096" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11097" class="ax_default box_1">
+        <div id="u11097_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11098" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11099" class="ax_default box_1">
+        <div id="u11099_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11100" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11101" class="ax_default box_1">
+        <div id="u11101_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11102" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11103" class="ax_default box_1">
+        <div id="u11103_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11104" class="text">
+          <p><span>置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11105" class="ax_default box_1">
+        <div id="u11105_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11106" class="text">
+          <p><span>上移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11107" class="ax_default box_1">
+        <div id="u11107_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11108" class="text">
+          <p><span>下移</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11109" class="ax_default box_1">
+        <div id="u11109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11110" class="text">
+          <p><span>置底</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11111" class="ax_default primary_button">
+        <div id="u11111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11112" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

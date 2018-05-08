@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>添加品类</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/添加品类/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/添加品类/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31804" class="ax_default box_2">
+        <div id="u31804_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31805" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31806" class="ax_default box_1">
+        <div id="u31806_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31807" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31808" class="ax_default label">
+        <div id="u31808_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31809" class="text" style="visibility: visible;">
+          <p><span style="color:#FF0000;">*</span><span>品类名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31810" class="ax_default label">
+        <div id="u31810_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31811" class="text" style="visibility: visible;">
+          <p><span style="color:#FF0000;">*</span><span>归属频道：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31812" class="ax_default label">
+        <div id="u31812_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31813" class="text" style="visibility: visible;">
+          <p><span style="color:#FF0000;">*</span><span>品类参数：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31814" class="ax_default primary_button">
+        <div id="u31814_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31815" class="text" style="visibility: visible;">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31816" class="ax_default primary_button">
+        <div id="u31816_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31817" class="text" style="visibility: visible;">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u31818" class="ax_default droplist">
+        <select id="u31818_input">
+          <option selected value="请选择">请选择</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31819" class="ax_default box_1">
+        <img id="u31819_img" class="img " src="images/添加品类/u31819.png"/>
+        <!-- Unnamed () -->
+        <div id="u31820" class="text" style="visibility: visible;">
+          <p><span>全水</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31821" class="ax_default label">
+        <div id="u31821_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31822" class="text" style="visibility: visible;">
+          <p><span>X</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31823" class="ax_default label">
+        <div id="u31823_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31824" class="text" style="visibility: visible;">
+          <p><span>添加关键词：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31825" class="ax_default box_1">
+        <div id="u31825_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31826" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31827" class="ax_default primary_button">
+        <div id="u31827_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31828" class="text" style="visibility: visible;">
+          <p><span>确定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31829" class="ax_default label">
+        <div id="u31829_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31830" class="text" style="visibility: visible;">
+          <p><span>备注：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u31831" class="ax_default box_1">
+        <div id="u31831_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u31832" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/设置/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/设置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (复选框) -->
+      <div id="u44349" class="ax_default checkbox">
+        <label for="u44349_input">
+          <!-- Unnamed () -->
+          <div id="u44350" class="text">
+            <p><span>仅选取工作日</span></p>
+          </div>
+        </label>
+        <input id="u44349_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44351" class="ax_default sticky_3">
+        <div id="u44351_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44352" class="text">
+          <p><span style="font-family:'Arial Normal', 'Arial';">1.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">可选择日期区间，可勾选仅选取工作日。勾选后系统去除非工作日选择项。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.开闭市时间为可选择的时间区间。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">3.点确认后，页面跳转至开闭市日期查看页面。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44353" class="ax_default box_1">
+        <div id="u44353_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44354" class="text">
+          <p><span>9:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44355" class="ax_default box_1">
+        <div id="u44355_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44356" class="text">
+          <p><span>17:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44357" class="ax_default label">
+        <div id="u44357_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44358" class="text">
+          <p><span>开闭市时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44359" class="ax_default label">
+        <div id="u44359_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44360" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44361" class="ax_default label">
+        <div id="u44361_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44362" class="text">
+          <p><span>选择日期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44363" class="ax_default box_1">
+        <div id="u44363_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44364" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u44365" class="ax_default _图片">
+        <img id="u44365_img" class="img " src="images/事件提醒列表/u994.png"/>
+        <!-- Unnamed () -->
+        <div id="u44366" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44367" class="ax_default label">
+        <div id="u44367_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44368" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44369" class="ax_default box_1">
+        <div id="u44369_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44370" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u44371" class="ax_default _图片">
+        <img id="u44371_img" class="img " src="images/事件提醒列表/u994.png"/>
+        <!-- Unnamed () -->
+        <div id="u44372" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u44373" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u44373_state0" class="panel_state" data-label="State1">
+          <div id="u44373_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u44374" class="ax_default _图片">
+              <img id="u44374_img" class="img " src="images/事件提醒列表/u1003.png"/>
+              <!-- Unnamed () -->
+              <div id="u44375" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u44376" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u44376_state0" class="panel_state" data-label="State1">
+          <div id="u44376_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u44377" class="ax_default _图片">
+              <img id="u44377_img" class="img " src="images/事件提醒列表/u1003.png"/>
+              <!-- Unnamed () -->
+              <div id="u44378" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u44379" class="ax_default primary_button">
+        <div id="u44379_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u44380" class="text">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,586 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>企业保证金总账（收到保证金）</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/企业保证金总账（收到保证金）/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/企业保证金总账（收到保证金）/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20071" class="ax_default box_2">
+        <div id="u20071_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20072" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20073" class="ax_default label">
+        <div id="u20073_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20074" class="text">
+          <p><span>供应链公司：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u20075" class="ax_default droplist">
+        <select id="u20075_input">
+          <option selected value="金银岛（宁夏）供应链管理有限公司">金银岛（宁夏）供应链管理有限公司</option>
+          <option value="金银岛（内蒙）供应链管理有限公司">金银岛（内蒙）供应链管理有限公司</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20076" class="ax_default box_1">
+        <div id="u20076_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20077" class="text">
+          <p><span>2018-01-01 00:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u20078" class="ax_default _图片">
+        <img id="u20078_img" class="img " src="images/事件提醒列表/u1201.png"/>
+        <!-- Unnamed () -->
+        <div id="u20079" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20080" class="ax_default label">
+        <div id="u20080_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20081" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20082" class="ax_default box_1">
+        <div id="u20082_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20083" class="text">
+          <p><span>2018-03-22 00:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u20084" class="ax_default _图片">
+        <img id="u20084_img" class="img " src="images/事件提醒列表/u1201.png"/>
+        <!-- Unnamed () -->
+        <div id="u20085" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u20086" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u20086_state0" class="panel_state" data-label="State1">
+          <div id="u20086_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u20087" class="ax_default _图片">
+              <img id="u20087_img" class="img " src="images/事件提醒列表/u1210.png"/>
+              <!-- Unnamed () -->
+              <div id="u20088" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u20089" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u20089_state0" class="panel_state" data-label="State1">
+          <div id="u20089_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u20090" class="ax_default _图片">
+              <img id="u20090_img" class="img " src="images/事件提醒列表/u1210.png"/>
+              <!-- Unnamed () -->
+              <div id="u20091" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20092" class="ax_default label">
+        <div id="u20092_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20093" class="text">
+          <p><span>查询时间范围：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20094" class="ax_default box_3">
+        <div id="u20094_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20095" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20096" class="ax_default box_1">
+        <div id="u20096_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20097" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20098" class="ax_default _三级标题">
+        <div id="u20098_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20099" class="text">
+          <p><span>保证金总账</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u20100" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20101" class="ax_default table_cell">
+          <img id="u20101_img" class="img " src="images/企业保证金总账（收到保证金）/u20101.png"/>
+          <!-- Unnamed () -->
+          <div id="u20102" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20103" class="ax_default _三级标题">
+        <div id="u20103_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20104" class="text">
+          <p><span>30,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20105" class="ax_default label">
+        <div id="u20105_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20106" class="text">
+          <p><span>收到总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20107" class="ax_default _三级标题">
+        <div id="u20107_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20108" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20109" class="ax_default label">
+        <div id="u20109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20110" class="text">
+          <p><span>退还总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u20111" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20112" class="ax_default table_cell">
+          <img id="u20112_img" class="img " src="images/企业总账（总支出金额）/u19204.png"/>
+          <!-- Unnamed () -->
+          <div id="u20113" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20114" class="ax_default label">
+        <div id="u20114_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20115" class="text">
+          <p><span>云供应点价保证金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u20116" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20117" class="ax_default table_cell">
+          <img id="u20117_img" class="img " src="images/企业保证金总账（收到保证金）/u20117.png"/>
+          <!-- Unnamed () -->
+          <div id="u20118" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20119" class="ax_default table_cell">
+          <img id="u20119_img" class="img " src="images/企业保证金总账（收到保证金）/u20117.png"/>
+          <!-- Unnamed () -->
+          <div id="u20120" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20121" class="ax_default table_cell">
+          <img id="u20121_img" class="img " src="images/企业保证金总账（收到保证金）/u20117.png"/>
+          <!-- Unnamed () -->
+          <div id="u20122" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20123" class="ax_default table_cell">
+          <img id="u20123_img" class="img " src="images/企业保证金总账（收到保证金）/u20123.png"/>
+          <!-- Unnamed () -->
+          <div id="u20124" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20125" class="ax_default _三级标题">
+        <div id="u20125_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20126" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20127" class="ax_default label">
+        <div id="u20127_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20128" class="text">
+          <p><span>扣除总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20129" class="ax_default _三级标题">
+        <div id="u20129_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20130" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20131" class="ax_default label">
+        <div id="u20131_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20132" class="text">
+          <p><span>可用总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20133" class="ax_default _三级标题">
+        <div id="u20133_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20134" class="text">
+          <p><span>20,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20135" class="ax_default label">
+        <div id="u20135_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20136" class="text">
+          <p><span>收到总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20137" class="ax_default _三级标题">
+        <div id="u20137_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20138" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20139" class="ax_default label">
+        <div id="u20139_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20140" class="text">
+          <p><span>退还总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20141" class="ax_default _三级标题">
+        <div id="u20141_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20142" class="text">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20143" class="ax_default label">
+        <div id="u20143_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20144" class="text">
+          <p><span>扣除总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20145" class="ax_default _三级标题">
+        <div id="u20145_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20146" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20147" class="ax_default label">
+        <div id="u20147_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20148" class="text">
+          <p><span>可用总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u20149" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20150" class="ax_default table_cell">
+          <img id="u20150_img" class="img " src="images/企业总账（总支出金额）/u19204.png"/>
+          <!-- Unnamed () -->
+          <div id="u20151" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20152" class="ax_default label">
+        <div id="u20152_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20153" class="text">
+          <p><span>采购锁价交易保证金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u20154" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20155" class="ax_default table_cell">
+          <img id="u20155_img" class="img " src="images/企业保证金总账（收到保证金）/u20117.png"/>
+          <!-- Unnamed () -->
+          <div id="u20156" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20157" class="ax_default table_cell">
+          <img id="u20157_img" class="img " src="images/企业保证金总账（收到保证金）/u20117.png"/>
+          <!-- Unnamed () -->
+          <div id="u20158" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20159" class="ax_default table_cell">
+          <img id="u20159_img" class="img " src="images/企业保证金总账（收到保证金）/u20117.png"/>
+          <!-- Unnamed () -->
+          <div id="u20160" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20161" class="ax_default table_cell">
+          <img id="u20161_img" class="img " src="images/企业保证金总账（收到保证金）/u20123.png"/>
+          <!-- Unnamed () -->
+          <div id="u20162" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20163" class="ax_default _三级标题">
+        <div id="u20163_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20164" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20165" class="ax_default label">
+        <div id="u20165_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20166" class="text">
+          <p><span>收到总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20167" class="ax_default _三级标题">
+        <div id="u20167_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20168" class="text">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20169" class="ax_default label">
+        <div id="u20169_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20170" class="text">
+          <p><span>退还总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20171" class="ax_default _三级标题">
+        <div id="u20171_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20172" class="text">
+          <p><span>10,000.00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20173" class="ax_default label">
+        <div id="u20173_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20174" class="text">
+          <p><span>扣除总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20175" class="ax_default _三级标题">
+        <div id="u20175_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20176" class="text">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20177" class="ax_default label">
+        <div id="u20177_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20178" class="text">
+          <p><span>可用总额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20179" class="ax_default primary_button">
+        <div id="u20179_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20180" class="text">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u20181" class="ax_default _文本段落">
+        <img id="u20181_img" class="img " src="images/企业保证金总账（收到保证金）/u20181.png"/>
+        <!-- Unnamed () -->
+        <div id="u20182" class="text">
+          <p><span>云供应点价交易保证金（根据后台保证金维护的数据显示，如有多种保证金并列显示）</span></p><p><span>&nbsp;已收保证金为规定时间段内该供应链公司收到该企业的对应类型保证金额+规定时间段内付款划分为保证金金额</span></p><p><span>&nbsp;已退保证金为规定时间段内该供应链公司退还该企业的对应类型保证金额</span></p><p><span>&nbsp;已扣保证金为规定时间段内该供应链公司扣收该企业的对应类型保证金额</span></p><p><span>&nbsp;保证金余额为截止日期的已收保证金-已退保证金-已扣保证金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20183" class="ax_default primary_button">
+        <div id="u20183_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20184" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20185" class="ax_default primary_button">
+        <div id="u20185_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u20186" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

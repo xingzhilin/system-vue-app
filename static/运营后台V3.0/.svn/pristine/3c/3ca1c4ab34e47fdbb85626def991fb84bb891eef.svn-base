@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>编辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/编辑/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/编辑/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29413" class="ax_default box_2">
+        <div id="u29413_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29414" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29415" class="ax_default label">
+        <div id="u29415_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29416" class="text">
+          <p><span style="color:#FF0000;">*</span><span>是否是供应链公司：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29417" class="ax_default label">
+        <div id="u29417_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29418" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#000000;">是否是采购中间商：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29419" class="ax_default label">
+        <div id="u29419_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29420" class="text">
+          <p><span style="color:#FF0000;">*</span><span>是否交货地交货：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29421" class="ax_default radio_button">
+        <label for="u29421_input">
+          <!-- Unnamed () -->
+          <div id="u29422" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u29421_input" type="radio" value="radio" name="u29421"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29423" class="ax_default radio_button">
+        <label for="u29423_input">
+          <!-- Unnamed () -->
+          <div id="u29424" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u29423_input" type="radio" value="radio" name="u29423" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29425" class="ax_default radio_button">
+        <label for="u29425_input">
+          <!-- Unnamed () -->
+          <div id="u29426" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u29425_input" type="radio" value="radio" name="u29425"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29427" class="ax_default radio_button">
+        <label for="u29427_input">
+          <!-- Unnamed () -->
+          <div id="u29428" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u29427_input" type="radio" value="radio" name="u29427" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29429" class="ax_default radio_button">
+        <label for="u29429_input">
+          <!-- Unnamed () -->
+          <div id="u29430" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u29429_input" type="radio" value="radio" name="u29429"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29431" class="ax_default radio_button">
+        <label for="u29431_input">
+          <!-- Unnamed () -->
+          <div id="u29432" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u29431_input" type="radio" value="radio" name="u29431" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29433" class="ax_default label">
+        <div id="u29433_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29434" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#000000;">是否是销售中间商：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29435" class="ax_default radio_button">
+        <label for="u29435_input">
+          <!-- Unnamed () -->
+          <div id="u29436" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u29435_input" type="radio" value="radio" name="u29435"/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u29437" class="ax_default radio_button">
+        <label for="u29437_input">
+          <!-- Unnamed () -->
+          <div id="u29438" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u29437_input" type="radio" value="radio" name="u29437" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29439" class="ax_default label">
+        <div id="u29439_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29440" class="text">
+          <p><span>企业名称：北京XXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29441" class="ax_default primary_button">
+        <div id="u29441_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29442" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u29443" class="ax_default primary_button">
+        <div id="u29443_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u29444" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

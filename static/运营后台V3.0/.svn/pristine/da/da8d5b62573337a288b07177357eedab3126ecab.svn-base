@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>新增</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/新增/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/新增/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33621" class="ax_default box_2">
+        <div id="u33621_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33622" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33623" class="ax_default label">
+        <div id="u33623_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33624" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#000000;">上传</span><span style="color:#1E1E1E;">签章照片：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33625" class="ax_default primary_button">
+        <div id="u33625_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33626" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33627" class="ax_default primary_button">
+        <div id="u33627_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33628" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33629" class="ax_default sticky_3">
+        <div id="u33629_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33630" class="text">
+          <p><span>1、企业名称做成模糊匹配带回</span></p><p><span>2、在已经启用的签章中的签章编号不能重复，如果重复提示【签章编号在XXX中已经存在，请在该企业的签章管理中维护】，其中XXX为企业名称</span></p><p><span>3、签章状态默认为启用</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33631" class="ax_default label">
+        <div id="u33631_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33632" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#1E1E1E;">签章编号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33633" class="ax_default box_1">
+        <div id="u33633_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33634" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33635" class="ax_default primary_button">
+        <img id="u33635_img" class="img " src="images/全局说明/u332.png"/>
+        <!-- Unnamed () -->
+        <div id="u33636" class="text">
+          <p><span>+添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33637" class="ax_default label">
+        <div id="u33637_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33638" class="text">
+          <p><span>签章状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u33639" class="ax_default radio_button">
+        <label for="u33639_input">
+          <!-- Unnamed () -->
+          <div id="u33640" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u33639_input" type="radio" value="radio" name="u33639" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u33641" class="ax_default radio_button">
+        <label for="u33641_input">
+          <!-- Unnamed () -->
+          <div id="u33642" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u33641_input" type="radio" value="radio" name="u33641"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33643" class="ax_default label">
+        <div id="u33643_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33644" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#1E1E1E;">签章有效期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33645" class="ax_default box_1">
+        <div id="u33645_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33646" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u33647" class="ax_default _图片">
+        <img id="u33647_img" class="img " src="images/事件提醒列表/u1308.png"/>
+        <!-- Unnamed () -->
+        <div id="u33648" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33649" class="ax_default label">
+        <div id="u33649_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33650" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33651" class="ax_default box_1">
+        <div id="u33651_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33652" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u33653" class="ax_default _图片">
+        <img id="u33653_img" class="img " src="images/事件提醒列表/u1308.png"/>
+        <!-- Unnamed () -->
+        <div id="u33654" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u33655" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u33655_state0" class="panel_state" data-label="State1">
+          <div id="u33655_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u33656" class="ax_default _图片">
+              <img id="u33656_img" class="img " src="images/事件提醒列表/u1317.png"/>
+              <!-- Unnamed () -->
+              <div id="u33657" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u33658" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u33658_state0" class="panel_state" data-label="State1">
+          <div id="u33658_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u33659" class="ax_default _图片">
+              <img id="u33659_img" class="img " src="images/事件提醒列表/u1317.png"/>
+              <!-- Unnamed () -->
+              <div id="u33660" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33661" class="ax_default label">
+        <div id="u33661_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33662" class="text">
+          <p><span>备注：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (多行文本框) -->
+      <div id="u33663" class="ax_default text_area">
+        <textarea id="u33663_input"></textarea>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33664" class="ax_default label">
+        <div id="u33664_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33665" class="text">
+          <p><span>签章名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33666" class="ax_default box_1">
+        <div id="u33666_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33667" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33668" class="ax_default label">
+        <div id="u33668_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33669" class="text">
+          <p><span>企业名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u33670" class="ax_default label">
+        <div id="u33670_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u33671" class="text">
+          <p><span>北京XXX公司</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

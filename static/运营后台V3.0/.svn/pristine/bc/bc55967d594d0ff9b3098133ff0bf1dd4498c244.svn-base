@@ -1,0 +1,917 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>业务认款确认单</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/业务认款确认单/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/业务认款确认单/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32594" class="ax_default _三级标题">
+        <div id="u32594_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32595" class="text">
+          <p><span>收款审批单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u32596" class="ax_default _图片">
+        <img id="u32596_img" class="img " src="images/业务付款审批单/u22450.png"/>
+        <!-- Unnamed () -->
+        <div id="u32597" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u32598" class="ax_default _图片">
+        <img id="u32598_img" class="img " src="images/业务付款审批单/u22452.png"/>
+        <!-- Unnamed () -->
+        <div id="u32599" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32600" class="ax_default label">
+        <div id="u32600_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32601" class="text">
+          <p><span>申请日期：2017年07月07日</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32602" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32603" class="ax_default table_cell">
+          <img id="u32603_img" class="img " src="images/业务付款审批单/u22455.png"/>
+          <!-- Unnamed () -->
+          <div id="u32604" class="text">
+            <p><span>Column 1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32605" class="ax_default table_cell">
+          <img id="u32605_img" class="img " src="images/业务付款审批单/u22457.png"/>
+          <!-- Unnamed () -->
+          <div id="u32606" class="text">
+            <p><span>全称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32607" class="ax_default table_cell">
+          <img id="u32607_img" class="img " src="images/业务付款审批单/u22459.png"/>
+          <!-- Unnamed () -->
+          <div id="u32608" class="text">
+            <p><span>南通赛孚燃料检验有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32609" class="ax_default table_cell">
+          <img id="u32609_img" class="img " src="images/业务付款审批单/u22455.png"/>
+          <!-- Unnamed () -->
+          <div id="u32610" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32611" class="ax_default table_cell">
+          <img id="u32611_img" class="img " src="images/业务付款审批单/u22457.png"/>
+          <!-- Unnamed () -->
+          <div id="u32612" class="text">
+            <p><span>账户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32613" class="ax_default table_cell">
+          <img id="u32613_img" class="img " src="images/业务付款审批单/u22459.png"/>
+          <!-- Unnamed () -->
+          <div id="u32614" class="text">
+            <p><span>1111821709100213302</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32615" class="ax_default table_cell">
+          <img id="u32615_img" class="img " src="images/业务付款审批单/u22467.png"/>
+          <!-- Unnamed () -->
+          <div id="u32616" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32617" class="ax_default table_cell">
+          <img id="u32617_img" class="img " src="images/业务付款审批单/u22469.png"/>
+          <!-- Unnamed () -->
+          <div id="u32618" class="text">
+            <p><span>开户行</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32619" class="ax_default table_cell">
+          <img id="u32619_img" class="img " src="images/业务付款审批单/u22471.png"/>
+          <!-- Unnamed () -->
+          <div id="u32620" class="text">
+            <p><span>工行青年路支行</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32621" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32622" class="ax_default table_cell">
+          <img id="u32622_img" class="img " src="images/业务付款审批单/u22467.png"/>
+          <!-- Unnamed () -->
+          <div id="u32623" class="text">
+            <p><span>Column 1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32624" class="ax_default table_cell">
+          <img id="u32624_img" class="img " src="images/业务付款审批单/u22469.png"/>
+          <!-- Unnamed () -->
+          <div id="u32625" class="text">
+            <p><span>付款单位全称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32626" class="ax_default table_cell">
+          <img id="u32626_img" class="img " src="images/业务付款审批单/u22471.png"/>
+          <!-- Unnamed () -->
+          <div id="u32627" class="text">
+            <p><span>金银岛（宁夏）供应链管理有限公司</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32628" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32629" class="ax_default table_cell">
+          <img id="u32629_img" class="img " src="images/业务付款审批单/u22566.png"/>
+          <!-- Unnamed () -->
+          <div id="u32630" class="text">
+            <p><span>收款方</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32631" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32632" class="ax_default table_cell">
+          <img id="u32632_img" class="img " src="images/业务认款确认单/u32632.png"/>
+          <!-- Unnamed () -->
+          <div id="u32633" class="text">
+            <p><span>付款方</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32634" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32635" class="ax_default table_cell">
+          <img id="u32635_img" class="img " src="images/业务付款审批单/u22508.png"/>
+          <!-- Unnamed () -->
+          <div id="u32636" class="text">
+            <p><span>订单编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32637" class="ax_default table_cell">
+          <img id="u32637_img" class="img " src="images/业务付款审批单/u22510.png"/>
+          <!-- Unnamed () -->
+          <div id="u32638" class="text">
+            <p><span>2016JYD1030-徐州乾安</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32639" class="ax_default table_cell">
+          <img id="u32639_img" class="img " src="images/业务付款审批单/u22512.png"/>
+          <!-- Unnamed () -->
+          <div id="u32640" class="text">
+            <p><span>出库通知单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32641" class="ax_default table_cell">
+          <img id="u32641_img" class="img " src="images/业务付款审批单/u22514.png"/>
+          <!-- Unnamed () -->
+          <div id="u32642" class="text">
+            <p><span>QYZHD-XZHQA-20161020</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32643" class="ax_default table_cell">
+          <img id="u32643_img" class="img " src="images/业务付款审批单/u22497.png"/>
+          <!-- Unnamed () -->
+          <div id="u32644" class="text">
+            <p><span>结算单号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32645" class="ax_default table_cell">
+          <img id="u32645_img" class="img " src="images/业务认款确认单/u32645.png"/>
+          <!-- Unnamed () -->
+          <div id="u32646" class="text">
+            <p><span>Y2017070700001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32647" class="ax_default table_cell">
+          <img id="u32647_img" class="img " src="images/业务认款确认单/u32647.png"/>
+          <!-- Unnamed () -->
+          <div id="u32648" class="text">
+            <p><span>出库批次号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32649" class="ax_default table_cell">
+          <img id="u32649_img" class="img " src="images/业务认款确认单/u32649.png"/>
+          <!-- Unnamed () -->
+          <div id="u32650" class="text">
+            <p><span>PC0001；PC0002</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32651" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32652" class="ax_default table_cell">
+          <img id="u32652_img" class="img " src="images/业务付款审批单/u22588.png"/>
+          <!-- Unnamed () -->
+          <div id="u32653" class="text">
+            <p><span>历史收款金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32654" class="ax_default table_cell">
+          <img id="u32654_img" class="img " src="images/业务付款审批单/u22590.png"/>
+          <!-- Unnamed () -->
+          <div id="u32655" class="text">
+            <p><span>2,000,000</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32656" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32657" class="ax_default table_cell">
+          <img id="u32657_img" class="img " src="images/业务付款审批单/u22588.png"/>
+          <!-- Unnamed () -->
+          <div id="u32658" class="text">
+            <p><span>本次收款金额（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32659" class="ax_default table_cell">
+          <img id="u32659_img" class="img " src="images/业务认款确认单/u32659.png"/>
+          <!-- Unnamed () -->
+          <div id="u32660" class="text">
+            <p><span>3,000,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32661" class="ax_default table_cell">
+          <img id="u32661_img" class="img " src="images/业务认款确认单/u32659.png"/>
+          <!-- Unnamed () -->
+          <div id="u32662" class="text">
+            <p><span>大写</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32663" class="ax_default table_cell">
+          <img id="u32663_img" class="img " src="images/业务认款确认单/u32663.png"/>
+          <!-- Unnamed () -->
+          <div id="u32664" class="text">
+            <p><span>叁仟陆百八十元</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32665" class="ax_default primary_button">
+        <div id="u32665_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32666" class="text">
+          <p><span>打印</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32667" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32668" class="ax_default table_cell">
+          <img id="u32668_img" class="img " src="images/业务付款审批单/u22846.png"/>
+          <!-- Unnamed () -->
+          <div id="u32669" class="text">
+            <p><span>备注</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32670" class="ax_default table_cell">
+          <img id="u32670_img" class="img " src="images/业务付款审批单/u22848.png"/>
+          <!-- Unnamed () -->
+          <div id="u32671" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32672" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32673" class="ax_default table_cell">
+          <img id="u32673_img" class="img " src="images/业务付款审批单/u22645.png"/>
+          <!-- Unnamed () -->
+          <div id="u32674" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32675" class="ax_default table_cell">
+          <img id="u32675_img" class="img " src="images/业务付款审批单/u22647.png"/>
+          <!-- Unnamed () -->
+          <div id="u32676" class="text">
+            <p><span>审批人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32677" class="ax_default table_cell">
+          <img id="u32677_img" class="img " src="images/业务付款审批单/u22649.png"/>
+          <!-- Unnamed () -->
+          <div id="u32678" class="text">
+            <p><span>审批说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32679" class="ax_default table_cell">
+          <img id="u32679_img" class="img " src="images/业务付款审批单/u22645.png"/>
+          <!-- Unnamed () -->
+          <div id="u32680" class="text">
+            <p><span>运营中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32681" class="ax_default table_cell">
+          <img id="u32681_img" class="img " src="images/业务付款审批单/u22647.png"/>
+          <!-- Unnamed () -->
+          <div id="u32682" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32683" class="ax_default table_cell">
+          <img id="u32683_img" class="img " src="images/业务付款审批单/u22649.png"/>
+          <!-- Unnamed () -->
+          <div id="u32684" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32685" class="ax_default table_cell">
+          <img id="u32685_img" class="img " src="images/业务付款审批单/u22645.png"/>
+          <!-- Unnamed () -->
+          <div id="u32686" class="text">
+            <p><span>运营负责人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32687" class="ax_default table_cell">
+          <img id="u32687_img" class="img " src="images/业务付款审批单/u22647.png"/>
+          <!-- Unnamed () -->
+          <div id="u32688" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32689" class="ax_default table_cell">
+          <img id="u32689_img" class="img " src="images/业务付款审批单/u22649.png"/>
+          <!-- Unnamed () -->
+          <div id="u32690" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32691" class="ax_default table_cell">
+          <img id="u32691_img" class="img " src="images/业务付款审批单/u22645.png"/>
+          <!-- Unnamed () -->
+          <div id="u32692" class="text">
+            <p><span>Tony</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32693" class="ax_default table_cell">
+          <img id="u32693_img" class="img " src="images/业务付款审批单/u22647.png"/>
+          <!-- Unnamed () -->
+          <div id="u32694" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32695" class="ax_default table_cell">
+          <img id="u32695_img" class="img " src="images/业务付款审批单/u22649.png"/>
+          <!-- Unnamed () -->
+          <div id="u32696" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32697" class="ax_default table_cell">
+          <img id="u32697_img" class="img " src="images/业务付款审批单/u22669.png"/>
+          <!-- Unnamed () -->
+          <div id="u32698" class="text">
+            <p><span>交易服中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32699" class="ax_default table_cell">
+          <img id="u32699_img" class="img " src="images/业务付款审批单/u22671.png"/>
+          <!-- Unnamed () -->
+          <div id="u32700" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32701" class="ax_default table_cell">
+          <img id="u32701_img" class="img " src="images/业务付款审批单/u22673.png"/>
+          <!-- Unnamed () -->
+          <div id="u32702" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32703" class="ax_default table_cell">
+          <img id="u32703_img" class="img " src="images/业务付款审批单/u22669.png"/>
+          <!-- Unnamed () -->
+          <div id="u32704" class="text">
+            <p><span>财务中心</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32705" class="ax_default table_cell">
+          <img id="u32705_img" class="img " src="images/业务付款审批单/u22671.png"/>
+          <!-- Unnamed () -->
+          <div id="u32706" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32707" class="ax_default table_cell">
+          <img id="u32707_img" class="img " src="images/业务付款审批单/u22673.png"/>
+          <!-- Unnamed () -->
+          <div id="u32708" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32709" class="ax_default table_cell">
+          <img id="u32709_img" class="img " src="images/业务付款审批单/u22681.png"/>
+          <!-- Unnamed () -->
+          <div id="u32710" class="text">
+            <p><span>财务负责人</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32711" class="ax_default table_cell">
+          <img id="u32711_img" class="img " src="images/业务付款审批单/u22683.png"/>
+          <!-- Unnamed () -->
+          <div id="u32712" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32713" class="ax_default table_cell">
+          <img id="u32713_img" class="img " src="images/业务付款审批单/u22685.png"/>
+          <!-- Unnamed () -->
+          <div id="u32714" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32715" class="ax_default _三级标题">
+        <div id="u32715_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u32716" class="text">
+          <p><span>审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32717" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32718" class="ax_default table_cell">
+          <img id="u32718_img" class="img " src="images/业务付款审批单/u22469.png"/>
+          <!-- Unnamed () -->
+          <div id="u32719" class="text">
+            <p><span>账户</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32720" class="ax_default table_cell">
+          <img id="u32720_img" class="img " src="images/业务付款审批单/u22471.png"/>
+          <!-- Unnamed () -->
+          <div id="u32721" class="text">
+            <p><span>1111821709100213302</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32722" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32723" class="ax_default table_cell">
+          <img id="u32723_img" class="img " src="images/业务付款审批单/u22469.png"/>
+          <!-- Unnamed () -->
+          <div id="u32724" class="text">
+            <p><span>开户行</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32725" class="ax_default table_cell">
+          <img id="u32725_img" class="img " src="images/业务付款审批单/u22471.png"/>
+          <!-- Unnamed () -->
+          <div id="u32726" class="text">
+            <p><span>工行青年路支行</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32727" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32728" class="ax_default table_cell">
+          <img id="u32728_img" class="img " src="images/业务付款审批单/u22545.png"/>
+          <!-- Unnamed () -->
+          <div id="u32729" class="text">
+            <p><span>收款类别</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32730" class="ax_default table_cell">
+          <img id="u32730_img" class="img " src="images/业务付款审批单/u22547.png"/>
+          <!-- Unnamed () -->
+          <div id="u32731" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32732" class="ax_default checkbox">
+        <label for="u32732_input">
+          <!-- Unnamed () -->
+          <div id="u32733" class="text">
+            <p><span>货款</span></p>
+          </div>
+        </label>
+        <input id="u32732_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32734" class="ax_default checkbox">
+        <label for="u32734_input">
+          <!-- Unnamed () -->
+          <div id="u32735" class="text">
+            <p><span>保证金</span></p>
+          </div>
+        </label>
+        <input id="u32734_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32736" class="ax_default checkbox">
+        <label for="u32736_input">
+          <!-- Unnamed () -->
+          <div id="u32737" class="text">
+            <p><span>定金</span></p>
+          </div>
+        </label>
+        <input id="u32736_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32738" class="ax_default checkbox">
+        <label for="u32738_input">
+          <!-- Unnamed () -->
+          <div id="u32739" class="text">
+            <p><span>运费 </span></p>
+          </div>
+        </label>
+        <input id="u32738_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32740" class="ax_default checkbox">
+        <label for="u32740_input">
+          <!-- Unnamed () -->
+          <div id="u32741" class="text">
+            <p><span>堆存费</span></p>
+          </div>
+        </label>
+        <input id="u32740_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32742" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32743" class="ax_default table_cell">
+          <img id="u32743_img" class="img " src="images/业务付款审批单/u22497.png"/>
+          <!-- Unnamed () -->
+          <div id="u32744" class="text">
+            <p><span>收款方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32745" class="ax_default table_cell">
+          <img id="u32745_img" class="img " src="images/业务认款确认单/u32645.png"/>
+          <!-- Unnamed () -->
+          <div id="u32746" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32747" class="ax_default table_cell">
+          <img id="u32747_img" class="img " src="images/业务认款确认单/u32647.png"/>
+          <!-- Unnamed () -->
+          <div id="u32748" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32749" class="ax_default table_cell">
+          <img id="u32749_img" class="img " src="images/业务认款确认单/u32649.png"/>
+          <!-- Unnamed () -->
+          <div id="u32750" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u32751" class="ax_default box_1">
+        <img id="u32751_img" class="img " src="images/业务付款审批单/u23172.png"/>
+        <!-- Unnamed () -->
+        <div id="u32752" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32753" class="ax_default checkbox">
+        <label for="u32753_input">
+          <!-- Unnamed () -->
+          <div id="u32754" class="text">
+            <p><span>批次</span></p>
+          </div>
+        </label>
+        <input id="u32753_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u32755" class="ax_default checkbox">
+        <label for="u32755_input">
+          <!-- Unnamed () -->
+          <div id="u32756" class="text">
+            <p><span>结算单</span></p>
+          </div>
+        </label>
+        <input id="u32755_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32757" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32758" class="ax_default table_cell">
+          <img id="u32758_img" class="img " src="images/业务付款审批单/u22576.png"/>
+          <!-- Unnamed () -->
+          <div id="u32759" class="text">
+            <p><span>数量（吨）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32760" class="ax_default table_cell">
+          <img id="u32760_img" class="img " src="images/业务付款审批单/u22609.png"/>
+          <!-- Unnamed () -->
+          <div id="u32761" class="text">
+            <p><span>1,000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32762" class="ax_default table_cell">
+          <img id="u32762_img" class="img " src="images/处理/u12850.png"/>
+          <!-- Unnamed () -->
+          <div id="u32763" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32764" class="ax_default table_cell">
+          <img id="u32764_img" class="img " src="images/业务认款确认单/u32764.png"/>
+          <!-- Unnamed () -->
+          <div id="u32765" class="text">
+            <p><span>金银岛2#</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32766" class="ax_default table_cell">
+          <img id="u32766_img" class="img " src="images/业务付款审批单/u22588.png"/>
+          <!-- Unnamed () -->
+          <div id="u32767" class="text">
+            <p><span>价格（元/吨）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32768" class="ax_default table_cell">
+          <img id="u32768_img" class="img " src="images/业务付款审批单/u22633.png"/>
+          <!-- Unnamed () -->
+          <div id="u32769" class="text">
+            <p><span>666</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32770" class="ax_default table_cell">
+          <img id="u32770_img" class="img " src="images/处理/u12870.png"/>
+          <!-- Unnamed () -->
+          <div id="u32771" class="text">
+            <p><span>总价（元）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32772" class="ax_default table_cell">
+          <img id="u32772_img" class="img " src="images/业务认款确认单/u32772.png"/>
+          <!-- Unnamed () -->
+          <div id="u32773" class="text">
+            <p><span>1,000,000</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32774" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32775" class="ax_default table_cell">
+          <img id="u32775_img" class="img " src="images/业务认款确认单/u32775.png"/>
+          <!-- Unnamed () -->
+          <div id="u32776" class="text">
+            <p><span>实际购买商</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32777" class="ax_default table_cell">
+          <img id="u32777_img" class="img " src="images/业务认款确认单/u32777.png"/>
+          <!-- Unnamed () -->
+          <div id="u32778" class="text">
+            <p><span>北京XXX公司</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u32779" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32780" class="ax_default table_cell">
+          <img id="u32780_img" class="img " src="images/业务付款审批单/u22846.png"/>
+          <!-- Unnamed () -->
+          <div id="u32781" class="text">
+            <p><span>款项说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u32782" class="ax_default table_cell">
+          <img id="u32782_img" class="img " src="images/业务付款审批单/u22848.png"/>
+          <!-- Unnamed () -->
+          <div id="u32783" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

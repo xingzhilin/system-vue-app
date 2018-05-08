@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>堆存费维护</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/堆存费维护/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/堆存费维护/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48845" class="ax_default box_2">
+        <div id="u48845_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48846" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48847" class="ax_default label">
+        <div id="u48847_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48848" class="text">
+          <p><span>免堆期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48849" class="ax_default box_1">
+        <div id="u48849_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48850" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48851" class="ax_default label">
+        <div id="u48851_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48852" class="text">
+          <p><span>天</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48853" class="ax_default label">
+        <div id="u48853_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48854" class="text">
+          <p><span>收费：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48855" class="ax_default box_1">
+        <div id="u48855_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48856" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48857" class="ax_default label">
+        <div id="u48857_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48858" class="text">
+          <p><span>天起</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48859" class="ax_default box_1">
+        <div id="u48859_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48860" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48861" class="ax_default label">
+        <div id="u48861_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48862" class="text">
+          <p><span>元/吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48863" class="ax_default box_1">
+        <div id="u48863_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48864" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48865" class="ax_default label">
+        <div id="u48865_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48866" class="text">
+          <p><span>天起</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48867" class="ax_default box_1">
+        <div id="u48867_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48868" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48869" class="ax_default label">
+        <div id="u48869_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48870" class="text">
+          <p><span>元/吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48871" class="ax_default primary_button">
+        <div id="u48871_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48872" class="text">
+          <p><span>下一步</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48873" class="ax_default primary_button">
+        <div id="u48873_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48874" class="text">
+          <p><span>上一步</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48875" class="ax_default sticky_1">
+        <div id="u48875_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u48876" class="text">
+          <p><span>1、都为非必填项，如果没有维护，点击下一步可跳转设置交割库权限页面</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

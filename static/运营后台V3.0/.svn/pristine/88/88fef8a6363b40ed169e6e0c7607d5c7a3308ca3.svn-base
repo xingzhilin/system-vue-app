@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>保证金申请退款</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/保证金申请退款/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/保证金申请退款/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55043" class="ax_default box_2">
+        <div id="u55043_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55044" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55045" class="ax_default box_2">
+        <div id="u55045_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55046" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55047" class="ax_default label">
+        <div id="u55047_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55048" class="text">
+          <p><span>申请退款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u55049" class="ax_default _图片">
+        <img id="u55049_img" class="img " src="images/补缴通知/u55035.png"/>
+        <!-- Unnamed () -->
+        <div id="u55050" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55051" class="ax_default box_2">
+        <div id="u55051_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55052" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55053" class="ax_default label">
+        <div id="u55053_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55054" class="text">
+          <p><span>申请退款金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55055" class="ax_default label">
+        <div id="u55055_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55056" class="text">
+          <p><span>企业名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55057" class="ax_default label">
+        <div id="u55057_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55058" class="text">
+          <p><span>北京XXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55059" class="ax_default label">
+        <div id="u55059_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55060" class="text">
+          <p><span>开户行</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55061" class="ax_default label">
+        <div id="u55061_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55062" class="text">
+          <p><span>XXXX开户行</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55063" class="ax_default label">
+        <div id="u55063_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55064" class="text">
+          <p><span>账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55065" class="ax_default label">
+        <div id="u55065_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55066" class="text">
+          <p><span>1000988888888</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55067" class="ax_default label">
+        <div id="u55067_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55068" class="text">
+          <p><span>退款账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55069" class="ax_default box_2">
+        <div id="u55069_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55070" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55071" class="ax_default _三级标题">
+        <div id="u55071_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55072" class="text">
+          <p><span>¥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u55073" class="ax_default line">
+        <img id="u55073_img" class="img " src="images/保证金申请退款/u55073.png"/>
+        <!-- Unnamed () -->
+        <div id="u55074" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55075" class="ax_default primary_button">
+        <div id="u55075_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55076" class="text">
+          <p><span>申请退款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55077" class="ax_default _文本段落">
+        <div id="u55077_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55078" class="text">
+          <p><span>1、未输入提现金额，确认提现按钮不可用</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u55079" class="ax_default marker">
+        <img id="u55079_img" class="img " src="images/消息/u50641.png"/>
+        <!-- Unnamed () -->
+        <div id="u55080" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u55081" class="ax_default _连接线">
+        <img id="u55081_seg0" class="img " src="images/保证金申请退款/u55081_seg0.png" alt="u55081_seg0"/>
+        <img id="u55081_seg1" class="img " src="images/保证金申请退款/u55081_seg1.png" alt="u55081_seg1"/>
+        <img id="u55081_seg2" class="img " src="images/保证金申请退款/u55081_seg2.png" alt="u55081_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u55082" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u55083" class="ax_default _图片">
+        <img id="u55083_img" class="img " src="images/账户金额管理/u54684.png"/>
+        <!-- Unnamed () -->
+        <div id="u55084" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u55085" class="ax_default marker">
+        <img id="u55085_img" class="img " src="images/消息/u50641.png"/>
+        <!-- Unnamed () -->
+        <div id="u55086" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u55087" class="ax_default _连接线">
+        <img id="u55087_seg0" class="img " src="images/保证金申请退款/u55087_seg0.png" alt="u55087_seg0"/>
+        <img id="u55087_seg1" class="img " src="images/执行中/u53410_seg1.png" alt="u55087_seg1"/>
+        <img id="u55087_seg2" class="img " src="images/保证金申请退款/u55087_seg2.png" alt="u55087_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u55088" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55089" class="ax_default _文本段落">
+        <div id="u55089_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55090" class="text">
+          <p><span>默认显示为该企业最近添加的账户信息，此处可以切换账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55091" class="ax_default box_2">
+        <div id="u55091_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55092" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u55093" class="ax_default _图片">
+        <img id="u55093_img" class="img " src="images/部门管理/u33784.png"/>
+        <!-- Unnamed () -->
+        <div id="u55094" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u55095" class="ax_default primary_button">
+        <img id="u55095_img" class="img " src="images/部门管理/u33786.png"/>
+        <!-- Unnamed () -->
+        <div id="u55096" class="text">
+          <p><span>确 定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55097" class="ax_default _三级标题">
+        <div id="u55097_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55098" class="text">
+          <p><span>请选择要切换的账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u55099" class="ax_default ellipse">
+        <img id="u55099_img" class="img " src="images/缴纳保证金/u54996.png"/>
+        <!-- Unnamed () -->
+        <div id="u55100" class="text">
+          <p><span>√</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55101" class="ax_default label">
+        <div id="u55101_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55102" class="text">
+          <p><span>10000000002222</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u55103" class="ax_default ellipse">
+        <img id="u55103_img" class="img " src="images/缴纳保证金/u54996.png"/>
+        <!-- Unnamed () -->
+        <div id="u55104" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55105" class="ax_default label">
+        <div id="u55105_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55106" class="text">
+          <p><span>10000000002222</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55107" class="ax_default _文本段落">
+        <div id="u55107_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55108" class="text">
+          <p><span>弹出框默认选择的为当前显示的账户</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55109" class="ax_default label">
+        <div id="u55109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55110" class="text">
+          <p><span>退款理由说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55111" class="ax_default box_2">
+        <div id="u55111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55112" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55113" class="ax_default label">
+        <div id="u55113_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55114" class="text">
+          <p><span>请输入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u55115" class="ax_default marker">
+        <img id="u55115_img" class="img " src="images/消息/u50641.png"/>
+        <!-- Unnamed () -->
+        <div id="u55116" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55117" class="ax_default _文本段落">
+        <div id="u55117_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55118" class="text">
+          <p><span>退款理由说明为非必填项</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u55119" class="ax_default _连接线">
+        <img id="u55119_seg0" class="img " src="images/保证金申请退款/u55119_seg0.png" alt="u55119_seg0"/>
+        <img id="u55119_seg1" class="img " src="images/保证金申请退款/u55119_seg1.png" alt="u55119_seg1"/>
+        <img id="u55119_seg2" class="img " src="images/日历查看适配页/u51330_seg0.png" alt="u55119_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u55120" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55121" class="ax_default label">
+        <div id="u55121_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55122" class="text">
+          <p><span>可退款金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u55123" class="ax_default box_2">
+        <div id="u55123_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u55124" class="text">
+          <p style="font-size:28px;"><span>¥</span><span style="font-size:13px;"> </span><span style="font-size:20px;">200,000.00 </span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

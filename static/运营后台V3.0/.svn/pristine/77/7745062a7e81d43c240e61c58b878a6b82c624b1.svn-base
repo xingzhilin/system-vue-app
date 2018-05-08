@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>开闭市维护</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/开闭市维护/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/开闭市维护/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41003" class="ax_default box_2">
+        <div id="u41003_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41004" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41005" class="ax_default label">
+        <div id="u41005_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41006" class="text">
+          <p><span style="color:#FF0000;">今日开闭市时间：9:00-17:00 </span><span>&nbsp; &nbsp; &nbsp;&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41007" class="ax_default primary_button">
+        <div id="u41007_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41008" class="text">
+          <p><span>设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u41009" class="ax_default _图片">
+        <img id="u41009_img" class="img " src="images/开闭市维护/u41009.png"/>
+        <!-- Unnamed () -->
+        <div id="u41010" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41011" class="ax_default sticky_3">
+        <div id="u41011_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41012" class="text">
+          <p><span style="font-family:'Arial Normal', 'Arial';">1.</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">该页显示当前已设定的开闭市时间。点击日历上的具体日期，该日期变色显示（状态不同开开市及闭市）。红框区域显示该日开闭市时间。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">2.红框内时间可修改，修改后点确认，弹出对话框。确认修改选定日期开闭市时间。再点确认后，提示修改成功。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">3.点击闭市， 红框内数值变灰。点确认修改后，弹出确认将选定日期设为闭市，再点确认后，提示修改成功。</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">4.开闭市状态发生改变后，日历上的状态发生改变。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41013" class="ax_default box_1">
+        <div id="u41013_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41014" class="text">
+          <p><span>9:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41015" class="ax_default box_1">
+        <div id="u41015_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41016" class="text">
+          <p><span>17:00</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41017" class="ax_default label">
+        <div id="u41017_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41018" class="text">
+          <p><span>开闭市时间：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41019" class="ax_default label">
+        <div id="u41019_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41020" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41021" class="ax_default box_1">
+        <img id="u41021_img" class="img " src="images/开闭市维护/u41021.png"/>
+        <!-- Unnamed () -->
+        <div id="u41022" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41023" class="ax_default primary_button">
+        <div id="u41023_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41024" class="text">
+          <p><span>确认修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41025" class="ax_default primary_button">
+        <div id="u41025_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41026" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u41027" class="ax_default radio_button">
+        <label for="u41027_input">
+          <!-- Unnamed () -->
+          <div id="u41028" class="text">
+            <p><span>开市</span></p>
+          </div>
+        </label>
+        <input id="u41027_input" type="radio" value="radio" name="u41027" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41029" class="ax_default box_1">
+        <div id="u41029_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41030" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41031" class="ax_default _三级标题">
+        <div id="u41031_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41032" class="text">
+          <p><span>确认修改3月5日开闭市时间？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41033" class="ax_default primary_button">
+        <div id="u41033_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41034" class="text">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41035" class="ax_default primary_button">
+        <div id="u41035_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41036" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u41037" class="ax_default icon">
+        <img id="u41037_img" class="img " src="images/用户企业管理/u25749.png"/>
+        <!-- Unnamed () -->
+        <div id="u41038" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41039" class="ax_default box_1">
+        <div id="u41039_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41040" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41041" class="ax_default _三级标题">
+        <div id="u41041_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41042" class="text">
+          <p><span>确认将3月5日设为闭市？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41043" class="ax_default primary_button">
+        <div id="u41043_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41044" class="text">
+          <p><span>确定</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u41045" class="ax_default primary_button">
+        <div id="u41045_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u41046" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u41047" class="ax_default icon">
+        <img id="u41047_img" class="img " src="images/用户企业管理/u25749.png"/>
+        <!-- Unnamed () -->
+        <div id="u41048" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u41049" class="ax_default radio_button">
+        <label for="u41049_input">
+          <!-- Unnamed () -->
+          <div id="u41050" class="text">
+            <p><span>闭市</span></p>
+          </div>
+        </label>
+        <input id="u41049_input" type="radio" value="radio" name="u41049"/>
+      </div>
+    </div>
+  </body>
+</html>

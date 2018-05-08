@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>交易金额明细</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/交易金额明细/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/交易金额明细/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (页头) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54130" class="ax_default box_2">
+        <div id="u54130_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54131" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54132" class="ax_default _形状">
+        <img id="u54132_img" class="img " src="images/供货年度框架协议签署/u51625.png"/>
+        <!-- Unnamed () -->
+        <div id="u54133" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u54134" class="ax_default">
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u54135" class="ax_default _图片">
+        <img id="u54135_img" class="img " src="images/订单签章/u52487.png"/>
+        <!-- Unnamed () -->
+        <div id="u54136" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54137" class="ax_default _一级标题">
+        <div id="u54137_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54138" class="text">
+          <p><span>交易金额明细</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54140" class="ax_default box_2">
+        <div id="u54140_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54141" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54142" class="ax_default box_2">
+        <div id="u54142_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54143" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54144" class="ax_default label">
+        <div id="u54144_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54145" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54146" class="ax_default ellipse">
+        <img id="u54146_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54147" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54148" class="ax_default label">
+        <div id="u54148_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54149" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54150" class="ax_default line">
+        <img id="u54150_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54151" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54152" class="ax_default label">
+        <div id="u54152_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54153" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54154" class="ax_default box_2">
+        <div id="u54154_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54155" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54156" class="ax_default label">
+        <div id="u54156_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54157" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">订单编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54158" class="ax_default line">
+        <img id="u54158_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54159" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54160" class="ax_default ellipse">
+        <img id="u54160_img" class="img " src="images/交易金额明细/u54160.png"/>
+        <!-- Unnamed () -->
+        <div id="u54161" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">收款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54162" class="ax_default label">
+        <div id="u54162_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54163" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">+10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54164" class="ax_default line">
+        <img id="u54164_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54165" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54166" class="ax_default label">
+        <div id="u54166_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54167" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54168" class="ax_default line">
+        <img id="u54168_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54169" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54170" class="ax_default ellipse">
+        <img id="u54170_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54171" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54172" class="ax_default label">
+        <div id="u54172_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54173" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54174" class="ax_default line">
+        <img id="u54174_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54175" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54176" class="ax_default label">
+        <div id="u54176_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54177" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54178" class="ax_default line">
+        <img id="u54178_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54179" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54180" class="ax_default ellipse">
+        <img id="u54180_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54181" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54182" class="ax_default label">
+        <div id="u54182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54183" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54184" class="ax_default line">
+        <img id="u54184_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54185" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54186" class="ax_default label">
+        <div id="u54186_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54187" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u54188" class="ax_default line">
+        <img id="u54188_img" class="img " src="images/交易金额明细/u54150.png"/>
+        <!-- Unnamed () -->
+        <div id="u54189" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54190" class="ax_default ellipse">
+        <img id="u54190_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54191" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54192" class="ax_default label">
+        <div id="u54192_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54193" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54194" class="ax_default label">
+        <div id="u54194_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54195" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54196" class="ax_default ellipse">
+        <img id="u54196_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54197" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54198" class="ax_default label">
+        <div id="u54198_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54199" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54200" class="ax_default label">
+        <div id="u54200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54201" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54202" class="ax_default ellipse">
+        <img id="u54202_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54203" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54204" class="ax_default label">
+        <div id="u54204_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54205" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54206" class="ax_default label">
+        <div id="u54206_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54207" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54208" class="ax_default ellipse">
+        <img id="u54208_img" class="img " src="images/交易金额明细/u54146.png"/>
+        <!-- Unnamed () -->
+        <div id="u54209" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54210" class="ax_default label">
+        <div id="u54210_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54211" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';">-10，000.00元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54212" class="ax_default label">
+        <div id="u54212_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54213" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">2017-06-28</span></p><p><span style="font-family:'微软雅黑';font-weight:400;">&nbsp;15:30:28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54214" class="ax_default label">
+        <div id="u54214_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54215" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54216" class="ax_default label">
+        <div id="u54216_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54217" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54218" class="ax_default label">
+        <div id="u54218_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54219" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">金银岛（宁夏）供应链管理有限公司向您退款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54220" class="ax_default label">
+        <div id="u54220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54221" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54222" class="ax_default label">
+        <div id="u54222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54223" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54224" class="ax_default label">
+        <div id="u54224_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54225" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54226" class="ax_default label">
+        <div id="u54226_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54227" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54228" class="ax_default label">
+        <div id="u54228_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54229" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">向金银岛（宁夏）供应链管理有限公司支付货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u54230" class="ax_default">
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u54231" class="ax_default">
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u54232" class="ax_default marker">
+        <img id="u54232_img" class="img " src="images/消息/u50641.png"/>
+        <!-- Unnamed () -->
+        <div id="u54233" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u54234" class="ax_default label">
+        <div id="u54234_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u54235" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">款项类型都为货款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u54236" class="ax_default _连接线">
+        <img id="u54236_seg0" class="img " src="images/交易金额明细/u54236_seg0.png" alt="u54236_seg0"/>
+        <img id="u54236_seg1" class="img " src="images/交易金额明细/u54236_seg1.png" alt="u54236_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u54237" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

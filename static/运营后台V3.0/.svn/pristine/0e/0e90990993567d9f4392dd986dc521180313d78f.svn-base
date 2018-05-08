@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>审批流程查看</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/审批流程查看/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/审批流程查看/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11700" class="ax_default box_2">
+        <div id="u11700_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11701" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11702" class="ax_default box_2">
+        <div id="u11702_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11703" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11704" class="ax_default box_2">
+        <div id="u11704_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11705" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11706" class="ax_default box_2">
+        <div id="u11706_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11707" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11708" class="ax_default box_1">
+        <div id="u11708_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11709" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11710" class="ax_default box_1">
+        <div id="u11710_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11711" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11712" class="ax_default box_1">
+        <div id="u11712_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11713" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11714" class="ax_default label">
+        <div id="u11714_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11715" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11716" class="ax_default box_1">
+        <div id="u11716_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11717" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11718" class="ax_default box_2">
+        <div id="u11718_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11719" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11720" class="ax_default box_2">
+        <div id="u11720_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11721" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11722" class="ax_default box_2">
+        <div id="u11722_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11723" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11724" class="ax_default label">
+        <div id="u11724_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11725" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u11726" class="ax_default _图片">
+        <img id="u11726_img" class="img " src="images/事件提醒列表/u1217.png"/>
+        <!-- Unnamed () -->
+        <div id="u11727" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11728" class="ax_default box_2">
+        <div id="u11728_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11729" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11730" class="ax_default box_2">
+        <div id="u11730_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11731" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11732" class="ax_default label">
+        <div id="u11732_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11733" class="text">
+          <p><span>事件名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11734" class="ax_default box_1">
+        <div id="u11734_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11735" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11736" class="ax_default primary_button">
+        <div id="u11736_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11737" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11738" class="ax_default primary_button">
+        <div id="u11738_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11739" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u11740" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11741" class="ax_default table_cell">
+          <img id="u11741_img" class="img " src="images/煤炭品牌管理/u9057.png"/>
+          <!-- Unnamed () -->
+          <div id="u11742" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11743" class="ax_default table_cell">
+          <img id="u11743_img" class="img " src="images/审批流程查看/u11743.png"/>
+          <!-- Unnamed () -->
+          <div id="u11744" class="text">
+            <p><span>事件名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11745" class="ax_default table_cell">
+          <img id="u11745_img" class="img " src="images/审批流程查看/u11745.png"/>
+          <!-- Unnamed () -->
+          <div id="u11746" class="text">
+            <p><span>配置时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11747" class="ax_default table_cell">
+          <img id="u11747_img" class="img " src="images/煤炭品牌管理/u9069.png"/>
+          <!-- Unnamed () -->
+          <div id="u11748" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11749" class="ax_default table_cell">
+          <img id="u11749_img" class="img " src="images/审批流程查看/u11749.png"/>
+          <!-- Unnamed () -->
+          <div id="u11750" class="text">
+            <p><span>合同签章</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11751" class="ax_default table_cell">
+          <img id="u11751_img" class="img " src="images/审批流程查看/u11751.png"/>
+          <!-- Unnamed () -->
+          <div id="u11752" class="text">
+            <p><span>2018-12-12 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11753" class="ax_default table_cell">
+          <img id="u11753_img" class="img " src="images/煤炭品牌管理/u9069.png"/>
+          <!-- Unnamed () -->
+          <div id="u11754" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11755" class="ax_default table_cell">
+          <img id="u11755_img" class="img " src="images/审批流程查看/u11749.png"/>
+          <!-- Unnamed () -->
+          <div id="u11756" class="text">
+            <p><span>入库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11757" class="ax_default table_cell">
+          <img id="u11757_img" class="img " src="images/审批流程查看/u11751.png"/>
+          <!-- Unnamed () -->
+          <div id="u11758" class="text">
+            <p><span>2018-12-11 12：00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11759" class="ax_default table_cell">
+          <img id="u11759_img" class="img " src="images/煤炭品牌管理/u9093.png"/>
+          <!-- Unnamed () -->
+          <div id="u11760" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11761" class="ax_default table_cell">
+          <img id="u11761_img" class="img " src="images/审批流程查看/u11761.png"/>
+          <!-- Unnamed () -->
+          <div id="u11762" class="text">
+            <p><span>出库</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u11763" class="ax_default table_cell">
+          <img id="u11763_img" class="img " src="images/审批流程查看/u11763.png"/>
+          <!-- Unnamed () -->
+          <div id="u11764" class="text">
+            <p><span>2018-12-10 12：00</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11765" class="ax_default box_1">
+        <div id="u11765_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11766" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u11767" class="ax_default sticky_1">
+        <div id="u11767_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u11768" class="text">
+          <p><span>1、点击查看弹出图片查看页面，支持放大缩小</span></p><p><span>2、此处显示的为配置了审核流程的所有事件 ，按照配置事件的时间倒叙排序</span></p><p><span><br></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

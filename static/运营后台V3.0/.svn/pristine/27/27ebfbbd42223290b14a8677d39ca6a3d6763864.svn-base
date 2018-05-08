@@ -1,0 +1,527 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>企业基本信息查看</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/企业基本信息查看/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/企业基本信息查看/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27752" class="ax_default box_2">
+        <div id="u27752_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27753" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (客户企业管理查看表头) -->
+
+      <!-- Unnamed (水平线) -->
+      <div id="u27755" class="ax_default line">
+        <img id="u27755_img" class="img " src="images/企业基本信息查看/u27755.png"/>
+        <!-- Unnamed () -->
+        <div id="u27756" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27757" class="ax_default box_2">
+        <div id="u27757_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27758" class="text">
+          <p><span>企业基本信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27759" class="ax_default box_2">
+        <div id="u27759_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27760" class="text">
+          <p><span>企业属性</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27761" class="ax_default box_2">
+        <div id="u27761_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27762" class="text">
+          <p><span>签章</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27763" class="ax_default box_2">
+        <div id="u27763_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27764" class="text">
+          <p><span>银行账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27765" class="ax_default box_2">
+        <div id="u27765_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27766" class="text">
+          <p><span>发票信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27767" class="ax_default box_2">
+        <div id="u27767_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27768" class="text">
+          <p><span>准入协议</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27769" class="ax_default box_2">
+        <div id="u27769_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27770" class="text">
+          <p><span>点价保证金及销售期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27771" class="ax_default box_1">
+        <div id="u27771_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27772" class="text">
+          <p><span>北京XXX公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27773" class="ax_default label">
+        <div id="u27773_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27774" class="text">
+          <p><span style="color:#FF0000;">*</span><span>企业名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27775" class="ax_default box_1">
+        <div id="u27775_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27776" class="text">
+          <p><span>1000222</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27777" class="ax_default label">
+        <div id="u27777_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27778" class="text">
+          <p><span style="color:#FF0000;">*</span><span>企业编码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27779" class="ax_default label">
+        <div id="u27779_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27780" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#000000;">省份：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27781" class="ax_default box_1">
+        <div id="u27781_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27782" class="text">
+          <p><span>10002222</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27783" class="ax_default label">
+        <div id="u27783_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27784" class="text">
+          <p><span style="color:#FF0000;">*</span><span>统一社会信用代码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27785" class="ax_default box_1">
+        <div id="u27785_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27786" class="text">
+          <p><span>王五</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27787" class="ax_default label">
+        <div id="u27787_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27788" class="text">
+          <p><span>企业法人：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27789" class="ax_default box_1">
+        <div id="u27789_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27790" class="text">
+          <p><span>12222@qq.com</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27791" class="ax_default label">
+        <div id="u27791_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27792" class="text">
+          <p><span>企业邮箱：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27793" class="ax_default box_1">
+        <div id="u27793_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27794" class="text">
+          <p><span>北京三元桥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27795" class="ax_default label">
+        <div id="u27795_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27796" class="text">
+          <p><span>办公地址：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27797" class="ax_default label">
+        <div id="u27797_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27798" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27799" class="ax_default label">
+        <div id="u27799_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27800" class="text">
+          <p><span>联系电话：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27801" class="ax_default label">
+        <div id="u27801_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27802" class="text">
+          <p><span>联系人：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27803" class="ax_default label">
+        <div id="u27803_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27804" class="text">
+          <p><span>企业简介：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27805" class="ax_default box_1">
+        <div id="u27805_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27806" class="text">
+          <p><span>路名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27807" class="ax_default box_1">
+        <div id="u27807_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27808" class="text">
+          <p><span>010-1222332323</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27809" class="ax_default label">
+        <div id="u27809_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27810" class="text">
+          <p><span>企业证件属性：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u27811" class="ax_default radio_button">
+        <label for="u27811_input">
+          <!-- Unnamed () -->
+          <div id="u27812" class="text">
+            <p><span>三证合一企业</span></p>
+          </div>
+        </label>
+        <input id="u27811_input" type="radio" value="radio" name="u27811" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u27813" class="ax_default radio_button">
+        <label for="u27813_input">
+          <!-- Unnamed () -->
+          <div id="u27814" class="text">
+            <p><span>非三证合一企业</span></p>
+          </div>
+        </label>
+        <input id="u27813_input" type="radio" value="radio" name="u27813"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27815" class="ax_default label">
+        <div id="u27815_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27816" class="text">
+          <p><span>是否启用：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u27817" class="ax_default radio_button">
+        <label for="u27817_input">
+          <!-- Unnamed () -->
+          <div id="u27818" class="text">
+            <p><span>是</span></p>
+          </div>
+        </label>
+        <input id="u27817_input" type="radio" value="radio" name="u27817" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u27819" class="ax_default radio_button">
+        <label for="u27819_input">
+          <!-- Unnamed () -->
+          <div id="u27820" class="text">
+            <p><span>否</span></p>
+          </div>
+        </label>
+        <input id="u27819_input" type="radio" value="radio" name="u27819"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27821" class="ax_default box_1">
+        <div id="u27821_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27822" class="text">
+          <p><span>北京市</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27823" class="ax_default _文本段落">
+        <div id="u27823_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27824" class="text">
+          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27825" class="ax_default primary_button">
+        <div id="u27825_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27826" class="text">
+          <p><span>返回</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27827" class="ax_default label">
+        <div id="u27827_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27828" class="text">
+          <p><span>社会统一信用代码证</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27829" class="ax_default label">
+        <div id="u27829_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27830" class="text">
+          <p><span>开户许可证</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27831" class="ax_default label">
+        <div id="u27831_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27832" class="text">
+          <p><span>盖章文件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27833" class="ax_default label">
+        <div id="u27833_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27834" class="text">
+          <p><span>查看签章扫描件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27835" class="ax_default label">
+        <div id="u27835_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27836" class="text">
+          <p><span>委托签章扫描件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27837" class="ax_default label">
+        <div id="u27837_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27838" class="text">
+          <p><span>数字申请证书</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u27839" class="ax_default label">
+        <div id="u27839_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u27840" class="text">
+          <p><span>查看经办人身份证</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27841" class="ax_default _图片">
+        <img id="u27841_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27842" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27843" class="ax_default _图片">
+        <img id="u27843_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27844" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27845" class="ax_default _图片">
+        <img id="u27845_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27846" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27847" class="ax_default _图片">
+        <img id="u27847_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27848" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27849" class="ax_default _图片">
+        <img id="u27849_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27850" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27851" class="ax_default _图片">
+        <img id="u27851_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27852" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u27853" class="ax_default _图片">
+        <img id="u27853_img" class="img " src="images/企业基本信息查看/u27841.png"/>
+        <!-- Unnamed () -->
+        <div id="u27854" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

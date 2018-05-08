@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>新增订单费用</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/新增订单费用/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/新增订单费用/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43740" class="ax_default box_2">
+        <div id="u43740_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43741" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u43742" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u43743" class="ax_default table_cell">
+          <img id="u43743_img" class="img " src="images/入库录入/u15288.png"/>
+          <!-- Unnamed () -->
+          <div id="u43744" class="text">
+            <p style="font-size:14px;"><span style="font-size:13px;color:#FF0000;">*</span><span style="font-size:13px;">订单</span><span>费用类型</span><span style="font-size:13px;">：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u43745" class="ax_default table_cell">
+          <img id="u43745_img" class="img " src="images/新增运输方式/u40790.png"/>
+          <!-- Unnamed () -->
+          <div id="u43746" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u43747" class="ax_default table_cell">
+          <img id="u43747_img" class="img " src="images/入库录入/u15288.png"/>
+          <!-- Unnamed () -->
+          <div id="u43748" class="text">
+            <p><span style="color:#FF0000;">*</span><span>状态：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u43749" class="ax_default table_cell">
+          <img id="u43749_img" class="img " src="images/新增运输方式/u40790.png"/>
+          <!-- Unnamed () -->
+          <div id="u43750" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u43751" class="ax_default table_cell">
+          <img id="u43751_img" class="img " src="images/入库录入/u15336.png"/>
+          <!-- Unnamed () -->
+          <div id="u43752" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u43753" class="ax_default table_cell">
+          <img id="u43753_img" class="img " src="images/新增运输方式/u40802.png"/>
+          <!-- Unnamed () -->
+          <div id="u43754" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43755" class="ax_default box_1">
+        <div id="u43755_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43756" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43757" class="ax_default box_1">
+        <div id="u43757_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43758" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43759" class="ax_default primary_button">
+        <div id="u43759_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43760" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u43761" class="ax_default primary_button">
+        <div id="u43761_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u43762" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u43763" class="ax_default radio_button">
+        <label for="u43763_input">
+          <!-- Unnamed () -->
+          <div id="u43764" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u43763_input" type="radio" value="radio" name="u43763" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u43765" class="ax_default radio_button">
+        <label for="u43765_input">
+          <!-- Unnamed () -->
+          <div id="u43766" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u43765_input" type="radio" value="radio" name="u43765"/>
+      </div>
+    </div>
+  </body>
+</html>

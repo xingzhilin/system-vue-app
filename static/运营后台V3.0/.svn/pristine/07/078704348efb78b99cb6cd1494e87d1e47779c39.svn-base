@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>添加活动</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/添加活动/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/添加活动/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49074" class="ax_default box_2">
+        <div id="u49074_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49075" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u49076" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u49076_state0" class="panel_state" data-label="State1">
+          <div id="u49076_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u49077" class="ax_default _图片">
+              <img id="u49077_img" class="img " src="images/事件提醒列表/u1211.png"/>
+              <!-- Unnamed () -->
+              <div id="u49078" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 日历面板 (动态面板) -->
+      <div id="u49079" class="ax_default ax_default_hidden" data-label="日历面板" style="display:none; visibility: hidden">
+        <div id="u49079_state0" class="panel_state" data-label="State1">
+          <div id="u49079_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (图片) -->
+            <div id="u49080" class="ax_default _图片">
+              <img id="u49080_img" class="img " src="images/事件提醒列表/u1211.png"/>
+              <!-- Unnamed () -->
+              <div id="u49081" class="text" style="display:none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49082" class="ax_default _文本段落">
+        <div id="u49082_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49083" class="text">
+          <p style="font-size:18px;"><span style="font-size:13px;">1.</span><span style="color:#FF0000;">活动编号无需自动生成。</span></p><p style="font-size:13px;"><span>2.点击“保存”数据进行保存，点击返回数据不进行记录。</span></p><p style="font-size:18px;"><span style="font-size:13px;color:#000000;">3.</span><span style="color:#FF0000;">活动结束时间不可小于开始时间，点击保存进行时间校验，出现弹窗提示。</span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span>4.活动编号控制在16字符，活动名称控制200字符。</span></p><p style="font-size:18px;"><span style="font-size:13px;">5.</span><span style="color:#FF0000;">如添加内容后，点击返回进行弹窗提示，确定及返回，取消返回本页。</span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p><p style="font-size:13px;"><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49084" class="ax_default box_1">
+        <div id="u49084_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49085" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49086" class="ax_default _二级标题">
+        <div id="u49086_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49087" class="text">
+          <p><span>提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49088" class="ax_default label">
+        <div id="u49088_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49089" class="text">
+          <p><span>设置时间出错！</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u49090" class="ax_default icon">
+        <img id="u49090_img" class="img " src="images/添加活动/u49090.png"/>
+        <!-- Unnamed () -->
+        <div id="u49091" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u49092" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49093" class="ax_default table_cell">
+          <img id="u49093_img" class="img " src="images/总出入库总览/u5395.png"/>
+          <!-- Unnamed () -->
+          <div id="u49094" class="text">
+            <p><span>*活动编号：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49095" class="ax_default table_cell">
+          <img id="u49095_img" class="img " src="images/添加活动/u49095.png"/>
+          <!-- Unnamed () -->
+          <div id="u49096" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49097" class="ax_default table_cell">
+          <img id="u49097_img" class="img " src="images/总出入库总览/u5395.png"/>
+          <!-- Unnamed () -->
+          <div id="u49098" class="text">
+            <p><span>*活动名称：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49099" class="ax_default table_cell">
+          <img id="u49099_img" class="img " src="images/添加活动/u49095.png"/>
+          <!-- Unnamed () -->
+          <div id="u49100" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49101" class="ax_default table_cell">
+          <img id="u49101_img" class="img " src="images/总出入库总览/u5395.png"/>
+          <!-- Unnamed () -->
+          <div id="u49102" class="text">
+            <p><span>*活动时间：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49103" class="ax_default table_cell">
+          <img id="u49103_img" class="img " src="images/添加活动/u49095.png"/>
+          <!-- Unnamed () -->
+          <div id="u49104" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49105" class="ax_default table_cell">
+          <img id="u49105_img" class="img " src="images/总出入库总览/u5447.png"/>
+          <!-- Unnamed () -->
+          <div id="u49106" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u49107" class="ax_default table_cell">
+          <img id="u49107_img" class="img " src="images/添加活动/u49107.png"/>
+          <!-- Unnamed () -->
+          <div id="u49108" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49109" class="ax_default box_1">
+        <div id="u49109_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49110" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49111" class="ax_default primary_button">
+        <div id="u49111_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49112" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49113" class="ax_default button">
+        <div id="u49113_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49114" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49115" class="ax_default box_1">
+        <div id="u49115_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49116" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49117" class="ax_default box_1">
+        <div id="u49117_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49118" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49119" class="ax_default box_1">
+        <div id="u49119_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49120" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49121" class="ax_default _图片">
+        <img id="u49121_img" class="img " src="images/事件提醒列表/u1202.png"/>
+        <!-- Unnamed () -->
+        <div id="u49122" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49123" class="ax_default label">
+        <div id="u49123_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49124" class="text">
+          <p><span>至</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49125" class="ax_default box_1">
+        <div id="u49125_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49126" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u49127" class="ax_default _图片">
+        <img id="u49127_img" class="img " src="images/事件提醒列表/u1202.png"/>
+        <!-- Unnamed () -->
+        <div id="u49128" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49129" class="ax_default box_1">
+        <div id="u49129_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49130" class="text">
+          <p><span>您已添加内容，确认返回？</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49131" class="ax_default primary_button">
+        <div id="u49131_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49132" class="text">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u49133" class="ax_default button">
+        <div id="u49133_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u49134" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

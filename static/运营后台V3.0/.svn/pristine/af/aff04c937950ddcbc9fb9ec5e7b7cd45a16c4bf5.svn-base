@@ -1,0 +1,593 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>化验公司管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/化验公司管理/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/化验公司管理/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (列表) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39123" class="ax_default box_2">
+        <div id="u39123_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39124" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39125" class="ax_default box_2">
+        <div id="u39125_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39126" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39127" class="ax_default box_2">
+        <div id="u39127_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39128" class="text">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39129" class="ax_default box_2">
+        <div id="u39129_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39130" class="text">
+          <p><span>上一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39131" class="ax_default box_1">
+        <div id="u39131_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39132" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39133" class="ax_default box_1">
+        <div id="u39133_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39134" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39135" class="ax_default box_1">
+        <div id="u39135_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39136" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39137" class="ax_default label">
+        <div id="u39137_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39138" class="text">
+          <p><span>· · ·</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39139" class="ax_default box_1">
+        <div id="u39139_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39140" class="text">
+          <p><span>100</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39141" class="ax_default box_2">
+        <div id="u39141_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39142" class="text">
+          <p><span>下一页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39143" class="ax_default box_2">
+        <div id="u39143_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39144" class="text">
+          <p><span>末页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39145" class="ax_default box_2">
+        <div id="u39145_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39146" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39147" class="ax_default label">
+        <div id="u39147_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39148" class="text">
+          <p><span>20条/页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u39149" class="ax_default _图片">
+        <img id="u39149_img" class="img " src="images/事件提醒列表/u1610.png"/>
+        <!-- Unnamed () -->
+        <div id="u39150" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39151" class="ax_default box_2">
+        <div id="u39151_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39152" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39153" class="ax_default box_2">
+        <div id="u39153_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39154" class="text">
+          <p><span>跳转</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u39155" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39156" class="ax_default table_cell">
+          <img id="u39156_img" class="img " src="images/保证金明细/u30928.png"/>
+          <!-- Unnamed () -->
+          <div id="u39157" class="text">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39158" class="ax_default table_cell">
+          <img id="u39158_img" class="img " src="images/化验公司管理/u39158.png"/>
+          <!-- Unnamed () -->
+          <div id="u39159" class="text">
+            <p><span>港务公司名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39160" class="ax_default table_cell">
+          <img id="u39160_img" class="img " src="images/银行账号_1/u37226.png"/>
+          <!-- Unnamed () -->
+          <div id="u39161" class="text">
+            <p><span>企业编码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39162" class="ax_default table_cell">
+          <img id="u39162_img" class="img " src="images/银行账号_1/u37226.png"/>
+          <!-- Unnamed () -->
+          <div id="u39163" class="text">
+            <p><span>省份</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39164" class="ax_default table_cell">
+          <img id="u39164_img" class="img " src="images/化验公司管理/u39164.png"/>
+          <!-- Unnamed () -->
+          <div id="u39165" class="text">
+            <p><span>纳税人识别号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39166" class="ax_default table_cell">
+          <img id="u39166_img" class="img " src="images/化验公司管理/u39166.png"/>
+          <!-- Unnamed () -->
+          <div id="u39167" class="text">
+            <p><span>公司状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39168" class="ax_default table_cell">
+          <img id="u39168_img" class="img " src="images/化验公司管理/u39168.png"/>
+          <!-- Unnamed () -->
+          <div id="u39169" class="text">
+            <p><span>企业注册时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39170" class="ax_default table_cell">
+          <img id="u39170_img" class="img " src="images/订单付款/u21736.png"/>
+          <!-- Unnamed () -->
+          <div id="u39171" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39172" class="ax_default table_cell">
+          <img id="u39172_img" class="img " src="images/化验公司管理/u39172.png"/>
+          <!-- Unnamed () -->
+          <div id="u39173" class="text">
+            <p><span>月半港务有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39174" class="ax_default table_cell">
+          <img id="u39174_img" class="img " src="images/录入结算单/u20480.png"/>
+          <!-- Unnamed () -->
+          <div id="u39175" class="text">
+            <p><span>YBGW002</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39176" class="ax_default table_cell">
+          <img id="u39176_img" class="img " src="images/录入结算单/u20480.png"/>
+          <!-- Unnamed () -->
+          <div id="u39177" class="text">
+            <p><span>北京</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39178" class="ax_default table_cell">
+          <img id="u39178_img" class="img " src="images/化验公司管理/u39178.png"/>
+          <!-- Unnamed () -->
+          <div id="u39179" class="text">
+            <p><span>99999898621111</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39180" class="ax_default table_cell">
+          <img id="u39180_img" class="img " src="images/总出入库总览/u5987.png"/>
+          <!-- Unnamed () -->
+          <div id="u39181" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39182" class="ax_default table_cell">
+          <img id="u39182_img" class="img " src="images/化验公司管理/u39182.png"/>
+          <!-- Unnamed () -->
+          <div id="u39183" class="text">
+            <p><span>2017-12-12 12:00</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39184" class="ax_default table_cell">
+          <img id="u39184_img" class="img " src="images/化验公司管理/u39184.png"/>
+          <!-- Unnamed () -->
+          <div id="u39185" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39186" class="ax_default table_cell">
+          <img id="u39186_img" class="img " src="images/化验公司管理/u39186.png"/>
+          <!-- Unnamed () -->
+          <div id="u39187" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39188" class="ax_default table_cell">
+          <img id="u39188_img" class="img " src="images/化验公司管理/u39188.png"/>
+          <!-- Unnamed () -->
+          <div id="u39189" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39190" class="ax_default table_cell">
+          <img id="u39190_img" class="img " src="images/化验公司管理/u39188.png"/>
+          <!-- Unnamed () -->
+          <div id="u39191" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39192" class="ax_default table_cell">
+          <img id="u39192_img" class="img " src="images/化验公司管理/u39192.png"/>
+          <!-- Unnamed () -->
+          <div id="u39193" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39194" class="ax_default table_cell">
+          <img id="u39194_img" class="img " src="images/化验公司管理/u39194.png"/>
+          <!-- Unnamed () -->
+          <div id="u39195" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39196" class="ax_default table_cell">
+          <img id="u39196_img" class="img " src="images/化验公司管理/u39196.png"/>
+          <!-- Unnamed () -->
+          <div id="u39197" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39198" class="ax_default table_cell">
+          <img id="u39198_img" class="img " src="images/订单付款/u21781.png"/>
+          <!-- Unnamed () -->
+          <div id="u39199" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39200" class="ax_default table_cell">
+          <img id="u39200_img" class="img " src="images/化验公司管理/u39200.png"/>
+          <!-- Unnamed () -->
+          <div id="u39201" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39202" class="ax_default table_cell">
+          <img id="u39202_img" class="img " src="images/录入结算单/u20530.png"/>
+          <!-- Unnamed () -->
+          <div id="u39203" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39204" class="ax_default table_cell">
+          <img id="u39204_img" class="img " src="images/录入结算单/u20530.png"/>
+          <!-- Unnamed () -->
+          <div id="u39205" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39206" class="ax_default table_cell">
+          <img id="u39206_img" class="img " src="images/化验公司管理/u39206.png"/>
+          <!-- Unnamed () -->
+          <div id="u39207" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39208" class="ax_default table_cell">
+          <img id="u39208_img" class="img " src="images/总出入库总览/u6039.png"/>
+          <!-- Unnamed () -->
+          <div id="u39209" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u39210" class="ax_default table_cell">
+          <img id="u39210_img" class="img " src="images/化验公司管理/u39210.png"/>
+          <!-- Unnamed () -->
+          <div id="u39211" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39212" class="ax_default box_1">
+        <div id="u39212_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39213" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39214" class="ax_default label">
+        <div id="u39214_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39215" class="text">
+          <p><span>化验公司名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39216" class="ax_default box_1">
+        <div id="u39216_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39217" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39218" class="ax_default label">
+        <div id="u39218_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39219" class="text">
+          <p><span>企业编码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39220" class="ax_default primary_button">
+        <div id="u39220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39221" class="text">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39222" class="ax_default primary_button">
+        <div id="u39222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39223" class="text">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39224" class="ax_default label">
+        <div id="u39224_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39225" class="text">
+          <p><span>公司状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u39226" class="ax_default droplist">
+        <select id="u39226_input">
+          <option value="启用">启用</option>
+          <option value="停用">停用</option>
+          <option value="请选择">请选择</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39227" class="ax_default box_1">
+        <div id="u39227_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39228" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39229" class="ax_default label">
+        <div id="u39229_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39230" class="text">
+          <p><span>纳税人识别号：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39231" class="ax_default sticky_3">
+        <div id="u39231_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39232" class="text">
+          <p><span>1、按照企业的注册时间倒叙排序</span></p><p><span>2、查询默认查询启用的</span></p><p><span>3、总计依赖于查询条件，为公司个数的总计</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39233" class="ax_default label">
+        <div id="u39233_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39234" class="text">
+          <p><span>总计：1,000</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39235" class="ax_default primary_button">
+        <div id="u39235_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39236" class="text">
+          <p><span>新增</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39237" class="ax_default box_1">
+        <div id="u39237_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39238" class="text">
+          <p><span>处理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u39239" class="ax_default box_1">
+        <div id="u39239_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u39240" class="text">
+          <p><span>查看</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

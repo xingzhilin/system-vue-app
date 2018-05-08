@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>新增关联企业</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/新增关联企业/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/新增关联企业/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40195" class="ax_default box_2">
+        <div id="u40195_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40196" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40197" class="ax_default primary_button">
+        <div id="u40197_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40198" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40199" class="ax_default primary_button">
+        <div id="u40199_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40200" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40201" class="ax_default box_1">
+        <div id="u40201_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40202" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40203" class="ax_default label">
+        <div id="u40203_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40204" class="text">
+          <p><span style="color:#FF0000;">*</span><span>手机号码：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40205" class="ax_default box_1">
+        <div id="u40205_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40206" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40207" class="ax_default label">
+        <div id="u40207_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40208" class="text">
+          <p><span style="color:#FF0000;">*</span><span>企业名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40209" class="ax_default label">
+        <div id="u40209_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40210" class="text">
+          <p><span>用户名：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40211" class="ax_default label">
+        <div id="u40211_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40212" class="text">
+          <p><span>王五</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40213" class="ax_default sticky_1">
+        <div id="u40213_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40214" class="text">
+          <p><span>1、手机号模糊匹配带回，带回的为系统中的已经存在的前台用户账号</span></p><p><span>2、用户名通过手机号自动带回显示</span></p><p><span>3、如果输入的手机号在系统中不存在，提示【您输入的用户不存在，请确认用户是否注册】</span></p><p><span>4、企业名称系统模糊匹配带回，匹配的为系统中的用户企业用户，如果没有存在的企业，提示【系统中没有该企业，请在企业管理中进行维护】</span></p><p><span>5、此处保存成功即关联企业成功，不需要审核，前台用户企业登录APP后看到的企业状态为关联成功</span></p><p><span>6、停启用状态默认为启用；关联时间为当前关联时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40215" class="ax_default label">
+        <div id="u40215_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40216" class="text">
+          <p><span>停启用状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u40217" class="ax_default radio_button">
+        <label for="u40217_input">
+          <!-- Unnamed () -->
+          <div id="u40218" class="text">
+            <p><span>启用</span></p>
+          </div>
+        </label>
+        <input id="u40217_input" type="radio" value="radio" name="u40217" checked/>
+      </div>
+
+      <!-- Unnamed (单选按钮) -->
+      <div id="u40219" class="ax_default radio_button">
+        <label for="u40219_input">
+          <!-- Unnamed () -->
+          <div id="u40220" class="text">
+            <p><span>停用</span></p>
+          </div>
+        </label>
+        <input id="u40219_input" type="radio" value="radio" name="u40219"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u40221" class="ax_default label">
+        <div id="u40221_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u40222" class="text">
+          <p><span>关联时间：2017-12-12 12:00</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

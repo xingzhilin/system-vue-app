@@ -1,0 +1,1214 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>结算单未提交</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/结算单未提交/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/结算单未提交/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (编辑) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17961" class="ax_default box_2">
+        <div id="u17961_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17962" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17963" class="ax_default primary_button">
+        <div id="u17963_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17964" class="text">
+          <p><span>提交审核</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17965" class="ax_default primary_button">
+        <div id="u17965_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17966" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17967" class="ax_default primary_button">
+        <div id="u17967_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17968" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u17969" class="ax_default label">
+        <div id="u17969_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u17970" class="text">
+          <p><span>结算单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u17971" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17972" class="ax_default table_cell">
+          <img id="u17972_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17973" class="text">
+            <p><span>运输方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17974" class="ax_default table_cell">
+          <img id="u17974_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u17975" class="text">
+            <p><span>汽运</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17976" class="ax_default table_cell">
+          <img id="u17976_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17977" class="text">
+            <p><span>供方单位</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17978" class="ax_default table_cell">
+          <img id="u17978_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u17979" class="text">
+            <p><span>小太阳北京有限公司</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17980" class="ax_default table_cell">
+          <img id="u17980_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17981" class="text">
+            <p><span>交货地点</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17982" class="ax_default table_cell">
+          <img id="u17982_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u17983" class="text">
+            <p><span>曹妃甸</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17984" class="ax_default table_cell">
+          <img id="u17984_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17985" class="text">
+            <p><span>煤种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17986" class="ax_default table_cell">
+          <img id="u17986_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u17987" class="text">
+            <p><span>金银岛1号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17988" class="ax_default table_cell">
+          <img id="u17988_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17989" class="text">
+            <p><span>交货日期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17990" class="ax_default table_cell">
+          <img id="u17990_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u17991" class="text">
+            <p><span>2018-3-13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17992" class="ax_default table_cell">
+          <img id="u17992_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17993" class="text">
+            <p><span>收货数量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17994" class="ax_default table_cell">
+          <img id="u17994_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u17995" class="text">
+            <p><span>3000.66</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17996" class="ax_default table_cell">
+          <img id="u17996_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u17997" class="text">
+            <p><span>灰熔点</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u17998" class="ax_default table_cell">
+          <img id="u17998_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u17999" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18000" class="ax_default table_cell">
+          <img id="u18000_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18001" class="text">
+            <p><span>结算数量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18002" class="ax_default table_cell">
+          <img id="u18002_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18003" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18004" class="ax_default table_cell">
+          <img id="u18004_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18005" class="text">
+            <p><span>全水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18006" class="ax_default table_cell">
+          <img id="u18006_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18007" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18008" class="ax_default table_cell">
+          <img id="u18008_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18009" class="text">
+            <p><span>全水调吨</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18010" class="ax_default table_cell">
+          <img id="u18010_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18011" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18012" class="ax_default table_cell">
+          <img id="u18012_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18013" class="text">
+            <p><span>内水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18014" class="ax_default table_cell">
+          <img id="u18014_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18015" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18016" class="ax_default table_cell">
+          <img id="u18016_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18017" class="text">
+            <p><span>内水调吨</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18018" class="ax_default table_cell">
+          <img id="u18018_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18019" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18020" class="ax_default table_cell">
+          <img id="u18020_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18021" class="text">
+            <p><span>发热量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18022" class="ax_default table_cell">
+          <img id="u18022_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18023" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18024" class="ax_default table_cell">
+          <img id="u18024_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18025" class="text">
+            <p><span>发热量调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18026" class="ax_default table_cell">
+          <img id="u18026_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18027" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18028" class="ax_default table_cell">
+          <img id="u18028_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18029" class="text">
+            <p><span>挥发分%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18030" class="ax_default table_cell">
+          <img id="u18030_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18031" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18032" class="ax_default table_cell">
+          <img id="u18032_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18033" class="text">
+            <p><span>挥发分调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18034" class="ax_default table_cell">
+          <img id="u18034_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18035" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18036" class="ax_default table_cell">
+          <img id="u18036_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18037" class="text">
+            <p><span>灰分%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18038" class="ax_default table_cell">
+          <img id="u18038_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18039" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18040" class="ax_default table_cell">
+          <img id="u18040_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18041" class="text">
+            <p><span>灰分调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18042" class="ax_default table_cell">
+          <img id="u18042_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18043" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18044" class="ax_default table_cell">
+          <img id="u18044_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18045" class="text">
+            <p><span>收到基硫份%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18046" class="ax_default table_cell">
+          <img id="u18046_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18047" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18048" class="ax_default table_cell">
+          <img id="u18048_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18049" class="text">
+            <p><span>硫份调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18050" class="ax_default table_cell">
+          <img id="u18050_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18051" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18052" class="ax_default table_cell">
+          <img id="u18052_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18053" class="text">
+            <p><span>空干基硫份%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18054" class="ax_default table_cell">
+          <img id="u18054_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18055" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18056" class="ax_default table_cell">
+          <img id="u18056_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18057" class="text">
+            <p><span>硫份调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18058" class="ax_default table_cell">
+          <img id="u18058_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18059" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18060" class="ax_default table_cell">
+          <img id="u18060_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18061" class="text">
+            <p><span>Y值</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18062" class="ax_default table_cell">
+          <img id="u18062_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18063" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18064" class="ax_default table_cell">
+          <img id="u18064_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18065" class="text">
+            <p><span>灰熔点调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18066" class="ax_default table_cell">
+          <img id="u18066_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18067" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18068" class="ax_default table_cell">
+          <img id="u18068_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18069" class="text">
+            <p><span>粒度%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18070" class="ax_default table_cell">
+          <img id="u18070_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18071" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18072" class="ax_default table_cell">
+          <img id="u18072_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18073" class="text">
+            <p><span>粒度调价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18074" class="ax_default table_cell">
+          <img id="u18074_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18075" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18076" class="ax_default table_cell">
+          <img id="u18076_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18077" class="text">
+            <p><span>单价调整合计</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18078" class="ax_default table_cell">
+          <img id="u18078_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18079" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18080" class="ax_default table_cell">
+          <img id="u18080_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18081" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18082" class="ax_default table_cell">
+          <img id="u18082_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18083" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18084" class="ax_default table_cell">
+          <img id="u18084_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18085" class="text">
+            <p><span>合同基价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18086" class="ax_default table_cell">
+          <img id="u18086_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18087" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18088" class="ax_default table_cell">
+          <img id="u18088_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18089" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18090" class="ax_default table_cell">
+          <img id="u18090_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18091" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18092" class="ax_default table_cell">
+          <img id="u18092_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18093" class="text">
+            <p><span>其他扣除费用</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18094" class="ax_default table_cell">
+          <img id="u18094_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18095" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18096" class="ax_default table_cell">
+          <img id="u18096_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18097" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18098" class="ax_default table_cell">
+          <img id="u18098_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18099" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18100" class="ax_default table_cell">
+          <img id="u18100_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18101" class="text">
+            <p><span>货款金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18102" class="ax_default table_cell">
+          <img id="u18102_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18103" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18104" class="ax_default table_cell">
+          <img id="u18104_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18105" class="text">
+            <p><span>费用（税额补差）</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18106" class="ax_default table_cell">
+          <img id="u18106_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18107" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18108" class="ax_default table_cell">
+          <img id="u18108_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18109" class="text">
+            <p><span>税款金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18110" class="ax_default table_cell">
+          <img id="u18110_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18111" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18112" class="ax_default table_cell">
+          <img id="u18112_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18113" class="text">
+            <p><span>结算金额</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18114" class="ax_default table_cell">
+          <img id="u18114_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18115" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18116" class="ax_default table_cell">
+          <img id="u18116_img" class="img " src="images/入库录入/u12009.png"/>
+          <!-- Unnamed () -->
+          <div id="u18117" class="text">
+            <p><span>结算单价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18118" class="ax_default table_cell">
+          <img id="u18118_img" class="img " src="images/结算单生成/u17492.png"/>
+          <!-- Unnamed () -->
+          <div id="u18119" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18120" class="ax_default table_cell">
+          <img id="u18120_img" class="img " src="images/入库录入/u12009.png"/>
+          <!-- Unnamed () -->
+          <div id="u18121" class="text">
+            <p><span>合同号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18122" class="ax_default table_cell">
+          <img id="u18122_img" class="img " src="images/结算单生成/u17496.png"/>
+          <!-- Unnamed () -->
+          <div id="u18123" class="text">
+            <p><span>Y2018020300001</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u18124" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18125" class="ax_default table_cell">
+          <img id="u18125_img" class="img " src="images/结算单生成/u17499.png"/>
+          <!-- Unnamed () -->
+          <div id="u18126" class="text">
+            <p><span>开票信息</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u18127" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18128" class="ax_default table_cell">
+          <img id="u18128_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18129" class="text">
+            <p><span>公司名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18130" class="ax_default table_cell">
+          <img id="u18130_img" class="img " src="images/结算单生成/u17348.png"/>
+          <!-- Unnamed () -->
+          <div id="u18131" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18132" class="ax_default table_cell">
+          <img id="u18132_img" class="img " src="images/入库录入/u11967.png"/>
+          <!-- Unnamed () -->
+          <div id="u18133" class="text">
+            <p><span>开户行、账号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18134" class="ax_default table_cell">
+          <img id="u18134_img" class="img " src="images/结算单生成/u17352.png"/>
+          <!-- Unnamed () -->
+          <div id="u18135" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18136" class="ax_default table_cell">
+          <img id="u18136_img" class="img " src="images/入库录入/u12009.png"/>
+          <!-- Unnamed () -->
+          <div id="u18137" class="text">
+            <p><span>税号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18138" class="ax_default table_cell">
+          <img id="u18138_img" class="img " src="images/结算单生成/u17492.png"/>
+          <!-- Unnamed () -->
+          <div id="u18139" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18140" class="ax_default table_cell">
+          <img id="u18140_img" class="img " src="images/入库录入/u12009.png"/>
+          <!-- Unnamed () -->
+          <div id="u18141" class="text">
+            <p><span>地址、电话</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18142" class="ax_default table_cell">
+          <img id="u18142_img" class="img " src="images/结算单生成/u17496.png"/>
+          <!-- Unnamed () -->
+          <div id="u18143" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u18144" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18145" class="ax_default table_cell">
+          <img id="u18145_img" class="img " src="images/结算单未提交/u18145.png"/>
+          <!-- Unnamed () -->
+          <div id="u18146" class="text">
+            <p><span>备注</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u18147" class="ax_default table_cell">
+          <img id="u18147_img" class="img " src="images/结算单生成/u17521.png"/>
+          <!-- Unnamed () -->
+          <div id="u18148" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18149" class="ax_default box_1">
+        <div id="u18149_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18150" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18151" class="ax_default box_1">
+        <div id="u18151_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18152" class="text">
+          <p><span>2998</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18153" class="ax_default label">
+        <div id="u18153_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18154" class="text">
+          <p><span>结算吨数默认为入库吨数与发货吨数的取小吨数，可修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18155" class="ax_default box_1">
+        <div id="u18155_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18156" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18157" class="ax_default box_1">
+        <div id="u18157_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18158" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18159" class="ax_default box_1">
+        <div id="u18159_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18160" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18161" class="ax_default box_1">
+        <div id="u18161_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18162" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18163" class="ax_default box_1">
+        <div id="u18163_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18164" class="text">
+          <p><span>4797</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18165" class="ax_default box_1">
+        <div id="u18165_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18166" class="text">
+          <p><span>-17.14</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18167" class="ax_default box_1">
+        <div id="u18167_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18168" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18169" class="ax_default box_1">
+        <div id="u18169_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18170" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18171" class="ax_default box_1">
+        <div id="u18171_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18172" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18173" class="ax_default box_1">
+        <div id="u18173_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18174" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18175" class="ax_default box_1">
+        <div id="u18175_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18176" class="text">
+          <p><span>0.49</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18177" class="ax_default box_1">
+        <div id="u18177_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18178" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18179" class="ax_default box_1">
+        <div id="u18179_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18180" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18181" class="ax_default box_1">
+        <div id="u18181_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18182" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18183" class="ax_default box_1">
+        <div id="u18183_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18184" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18185" class="ax_default box_1">
+        <div id="u18185_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18186" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18187" class="ax_default box_1">
+        <div id="u18187_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18188" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18189" class="ax_default box_1">
+        <div id="u18189_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18190" class="text">
+          <p><span>—</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18191" class="ax_default box_1">
+        <div id="u18191_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18192" class="text">
+          <p><span>-17.14</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18193" class="ax_default box_1">
+        <div id="u18193_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18194" class="text">
+          <p><span>418</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18195" class="ax_default box_1">
+        <div id="u18195_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18196" class="text">
+          <p><span>-1000.11</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18197" class="ax_default box_1">
+        <div id="u18197_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18198" class="text">
+          <p><span>320089.58</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18199" class="ax_default box_1">
+        <div id="u18199_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18200" class="text">
+          <p><span>-1376</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18201" class="ax_default box_1">
+        <div id="u18201_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18202" class="text">
+          <p><span>333.45</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18203" class="ax_default box_1">
+        <div id="u18203_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18204" class="text">
+          <p><span>320089.58</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18205" class="ax_default box_1">
+        <div id="u18205_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18206" class="text">
+          <p><span>318.22</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18207" class="ax_default box_1">
+        <div id="u18207_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18208" class="text">
+          <p><span>金银岛宁夏供应链有限公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18209" class="ax_default box_1">
+        <div id="u18209_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18210" class="text">
+          <p><span>本结算单一式两份，供需双方各持一份,</span></p><p><span>请核对结算信息，无误后盖章确认,并将原件快递至</span></p><p><span>北京市朝阳区霞光里15号霄云中心A座19层&nbsp; 邹琼珍 收&nbsp;&nbsp; 电话：010-84588670</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u18211" class="ax_default droplist">
+        <select id="u18211_input">
+          <option value="请选择">请选择</option>
+          <option selected value="6228 48 6801 7321 8888">6228 48 6801 7321 8888</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u18212" class="ax_default droplist">
+        <select id="u18212_input">
+          <option value="请选择">请选择</option>
+          <option selected value="010223344555">010223344555</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u18213" class="ax_default droplist">
+        <select id="u18213_input">
+          <option value="请选择">请选择</option>
+          <option selected value="北京市朝阳区三元桥">北京市朝阳区三元桥</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u18214" class="ax_default label">
+        <div id="u18214_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u18215" class="text">
+          <p><span>查看费用明细</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

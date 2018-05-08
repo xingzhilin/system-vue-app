@@ -1,0 +1,785 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>批量发布</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/批量发布/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/批量发布/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7626" class="ax_default box_3">
+        <div id="u7626_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7627" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7628" class="ax_default label">
+        <div id="u7628_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7629" class="text">
+          <p><span>秦皇岛</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u7630" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7631" class="ax_default table_cell">
+          <img id="u7631_img" class="img " src="images/点价升贴水设置/u5985.png"/>
+          <!-- Unnamed () -->
+          <div id="u7632" class="text">
+            <p><span>全选</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7633" class="ax_default table_cell">
+          <img id="u7633_img" class="img " src="images/点价升贴水设置/u5987.png"/>
+          <!-- Unnamed () -->
+          <div id="u7634" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7635" class="ax_default table_cell">
+          <img id="u7635_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7636" class="text">
+            <p><span>起订量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7637" class="ax_default table_cell">
+          <img id="u7637_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7638" class="text">
+            <p><span>库存量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7639" class="ax_default table_cell">
+          <img id="u7639_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7640" class="text">
+            <p><span>升贴水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7641" class="ax_default table_cell">
+          <img id="u7641_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7642" class="text">
+            <p><span>平仓价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7643" class="ax_default table_cell">
+          <img id="u7643_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7644" class="text">
+            <p><span>合同模板</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7645" class="ax_default table_cell">
+          <img id="u7645_img" class="img " src="images/点价升贴水设置/u5999.png"/>
+          <!-- Unnamed () -->
+          <div id="u7646" class="text">
+            <p><span>中间商合同模板</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7647" class="ax_default table_cell">
+          <img id="u7647_img" class="img " src="images/点价升贴水设置/u5985.png"/>
+          <!-- Unnamed () -->
+          <div id="u7648" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7649" class="ax_default table_cell">
+          <img id="u7649_img" class="img " src="images/点价升贴水设置/u5987.png"/>
+          <!-- Unnamed () -->
+          <div id="u7650" class="text">
+            <p><span>金银岛2号#1 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7651" class="ax_default table_cell">
+          <img id="u7651_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7652" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7653" class="ax_default table_cell">
+          <img id="u7653_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7654" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7655" class="ax_default table_cell">
+          <img id="u7655_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7656" class="text">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7657" class="ax_default table_cell">
+          <img id="u7657_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7658" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7659" class="ax_default table_cell">
+          <img id="u7659_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7660" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7661" class="ax_default table_cell">
+          <img id="u7661_img" class="img " src="images/点价升贴水设置/u5999.png"/>
+          <!-- Unnamed () -->
+          <div id="u7662" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7663" class="ax_default table_cell">
+          <img id="u7663_img" class="img " src="images/点价升贴水设置/u6017.png"/>
+          <!-- Unnamed () -->
+          <div id="u7664" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7665" class="ax_default table_cell">
+          <img id="u7665_img" class="img " src="images/点价升贴水设置/u6019.png"/>
+          <!-- Unnamed () -->
+          <div id="u7666" class="text">
+            <p><span>金银岛2号#2 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7667" class="ax_default table_cell">
+          <img id="u7667_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7668" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7669" class="ax_default table_cell">
+          <img id="u7669_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7670" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7671" class="ax_default table_cell">
+          <img id="u7671_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7672" class="text">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7673" class="ax_default table_cell">
+          <img id="u7673_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7674" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7675" class="ax_default table_cell">
+          <img id="u7675_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7676" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7677" class="ax_default table_cell">
+          <img id="u7677_img" class="img " src="images/点价升贴水设置/u6031.png"/>
+          <!-- Unnamed () -->
+          <div id="u7678" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u7679" class="ax_default checkbox">
+        <label for="u7679_input">
+          <!-- Unnamed () -->
+          <div id="u7680" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u7679_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7681" class="ax_default box_1">
+        <div id="u7681_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7682" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7683" class="ax_default box_1">
+        <div id="u7683_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7684" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7685" class="ax_default droplist">
+        <select id="u7685_input">
+          <option selected value="通用模板">通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u7686" class="ax_default checkbox">
+        <label for="u7686_input">
+          <!-- Unnamed () -->
+          <div id="u7687" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u7686_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7688" class="ax_default box_1">
+        <div id="u7688_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7689" class="text">
+          <p><span>800</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7690" class="ax_default box_1">
+        <div id="u7690_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7691" class="text">
+          <p><span>800</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7692" class="ax_default droplist">
+        <select id="u7692_input">
+          <option selected value="中间商通用模板">中间商通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7693" class="ax_default droplist">
+        <select id="u7693_input">
+          <option selected value="通用模板">通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7694" class="ax_default droplist">
+        <select id="u7694_input">
+          <option selected value="中间商通用模板">中间商通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7695" class="ax_default box_1">
+        <div id="u7695_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7696" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7697" class="ax_default box_1">
+        <div id="u7697_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7698" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7699" class="ax_default primary_button">
+        <div id="u7699_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7700" class="text">
+          <p><span>更多设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7701" class="ax_default box_3">
+        <div id="u7701_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7702" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7703" class="ax_default label">
+        <div id="u7703_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7704" class="text">
+          <p><span>曹妃甸二期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u7705" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7706" class="ax_default table_cell">
+          <img id="u7706_img" class="img " src="images/点价升贴水设置/u5985.png"/>
+          <!-- Unnamed () -->
+          <div id="u7707" class="text">
+            <p><span>全选</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7708" class="ax_default table_cell">
+          <img id="u7708_img" class="img " src="images/点价升贴水设置/u5987.png"/>
+          <!-- Unnamed () -->
+          <div id="u7709" class="text">
+            <p><span>品种</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7710" class="ax_default table_cell">
+          <img id="u7710_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7711" class="text">
+            <p><span>起订量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7712" class="ax_default table_cell">
+          <img id="u7712_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7713" class="text">
+            <p><span>库存量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7714" class="ax_default table_cell">
+          <img id="u7714_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7715" class="text">
+            <p><span>升贴水</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7716" class="ax_default table_cell">
+          <img id="u7716_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7717" class="text">
+            <p><span>平仓价</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7718" class="ax_default table_cell">
+          <img id="u7718_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7719" class="text">
+            <p><span>合同模板</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7720" class="ax_default table_cell">
+          <img id="u7720_img" class="img " src="images/点价升贴水设置/u5999.png"/>
+          <!-- Unnamed () -->
+          <div id="u7721" class="text">
+            <p><span>中间商合同模板</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7722" class="ax_default table_cell">
+          <img id="u7722_img" class="img " src="images/点价升贴水设置/u5985.png"/>
+          <!-- Unnamed () -->
+          <div id="u7723" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7724" class="ax_default table_cell">
+          <img id="u7724_img" class="img " src="images/点价升贴水设置/u5987.png"/>
+          <!-- Unnamed () -->
+          <div id="u7725" class="text">
+            <p><span>金银岛2号#1 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7726" class="ax_default table_cell">
+          <img id="u7726_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7727" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7728" class="ax_default table_cell">
+          <img id="u7728_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7729" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7730" class="ax_default table_cell">
+          <img id="u7730_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7731" class="text">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7732" class="ax_default table_cell">
+          <img id="u7732_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7733" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7734" class="ax_default table_cell">
+          <img id="u7734_img" class="img " src="images/点价升贴水设置/u5989.png"/>
+          <!-- Unnamed () -->
+          <div id="u7735" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7736" class="ax_default table_cell">
+          <img id="u7736_img" class="img " src="images/点价升贴水设置/u5999.png"/>
+          <!-- Unnamed () -->
+          <div id="u7737" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7738" class="ax_default table_cell">
+          <img id="u7738_img" class="img " src="images/点价升贴水设置/u6017.png"/>
+          <!-- Unnamed () -->
+          <div id="u7739" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7740" class="ax_default table_cell">
+          <img id="u7740_img" class="img " src="images/点价升贴水设置/u6019.png"/>
+          <!-- Unnamed () -->
+          <div id="u7741" class="text">
+            <p><span>金银岛2号#2 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7742" class="ax_default table_cell">
+          <img id="u7742_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7743" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7744" class="ax_default table_cell">
+          <img id="u7744_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7745" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7746" class="ax_default table_cell">
+          <img id="u7746_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7747" class="text">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7748" class="ax_default table_cell">
+          <img id="u7748_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7749" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7750" class="ax_default table_cell">
+          <img id="u7750_img" class="img " src="images/点价升贴水设置/u6021.png"/>
+          <!-- Unnamed () -->
+          <div id="u7751" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u7752" class="ax_default table_cell">
+          <img id="u7752_img" class="img " src="images/点价升贴水设置/u6031.png"/>
+          <!-- Unnamed () -->
+          <div id="u7753" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u7754" class="ax_default checkbox">
+        <label for="u7754_input">
+          <!-- Unnamed () -->
+          <div id="u7755" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u7754_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7756" class="ax_default box_1">
+        <div id="u7756_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7757" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7758" class="ax_default box_1">
+        <div id="u7758_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7759" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7760" class="ax_default droplist">
+        <select id="u7760_input">
+          <option selected value="通用模板">通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (复选框) -->
+      <div id="u7761" class="ax_default checkbox">
+        <label for="u7761_input">
+          <!-- Unnamed () -->
+          <div id="u7762" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </label>
+        <input id="u7761_input" type="checkbox" value="checkbox" checked/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7763" class="ax_default box_1">
+        <div id="u7763_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7764" class="text">
+          <p><span>800</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7765" class="ax_default box_1">
+        <div id="u7765_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7766" class="text">
+          <p><span>800</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7767" class="ax_default droplist">
+        <select id="u7767_input">
+          <option selected value="中间商通用模板">中间商通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7768" class="ax_default droplist">
+        <select id="u7768_input">
+          <option selected value="通用模板">通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u7769" class="ax_default droplist">
+        <select id="u7769_input">
+          <option selected value="中间商通用模板">中间商通用模板</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7770" class="ax_default box_1">
+        <div id="u7770_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7771" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7772" class="ax_default box_1">
+        <div id="u7772_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7773" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7774" class="ax_default primary_button">
+        <div id="u7774_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7775" class="text">
+          <p><span>更多设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7776" class="ax_default primary_button">
+        <div id="u7776_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7777" class="text">
+          <p><span>保存</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7778" class="ax_default primary_button">
+        <div id="u7778_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7779" class="text">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u7780" class="ax_default primary_button">
+        <div id="u7780_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u7781" class="text">
+          <p><span>提交审核</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

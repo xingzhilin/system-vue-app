@@ -1,0 +1,515 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>出库查看</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/出库查看_1/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/出库查看_1/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (页头) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56570" class="ax_default box_2">
+        <div id="u56570_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56571" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56572" class="ax_default _形状">
+        <img id="u56572_img" class="img " src="images/供货年度框架协议签署/u51625.png"/>
+        <!-- Unnamed () -->
+        <div id="u56573" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (热区) -->
+      <div id="u56574" class="ax_default">
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56575" class="ax_default _一级标题">
+        <div id="u56575_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56576" class="text">
+          <p><span>出库查看</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56577" class="ax_default _图片">
+        <img id="u56577_img" class="img " src="images/订单签章/u52487.png"/>
+        <!-- Unnamed () -->
+        <div id="u56578" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (页面) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56580" class="ax_default box_2">
+        <div id="u56580_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56581" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56582" class="ax_default box_2">
+        <div id="u56582_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56583" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56584" class="ax_default label">
+        <div id="u56584_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56585" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">出库批次号：P2017000001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u56586" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56587" class="ax_default table_cell">
+          <img id="u56587_img" class="img " src="images/执行中/u53354.png"/>
+          <!-- Unnamed () -->
+          <div id="u56588" class="text">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">船名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56589" class="ax_default table_cell">
+          <img id="u56589_img" class="img " src="images/执行中/u53356.png"/>
+          <!-- Unnamed () -->
+          <div id="u56590" class="text">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">船的轨迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56591" class="ax_default table_cell">
+          <img id="u56591_img" class="img " src="images/执行中/u53358.png"/>
+          <!-- Unnamed () -->
+          <div id="u56592" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">海轮</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56593" class="ax_default table_cell">
+          <img id="u56593_img" class="img " src="images/执行中/u53360.png"/>
+          <!-- Unnamed () -->
+          <div id="u56594" class="text" style="display:none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56595" class="ax_default table_cell">
+          <img id="u56595_img" class="img " src="images/执行中/u53358.png"/>
+          <!-- Unnamed () -->
+          <div id="u56596" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">江轮</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56597" class="ax_default table_cell">
+          <img id="u56597_img" class="img " src="images/执行中/u53360.png"/>
+          <!-- Unnamed () -->
+          <div id="u56598" class="text" style="display:none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56599" class="ax_default table_cell">
+          <img id="u56599_img" class="img " src="images/出库查看_1/u56599.png"/>
+          <!-- Unnamed () -->
+          <div id="u56600" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">小船</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56601" class="ax_default table_cell">
+          <img id="u56601_img" class="img " src="images/合作方企业管理/u29362.png"/>
+          <!-- Unnamed () -->
+          <div id="u56602" class="text" style="display:none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56603" class="ax_default _图片">
+        <img id="u56603_img" class="img " src="images/执行中/u53372.png"/>
+        <!-- Unnamed () -->
+        <div id="u56604" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56605" class="ax_default _图片">
+        <img id="u56605_img" class="img " src="images/执行中/u53372.png"/>
+        <!-- Unnamed () -->
+        <div id="u56606" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56607" class="ax_default _图片">
+        <img id="u56607_img" class="img " src="images/执行中/u53372.png"/>
+        <!-- Unnamed () -->
+        <div id="u56608" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u56609" class="ax_default icon">
+        <img id="u56609_img" class="img " src="images/执行中/u53380.png"/>
+        <!-- Unnamed () -->
+        <div id="u56610" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56611" class="ax_default box_2">
+        <div id="u56611_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56612" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56613" class="ax_default label">
+        <div id="u56613_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56614" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">出库批次号：P2017000002</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u56615" class="ax_default icon">
+        <img id="u56615_img" class="img " src="images/执行中/u53386.png"/>
+        <!-- Unnamed () -->
+        <div id="u56616" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56617" class="ax_default box_1">
+        <div id="u56617_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56618" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">过驳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56619" class="ax_default box_1">
+        <div id="u56619_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56620" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">过驳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u56621" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56622" class="ax_default table_cell">
+          <img id="u56622_img" class="img " src="images/执行中/u53354.png"/>
+          <!-- Unnamed () -->
+          <div id="u56623" class="text">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">船名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56624" class="ax_default table_cell">
+          <img id="u56624_img" class="img " src="images/执行中/u53356.png"/>
+          <!-- Unnamed () -->
+          <div id="u56625" class="text">
+            <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">船的轨迹</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56626" class="ax_default table_cell">
+          <img id="u56626_img" class="img " src="images/执行中/u53358.png"/>
+          <!-- Unnamed () -->
+          <div id="u56627" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">海轮</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56628" class="ax_default table_cell">
+          <img id="u56628_img" class="img " src="images/执行中/u53360.png"/>
+          <!-- Unnamed () -->
+          <div id="u56629" class="text" style="display:none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56630" class="ax_default table_cell">
+          <img id="u56630_img" class="img " src="images/执行中/u53358.png"/>
+          <!-- Unnamed () -->
+          <div id="u56631" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">江轮</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56632" class="ax_default table_cell">
+          <img id="u56632_img" class="img " src="images/执行中/u53360.png"/>
+          <!-- Unnamed () -->
+          <div id="u56633" class="text" style="display:none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56634" class="ax_default table_cell">
+          <img id="u56634_img" class="img " src="images/出库查看_1/u56599.png"/>
+          <!-- Unnamed () -->
+          <div id="u56635" class="text">
+            <p><span style="font-family:'微软雅黑';font-weight:400;">小船</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u56636" class="ax_default table_cell">
+          <img id="u56636_img" class="img " src="images/合作方企业管理/u29362.png"/>
+          <!-- Unnamed () -->
+          <div id="u56637" class="text" style="display:none; visibility: hidden">
+            <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56638" class="ax_default _图片">
+        <img id="u56638_img" class="img " src="images/执行中/u53372.png"/>
+        <!-- Unnamed () -->
+        <div id="u56639" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56640" class="ax_default _图片">
+        <img id="u56640_img" class="img " src="images/执行中/u53372.png"/>
+        <!-- Unnamed () -->
+        <div id="u56641" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u56642" class="ax_default _图片">
+        <img id="u56642_img" class="img " src="images/执行中/u53372.png"/>
+        <!-- Unnamed () -->
+        <div id="u56643" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56644" class="ax_default box_1">
+        <div id="u56644_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56645" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">过驳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56646" class="ax_default box_1">
+        <div id="u56646_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56647" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">过驳</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56648" class="ax_default label">
+        <div id="u56648_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56649" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">销售确认函编号：D201700001</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56650" class="ax_default label">
+        <div id="u56650_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56651" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">销售确认函编号：D201700002</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u56652" class="ax_default marker">
+        <img id="u56652_img" class="img " src="images/消息/u50641.png"/>
+        <!-- Unnamed () -->
+        <div id="u56653" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u56654" class="ax_default _连接线">
+        <img id="u56654_seg0" class="img " src="images/出库查看_1/u56654_seg0.png" alt="u56654_seg0"/>
+        <img id="u56654_seg1" class="img " src="images/执行中/u53428_seg1.png" alt="u56654_seg1"/>
+        <img id="u56654_seg2" class="img " src="images/出库查看_1/u56654_seg2.png" alt="u56654_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u56655" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56656" class="ax_default label">
+        <div id="u56656_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56657" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">一个销售确认函有多个出库批次号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56658" class="ax_default box_1">
+        <div id="u56658_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56659" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">查看化验单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56660" class="ax_default box_1">
+        <div id="u56660_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56661" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">查看化验单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56662" class="ax_default box_2">
+        <div id="u56662_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56663" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u56664" class="ax_default icon">
+        <img id="u56664_img" class="img " src="images/执行中/u53386.png"/>
+        <!-- Unnamed () -->
+        <div id="u56665" class="text" style="display:none; visibility: hidden">
+          <p><span style="font-family:'微软雅黑';font-weight:400;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56666" class="ax_default label">
+        <div id="u56666_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56667" class="text">
+          <p><span style="font-family:'微软雅黑 Bold', '微软雅黑';">销售确认函编号：D201700003</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56668" class="ax_default label">
+        <div id="u56668_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56669" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">货物吨数：1000吨</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56670" class="ax_default label">
+        <div id="u56670_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u56671" class="text">
+          <p><span style="font-family:'微软雅黑';font-weight:400;">货物吨数：1000吨</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -84,6 +84,13 @@ import BusinessManageUsersInvoicesIndex from './../components/backstageAccount/b
 import BusinessManageUsersInvoicesEditor from './../components/backstageAccount/businessManage/users/invoices/pages/Editor'
 import BusinessManageUsersInvoicesAdd from './../components/backstageAccount/businessManage/users/invoices/pages/Add'
 import BusinessManageUsersAdmittance from './../components/backstageAccount/businessManage/users/admittance/Index'
+import BusinessManageUsersAdmittanceList from './../components/backstageAccount/businessManage/users/admittance/pages/Index'
+import BusinessManageUsersAdmittanceUpdateList from './../components/backstageAccount/businessManage/users/admittance/pages/UpdateList'
+import BusinessManageUsersAdmittanceAdd from './../components/backstageAccount/businessManage/users/admittance/pages/Add'
+import BusinessManageUsersAdmittanceUpdate from './../components/backstageAccount/businessManage/users/admittance/pages/Update'
+import BusinessManageUsersAdmittanceUpdateBefore from './../components/backstageAccount/businessManage/users/admittance/pages/UpdateBefore'
+        
+
 import BusinessManageUsersInviteBids from './../components/backstageAccount/businessManage/users/inviteBids/Index'
 import BusinessManageUsersInviteBidsIndex from './../components/backstageAccount/businessManage/users/inviteBids/pages/Index'
 import BusinessManageUsersInviteBidsEditor from './../components/backstageAccount/businessManage/users/inviteBids/pages/editor'
@@ -635,6 +642,33 @@ const backstageAccount = {
 							path: '/business/users/admittance',
 							name: 'usersadmittanceLink',
 							component: BusinessManageUsersAdmittance,
+							children: [
+								{
+									path: '/business/users/admittance/list',
+									name: 'usersadmittanceListLink',
+									component: BusinessManageUsersAdmittanceList
+								},
+								{
+									path: '/business/users/admittance/updateList',
+									name: 'usersadmittanceUpdateListLink',
+									component: BusinessManageUsersAdmittanceUpdateList
+								},
+								{
+									path: '/business/users/admittance/add',
+									name: 'usersadmittanceAddLink',
+									component: BusinessManageUsersAdmittanceAdd
+								},
+								{
+									path: '/business/users/admittance/update',
+									name: 'usersadmittanceUpdateLink',
+									component: BusinessManageUsersAdmittanceUpdate
+								},
+								{
+									path: '/business/users/admittance/update',
+									name: 'usersadmittanceUpdateBeforeLink',
+									component: BusinessManageUsersAdmittanceUpdateBefore
+								}
+							]
 						},
 						{
 							path: '/business/users/inviteBids',

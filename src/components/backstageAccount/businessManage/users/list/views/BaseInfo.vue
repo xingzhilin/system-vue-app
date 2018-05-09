@@ -3,111 +3,171 @@
         
         <el-tabs v-model="activeName" @tab-click="handleClick">
             <el-tab-pane label="企业基本信息" name="list">
-                <table class="add_table">
-                    <tbody>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>企业名称：</td>
-                            <td>123</td>
-                        </tr>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>企业编码：</td>
-                            <td>123</td>
-                        </tr>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>省份：</td>
-                            <td>
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>统一社会信用代码：</td>
-                            <td>
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">企业法人：</td>
-                            <td>123</td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">企业邮箱：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">办公地址：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">联系人：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">联系电话：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">企业简介：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">是否启用：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label">企业证件属性：</td>
-                            <td class="td_text">
-                                123
-                                <ul>
-                                    <li>社会统一信用代码证</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    
-                    </tbody>
-                </table>
+                <el-form :model="ruleForm" label-width="140px" class="demo-ruleForm">
+                    <el-form-item label="企业名称：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="企业编码：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="合同使用类型：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="省份：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="统一社会信用代码：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="企业法人：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="企业邮箱：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="办公地址：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="联系人：">
+                        ceshi数据
+                    </el-form-item> 
+                    <el-form-item label="联系电话：">
+                        ceshi数据
+                    </el-form-item> 
+                    <el-form-item label="企业简介：">
+                        ceshi数据
+                    </el-form-item> 
+                    <el-form-item label="是否启用：">
+                        ceshi数据
+                    </el-form-item> 
+                    <el-form-item label="企业证件属性：">
+                        ceshi数据
+                        <ul class="imgs_wrap">
+                            <li><img src="./../../../../../../assets/images/no-message.png" height="147" width="142"></li>
+                            <li><img src="./../../../../../../assets/images/no-message.png" height="147" width="142"></li>
+                            <li><img src="./../../../../../../assets/images/no-message.png" height="147" width="142"></li>
+                        </ul>
+                    </el-form-item>              
+                </el-form>
             </el-tab-pane>
             <el-tab-pane label="企业属性" name="attri">
-                <table class="add_table">
-                    <tbody>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>是否是供应链公司：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>是否交货地交货：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="td_label"><span class="zl_required">*</span>客户类别：</td>
-                            <td class="td_text">
-                                123
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <el-form :model="ruleForm" label-width="140px" class="demo-ruleForm">
+                    <el-form-item label="是否是供应链公司：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="是否交货地交货：">
+                        ceshi数据
+                    </el-form-item>
+                    <el-form-item label="客户类别：">
+                        ceshi数据
+                    </el-form-item>
+                </el-form>
             </el-tab-pane>
-            <el-tab-pane label="签章" name="sign">签章</el-tab-pane>
-            <el-tab-pane label="银行账号" name="bank">银行账号</el-tab-pane>
-            <el-tab-pane label="发票信息" name="invoices">发票信息</el-tab-pane>
-            <el-tab-pane label="准入协议" name="admittance">准入协议</el-tab-pane>
-            <el-tab-pane label="点价保证金及销售期" name="inviteBids">点价保证金及销售期</el-tab-pane>
-            <el-tab-pane label="廉政协议签署维护" name="incorrupt">廉政协议签署维护</el-tab-pane>
+            <el-tab-pane label="签章" name="sign">签章
+                <el-form :model="ruleForm" label-width="150px" class="demo-ruleForm" :inline-message="true">
+                    <el-form-item label="企业名称：">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="签章名称：">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="签章编号：" prop="signCode">
+                     测试
+                    </el-form-item>
+                    <el-form-item label="签章状态：">
+                      测试
+                    </el-form-item>
+                     <el-form-item label="签章有效期：">
+                      测试
+                   </el-form-item>
+                   <el-form-item label="上传签章照片：">
+                      测试
+                   </el-form-item>
+                    <el-form-item label="备注：">
+                      测试
+                    </el-form-item>
+                </el-form>
+            </el-tab-pane>
+            <el-tab-pane label="银行账号" name="bank">
+                <el-form :model="ruleForm" label-width="150px" class="demo-ruleForm" :inline-message="true">
+                    <el-form-item label="企业名称：">
+                     测试
+                    </el-form-item>
+                    <el-form-item label="开户行：" prop="bankName">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="银行账号：" prop="bankCardNo">
+                     测试
+                    </el-form-item>
+                    <el-form-item label="联系电话：">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="是否设为默认项：">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="是否启用：">
+                      测试
+                    </el-form-item>
+                </el-form>
+
+            </el-tab-pane>
+            <el-tab-pane label="发票信息" name="invoices">
+                <el-form :model="ruleForm" label-width="150px" class="demo-ruleForm" :inline-message="true">
+                    <el-form-item label="企业名称：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="纳税人识别号：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="发票地址：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="联系电话：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="开户行：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="银行账号：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="是否启用：">
+                      测试
+                    </el-form-item>
+                </el-form>
+
+            </el-tab-pane>
+            <el-tab-pane label="准入协议" name="admittance">
+                <el-table :data="tableData" border size="small">
+                    <el-table-column align="center" prop="enName" label="准入协议号"></el-table-column>
+                    <el-table-column align="center" prop="enCode" label="准入时间"></el-table-column>
+                    <el-table-column align="center" prop="registerDate" label="准入失效时间"></el-table-column>
+                    <el-table-column align="center" prop="accessNo" label="廉政协议"></el-table-column>
+                    <el-table-column align="center" prop="startTime" label="准入协议"></el-table-column>
+                    <el-table-column align="center" prop="endTime" label="准入标记"></el-table-column>
+                    <el-table-column align="center" prop="endTime" label="准入状态"></el-table-column>
+                </el-table>
+            </el-tab-pane>
+            <el-tab-pane label="点价保证金及销售期" name="inviteBids">
+                <el-form :model="ruleForm" label-width="150px" class="demo-ruleForm" :inline-message="true">
+                    <el-form-item label="点价货款比例：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="销售期：" prop="region">
+                      测试
+                    </el-form-item>
+                </el-form>
+            </el-tab-pane>
+            <el-tab-pane label="廉政协议签署维护" name="incorrupt">
+                <el-form :model="ruleForm" label-width="150px" class="demo-ruleForm" :inline-message="true">
+                    <el-form-item label="点价货款比例：" prop="region">
+                      测试
+                    </el-form-item>
+                    <el-form-item label="销售期：" prop="region">
+                      测试
+                    </el-form-item>
+                </el-form>
+            </el-tab-pane>
         </el-tabs>
         <el-footer>
             <el-button @click="handleGoBack()" size="small">返回</el-button>
@@ -131,115 +191,39 @@
                     resource: '',
                     desc: ''
                 },
-                rules: {
-                    name1: [{
-                            required: true,
-                            message: '请输入企业名称',
-                            trigger: 'blur'
-                        },
-                        {
-                            min: 3,
-                            max: 5,
-                            message: '长度在 3 到 5 个字符',
-                            trigger: 'blur'
-                        }
-                    ],
-                    name2: [{
-                            required: true,
-                            message: '请输入企业编码',
-                            trigger: 'blur'
-                        },
-                        {
-                            min: 3,
-                            max: 5,
-                            message: '长度在 3 到 5 个字符',
-                            trigger: 'blur'
-                        }
-                    ],
-                    region: [{
-                        required: true,
-                        message: '请选择活动区域',
-                        trigger: 'change'
-                    }],
-                    date1: [{
-                        type: 'date',
-                        required: true,
-                        message: '请选择日期',
-                        trigger: 'change'
-                    }],
-                    date2: [{
-                        type: 'date',
-                        required: true,
-                        message: '请选择时间',
-                        trigger: 'change'
-                    }],
-                    type: [{
-                        type: 'array',
-                        required: true,
-                        message: '请至少选择一个活动性质',
-                        trigger: 'change'
-                    }],
-                    resource: [{
-                        required: true,
-                        message: '请选择活动资源',
-                        trigger: 'change'
-                    }],
-                    desc: [{
-                        required: true,
-                        message: '请填写活动形式',
-                        trigger: 'blur'
-                    }]
-                }
             };
         },
-        tableData: [{
-                userName: '宇宙',
-                trueUserName: '8748599900',
-                phoneNum: '010-1222332',
-                departName: '2017-12-12 12：00',
-                roleName: '启用',
-                roleTime: '是'
-    
-            },
-            {
-                userName: '',
-                trueUserName: '',
-                phoneNum: '',
-                departName: '',
-                roleName: '',
-                roleTime: ''
-    
-            },
-            {
-                userName: '',
-                trueUserName: '',
-                phoneNum: '',
-                departName: '',
-                roleName: '',
-                roleTime: ''
-    
-            },
-            {
-                userName: '',
-                trueUserName: '',
-                phoneNum: '',
-                departName: '',
-                roleName: '',
-                roleTime: ''
-    
-            }
-    
-        ],
-    
+        mounted(){
+           this.init(); 
+        },
         methods: {
+            init(){
+                let _name = this.$route.query.name;
+                this.activeName = _name;
+            },
             handleGoBack(){
                 this.$router.push({name:'BusinessManageUsersListIndex'});
             },
             handleClick(tab, event) {
                 console.log(tab, event);
-                switch (tab.name) {                   
+                switch (tab.name) {
                     case 'list':
                         console.log(111);
+                        /*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+                            headers:{ "Content-Type": "application/json"}
+                        })
+                        .then(res =>  {
+                                if(res.status == 200){
+                                    console.log(res);
+                                    this.totalPage = res.data.total;
+                                    this.currentPage = res.data.pageNum;
+                                    this.pageSize = res.data.pageSize;
+                                    this.tableData = res.data.list;
+                                }
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        })*/
                         break;
                     case 'attri':
                         
@@ -256,6 +240,7 @@
                         break;
                     case 'admittance':
                         console.log(666);
+
                         break;
                     case 'inviteBids':
                         console.log(777);
@@ -270,35 +255,7 @@
     };
 </script>
 
-<style scoped>
-
-    @import './../../../../../../assets/css/table_view.css';
-    .zl_required{
-        color: gray;
-    }
-    .add_table{
-        width: 96%;
-        margin: 30px auto;
-        font-size:12px;
-        
-    }
-    table td{
-        border: 1px solid #ebeef5;
-        padding: 10px;
-        text-align: left;
-    }
-    .td_label{
-        width: 160px;
-        text-align:right;
-        vertical-align: top;
-        line-height: 40px;
-    }
-    .el-input{
-        width: 260px;
-    }
-    .td_button{
-        text-align: center;
-    }
+<style scoped lang="scss">
     .el-footer{
         text-align: center;
     }       
@@ -307,6 +264,12 @@
         margin: 15px auto;
         .el-transfer-panel{
             width:245px;
+        }
+    }
+    .el-form-item{
+        ul li{
+            display: inline-block;
+            float: left;
         }
     }
     .el-tabs .el-tabs__nav-wrap::after {

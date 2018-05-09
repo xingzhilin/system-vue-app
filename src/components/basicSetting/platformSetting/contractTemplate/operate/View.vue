@@ -4,72 +4,35 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<table class="add_table">
-			<tbody>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>合同名称：</td>
-					<td>{{form.name}}</td>
-				</tr>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>合同别名：</td>
-					<td>{{form.name}}</td>
-				</tr>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>合同使用类型：</td>
-					<td>
-						{{form.name}}
-					</td>
-				</tr>
-				<tr>
-					<td class="td_label">对应业务类型：</td>
-					<td>
-						{{form.name}}
-					</td>
-				</tr>
-				<tr>
-					<td class="td_label">合同简介：</td>
-					<td>{{form.name}}</td>
-				</tr>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>上传附件：</td>
-					<td>
-						{{form.name}}
-						<!-- <el-upload
-						  class="upload-demo"
-						  action="https://jsonplaceholder.typicode.com/posts/"
-						  :on-preview=""
-						  :on-remove=""
-						  :before-remove=""
-						  multiple
-						  :limit="3"
-						  :on-exceed=""
-						  :file-list="">
-						  <el-button size="small" type="primary">点击上传</el-button>
-						  <div slot="tip" class="el-upload__tip">只能上传后缀名为htm的文件！</div>
-						</el-upload> -->
-					</td>
-				</tr>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>使用范围设置：</td>
-					<td class="td_text">
-						{{form.name}}
-					</td>
-				</tr>
-				<tr>
-					<td class="td_label">指定交割库：</td>
-					<td class="td_text">
-						{{form.name}}
-					</td>
-				</tr>
-				<tr>
-					<td class="td_label">停/启用状态：</td>
-					<td class="td_text">
-						{{form.name}}
-					</td>
-				</tr>
-			
-			</tbody>
-		</table>
+		<el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="140px" class="demo-ruleForm">
+            <el-form-item label="合同名称：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="合同别名：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="合同使用类型：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="对应业务类型：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="合同简介：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="上传附件：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="使用范围设置：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="指定交割库：">
+                {{form.name}}
+            </el-form-item>
+            <el-form-item label="停/启用状态：">
+                {{form.name}}
+            </el-form-item>              
+        </el-form>
 		<el-footer>
 		    <el-button @click="handleGoBack()" size="small">返回</el-button>
 		</el-footer>

@@ -159,6 +159,9 @@ import ReleaseSetting from './../components/goods/liftingWater/release/pages/Set
 
 import ReleaseInquiry from './../components/goods/liftingWater/releaseInquiry/Index'
 import HistoryInquiry from './../components/goods/liftingWater/historyInquiry/Index'
+import HistoryInquiryIndex from './../components/goods/liftingWater/historyInquiry/pages/Index'
+import HistoryInquiryView from './../components/goods/liftingWater/historyInquiry/pages/View'
+
 
 import Coal from './../components/goods/coal/Index'
 import CoalIndex from './../components/goods/coal/pages/Index'
@@ -991,7 +994,19 @@ const goods = {
 				{
 					path: '/goods/historyInquiry',
 					name: 'historyInquiryLink',
-					component: HistoryInquiry
+					component: HistoryInquiry,
+					children: [
+						{
+							path: '/goods/historyInquiry/index',
+							name: 'historyInquiryIndexLink',
+							component: HistoryInquiryIndex
+						},
+						{
+							path: '/goods/historyInquiry/view',
+							name: 'historyInquiryViewLink',
+							component: HistoryInquiryView
+						}
+					]	
 				}
 			]
 		},

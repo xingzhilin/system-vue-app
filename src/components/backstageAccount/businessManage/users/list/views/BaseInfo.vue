@@ -109,7 +109,6 @@
                       测试
                     </el-form-item>
                 </el-form>
-
             </el-tab-pane>
             <el-tab-pane label="发票信息" name="invoices">
                 <el-form :model="ruleForm" label-width="150px" class="demo-ruleForm" :inline-message="true">
@@ -135,7 +134,6 @@
                       测试
                     </el-form-item>
                 </el-form>
-
             </el-tab-pane>
             <el-tab-pane label="准入协议" name="admittance">
                 <el-table :data="tableData" border size="small">
@@ -174,23 +172,13 @@
         </el-footer>
     </div>
 </template>
-
 <script>
     export default {
         data() {
             return {
                 activeName: 'list',
-                ruleForm: {
-                    name1: '',
-                    name2: '',
-                    region: '',
-                    date1: '',
-                    date2: '',
-                    delivery: false,
-                    type: [],
-                    resource: '',
-                    desc: ''
-                },
+                ruleForm: {},
+                tableData: []
             };
         },
         mounted(){

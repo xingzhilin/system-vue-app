@@ -1,0 +1,385 @@
+<template>
+    <div class="goods_wrap">
+        <el-breadcrumb separator-class="el-icon-arrow-right">
+          <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
+          <el-breadcrumb-item>商品发布</el-breadcrumb-item>
+          <el-breadcrumb-item>升贴水价格及商品发布</el-breadcrumb-item>
+        </el-breadcrumb>
+        <table>
+          <thead>
+            <tr>
+              <th width="260">点价基准价维护 <el-button type="danger" plain size="small">历史数据查看</el-button></th>
+              <th class="th_time">上次更新时间：</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td_label">云供应商点价价格（元/吨）</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr>
+              <td class="td_label">云采购商点价价格（元/吨）</td>
+              <td>根据上下计算出来的</td>
+            </tr>
+            <tr>
+              <td class="td_label">点价差值（元/吨）</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th width="260">点价升贴水维护</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                  <el-tabs v-model="activeName" @tab-click="handleClick">
+                    <el-tab-pane label="北方港" name="north">
+                      测试
+                    </el-tab-pane>
+                    <el-tab-pane label="南方港" name="south">
+                      测试
+                    </el-tab-pane>
+                  </el-tabs>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <el-button type="danger" plain size="small">价差同步修改</el-button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th width="260">同步发布报盘</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                  <el-checkbox-group v-model="checkList">
+                    <el-checkbox v-for="item in checkListData" :label="item.name" :key="item.id" :disabled="(item.id==2||item.id==3)?true:false"></el-checkbox>
+                  </el-checkbox-group> 
+              </td>
+            </tr>
+          </tbody>
+        </table> 
+        <div class="sync_wrap">
+          <h2>煤炭商城</h2>
+          <ul>
+            <li v-for="list in shopData">
+              <table>
+                <thead>
+                  <tr>
+                    <th width="260">list.name<el-button type="danger" plain size="small">更多设置</el-button></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                        销售开始时间：
+                        <el-date-picker
+                          v-model="formInline.realName"
+                          type="date"
+                          size='mini'
+                          placeholder="选择日期">
+                        </el-date-picker>
+                        销售结束时间：
+                        <el-date-picker
+                          v-model="formInline.realName"
+                          type="date"
+                          size='mini'
+                          placeholder="选择日期">
+                        </el-date-picker>
+                        <el-button type="danger" plain size="small">其他品种</el-button>
+                    </td>
+                  </tr>                  
+                  <tr>
+                    <td>
+                        <el-table
+                          ref="multipleTable"
+                          :data="list.tableData"
+                          :span-method="rowMethod"
+                          tooltip-effect="dark"
+                          style="width: 100%;margin-top:0;"
+                          @selection-change="handleSelectionChange">
+                            <el-table-column
+                              type="selection"
+                              width="55">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="品种">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="起订量">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="库存量">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="升贴水">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="平仓价">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="合同模板">
+                            </el-table-column>
+                            <el-table-column
+                              prop="name" 
+                              align="center"
+                              label="中间商合同模板">
+                            </el-table-column>
+                            <el-table-column
+                              label="发布企业" 
+                              align="center">
+                              <template slot-scope="scope">
+                                <el-select v-model="formInline.value" placeholder="请选择">
+                                  <el-option
+                                    v-for="item in list.hetong"
+                                    :key="item.id"
+                                    :label="item.name"
+                                    :value="item.name">
+                                  </el-option>
+                                </el-select>
+                              </template>
+                            </el-table-column>
+                        </el-table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+        </div>
+
+    </div>
+</template>
+<script>
+    export default {
+        data(){
+            return {
+                activeName: 'north',
+                formInline: {},
+                checkList: ['云采购','云供应'],
+                checkListData: [
+                  {
+                    id:1,
+                    name: '煤炭商城'
+                  },
+                  {
+                    id:2,
+                    name: '云采购'
+                  },
+                  {
+                    id:3,
+                    name: '云供应'
+                  },
+                  {
+                    id:4,
+                    name: '定期招标（定价）'
+                  },
+                  {
+                    id:5,
+                    name: '定期招标（竞价）'
+                  },
+                  {
+                    id:6,
+                    name: '采购锁价交易'
+                  }
+                ],
+                multipleSelection:[],
+                shopData:[
+                  {
+                    id: 1,
+                    name: '秦皇岛',
+                    tableData:[
+                      {
+                        id:11,
+                        name: '品种1',
+                        hetong: [
+                          {
+                            id: 111,
+                            name: '通用模板'
+                          },
+                          {
+                            id: 112,
+                            name: '自定义模板'
+                          }
+                        ]
+                      },
+                      {
+                        id:22,
+                        name: '品种2',
+                        hetong: [
+                          {
+                            id: 222,
+                            name: '通用模板'
+                          },
+                          {
+                            id: 223,
+                            name: '自定义模板'
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                tableData:[
+                  {
+                    id:11,
+                    name: '品种1',
+                    hetong: [
+                      {
+                        id: 111,
+                        name: '通用模板'
+                      },
+                      {
+                        id: 112,
+                        name: '自定义模板'
+                      }
+                    ]
+                  },
+                  {
+                    id:22,
+                    name: '品种2',
+                    hetong: [
+                      {
+                        id: 222,
+                        name: '通用模板'
+                      },
+                      {
+                        id: 223,
+                        name: '自定义模板'
+                      }
+                    ]
+                  }
+                ],                
+                rowMethod({ row, column, rowIndex, columnIndex }){
+                  if (columnIndex === 0) {
+                      return [1, 2];
+                  } else if (columnIndex === 1) {
+                      return [0, 0];
+                  }
+                }
+            }
+        },
+        methods:{
+          handleClick(tab, event) {
+            console.log(tab, event);
+            switch (tab.name) {
+                  case 'north':
+                      console.log(111);
+                      /*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+                          headers:{ "Content-Type": "application/json"}
+                      })
+                      .then(res =>  {
+                              if(res.status == 200){
+                                  console.log(res);
+                                  this.totalPage = res.data.total;
+                                  this.currentPage = res.data.pageNum;
+                                  this.pageSize = res.data.pageSize;
+                                  this.tableData = res.data.list;
+                              }
+                      })
+                      .catch(function (error) {
+                          console.log(error);
+                      })*/
+                      break;
+                  case 'south':
+                      
+                      console.log(222);
+                      break;
+              }
+          },
+          handleSelectionChange(val) {
+            this.multipleSelection = val;
+            console.log(this.multipleSelection);
+          },
+        }
+    }
+</script>
+<style lang="scss">
+    @import './../../../../../assets/css/table_view.css';
+    .el-form{
+        padding: 15px 0 0 20px;
+    }
+    ul,li{
+      list-style:none;
+      margin:0; 
+      padding:0;
+    }
+    .el-breadcrumb{
+        position: relative;
+        border-bottom: 1px solid #e5e5e5;
+        background-color: #f5f5f5;
+        min-height: 41px;
+        line-height: 40px;
+        padding-left: 20px;
+        display: block;
+    }
+    .line {
+        text-align: center;
+    }
+    table{
+      margin-top: 20px;
+      th{
+        background: #f2f2f2;
+      }
+      td, th{
+        height: 46px;
+        border: 1px solid #e8e8e8;
+        text-align: left;
+        border-right: none;
+        padding-left: 10px;
+        .el-input{
+          width: 200px;
+        }
+      }
+      .th_time{
+        text-align: right;
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .td_label{
+        width:260px;
+        text-align: right;
+      }
+      .el-tabs__item{
+        height: 50px;
+        line-height:50px;
+      }
+    }
+    
+    .el-pagination {
+        padding: 15px;
+        text-align: right;
+    }
+    .el-footer{
+        padding: 0;
+        .el-pagination{
+            padding:0;
+            margin: 10px 15px;
+            white-space: initial;
+            text-align: right;
+        }
+    }
+   
+</style>

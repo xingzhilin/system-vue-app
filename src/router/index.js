@@ -145,6 +145,10 @@ import GoodsIndex from './../components/goods/Index'
 
 import liftingWaterIndex from './../components/goods/liftingWater/Index'
 import Release from './../components/goods/liftingWater/release/Index'
+import ReleaseIndex from './../components/goods/liftingWater/release/pages/Index'
+import ReleaseSetting from './../components/goods/liftingWater/release/pages/Setting'
+
+
 import ReleaseInquiry from './../components/goods/liftingWater/releaseInquiry/Index'
 import HistoryInquiry from './../components/goods/liftingWater/historyInquiry/Index'
 
@@ -917,7 +921,19 @@ const goods = {
 				{      
 					path: '/goods/release',
 					name: 'releaseLink',
-					component: Release
+					component: Release,
+					children: [
+						{
+							path: '/goods/release/index',
+							name: 'releaseIndexLink',
+							component: ReleaseIndex
+						},
+						{
+							path: '/goods/release/setting',
+							name: 'releaseSettingLink',
+							component: ReleaseSetting
+						}
+					]
 				},
 				{
 					path: '/goods/releaseInquiry',

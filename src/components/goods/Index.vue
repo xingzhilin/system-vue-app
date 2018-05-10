@@ -1,6 +1,5 @@
 <template>
 	<div class="backstage">
-		<h5>{{msg}}</h5>
 		<router-view></router-view>
 	</div>
 </template>

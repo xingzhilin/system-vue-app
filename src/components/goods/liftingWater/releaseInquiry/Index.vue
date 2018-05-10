@@ -1,6 +1,6 @@
 <template>
 	<div class="backstage">
-		<h5>{{msg}}</h5>
+		<router-view></router-view>
 	</div>
 </template>
 <script>
@@ -8,7 +8,7 @@
 		name: 'Index',
 		data(){
 			return {
-				msg: '商品发布查询'
+				msg: '商品发布'
 			}
 		}
 	}

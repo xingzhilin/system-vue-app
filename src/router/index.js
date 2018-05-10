@@ -158,6 +158,10 @@ import ReleaseSetting from './../components/goods/liftingWater/release/pages/Set
 
 
 import ReleaseInquiry from './../components/goods/liftingWater/releaseInquiry/Index'
+import ReleaseInquiryIndex from './../components/goods/liftingWater/releaseInquiry/pages/Index'
+import ReleaseInquiryUpdate from './../components/goods/liftingWater/releaseInquiry/pages/Update'
+import ReleaseInquiryView from './../components/goods/liftingWater/releaseInquiry/pages/View'
+
 import HistoryInquiry from './../components/goods/liftingWater/historyInquiry/Index'
 import HistoryInquiryIndex from './../components/goods/liftingWater/historyInquiry/pages/Index'
 import HistoryInquiryView from './../components/goods/liftingWater/historyInquiry/pages/View'
@@ -989,7 +993,24 @@ const goods = {
 				{
 					path: '/goods/releaseInquiry',
 					name: 'releaseInquiryLink',
-					component: ReleaseInquiry
+					component: ReleaseInquiry,
+					children: [
+						{
+							path: '/goods/releaseInquiry/index',
+							name: 'releaseInquiryIndexLink',
+							component: ReleaseInquiryIndex
+						},
+						{
+							path: '/goods/releaseInquiry/update',
+							name: 'releaseInquiryUpdateLink',
+							component: ReleaseInquiryUpdate
+						},
+						{
+							path: '/goods/releaseInquiry/view',
+							name: 'releaseInquiryViewLink',
+							component: ReleaseInquiryView
+						}
+					]	
 				},
 				{
 					path: '/goods/historyInquiry',

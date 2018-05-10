@@ -84,88 +84,107 @@
                     <td>
                         销售开始时间：
                         <el-date-picker
-                          v-model="formInline.realName"
+                          v-model="formInline.name"
                           type="date"
                           size='mini'
                           placeholder="选择日期">
                         </el-date-picker>
                         销售结束时间：
                         <el-date-picker
-                          v-model="formInline.realName"
+                          v-model="formInline.name"
                           type="date"
                           size='mini'
                           placeholder="选择日期">
                         </el-date-picker>
                         <el-button type="danger" plain size="small">其他品种</el-button>
                     </td>
-                  </tr>                  
-                  <tr>
-                    <td>
-                        <el-table
-                          ref="multipleTable"
-                          :data="list.tableData"
-                          :span-method="rowMethod"
-                          tooltip-effect="dark"
-                          style="width: 100%;margin-top:0;"
-                          @selection-change="handleSelectionChange">
-                            <el-table-column
-                              type="selection"
-                              width="55">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="品种">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="起订量">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="库存量">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="升贴水">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="平仓价">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="合同模板">
-                            </el-table-column>
-                            <el-table-column
-                              prop="name" 
-                              align="center"
-                              label="中间商合同模板">
-                            </el-table-column>
-                            <el-table-column
-                              label="发布企业" 
-                              align="center">
-                              <template slot-scope="scope">
-                                <el-select v-model="formInline.value" placeholder="请选择">
-                                  <el-option
-                                    v-for="item in list.hetong"
-                                    :key="item.id"
-                                    :label="item.name"
-                                    :value="item.name">
-                                  </el-option>
-                                </el-select>
-                              </template>
-                            </el-table-column>
-                        </el-table>
-                    </td>
                   </tr>
                 </tbody>
               </table>
+              <el-table
+                ref="multipleTable"
+                :data="list.tableData"
+                tooltip-effect="dark"
+                style="margin-top:0;"
+                @selection-change="handleSelectionChange">
+                <el-table-column
+                  type="selection"
+                  width="55">
+                </el-table-column>
+                <el-table-column
+                    prop="name" 
+                    align="center"
+                    label="品种">
+                  </el-table-column>
+                  <el-table-column
+                    align="center"
+                    label="起订量">
+                      <template slot-scope="props">
+                        <el-input v-model="props.row.name" placeholder="请输入内容"></el-input>
+                      </template>
+                  </el-table-column>
+                  <el-table-column
+                    align="center"
+                    label="库存量">
+                      <template slot-scope="props">
+                        <el-input v-model="props.row.name" placeholder="请输入内容"></el-input>
+                      </template>
+                  </el-table-column>
+                  <el-table-column
+                    prop="name" 
+                    align="center"
+                    label="升贴水">
+                  </el-table-column>
+                  <el-table-column
+                    align="center"
+                    label="平仓价">
+                     <template slot-scope="props">
+                        <el-input v-model="props.row.name" placeholder="请输入内容"></el-input>
+                    </template>
+                  </el-table-column>
+                  <el-table-column
+                    align="center"
+                    label="合同模板">
+                     <template slot-scope="props">
+                      <el-select v-model="formInline.name" placeholder="请选择" style="width:80%;">
+                        <el-option
+                          v-for="item in props.row.hetong"
+                          :key="item.id"
+                          :label="item.name"
+                          :value="item.name">
+                        </el-option>
+                      </el-select>
+                    </template>
+                  </el-table-column>
+                  <el-table-column
+                    align="center"
+                    label="中间商合同模板">
+                     <template slot-scope="props">
+                      <el-select v-model="formInline.name" placeholder="请选择" style="width:80%;">
+                        <el-option
+                          v-for="item in props.row.hetong"
+                          :key="item.id"
+                          :label="item.name"
+                          :value="item.name">
+                        </el-option>
+                      </el-select>
+                    </template>
+                  </el-table-column>
+                  <el-table-column
+                    label="发布企业" 
+                    align="center">
+                    <template slot-scope="props">
+                      <el-select v-model="formInline.name" placeholder="请选择" style="width:80%;">
+                        <el-option
+                          v-for="item in props.row.hetong"
+                          :key="item.id"
+                          :label="item.name"
+                          :value="item.name">
+                        </el-option>
+                      </el-select>
+                    </template>
+                  </el-table-column>
+              </el-table>
             </li>
           </ul>
         </div>
@@ -177,7 +196,9 @@
         data(){
             return {
                 activeName: 'north',
-                formInline: {},
+                formInline: {
+                  name:''
+                },
                 checkList: ['云采购','云供应'],
                 checkListData: [
                   {
@@ -338,8 +359,14 @@
     .line {
         text-align: center;
     }
+    .goods_wrap{
+      padding: 15px 0 0 20px;
+    }
+    .sync_wrap{
+      width:96%;
+    }
     table{
-      margin-top: 20px;
+      -margin-top: 20px;
       th{
         background: #f2f2f2;
       }
@@ -347,10 +374,10 @@
         height: 46px;
         border: 1px solid #e8e8e8;
         text-align: left;
-        border-right: none;
-        padding-left: 10px;
+        -padding-left: 10px;
+        padding: 0;
         .el-input{
-          width: 200px;
+          width: 96%;
         }
       }
       .th_time{

@@ -19,7 +19,7 @@
             </tr>
             <tr>
               <td class="td_label">云采购商点价价格（元/吨）</td>
-              <td>{{formInline.money | toChinese }}</td>
+              <td>{{formInline.money | formateCurrency }}</td>
             </tr>
             <tr>
               <td class="td_label">点价差值（元/吨）</td>

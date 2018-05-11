@@ -43,8 +43,8 @@ Vue.filter('toChinese',function(num) {
 		moneyChinese = '',
 		i,
 		j,
-		ch1,
-		ch2,
+		chGigit,
+		chUnit,
 		nZero = 0;
 	num = Math.abs(num).toFixed(2);
 	strNum = (num * 100).toFixed(0).toString();
@@ -55,44 +55,44 @@ Vue.filter('toChinese',function(num) {
 		disNum = strNum.substr(i,1);
 		if (i != (j-3) && i != (j-7) && i != (j-11) && i != (j-15)){
 			if (disNum == '0'){ 
-				ch1 = ''; 
-				ch2 = ''; 
+				chGigit = ''; 
+				chUnit = ''; 
 				nZero = nZero + 1; 
 			}else{ 
 				if(disNum != '0' && nZero != 0){ 
-					ch1 = '零' + digit.substr(disNum*1,1); 
-					ch2 = unit.substr(i,1); 
+					chGigit = '零' + digit.substr(disNum*1,1); 
+					chUnit = unit.substr(i,1); 
 					nZero = 0; 
 				}else{ 
-					ch1 = digit.substr(disNum*1,1); 
-					ch2 = unit.substr(i,1); 
+					chGigit = digit.substr(disNum*1,1); 
+					chUnit = unit.substr(i,1); 
 					nZero = 0; 
 				} 
 			} 
 		}else{
 			if (disNum != '0' && nZero != 0){ 
-				ch1 = "零" + digit.substr(disNum*1,1); 
-				ch2 = unit.substr(i,1); 
+				chGigit = "零" + digit.substr(disNum*1,1); 
+				chUnit = unit.substr(i,1); 
 				nZero = 0; 
 			}else{ 
 				if(disNum != '0' && nZero == 0){ 
-					ch1 = digit.substr(disNum*1,1); 
-					ch2 = unit.substr(i,1); 
+					chGigit = digit.substr(disNum*1,1); 
+					chUnit = unit.substr(i,1); 
 					nZero = 0; 
 				}else{ 
 					if (disNum == '0' && nZero >= 3){ 
-						ch1 = ''; 
-						ch2 = ''; 
+						chGigit = ''; 
+						chUnit = ''; 
 						nZero = nZero + 1; 
 					} 
 					else{ 
 						if (j >= 11){ 
-							ch1 = ''; 
+							chGigit = ''; 
 							nZero = nZero + 1; 
 						} 
 						else{ 
-							ch1 = ''; 
-							ch2 = unit.substr(i,1); 
+							chGigit = ''; 
+							chUnit = unit.substr(i,1); 
 							nZero = nZero + 1; 
 						} 
 					} 
@@ -100,9 +100,9 @@ Vue.filter('toChinese',function(num) {
 			} 
 		} 
 		if (i == (j-11) || i == (j-3)){
-			ch2 = unit.substr(i,1); 
+			chUnit = unit.substr(i,1); 
 		} 
-		moneyChinese = moneyChinese + ch1 + ch2;
+		moneyChinese = moneyChinese + chGigit + chUnit;
 		if (i == j-1 && disNum == '0' ){
 			moneyChinese = moneyChinese + '整'; 
 		} 

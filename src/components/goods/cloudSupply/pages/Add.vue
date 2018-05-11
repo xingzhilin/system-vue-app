@@ -59,17 +59,17 @@
                   	<el-form-item prop="pwId">
 	                     <el-col  :lg="{span:8,offset:8}" :xs="{span:16,offset:4}" :md="{span:8,offset:8}" :sm="{span:10,offset:7}">
 	                     	<el-autocomplete
-						      class="inline-input"
-						      size="small"
-						      v-model="ruleForm.pwId"
-						      :fetch-suggestions="pwIdSearch"
-						      :trigger-on-focus="false"
-						      @select="pwIdSelect"
-						    >
-							    <template slot-scope="{ item }">
-								   <span class="addr">{{ item.agency }}</span>
-								</template>
-						    </el-autocomplete>
+        						      class="inline-input"
+        						      size="small"
+        						      v-model="ruleForm.pwId"
+        						      :fetch-suggestions="pwIdSearch"
+        						      :trigger-on-focus="false"
+        						      @select="pwIdSelect"
+        						    >
+        							    <template slot-scope="{ item }">
+        								   <span class="addr">{{ item.agency }}</span>
+        								</template>
+        						    </el-autocomplete>
 	                     </el-col>
                      </el-form-item>
                   </td>
@@ -99,6 +99,17 @@
                   </td>
                 </tr>
                 <tr>
+                  <td><span class="red">*</span> 运输方式</td>
+                  <td>
+                    <el-form-item prop="transferType">
+                       <el-checkbox-group v-model="ruleForm.transferType">
+                        <el-checkbox label="1">汽运</el-checkbox>
+                        <el-checkbox label="2">火运</el-checkbox>
+                      </el-checkbox-group>
+                    </el-form-item>
+                  </td>
+                </tr>
+                <tr>
                   <td><span class="red">*</span> 交货方式</td>
                   <td>
                   	<el-form-item prop="sendType">
@@ -108,6 +119,16 @@
 		                    </el-select>
 	                     </el-col>
                     </el-form-item>
+                  </td>
+                </tr>
+                <tr>
+                  <td>招标数量</td>
+                  <td>
+                  <el-form-item>
+                     <el-col  :lg="{span:8,offset:8}" :xs="{span:16,offset:4}" :md="{span:8,offset:8}" :sm="{span:10,offset:7}">
+                      <el-input v-model.trim="ruleForm.purchaseQuantity" size="small"></el-input>
+                     </el-col>
+                   </el-form-item>
                   </td>
                 </tr>
                 <tr>
@@ -160,10 +181,12 @@
           enName:'',
           publisherCode:'',
           telephone:'',
+          transferType:[],//这个和下面的要组合一下，但是校验不好使，提交的时候再改结构
+          sendType:'',
           pwId:'',
           agencyOrg:'',
           testStandard:'',
-          sendType:'',
+          purchaseQuantity:'',
           offerStartDate:'',
           offerEndDate:'',
           deliveryCycle:'',
@@ -183,6 +206,9 @@
           ],
           sendType: [
             { required: true,message: '请选择交货方式', trigger: 'change' }
+          ], 
+          transferType: [
+            { required: true,message: '请选择运输方式', trigger: 'change' }
           ],
         },
       };

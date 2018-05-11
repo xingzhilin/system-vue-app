@@ -1,14 +1,13 @@
 <template>
 	<div class="backstage">
-		<router-view></router-view>
+		编辑
 	</div>
 </template>
 <script>
 	export default {
-		name: 'Index',
 		data(){
 			return {
-				msg: '云采购'
+				
 			}
 		}
 	}

@@ -16,7 +16,7 @@ Vue.config.productionTip = false
 Vue.use(vueEventCalendar, {locale: 'en'}) 
 Vue.use(ElementUI)
 window.eventBus = new Vue();
-//money格式化
+
 Vue.filter('formateCurrency', function (value) {
     var isNumber,decimal;
     if(isNaN(value)){
@@ -34,7 +34,7 @@ Vue.filter('formateCurrency', function (value) {
     }
     return (((isNumber)?'':'-') + value + '.' + decimal);  
 })
-//moeny转成中文
+
 Vue.filter('toChinese',function(num) {
 	var digit = '零壹贰叁肆伍陆柒捌玖',
 		unit = '万仟佰拾亿仟佰拾万仟佰拾元角分',

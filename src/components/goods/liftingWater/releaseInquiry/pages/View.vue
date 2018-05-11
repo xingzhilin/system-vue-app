@@ -15,11 +15,11 @@
           <tbody>
             <tr>
               <td class="td_label">云供应商点价价格（元/吨）</td>
-              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+              <td><el-input v-model="formInline.money" placeholder="用户名" size="small"></el-input></td>
             </tr>
             <tr>
               <td class="td_label">云采购商点价价格（元/吨）</td>
-              <td>根据上下计算出来的</td>
+              <td>{{formInline.money | toChinese }}</td>
             </tr>
             <tr>
               <td class="td_label">点价差值（元/吨）</td>
@@ -486,7 +486,8 @@
             return {
                 activeName: 'north',
                 formInline: {
-                  name:''
+                  name:'',
+                  money: '2342342323423.236575'
                 },
                 checkList: ['云采购','云供应'],
                 checkListData: [

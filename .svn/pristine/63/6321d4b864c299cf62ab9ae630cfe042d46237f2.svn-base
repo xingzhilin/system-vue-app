@@ -57,12 +57,6 @@
 		<el-table :data="tableData" border size="small" style="width:100%;">
 		    <el-table-column fixed label="操作" width="90" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<!-- <router-link :to="{path:'/goods/coal/see',query:{offerNo:scope.row.offerNo}}">
-                        <el-button type="primary" size="mini">查看</el-button>
-                    </router-link>  
-                    <router-link :to="{path:'/goods/coal/editor',query:{offerNo:scope.row.offerNo,statusCode:scope.row.statusCode}}">
-                        <el-button size="mini">处理</el-button>
-                    </router-link> -->
 		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>
 			    </template>
 		    </el-table-column>

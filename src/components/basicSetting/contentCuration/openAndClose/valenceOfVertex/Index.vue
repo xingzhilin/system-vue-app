@@ -1,6 +1,7 @@
 <template>
 	<div class="backstage">
 		<h5>{{msg}}</h5>
+		<router-view></router-view>
 	</div>
 </template>
 <script>
@@ -8,7 +9,7 @@
 		name: 'Index',
 		data(){
 			return {
-				msg: '点价开闭市维护'
+				msg: '系统开闭市维护-button'
 			}
 		}
 	}

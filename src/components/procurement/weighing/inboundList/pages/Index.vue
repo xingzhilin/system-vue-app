@@ -5,23 +5,13 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
           <el-breadcrumb-item>订单管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">	  	
-		  <el-form-item label="业务类型" prop="userStatus">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
-		      <el-option label="请选择" value=""></el-option>
-		      <el-option label="启用" value="1"></el-option>
-		      <el-option label="停用" value="0"></el-option>
-		    </el-select>
-		  </el-form-item>
-		  <el-form-item label="交割库：" prop="userName">
+		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
+
+		  <el-form-item label="企业名称：" prop="userName">
 		    <el-input v-model="formInline.userName" placeholder="交割库" size="small"></el-input>
-		  </el-form-item>	
-		  <el-form-item label="订单状态：" prop="userStatus">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
-		      <el-option label="请选择" value=""></el-option>
-		      <el-option label="启用" value="1"></el-option>
-		      <el-option label="停用" value="0"></el-option>
-		    </el-select>
+		  </el-form-item>
+		  <el-form-item label="批次号：" prop="userName">
+		    <el-input v-model="formInline.userName" placeholder="交割库" size="small"></el-input>
 		  </el-form-item>
 		  <el-form-item label="下单时间：">
 		    <el-date-picker
@@ -37,6 +27,13 @@
               size='mini'
               placeholder="选择日期">
             </el-date-picker>
+		  </el-form-item>		  	  	
+		  <el-form-item label="审核状态：" prop="userStatus">
+		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+		      <el-option label="请选择" value=""></el-option>
+		      <el-option label="启用" value="1"></el-option>
+		      <el-option label="停用" value="0"></el-option>
+		    </el-select>
 		  </el-form-item>
 		  <el-form-item>
 		    <el-button type="primary" @click="handleSubmit('formInline')" size="small">查询</el-button>
@@ -44,54 +41,28 @@
 		  </el-form-item>
 		</el-form>
 		<div class="el-line"></div>
-		<el-container>
-	      <el-button type="danger" @click="handleAdd" size="small">导出Excel</el-button>
-	      <div class="total_num">
-	      	总计订单数：<span>50,726</span>
-			总下单量：<span>300,000,000.00</span>
-			已入库量：<span>200,000,000.00</span>
-			未点价量：<span>100,000,000.00</span>
-			未入库量：<span>100,000,000.00</span>
-	      </div>
-	    </el-container>
-		<el-table :data="tableData" border size="small" style="width:100%;">
-		    <el-table-column fixed label="操作" width="90" align="center">		    	
+		
+  		<el-table :data="tableData" border size="small" style="width:100%;">
+		    <el-table-column fixed label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<!-- <router-link :to="{path:'/goods/coal/see',query:{offerNo:scope.row.offerNo}}">
-                        <el-button type="primary" size="mini">查看</el-button>
-                    </router-link>  
-                    <router-link :to="{path:'/goods/coal/editor',query:{offerNo:scope.row.offerNo,statusCode:scope.row.statusCode}}">
-                        <el-button size="mini">处理</el-button>
-                    </router-link> -->
 		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>
+		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">处理</el-button>
 			    </template>
 		    </el-table-column>
-		    <el-table-column fixed align="center" prop="portCostType" label="用户名/交易商" ></el-table-column>
-		    <el-table-column fixed align="center" prop="portCostTypeCode" label="业务类型"></el-table-column>
-		    <el-table-column fixed align="center" prop="status" label="品种"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="交割库"></el-table-column>
-		    <el-table-column align="center" prop="status" label="交付地"></el-table-column>
-		    <el-table-column align="center" prop="createDate" width="120" label="* 下单数量"  :render-header="renderHeader"></el-table-column>
-		    <el-table-column align="center" prop="status" label="入库数量"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="实际入库数量"></el-table-column>
-		    <el-table-column align="center" prop="status" label="结算扣罚"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="实际结算数量"></el-table-column>
-		    <el-table-column align="center" prop="status" label="已点价吨数"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="未点价吨数"></el-table-column>
-		    <el-table-column align="center" prop="status" label="基本价"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="保证金单价"></el-table-column>
-		    <el-table-column align="center" prop="status" label="结算单价"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="保证金总额"></el-table-column>
-		    <el-table-column align="center" prop="status" label="下单总额"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="结算总额"></el-table-column>
-		    <el-table-column align="center" prop="status" label="已付货款"></el-table-column>
-		    <el-table-column align="center" prop="status" label="已收发票"></el-table-column>
-		    <el-table-column align="center" prop="status" label="下单时间"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="交货开始日"></el-table-column>
-		    <el-table-column align="center" prop="status" label="交货截止日"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="订单编号"></el-table-column>
-		    <el-table-column align="center" prop="status" label="订单状态"></el-table-column>
+		    <el-table-column fixed align="center" prop="enName" label="企业名称" ></el-table-column>
+		    <el-table-column fixed align="center" prop="whName" label="交割库信息"></el-table-column>
+		    <el-table-column fixed align="center" prop="className" label="品种"></el-table-column>
+		    <el-table-column align="center" prop="storeQuantity" label="原始吨数"></el-table-column>
+		    <el-table-column align="center" prop="adjustmentQuantity" label="调吨"></el-table-column>
+		    <el-table-column align="center" prop="storeTime" label="实际入库吨数"></el-table-column>
+		    <el-table-column align="center" prop="storeTime" label="入库时间"></el-table-column>
+		    <el-table-column align="center" prop="tranterType" label="运输方式"></el-table-column>
+		    <el-table-column align="center" prop="status" label="审核状态"></el-table-column>
+		    <el-table-column align="center" prop="batchNo" label="批次号"></el-table-column>
 		</el-table>
+		
+		
+
 		<el-footer style="height:auto">
 		    <el-pagination
 		      @size-change="handleSizeChange"
@@ -196,19 +167,19 @@
 					})*/
 				this.tableData = [
 					{
-				      "id":"1",
-				      "portCostType": "港建费",
-				      "portCostTypeCode": "1",
-				      "status": "1",
-				      "createDate": "2018/4/28 12:00:11",
-				    },
-				    {
-				      "id":"2",
-				      "portCostType": "港杂费",
-				      "portCostTypeCode": "1",
-				      "status": "1",
-				      "createDate": "2018/4/28 12:00:11"
-				    }
+						"enName": null,
+						"enId": null,
+						"whName":"天津港（交割库信息=交割库+货场+堆位）",
+						"placeName":"货场",
+						"pileName":"堆位",
+						"className": "品种",
+						"originalQuantity": "原始吨数",
+						"adjustmentQuantity": "调吨",
+						"storeTime": "2018-04-24 12:00:00.0",
+						"tranterType": 1,
+						"status": null,
+						"batchNo": "PC20180213"
+					}
 				]
 
 		    },
@@ -274,6 +245,16 @@
 		text-align: center;
 		#em_red{
 			color: red;
+		}
+	}
+	.table_header{
+		height: 105px;
+		line-height:105px;
+		background: #f2f2f2;
+		.table_info{
+			line-height: 34px;
+   			padding-top: 20px;
+   			font-size: 14px;
 		}
 	}
 	.el-footer{

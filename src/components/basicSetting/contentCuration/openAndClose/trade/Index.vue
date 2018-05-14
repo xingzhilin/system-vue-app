@@ -1,107 +1,19 @@
 <template>
-	<div class="account">
-		<el-breadcrumb separator-class="el-icon-arrow-right">
-		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
-		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
-		</el-breadcrumb>
-		<el-container>
-			<div class="date_wrap">
-				<vue-event-calendar
-			      :events="demoEvents"
-			      @day-changed="handleDayChanged"
-			      @month-changed="handleMonthChanged"
-			    ></vue-event-calendar>
-			</div>
-			<div class="set_btn" @click="handleSetDate">
-				<span>开闭市设置</span>
-			</div>
-			<!-- <div class="date_show">
-				展示信息
-			</div> -->
-	    </el-container>
-	    <el-footer>
-	    	<el-button type="primary" @click="init" size="small">保存</el-button>
-		    <el-button @click="handleReset" size="small">取消</el-button>
-	    </el-footer>
-	</div> 
+	<div class="backstage">
+		<h5>{{msg}}</h5>
+		<router-view></router-view>
+	</div>
 </template>
 <script>
-	let today = new Date()
 	export default {
 		name: 'Index',
 		data(){
 			return {
-				msg: '交易开闭市维护',
-				dateValue: [],
-				demoEvents: [{
-			        date: '2018/05/27',
-			        title: 'Title-1',
-			        desc: 'longlonglong description'
-			      },{
-			        date: `${today.getFullYear()}/${today.getMonth() + 1}/24`,
-			        title: 'Title-2'
-			      },{
-			        date: `${today.getFullYear()}/${today.getMonth() === 11 ? 1 : today.getMonth() + 2}/06`,
-			        title: 'Title-3',
-			        desc: 'description'
-			      }]
+				msg: '系统开闭市维护-button'
 			}
-		},
-		created(){
-			//this.init();
-		},
-		methods: {
-			handleSubmit(){
-				console.log('sumit');
-			},
-			handleReset(formName){
-				console.log('reset');
-			},
-		    init(){
-				console.log('date');
-
-				document.querySelector('.account').addEventListener('click', function(){
-					console.log('ce');
-					$('.el-picker-panel').show();
-				})
-				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
-						headers:{ "Content-Type": "application/json"}
-					})
-					.then(res =>  {
-							if(res.status == 200){
-								console.log(res);
-							}
-					})
-					.catch(function (error) {
-						console.log(error);
-					})*/
-		    },
-		    handleSetDate(){
-		    	this.$router.push({name: 'tradeSettingLink'});
-		    },
-		    handleDayChanged (data) {
-		      console.log('date-changed', data)
-		    },
-		    handleMonthChanged (data) {
-		      console.log('month-changed', data)
-		    }
 		}
 	}
 </script>
-<style scoped lang="scss">
-	.date_wrap{
-		width: 90%;
-		height: 500px;
-		border:1px solid #ccc;
-		float: left;
-	}
-	.el-footer{
-		padding: 0;
-		.el-pagination{
-			padding:0;
-			margin: 10px 15px;
-			white-space: initial;
-			text-align: right;
-		}
-	}
+<style>
+	
 </style>

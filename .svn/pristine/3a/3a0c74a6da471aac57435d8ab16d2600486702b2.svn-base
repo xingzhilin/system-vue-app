@@ -202,10 +202,7 @@ import SignManage from './../components/procurement/signManage/Index'
 
 import WeighingIndex from './../components/procurement/weighing/Index'
 import InboundInput from './../components/procurement/weighing/inboundInput/Index'
-import InboundInputIndex from './../components/procurement/weighing/inboundInput/pages/Index'
-
 import InboundList from './../components/procurement/weighing/inboundList/Index'
-import InboundListIndex from './../components/procurement/weighing/inboundList/pages/Index'
 
 import TestsIndex from './../components/procurement/tests/Index'
 import TestsInput from './../components/procurement/tests/testsInput/Index'
@@ -1220,26 +1217,12 @@ const procurement = {
 				{      
 					path: '/weighing/input',
 					name: 'inboundInputLink',
-					component: InboundInput,
-					children: [
-						{
-							path: '/weighing/input/list',
-							name: 'inboundInputIndexLink',
-							component: InboundInputIndex							
-						}
-					]
+					component: InboundInput
 				},
 				{
 					path: '/weighing/list',
 					name: 'inboundListLink',
-					component: InboundList,
-					children: [
-						{							
-							path: '/weighing/list/index',
-							name: 'inboundListIndexLink',
-							component: InboundListIndex
-						}
-					]
+					component: InboundList
 				}
 			]
 		},

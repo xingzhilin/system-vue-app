@@ -202,10 +202,7 @@ import SignManage from './../components/procurement/signManage/Index'
 
 import WeighingIndex from './../components/procurement/weighing/Index'
 import InboundInput from './../components/procurement/weighing/inboundInput/Index'
-import InboundInputIndex from './../components/procurement/weighing/inboundInput/pages/Index'
-
 import InboundList from './../components/procurement/weighing/inboundList/Index'
-import InboundListIndex from './../components/procurement/weighing/inboundList/pages/Index'
 
 import TestsIndex from './../components/procurement/tests/Index'
 import TestsInput from './../components/procurement/tests/testsInput/Index'
@@ -368,13 +365,9 @@ import Cms from './../components/basicSetting/contentCuration/cms/Index'
 
 import OpenAndCloseIndex from './../components/basicSetting/contentCuration/openAndClose/Index'
 import Trade from './../components/basicSetting/contentCuration/openAndClose/trade/Index'
-import TradeIndex from './../components/basicSetting/contentCuration/openAndClose/trade/pages/Index'
-import TradeSetting from './../components/basicSetting/contentCuration/openAndClose/trade/pages/Setting'
+import TradeSetting from './../components/basicSetting/contentCuration/openAndClose/trade/Setting'
 
 import ValenceOfVertex from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/Index'
-import ValenceOfVertexIndex from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/pages/Index'
-import ValenceOfVertexSetting from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/pages/Setting'
-
 import NoticeInfo from './../components/basicSetting/contentCuration/noticeInfo/Index'
 import NoticeInfoIndex from './../components/basicSetting/contentCuration/noticeInfo/pages/Index'
 import NoticeInfoEditor from './../components/basicSetting/contentCuration/noticeInfo/pages/Editor'
@@ -1220,26 +1213,12 @@ const procurement = {
 				{      
 					path: '/weighing/input',
 					name: 'inboundInputLink',
-					component: InboundInput,
-					children: [
-						{
-							path: '/weighing/input/list',
-							name: 'inboundInputIndexLink',
-							component: InboundInputIndex							
-						}
-					]
+					component: InboundInput
 				},
 				{
 					path: '/weighing/list',
 					name: 'inboundListLink',
-					component: InboundList,
-					children: [
-						{							
-							path: '/weighing/list/index',
-							name: 'inboundListIndexLink',
-							component: InboundListIndex
-						}
-					]
+					component: InboundList
 				}
 			]
 		},
@@ -1896,36 +1875,17 @@ const basicSetting = {
 						{
 							path: '/content/trade',
 							name: 'tradeLink',
-							component: Trade,
-							children: [	
-								{
-									path: '/content/trade/index',
-									name: 'tradeIndexLink',
-									component: TradeIndex
-								},							
-								{
-									path: '/content/trade/setting',
-									name: 'tradeSettingLink',
-									component: TradeSetting
-								}
-							]
+							component: Trade
+						},
+						{
+							path: '/content/tradeSetting',
+							name: 'tradeSettingLink',
+							component: TradeSetting
 						},
 						{
 							path: '/content/valenceOfVertex',
 							name: 'valenceOfVertexLink',
-							component: ValenceOfVertex,
-							children: [	
-								{
-									path: '/content/valenceOfVertex/index',
-									name: 'valenceOfVertexIndexLink',
-									component: ValenceOfVertexIndex
-								},							
-								{
-									path: '/content/valenceOfVertex/setting',
-									name: 'valenceOfVertexSettingLink',
-									component: ValenceOfVertexSetting
-								}
-							]
+							component: ValenceOfVertex
 						}
 					]
 				},

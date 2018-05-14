@@ -55,39 +55,36 @@
 	      </div>
 	    </el-container>
 		<el-table :data="tableData" border size="small" style="width:100%;">
-		    <el-table-column fixed label="操作" width="180" align="center">		    	
+		    <el-table-column fixed label="操作" width="90" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
+		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>
 			    </template>
 		    </el-table-column>
-		    <el-table-column fixed align="center" prop="portCostType" label="用户名/交易商"></el-table-column>
-		    <el-table-column align="center" prop="portCostTypeCode" label="业务类型"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
-		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
+		    <el-table-column fixed align="center" prop="portCostType" label="用户名/交易商" ></el-table-column>
+		    <el-table-column fixed align="center" prop="portCostTypeCode" label="业务类型"></el-table-column>
+		    <el-table-column fixed align="center" prop="status" label="品种"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="交割库"></el-table-column>
+		    <el-table-column align="center" prop="status" label="交付地"></el-table-column>
+		    <el-table-column align="center" prop="createDate" width="120" label="* 下单数量"  :render-header="renderHeader"></el-table-column>
+		    <el-table-column align="center" prop="status" label="入库数量"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="实际入库数量"></el-table-column>
+		    <el-table-column align="center" prop="status" label="结算扣罚"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="实际结算数量"></el-table-column>
+		    <el-table-column align="center" prop="status" label="已点价吨数"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="未点价吨数"></el-table-column>
+		    <el-table-column align="center" prop="status" label="基本价"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="保证金单价"></el-table-column>
+		    <el-table-column align="center" prop="status" label="结算单价"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="保证金总额"></el-table-column>
+		    <el-table-column align="center" prop="status" label="下单总额"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="结算总额"></el-table-column>
+		    <el-table-column align="center" prop="status" label="已付货款"></el-table-column>
+		    <el-table-column align="center" prop="status" label="已收发票"></el-table-column>
+		    <el-table-column align="center" prop="status" label="下单时间"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="交货开始日"></el-table-column>
+		    <el-table-column align="center" prop="status" label="交货截止日"></el-table-column>
+		    <el-table-column align="center" prop="createDate" label="订单编号"></el-table-column>
+		    <el-table-column align="center" prop="status" label="订单状态"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">
 		    <el-pagination
@@ -208,7 +205,27 @@
 				    }
 				]
 
-		    }
+		    },
+		    renderHeader(createElement, { column, $index }) {
+	            let label = column.label;
+	            let labelArr = label.split(' ');
+	             return createElement(
+	                'div',
+	                {
+	                'class': 'header_center'
+	                },
+	                [
+	                    createElement('em', {
+	                            attrs: { type: 'text', style: 'color:red; padding-right:5px;font-style:normal;' },
+	                        }, [labelArr[0]]
+	                        ),
+	                        createElement('span', {
+	                            attrs: { type: 'text', style: 'display: inline-block'},
+	                        }, [labelArr[1]]
+	                    )
+	                ]
+	            )
+	        }
 		}
 	}
 </script>
@@ -249,6 +266,9 @@
 	}
 	.el-table .cell{
 		text-align: center;
+		#em_red{
+			color: red;
+		}
 	}
 	.el-footer{
 		padding: 0;

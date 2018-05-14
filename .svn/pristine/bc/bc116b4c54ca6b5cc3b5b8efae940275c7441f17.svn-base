@@ -59,17 +59,17 @@
                   	<el-form-item prop="pwId">
 	                     <el-col  :lg="{span:8,offset:8}" :xs="{span:16,offset:4}" :md="{span:8,offset:8}" :sm="{span:10,offset:7}">
 	                     	<el-autocomplete
-          						      class="inline-input"
-          						      size="small"
-          						      v-model="ruleForm.pwId"
-          						      :fetch-suggestions="pwIdSearch"
-          						      :trigger-on-focus="false"
-          						      @select="pwIdSelect"
-          						    >
-          							    <template slot-scope="{ item }">
-          								   <span class="addr">{{ item.agency }}</span>
-          								  </template>
-        						    </el-autocomplete>
+						      class="inline-input"
+						      size="small"
+						      v-model="ruleForm.pwId"
+						      :fetch-suggestions="pwIdSearch"
+						      :trigger-on-focus="false"
+						      @select="pwIdSelect"
+						    >
+							    <template slot-scope="{ item }">
+								   <span class="addr">{{ item.agency }}</span>
+								</template>
+						    </el-autocomplete>
 	                     </el-col>
                      </el-form-item>
                   </td>
@@ -187,7 +187,7 @@
                 </tr>
               </tbody>
             </table>
-            <el-table :data="ruleForm.goods" border @selection-change="handleSelectionChange">
+            <el-table :data="tableData" border @selection-change="handleSelectionChange">
                 <el-table-column type="selection" width="55"></el-table-column>
                 <el-table-column prop="className" label="品种"></el-table-column>
                 <el-table-column prop="beginQuantity" label="起订量">
@@ -263,14 +263,14 @@
           enName:'',
           publisherCode:'',
           telephone:'',
-          pwId:'1',
-          agencyOrg:'1',
-          testStandard:'1',
-          sendType:'1',
+          pwId:'',
+          agencyOrg:'',
+          testStandard:'',
+          sendType:'',
           offerStartDate:'',
           offerEndDate:'',
           deliveryCycle:'',
-          goods:[{middleManContractTemplate:'1',contractTemplate:'1',exitPrice:1},{middleManContractTemplate:'1',contractTemplate:'1',exitPrice:1}]  
+          goods:[{},{}]  
         },
         rules: {
           enName: [
@@ -291,6 +291,7 @@
             { required: true,message: '请选择交货方式', trigger: 'change' }
           ],
         },
+        tableData: [{name},{name}]  
       };
     },
     created(){

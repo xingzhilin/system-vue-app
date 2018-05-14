@@ -358,10 +358,6 @@ import TradeSetting from './../components/basicSetting/contentCuration/openAndCl
 
 import ValenceOfVertex from './../components/basicSetting/contentCuration/openAndClose/valenceOfVertex/Index'
 import NoticeInfo from './../components/basicSetting/contentCuration/noticeInfo/Index'
-import NoticeInfoIndex from './../components/basicSetting/contentCuration/noticeInfo/pages/Index'
-import NoticeInfoEditor from './../components/basicSetting/contentCuration/noticeInfo/pages/Editor'
-import NoticeInfoSee from './../components/basicSetting/contentCuration/noticeInfo/pages/See'
-import NoticeInfoAdd from './../components/basicSetting/contentCuration/noticeInfo/pages/Add'
 
 import ECommerceIndex from './../components/basicSetting/contentCuration/eCommerce/Index'
 import Pithead from './../components/basicSetting/contentCuration/eCommerce/pithead/Index'
@@ -1830,30 +1826,7 @@ const basicSetting = {
 				{
 					path: '/content/noticeInfo',
 					name: 'noticeInfoLink',
-                    redirect:'/content/noticeInfo/index',
-					component: NoticeInfo,
-                    children: [
-                        {
-                            path: '/content/noticeInfo/index',
-                            name: 'noticeInfoLinkIndex',
-                            component: NoticeInfoIndex
-                        },
-                        {
-                            path: '/content/noticeInfo/add',
-                            name: 'noticeInfoLinkAdd',
-                            component: NoticeInfoAdd
-                        },
-                        {
-                            path: '/content/noticeInfo/editor',
-                            name: 'noticeInfoLinkEditor',
-                            component: NoticeInfoEditor
-                        },
-                        {
-                            path: '/content/noticeInfo/see',
-                            name: 'noticeInfoLinkSee',
-                            component: NoticeInfoSee
-                        }
-                    ]
+					component: NoticeInfo
 				},
 				{
 					path: '/content/eCommerce',

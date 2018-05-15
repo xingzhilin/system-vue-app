@@ -203,7 +203,6 @@ import SignManage from './../components/procurement/signManage/Index'
 import WeighingIndex from './../components/procurement/weighing/Index'
 import InboundInput from './../components/procurement/weighing/inboundInput/Index'
 import InboundInputIndex from './../components/procurement/weighing/inboundInput/pages/Index'
-import InboundInputView from './../components/procurement/weighing/inboundInput/pages/View'
 
 import InboundList from './../components/procurement/weighing/inboundList/Index'
 import InboundListIndex from './../components/procurement/weighing/inboundList/pages/Index'
@@ -1227,12 +1226,6 @@ const procurement = {
 							path: '/weighing/input/list',
 							name: 'inboundInputIndexLink',
 							component: InboundInputIndex							
-						},
-						{
-							path: '/weighing/input/view',
-							name: 'inboundInputViewLink',
-							component: InboundInputView
-
 						}
 					]
 				},

@@ -71,7 +71,7 @@
 		    <el-table-column fixed align="center" prop="status" label="品种"></el-table-column>
 		    <el-table-column align="center" prop="createDate" label="交割库"></el-table-column>
 		    <el-table-column align="center" prop="status" label="交付地"></el-table-column>
-		    <el-table-column align="center" prop="createDate" width="120" label="下单数量"  :render-header="renderHeader"></el-table-column>
+		    <el-table-column align="center" prop="createDate" width="120" label="* 下单数量"  :render-header="renderHeader"></el-table-column>
 		    <el-table-column align="center" prop="status" label="入库数量"></el-table-column>
 		    <el-table-column align="center" prop="createDate" label="实际入库数量"></el-table-column>
 		    <el-table-column align="center" prop="status" label="结算扣罚"></el-table-column>
@@ -214,6 +214,7 @@
 		    },
 		    renderHeader(createElement, { column, $index }) {
 	            let label = column.label;
+	            let labelArr = label.split(' ');
 	             return createElement(
 	                'div',
 	                {
@@ -222,11 +223,11 @@
 	                [
 	                    createElement('em', {
 	                            attrs: { type: 'text', style: 'color:red; padding-right:5px;font-style:normal;' },
-	                        }, ['*']
+	                        }, [labelArr[0]]
 	                        ),
 	                        createElement('span', {
 	                            attrs: { type: 'text', style: 'display: inline-block'},
-	                        }, [label]
+	                        }, [labelArr[1]]
 	                    )
 	                ]
 	            )

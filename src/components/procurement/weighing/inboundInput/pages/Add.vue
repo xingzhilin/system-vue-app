@@ -22,135 +22,144 @@
             </tr>
             <tr>
               <td class="td_label">批次号：</td>
-              <td>{{requestData.batchNo}}</td>
+              <td>订单生成-批次带过来</td>
             </tr>
             <tr>
               <td class="td_label">交割库：</td>
-              <td>{{requestData.whCode}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
             <tr>
               <td class="td_label">货场：</td>
               <td>
-                {{requestData.placeNo}}
+                <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+                  <el-option label="请选择" value=""></el-option>
+                  <el-option label="启用" value="1"></el-option>
+                  <el-option label="停用" value="0"></el-option>
+                </el-select>
               </td>
             </tr>
             <tr>
               <td class="td_label">堆位：</td>
               <td>
-                {{requestData.pileId}}
+                <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+                  <el-option label="请选择" value=""></el-option>
+                  <el-option label="启用" value="1"></el-option>
+                  <el-option label="停用" value="0"></el-option>
+                </el-select>
               </td>
             </tr>
             <tr>
               <td class="td_label">品种：</td>
-              <td>{{requestData.className}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="品种" size="small"></el-input></td>
             </tr>
             <tr>
               <td class="td_label">运输方式：</td>
               <td>
-                {{requestData.tranterType}}
+                带过来数据
               </td>
             </tr>
           </tbody>
         </table>
-        <table v-for="(item,index) in requestData.stores">
+        <table>
           <thead>
             <tr>
-              <th width="260" colspan="2">入库信息{{index+1}}</th>
+              <th width="260" colspan="2">入库信息1</th>
             </tr>
           </thead>
           <tbody>
-             <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">车牌号：</td>
-              <td>
-                 {{item.plateNum}}
-              </td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">车辆：</td>
-              <td>{{item.storeVehicle}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">发货吨数：</td>
-              <td>{{item.sendGoodsQuantity}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">毛重：</td>
-              <td>{{item.grossQuantity}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">皮重：</td>
-              <td>{{item.tareQuantiy}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">入库吨数（毛重-皮重）：</td>
-              <td>{{item.grossQuantity - item.tareQuantiy}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==1">
+            <tr v-if="this.$route.query.tranterType==1">
               <td class="td_label">取小吨数（入库吨数和发货吨数取小）：</td>
-              <td  v-if="(item.grossQuantity - item.tareQuantiy)<item.sendGoodsQuantity">{{item.grossQuantity - item.tareQuantiy}}</td>
-              <td  v-if="(item.grossQuantity - item.tareQuantiy)>item.sendGoodsQuantity">{{item.sendGoodsQuantity}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==2">
+            <tr v-if="this.$route.query.tranterType==2">
               <td class="td_label">车列号：</td>
-              <td>{{item.plateNum}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==2">
+            <tr v-if="this.$route.query.tranterType==2">
               <td class="td_label">首车号：</td>
-              <td>{{item.firstPlateNum}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==2">
+            <tr v-if="this.$route.query.tranterType==2">
               <td class="td_label">尾车号：</td>
-              <td>{{item.endPlateNum}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==2">
+            <tr v-if="this.$route.query.tranterType==2">
               <td class="td_label">车厢数：</td>
-              <td>{{item.receivecarNum}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==2">
+            <tr v-if="this.$route.query.tranterType==2">
               <td class="td_label">入库吨数：</td>
-              <td>{{item.storeQuantiy}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==3">
+            <tr v-if="this.$route.query.tranterType==3">
               <td class="td_label">船名：</td>
-              <td>{{item.plateNum}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==3">
+            <tr v-if="this.$route.query.tranterType==3">
               <td class="td_label">航次：</td>
-              <td>{{item.flightNum}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==3">
+            <tr v-if="this.$route.query.tranterType==3">
               <td class="td_label">船期：</td>
-              <td>{{item.shipDate}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
-            <tr v-if="tranterType==3">
+            <tr v-if="this.$route.query.tranterType==3">
               <td class="td_label">入库吨数：</td>
-              <td>{{item.storeQuantiy}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
             <tr>
               <td class="td_label">调吨：</td>
               <td>
-                {{item.deducQuantity}}
+                扣吨<el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>增吨<el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>
                 查看调吨历史
               </td>
             </tr>
             <tr>
               <td class="td_label">入库时间：</td>
-              <td>{{item.storeTime}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
             <tr>
               <td class="td_label">上传附件：</td>
-              <td>
-                图片列表
-              </td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
             <tr>
               <td class="td_label">备注：</td>
-              <td>{{item.remark}}</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
             </tr>
           </tbody>
         </table>
+    
+        <el-container>
+          <el-button size="small">+ 添加</el-button>
+        </el-container>
         <el-footer>
-          <el-button size="small">返回</el-button>
+          <el-button type="primary"  size="small">保存</el-button>        
+          <el-button type="primary"  size="small">提交审核</el-button>
+          <el-button size="small">取消</el-button>
        </el-footer>
     </div>
 </template>
@@ -158,58 +167,36 @@
     export default {
         data(){
             return {
-                tranterType: null,
-                requestData: {
-                   "batchId": "批次表主键",
-                    "batchNo": "批次号",
-                    "whCode": "交割库",
-                    "placeNo": "货场",
-                    "pileId": "堆位",
-                    "classCode": "品种Code",
-                    "className": "品种",
-                    "tranterType": "运输方式 1、汽运 2、火运 3、船运",
-                    "stores":[
-                      {
-                        "plateNum":"车牌号；车列号；船名",
-                        "storeVehicle":"车辆",
-                        "firstPlateNum":"首车号",
-                        "endPlateNum":"尾车号",
-                        "receivecarNum":"车厢数",
-                        "flightNum":"航次",
-                        "shipDate":"航期",
-                        "sendGoodsQuantity":5000,
-                        "grossQuantity":5000,
-                        "tareQuantiy":5000,
-                        "storeQuantiy":5000,
-                        "minimumQuantiy":5000,
-                        "deducQuantitys":[
-                          {"buckleQuantity":0,"addQuantity":0},
-                          {"buckleQuantity":0,"addQuantity":0}
-                        ]
-                      },
-                      {
-                        "plateNum":"船名",
-                        "storeVehicle":"车辆",
-                        "firstPlateNum":"首车号222",
-                        "endPlateNum":"尾车号22",
-                        "receivecarNum":"车厢数22",
-                        "flightNum":"航2次",
-                        "shipDate":"航2期",
-                        "sendGoodsQuantity":522000,
-                        "grossQuantity":5022200,
-                        "tareQuantiy":502200,
-                        "storeQuantiy":522000,
-                        "minimumQuantiy":2,
-                        "deducQuantitys":[
-                          {"buckleQuantity":0,"addQuantity":0},
-                          {"buckleQuantity":0,"addQuantity":0}
-                        ]
-                      }
-                    ],
-                   "storeTime":"入库时间",
-                   "ticketTime":"起票时间 注意格式 ‘2018-05-02 12：00’",
-                   "remark":"XXXXXXXXXXXXXXXXX",
-                   "status":"状态 1待审核 2通过 3未提交审核(保存) 4被拒收 -1驳回"
+                activeName: 'north',
+                formInline: {
+                  "batchId": "批次表主键",
+                  "batchNo": "批次号",
+                  "whCode": "交割库",
+                  "placeNo": "货场",
+                  "pileId": "堆位",
+                  "classCode": "品种" ,
+                  "tranterType": "运输方式 1、汽运 2、火运 3、船运",
+                  "stores":[
+                    {
+                    "plateNum":"车牌号；车列号；船名",
+                    "storeVehicle":"车辆",
+                    "firstPlateNum":"首车号",
+                    "endPlateNum":"尾车号",
+                    "receivecarNum":"车厢数",
+                    "flightNum":"航次",
+                    "shipDate":"航期",
+                    "sendGoodsQuantity":5000,
+                    "grossQuantity":5000,
+                    "tareQuantiy":5000,
+                    "storeQuantiy":5000,
+                    "minimumQuantiy":5000,
+                    "deducQuantitys":[{"buckleQuantity":0,"addQuantity":0},{"buckleQuantity":0,"addQuantity":0}]
+                    }
+                  ],
+                 "storeTime":"入库时间",
+                 "ticketTime":"起票时间 注意格式 ‘2018-05-02 12：00’",
+                 "remark":"XXXXXXXXXXXXXXXXX",
+                 "status":"状态 1待审核 2通过 3未提交审核(保存) 4被拒收 -1驳回"
                 },                
                 rowMethod({ row, column, rowIndex, columnIndex }){
                   if (columnIndex === 0) {
@@ -219,9 +206,6 @@
                   }
                 }
             }
-        },
-        created(){
-           this.tranterType = this.$route.query.tranterType
         },
         methods:{
           handleClick(tab, event) {

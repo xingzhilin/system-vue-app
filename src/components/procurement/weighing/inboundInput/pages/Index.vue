@@ -2,8 +2,9 @@
 	<div class="order_wrap">
 		<el-breadcrumb separator-class="el-icon-arrow-right">
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
-		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
-          <el-breadcrumb-item>订单管理</el-breadcrumb-item>
+          <el-breadcrumb-item>采购端管理</el-breadcrumb-item>
+          <el-breadcrumb-item>称重管理</el-breadcrumb-item>
+          <el-breadcrumb-item>入库录入</el-breadcrumb-item>
 		</el-breadcrumb>
 		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
 
@@ -47,7 +48,11 @@
 		  		<div class="table_header">
 		  			<el-col :span="4">
 			  			<span>定价</span>
-			  			<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">入库录入</el-button>
+			  			<template slot-scope="scope">
+				    		<router-link :to="{name: 'inboundInputAddLink', query: {orderNo: scope.row.orderNo, tranterType: scope.row.tranterType}}">
+				    			<el-button type="primary" size="mini">入库录入</el-button>
+				    		</router-link>
+					    </template>
 			  		</el-col>
 		  			<el-col :span="20" class="table_info">
 		  				<div class="table_info_li">
@@ -67,7 +72,9 @@
 		  		<el-table :data="item.storeInfo" border size="small" style="width:100%;">
 				    <el-table-column fixed label="操作" width="90" align="center">		    	
 				    	<template slot-scope="scope">
-				    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">入库录入</el-button>
+				    		<router-link :to="{name: 'inboundInputAddLink', query: {batchNo: scope.row.batchNo, tranterType: item.tranterType}}">
+				    			<el-button type="primary" size="mini">入库录入</el-button>
+				    		</router-link>
 					    </template>
 				    </el-table-column>
 				    <el-table-column fixed align="center" prop="batchNo" label="批次号" ></el-table-column>
@@ -195,7 +202,7 @@
 				      "whName": "天津港",
 				      "className": "金银岛1号",
 				      "orderQuantity": 5000000,
-				      "tranterType":"汽运",
+				      "tranterType":"1",
 				      "orderTime": "2018-04-24 12:00:00.0",
 				      "storeInfo":[
 				      		{
@@ -222,7 +229,34 @@
 				      "whName": "天津港444",
 				      "className": "金银岛1号555",
 				      "orderQuantity": 5000000,
-				      "tranterType":"汽运",
+				      "tranterType":"2",
+				      "orderTime": "2018-04-24 12:00:00.0",
+				      "storeInfo":[
+				      		{
+				      			"batchNo":"3443煤炭网20180321",
+				      			"whName":"34534实际入库交割库",
+				      			"className":"345345金银岛1#",
+				      			"storeQuantity":5000,
+				      			"storeTime":"2018-01-02 12:00:00"
+				      		},
+				      		{"batchNo":"34543煤炭网20180321",
+				      		"whName":"35实际入库交割库",
+				      		"className":"345金银岛1#",
+				      		"storeQuantity":500055,
+				      		"storeTime":"2018-01-02 12:00:00"
+				      	}
+				      ]
+				    },
+				    {
+				      "orderId": "11113",
+				      "orderNo": "Y20180356723",
+				      "enName": "33333333333",
+				      "enId": "企业ID",
+				      "supplyChainName": "金银岛宁夏333",
+				      "whName": "天津港444",
+				      "className": "金银岛1号555",
+				      "orderQuantity": 5000000,
+				      "tranterType":"3",
 				      "orderTime": "2018-04-24 12:00:00.0",
 				      "storeInfo":[
 				      		{

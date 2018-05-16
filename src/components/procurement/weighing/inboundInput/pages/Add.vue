@@ -60,10 +60,10 @@
             </tr>
           </tbody>
         </table>
-        <table>
+        <table  v-for="(item, index) in listData">
           <thead>
             <tr>
-              <th width="260" colspan="2">入库信息1</th>
+              <th width="260" colspan="2">入库信息{{index+1}}</th>
             </tr>
           </thead>
           <tbody>
@@ -168,6 +168,7 @@
         data(){
             return {
                 tranterType: null,
+                listData: [], //数组形式添加
                 formInline: {
                   "batchId": "批次表主键",
                   "batchNo": "批次号",

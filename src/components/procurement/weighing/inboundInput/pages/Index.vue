@@ -48,11 +48,9 @@
 		  		<div class="table_header">
 		  			<el-col :span="4">
 			  			<span>定价</span>
-			  			<template slot-scope="scope">
-				    		<router-link :to="{name: 'inboundInputAddLink', query: {orderNo: scope.row.orderNo, tranterType: scope.row.tranterType}}">
+			  			<router-link :to="{name: 'inboundInputAddLink', query: {orderNo: item.orderNo, tranterType: item.tranterType}}">
 				    			<el-button type="primary" size="mini">入库录入</el-button>
 				    		</router-link>
-					    </template>
 			  		</el-col>
 		  			<el-col :span="20" class="table_info">
 		  				<div class="table_info_li">

@@ -146,10 +146,12 @@
 		    initList(toPage, pageSize){
 		    	let sParams = { "toPage": toPage , "pageSize": pageSize};
 				console.log(sParams);
-				this.$axios.post('http://192.168.11.98:9001/api/v1/admin/basics/users', sParams , {
+				this.$axios.post('/api/v1/admin/basics/users', sParams , {
+					
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
+							console.log('**************************');
 							console.log(res);
 							// if(res.status == 200){
 							// 	console.log(res);
@@ -163,6 +165,30 @@
 						console.log('*****************')
 						console.log(error);
 					})
+				// 	
+				// this.$axios.get('http://192.168.11.31:9001/api/v1/basics//access/1' , {
+				// 		headers:{ "Content-Type": "application/json"}
+				// 	})
+				// 	.then(res =>  {
+				// 			console.log(res);
+				// 			// if(res.status == 200){
+				// 			// 	console.log(res);
+				// 			// 	this.totalPage = res.data.total;
+				// 			// 	this.currentPage = res.data.pageNum;
+				// 			// 	this.pageSize = res.data.pageSize;
+				// 			// 	this.tableData = res.data.list;
+				// 			// }
+				// 	})
+				// 	.catch(function (error) {
+				// 		console.log('*****************')
+				// 		console.log(error);
+				// 	})
+
+
+
+
+
+
 				// this.tableData = [					
 				// 	{
 				//       "adminId": "1",

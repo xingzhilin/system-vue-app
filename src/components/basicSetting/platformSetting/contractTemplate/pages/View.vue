@@ -50,7 +50,7 @@
 		},
 		methods:{
 			handleGoBack(){
-				this.$router.push({name:'contractOperateLink'});
+				this.$router.push({name:'contractOperateListLink'});
 			}
 		}
 	}

@@ -53,26 +53,33 @@
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
-		    		<el-button size="mini" @click="handleUpdate(scope.$index, scope.row)">处理</el-button>	
+		    		<router-link :to="{name:'contractOperateViewLink', query:{tempAlias: scope.row.tempAlias}}">
+		    			<el-button type="primary" size="mini">查看</el-button>
+		    		</router-link>	
+		    		<router-link :to="{name:'contractOperateUpdateLink', query:{tempAlias: scope.row.tempAlias}}">
+		    			<el-button size="mini">处理</el-button>
+		    		</router-link>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="userName" label="合同名称"></el-table-column>
-		    <el-table-column align="center" prop="trueUserName" label="合同别名"></el-table-column>
-		    <el-table-column align="center" prop="phoneNum" label="合同使用类型"></el-table-column>
-		    <el-table-column align="center" prop="departName" label="对应业务方式"></el-table-column>
-		    <el-table-column align="center" prop="roleName" label="停/启用状态"></el-table-column>
-		    <el-table-column align="center" prop="userStatus" label="更新时间"></el-table-column>
+		    <el-table-column align="center" prop="tempName" label="合同名称"></el-table-column>
+		    <el-table-column align="center" prop="tempAlias" label="合同别名"></el-table-column>
+		    <el-table-column align="center" prop="userType" label="合同使用类型"></el-table-column>
+		    <el-table-column align="center" prop="bizType" label="对应业务方式"></el-table-column>
+		    <el-table-column align="center" prop="status" label="停/启用状态"></el-table-column>
+		    <el-table-column align="center" prop="createTimeStart" label="更新时间"></el-table-column>
 		</el-table>
-		<el-footer style="height:auto">			
-			<el-pagination
+		
+		<el-footer style="height:auto">
+		    <el-pagination
 		      @size-change="handleSizeChange"
 		      @current-change="handleCurrentChange"
+		      @prev-click="handlePrevChange"  
+		      @next-click="handleNextChange"
 		      :current-page="currentPage"
-		      :page-sizes="[100, 200, 300, 400]"
-		      :page-size="100"
+		      :page-sizes="pageSizes"
+		      :page-size="pageSize"
 		      layout="total, sizes, prev, pager, next, jumper"
-		      :total="400">
+		      :total="totalPage">
 		    </el-pagination>
 		</el-footer>
 	</div>  
@@ -83,6 +90,11 @@
 		data(){
 			return {
 				msg: '合同模板维护',
+				tableData: [],
+				pageSize: 10,
+				pageSizes:[2, 3, 5, 10],
+		        currentPage: 1,
+		        totalPage: null,
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -90,28 +102,11 @@
 					roleName: '',
 					userStatus: ''
 				},
-				tableData: [
-					{
-					  id: 1,
-			          userName: 'Lily',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        },
-			        {
-					  id: 2,
-			          userName: 'Lily',
-			          phoneNum:'1283893044',
-			          departName: '运营',
-			          roleName:'测试',
-			          userStatus:'是',
-			          date:'2016-05-02'
-			        }
-		        ],
-		        currentPage: 4,
+				tableData: []
 			}
+		},
+		created(){
+			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleSubmit(formName){
@@ -132,20 +127,53 @@
 				console.log('add');
 				this.$router.push({name: 'contractOperateAddLink'});
 			},
-			handleCheck(index, row){
-				console.log(index, row);
-		        this.$router.push({name: 'contractOperateViewLink', params: { id: index }});
-		        // v-bind:to="'/blog/' + blog.id"
-			},
-			handleUpdate(index, row) {
-		        console.log(row);
-		        this.$router.push({name: 'contractOperateAddLink', query: { flag: 'edit', id: row.id}});
+			 handlePrevChange(val){
+		    	console.log(`上一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
+		    handleNextChange(val){
+		    	console.log(`下一页 ${val} 条`)
+		        this.pageSize = val;
 		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);
+		        this.pageSize = val;
+		        console.log(this.pageSize);
+				this.initList(this.currentPage, this.pageSize);
 		    },
 		    handleCurrentChange(val) {
 		        console.log(`当前页: ${val}`);
+		        this.currentPage = val;
+				this.initList(this.currentPage, this.pageSize);
+		    },
+		    initList(toPage, pageSize){
+		    	let sParams = { toPage: toPage , pageSize: pageSize};
+				console.log(sParams);
+				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+							if(res.status == 200){
+								console.log(res);
+								this.totalPage = res.data.total;
+								this.currentPage = res.data.pageNum;
+								this.pageSize = res.data.pageSize;
+								this.tableData = res.data.list;
+							}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})*/
+				this.tableData = [
+					{
+				      "tempName": "BZJ-0316-通用扣水",
+				      "tempAlias": "金银岛4号",
+				      "userType": "供货招标确认函",
+				      "bizType": "采购锁价合同",
+				      "status": "启用",
+				      "createTime": "2018-05-12 13:32"
+				    }
+				]
 		    }
 		}
 	}

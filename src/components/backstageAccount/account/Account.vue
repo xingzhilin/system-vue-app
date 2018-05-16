@@ -116,14 +116,6 @@
 				console.log('add');
 				this.$router.push({name: 'addAccountLink'});
 			},
-			handleCheck(index, row){
-				console.log(index, row);
-		        this.$router.push({name: 'checkAccountLink'});
-			},
-			handleEdit(index, row) {
-		        console.log(index, row);
-		        this.$router.push({name: 'editAccountLink'});
-		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
 		        this.pageSize = val;

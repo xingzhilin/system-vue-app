@@ -349,10 +349,11 @@ import WarehouseManageUpdate from './../components/basicSetting/platformSetting/
 import WarehouseManageSorting from './../components/basicSetting/platformSetting/warehouseManage/operate/Sorting'
 import WarehouseManagePremium from './../components/basicSetting/platformSetting/warehouseManage/operate/Premium'
 
-import ContractTemplate from './../components/basicSetting/platformSetting/contractTemplate/Index'
-import ContractTemplateOperate from './../components/basicSetting/platformSetting/contractTemplate/operate/Index'
-import ContractTemplateOperateAdd from './../components/basicSetting/platformSetting/contractTemplate/operate/Add'
-import ContractTemplateOperateView from './../components/basicSetting/platformSetting/contractTemplate/operate/View'
+import ContractTemplateIndex from './../components/basicSetting/platformSetting/contractTemplate/Index'
+import ContractTemplateList from './../components/basicSetting/platformSetting/contractTemplate/pages/Index'
+import ContractTemplateOperateAdd from './../components/basicSetting/platformSetting/contractTemplate/pages/Add'
+import ContractTemplateOperateUpdate from './../components/basicSetting/platformSetting/contractTemplate/pages/Update'
+import ContractTemplateOperateView from './../components/basicSetting/platformSetting/contractTemplate/pages/View'
 
 import MessageSetting from './../components/basicSetting/platformSetting/messageSetting/Index'
 import AppMsg from './../components/basicSetting/platformSetting/messageSetting/appMsg/Index'
@@ -1827,12 +1828,12 @@ const basicSetting = {
 				{
 					path: '/platform/contract',
 					name: 'contractLink',
-					component: ContractTemplate,
+					component: ContractTemplateIndex,
 					children: [
 						{
-							path: '/platform/contract/operate',
-							name: 'contractOperateLink',
-							component: ContractTemplateOperate
+							path: '/platform/contract/list',
+							name: 'contractOperateListLink',
+							component: ContractTemplateList
 						},
 						{
 							path: '/platform/contract/add',
@@ -1840,9 +1841,14 @@ const basicSetting = {
 							component: ContractTemplateOperateAdd
 						},
 						{
-							path: '/platform/contract/view/:id',
+							path: '/platform/contract/view',
 							name: 'contractOperateViewLink',
 							component: ContractTemplateOperateView
+						},
+						{
+							path: '/platform/contract/update',
+							name: 'contractOperateUpdateLink',
+							component: ContractTemplateOperateUpdate
 						}
 					]
 				},        

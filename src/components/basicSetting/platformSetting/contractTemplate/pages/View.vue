@@ -4,33 +4,33 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="140px" class="demo-ruleForm">
+		<el-form :model="formData" ref="ruleForm" label-width="140px" class="demo-ruleForm">
             <el-form-item label="合同名称：">
-                {{form.name}}
+                {{formData.tempName}}
             </el-form-item>
             <el-form-item label="合同别名：">
-                {{form.name}}
+                {{formData.tempAlias}}
             </el-form-item>
             <el-form-item label="合同使用类型：">
-                {{form.name}}
+                {{formData.useType}}
             </el-form-item>
             <el-form-item label="对应业务类型：">
-                {{form.name}}
+                {{formData.bizType}}
             </el-form-item>
             <el-form-item label="合同简介：">
-                {{form.name}}
+                {{formData.tempDesc}}
             </el-form-item>
             <el-form-item label="上传附件：">
-                {{form.name}}
+                {{formData.name}}
             </el-form-item>
             <el-form-item label="使用范围设置：">
-                {{form.name}}
+                {{formData.useScope}}
             </el-form-item>
             <el-form-item label="指定交割库：">
-                {{form.name}}
+                {{formData.whCode}}
             </el-form-item>
             <el-form-item label="停/启用状态：">
-                {{form.name}}
+                {{formData.status}}
             </el-form-item>              
         </el-form>
 		<el-footer>
@@ -43,15 +43,35 @@
 		data(){
 			return {
 				msg: '合同模板查看',
-				form: {
+				formData: {
 					name: 1
 				},
 			}
 		},
+		created(){
+			this.initList()
+		},
 		methods:{
 			handleGoBack(){
 				this.$router.push({name:'contractOperateListLink'});
-			}
+			},
+			initList(){
+				let tempCode = this.$route.query.tempCode;
+				this.$axios.get('http://192.168.15.172:9001/v1/basics/contract/' + tempCode,{
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+						console.log('****************************');
+						console.log(res);
+						console.log('****************************');
+						if(res.status == 200){
+							this.formData = res.data.result;
+						}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
+		    }
 		}
 	}
 </script>

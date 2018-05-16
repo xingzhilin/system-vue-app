@@ -53,10 +53,10 @@
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<router-link :to="{name:'contractOperateViewLink', query:{tempAlias: scope.row.tempAlias}}">
+		    		<router-link :to="{name:'contractOperateViewLink', query:{tempCode: scope.row.tempCode}}">
 		    			<el-button type="primary" size="mini">查看</el-button>
 		    		</router-link>	
-		    		<router-link :to="{name:'contractOperateUpdateLink', query:{tempAlias: scope.row.tempAlias}}">
+		    		<router-link :to="{name:'contractOperateUpdateLink', query:{tempCode: scope.row.tempCode}}">
 		    			<el-button size="mini">处理</el-button>
 		    		</router-link>	
 			      </template>
@@ -148,32 +148,22 @@
 		    },
 		    initList(toPage, pageSize){
 		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				console.log(sParams);
-				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contracts', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
-							if(res.status == 200){
+							if(res.data.status == 200){
 								console.log(res);
-								this.totalPage = res.data.total;
-								this.currentPage = res.data.pageNum;
-								this.pageSize = res.data.pageSize;
-								this.tableData = res.data.list;
+								this.totalPage = res.data.result.total;
+								this.currentPage = res.data.result.pageNum;
+								this.pageSize = res.data.result.pageSize;
+								this.tableData = res.data.result.list;
 							}
 					})
 					.catch(function (error) {
+						console.log('*****************')
 						console.log(error);
-					})*/
-				this.tableData = [
-					{
-				      "tempName": "BZJ-0316-通用扣水",
-				      "tempAlias": "金银岛4号",
-				      "userType": "供货招标确认函",
-				      "bizType": "采购锁价合同",
-				      "status": "启用",
-				      "createTime": "2018-05-12 13:32"
-				    }
-				]
+					})
 		    }
 		}
 	}

@@ -153,6 +153,7 @@
 					})
 					.then(res =>  {
 							if(res.data.status == 200){
+								console.log(res);
 								this.totalPage = res.data.result.total;
 								this.currentPage = res.data.result.pageNum;
 								this.pageSize = res.data.result.pageSize;
@@ -160,6 +161,7 @@
 							}
 					})
 					.catch(function (error) {
+						console.log('*****************')
 						console.log(error);
 					})
 		    }

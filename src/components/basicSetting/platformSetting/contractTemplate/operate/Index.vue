@@ -53,33 +53,26 @@
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<router-link :to="{name:'contractOperateViewLink', query:{tempCode: scope.row.tempCode}}">
-		    			<el-button type="primary" size="mini">查看</el-button>
-		    		</router-link>	
-		    		<router-link :to="{name:'contractOperateUpdateLink', query:{tempCode: scope.row.tempCode}}">
-		    			<el-button size="mini">处理</el-button>
-		    		</router-link>	
+		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
+		    		<el-button size="mini" @click="handleUpdate(scope.$index, scope.row)">处理</el-button>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="tempName" label="合同名称"></el-table-column>
-		    <el-table-column align="center" prop="tempAlias" label="合同别名"></el-table-column>
-		    <el-table-column align="center" prop="userType" label="合同使用类型"></el-table-column>
-		    <el-table-column align="center" prop="bizType" label="对应业务方式"></el-table-column>
-		    <el-table-column align="center" prop="status" label="停/启用状态"></el-table-column>
-		    <el-table-column align="center" prop="createTimeStart" label="更新时间"></el-table-column>
+		    <el-table-column align="center" prop="userName" label="合同名称"></el-table-column>
+		    <el-table-column align="center" prop="trueUserName" label="合同别名"></el-table-column>
+		    <el-table-column align="center" prop="phoneNum" label="合同使用类型"></el-table-column>
+		    <el-table-column align="center" prop="departName" label="对应业务方式"></el-table-column>
+		    <el-table-column align="center" prop="roleName" label="停/启用状态"></el-table-column>
+		    <el-table-column align="center" prop="userStatus" label="更新时间"></el-table-column>
 		</el-table>
-		
-		<el-footer style="height:auto">
-		    <el-pagination
+		<el-footer style="height:auto">			
+			<el-pagination
 		      @size-change="handleSizeChange"
 		      @current-change="handleCurrentChange"
-		      @prev-click="handlePrevChange"  
-		      @next-click="handleNextChange"
 		      :current-page="currentPage"
-		      :page-sizes="pageSizes"
-		      :page-size="pageSize"
+		      :page-sizes="[100, 200, 300, 400]"
+		      :page-size="100"
 		      layout="total, sizes, prev, pager, next, jumper"
-		      :total="totalPage">
+		      :total="400">
 		    </el-pagination>
 		</el-footer>
 	</div>  
@@ -90,11 +83,6 @@
 		data(){
 			return {
 				msg: '合同模板维护',
-				tableData: [],
-				pageSize: 10,
-				pageSizes:[2, 3, 5, 10],
-		        currentPage: 1,
-		        totalPage: null,
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -102,11 +90,28 @@
 					roleName: '',
 					userStatus: ''
 				},
-				tableData: []
+				tableData: [
+					{
+					  id: 1,
+			          userName: 'Lily',
+			          phoneNum:'1283893044',
+			          departName: '运营',
+			          roleName:'测试',
+			          userStatus:'是',
+			          date:'2016-05-02'
+			        },
+			        {
+					  id: 2,
+			          userName: 'Lily',
+			          phoneNum:'1283893044',
+			          departName: '运营',
+			          roleName:'测试',
+			          userStatus:'是',
+			          date:'2016-05-02'
+			        }
+		        ],
+		        currentPage: 4,
 			}
-		},
-		created(){
-			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleSubmit(formName){
@@ -127,41 +132,20 @@
 				console.log('add');
 				this.$router.push({name: 'contractOperateAddLink'});
 			},
-			 handlePrevChange(val){
-		    	console.log(`上一页 ${val} 条`)
-		        this.pageSize = val;
-		    },
-		    handleNextChange(val){
-		    	console.log(`下一页 ${val} 条`)
-		        this.pageSize = val;
+			handleCheck(index, row){
+				console.log(index, row);
+		        this.$router.push({name: 'contractOperateViewLink', params: { id: index }});
+		        // v-bind:to="'/blog/' + blog.id"
+			},
+			handleUpdate(index, row) {
+		        console.log(row);
+		        this.$router.push({name: 'contractOperateAddLink', query: { flag: 'edit', id: row.id}});
 		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);
-		        this.pageSize = val;
-		        console.log(this.pageSize);
-				this.initList(this.currentPage, this.pageSize);
 		    },
 		    handleCurrentChange(val) {
 		        console.log(`当前页: ${val}`);
-		        this.currentPage = val;
-				this.initList(this.currentPage, this.pageSize);
-		    },
-		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contracts', sParams , {
-						headers:{ "Content-Type": "application/json"}
-					})
-					.then(res =>  {
-							if(res.data.status == 200){
-								this.totalPage = res.data.result.total;
-								this.currentPage = res.data.result.pageNum;
-								this.pageSize = res.data.result.pageSize;
-								this.tableData = res.data.result.list;
-							}
-					})
-					.catch(function (error) {
-						console.log(error);
-					})
 		    }
 		}
 	}

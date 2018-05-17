@@ -4,38 +4,37 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="form" label-width="80px">
+		<el-form ref="form" :model="form" :rules="rules" label-width="80px">
 			<table class="add_table">
 				<tbody>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同名称：</td>
-						<td><el-input v-model="form.tempName" size="small"></el-input></td>
+						<td>
+							<el-input v-model="form.tempName" size="small"></el-input>
+						</td>
 					</tr>
 					<tr>
-						<td class="td_label"><span class="zl_required">*</span>合同别名：</td>
+						<td class="td_label">合同别名：</td>
 						<td><el-input v-model="form.tempAlias" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同使用类型：</td>
 						<td>
 						    <el-select v-model="form.useType" placeholder="请选择" size="small">
-							    <!-- <el-option
-							      v-for="item in options"
-							      :key="item.value"
-							      :label="item.label"
-							      :value="item.value">
-							    </el-option> -->
-							        <el-option label="北方港" value="1"></el-option>
-						      		<el-option label="南方港" value="2"></el-option>
+							    <el-option
+							      v-for="item in useTypeList"
+							      :key="item.valueCode"
+							      :label="item.paramName"
+							      :value="item.valueCode">
+							    </el-option>
 							</el-select>
 						</td>
 					</tr>
 					<tr>
-						<td class="td_label">对应业务类型：</td>
+						<td class="td_label"><span class="zl_required">*</span>对应业务类型：</td>
 						<td>
 							<el-radio-group v-model="form.bizType">
-							    <el-radio :label="1">定期招标（定价）</el-radio>
-							    <el-radio :label="2">定期招标（竞价）</el-radio>
+							    <el-radio v-for="item in bizTypeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
 							</el-radio-group>
 						</td>
 					</tr>
@@ -65,12 +64,10 @@
 						<td class="td_label"><span class="zl_required">*</span>使用范围设置：</td>
 						<td class="td_text">
 							<el-radio-group v-model="form.useScope">
-							    <el-radio :label="1">金银岛后台发布报盘</el-radio>
-							    <el-radio :label="2">专享企业</el-radio>
+							    <el-radio v-for="item in useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
 							</el-radio-group>
 							<el-select v-model="form.enId" placeholder="请选择企业" size="small">
 						      <el-option label="北方港" value="shanghai"></el-option>
-						      <el-option label="南方港" value="beijing"></el-option>
 						    </el-select>
 						</td>
 					</tr>
@@ -84,8 +81,8 @@
 						<td class="td_label">停/启用状态：</td>
 						<td class="td_text">
 							<el-radio-group v-model="form.status" size="small">
-						      <el-radio label="1"></el-radio>
-						      <el-radio label="0"></el-radio>
+						      <el-radio :label="1">启用</el-radio>
+						      <el-radio :label="0">停用</el-radio>
 						    </el-radio-group>
 						</td>
 					</tr>
@@ -93,7 +90,7 @@
 				</tbody>
 			</table>
 			<el-footer>
-			    <el-button type="primary" @click="handleSubmitForm()" size="small">保存</el-button>
+			    <el-button type="primary" @click="handleSubmitForm('form')" size="small" :disabled="isDisabled">保存</el-button>
 			    <el-button @click="handleGoBack('form')" size="small">取消</el-button>
 			</el-footer>
 		</el-form>
@@ -105,6 +102,26 @@
 			return {
 				msg: '合同模板编辑',
 				form: {},
+				isDisabled: false,
+				form: {},
+				 rules: {
+					tempName: [
+						{ required: true, message: '请输入角色名称', trigger: 'blur' },
+						{ min: 2, max: 16, message: '长度在 2 到 16 个字符', trigger: 'blur' },
+						{ 
+							validator: (rule, value, callback)=>{
+								console.log(value);  // 输入的值
+								return callback()  //必须return 才能通过
+								// callback(new Error('用户名已存在'));//抛出校验错误提示
+							}, 
+							trigger: 'blur' 
+						}
+					]
+				},
+				bizTypeList: [],
+				useScopeList: [],
+				useTypeList: [],
+				whCodeList:[]
 			}
 		},
 		created(){
@@ -112,18 +129,23 @@
 		},
 		methods:{
 			handleSubmitForm(){
-				console.log(this.form);
-				console.log('submit');
+				this.isDisabled = true;
 				let sParams = JSON.stringify(this.form);
-				console.log(typeof sParams);
-				console.log(sParams);
-				this.$axios.put('http://192.168.15.172:9001/v1/admin/basics/contract', sParams , {
+				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contract', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
 							console.log(res);
 							if(res.data.status == 200){
-								console.log(res);
+								this.$message({
+						          showClose: true,
+						          message: '恭喜您已经成功提交！',
+						          type: 'success',
+						          duration: 2000,
+						          onClose: () => {
+						        	this.$router.push({name:'contractOperateListLink'});
+						          }
+						        });
 							}
 					})
 					.catch(function (error) {
@@ -142,6 +164,9 @@
 				.catch(function (error) {
 					console.log(error);
 				})
+
+
+
 			},
 			handleGoBack(){
 				this.$router.go(-1);

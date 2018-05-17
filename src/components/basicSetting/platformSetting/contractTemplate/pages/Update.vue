@@ -4,25 +4,25 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="form" :rules="rules" label-width="80px">
+		<el-form ref="form" :model="formData" :rules="rules" label-width="80px">
 			<table class="add_table">
 				<tbody>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同名称：</td>
 						<td>
-							<el-input v-model="form.tempName" size="small"></el-input>
+							<el-input v-model="formData.tempName" size="small"></el-input>
 						</td>
 					</tr>
 					<tr>
 						<td class="td_label">合同别名：</td>
-						<td><el-input v-model="form.tempAlias" size="small"></el-input></td>
+						<td><el-input v-model="formData.tempAlias" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同使用类型：</td>
 						<td>
-						    <el-select v-model="form.useType" placeholder="请选择" size="small">
+						    <el-select v-model="formData.useType" placeholder="请选择" size="small">
 							    <el-option
-							      v-for="item in useTypeList"
+							      v-for="item in formData.useTypeList"
 							      :key="item.valueCode"
 							      :label="item.paramName"
 							      :value="item.valueCode">
@@ -33,14 +33,14 @@
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>对应业务类型：</td>
 						<td>
-							<el-radio-group v-model="form.bizType">
-							    <el-radio v-for="item in bizTypeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
+							<el-radio-group v-model="formData.bizType">
+							    <el-radio v-for="item in formData.bizTypeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
 							</el-radio-group>
 						</td>
 					</tr>
 					<tr>
 						<td class="td_label">合同简介：</td>
-						<td><el-input v-model="form.tempDesc" size="small"></el-input></td>
+						<td><el-input v-model="formData.tempDesc" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>上传附件：</td>
@@ -63,10 +63,10 @@
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>使用范围设置：</td>
 						<td class="td_text">
-							<el-radio-group v-model="form.useScope">
-							    <el-radio v-for="item in useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
+							<el-radio-group v-model="formData.useScope">
+							    <el-radio v-for="item in formData.useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
 							</el-radio-group>
-							<el-select v-model="form.enId" placeholder="请选择企业" size="small">
+							<el-select v-model="formData.enId" placeholder="请选择企业" size="small">
 						      <el-option label="北方港" value="shanghai"></el-option>
 						    </el-select>
 						</td>
@@ -80,7 +80,7 @@
 					<tr>
 						<td class="td_label">停/启用状态：</td>
 						<td class="td_text">
-							<el-radio-group v-model="form.status" size="small">
+							<el-radio-group v-model="formData.status" size="small">
 						      <el-radio :label="1">启用</el-radio>
 						      <el-radio :label="0">停用</el-radio>
 						    </el-radio-group>
@@ -101,7 +101,7 @@
 		data(){
 			return {
 				msg: '合同模板编辑',
-				form: {},
+				formData: {},
 				isDisabled: false,
 				form: {},
 				 rules: {
@@ -130,8 +130,19 @@
 		methods:{
 			handleSubmitForm(){
 				this.isDisabled = true;
-				let sParams = JSON.stringify(this.form);
-				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contract', sParams , {
+				let form = {};
+				form.tempCode = this.formData.tempCode;
+				form.tempName = this.formData.tempName;
+				form.whCode = this.formData.whCode;
+				form.tempAlias = this.formData.tempAlias;
+				form.useType = this.formData.useType;
+				form.bizType = this.formData.bizType;
+				form.tempDesc = this.formData.tempDesc;
+				form.enId = this.formData.enId;
+				form.status = this.formData.status;
+				let sParams = JSON.stringify(form);
+				console.log(sParams)
+				this.$axios.put('http://192.168.15.172:9001/v1/admin/basics/contract', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
@@ -160,6 +171,9 @@
 				.then(res => {
 					console.log('******************************')
 					console.log(res)
+					if(res.data.status == 200){
+						this.formData = res.data.result;
+					}
 				})
 				.catch(function (error) {
 					console.log(error);

@@ -1,46 +1,26 @@
 <template>
-	<div class="account">
+	<div class="">
 		<el-breadcrumb separator-class="el-icon-arrow-right">
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
-		  <el-form-item label="合同名称：">
-		    <el-input v-model="formInline.userName" placeholder="合同名称" size="small"></el-input>
+		<el-form :inline="true" :model="formInline" :rules="rules" ref="formInline" class="demo-form-inline">
+		  <el-form-item label="用户名" prop="userName">
+		    <el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>
 		  </el-form-item>
-		  <el-form-item label="合同别名：">
-		    <el-input v-model="formInline.userName" placeholder="合同别名" size="small"></el-input>
+		  <el-form-item label="真实姓名" prop="trueUserName">
+		    <el-input v-model="formInline.trueUserName" placeholder="真实姓名" size="small"></el-input>
 		  </el-form-item>
-		  <el-form-item label="合同使用类型：">
+		  <el-form-item label="角色名称" prop="roleName">
+		    <el-input v-model="formInline.roleName" placeholder="角色名称" size="small"></el-input>
+		  </el-form-item>		
+		  <el-form-item label="用户状态" prop="userStatus">
 		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
 		      <el-option label="请选择" value=""></el-option>
 		      <el-option label="启用" value="1"></el-option>
 		      <el-option label="停用" value="0"></el-option>
 		    </el-select>
 		  </el-form-item>
-		  <el-form-item label="对应业务方式：">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
-		      <el-option label="请选择" value=""></el-option>
-		      <el-option label="启用" value="1"></el-option>
-		      <el-option label="停用" value="0"></el-option>
-		    </el-select>
-		  </el-form-item>
-		  <el-form-item label="停/启用状态：">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
-		      <el-option label="请选择" value=""></el-option>
-		      <el-option label="启用" value="1"></el-option>
-		      <el-option label="停用" value="0"></el-option>
-		    </el-select>
-		  </el-form-item>
-		  <el-form-item label="添加时间：">
-			  	 <el-col :span="11">
-			      <el-date-picker type="datetime" v-model="formInline.time" placeholder="选择日期" style="width: 100%;"></el-date-picker>
-			    </el-col>
-			    <el-col class="line" :span="2">-</el-col>
-			    <el-col :span="11">
-			      <el-date-picker type="datetime" v-model="formInline.time" placeholder="选择日期" style="width: 100%;"></el-date-picker>
-			    </el-col>
-			  </el-form-item>	
 		  <el-form-item>
 		    <el-button type="primary" @click="handleSubmit('formInline')" size="small">查询</el-button>
 		    <el-button @click="handleReset('formInline')" size="small">重置</el-button>
@@ -48,27 +28,31 @@
 		</el-form>
 		<div class="el-line"></div>
 		<el-container>
-	      <el-button type="danger" @click="handleAdd" size="small">新增</el-button>	       
+	      <el-button type="danger" @click="handleAdd" size="small">添加账号</el-button>	        
+	      <span class="total">总计：</span>
 	    </el-container>
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<router-link :to="{name:'contractOperateViewLink', query:{tempCode: scope.row.tempCode}}">
+		    		<router-link :to="{name: 'checkAccountLink', query: {adminId:scope.row.adminId}}">
 		    			<el-button type="primary" size="mini">查看</el-button>
-		    		</router-link>	
-		    		<router-link :to="{name:'contractOperateUpdateLink', query:{tempCode: scope.row.tempCode}}">
+		    		</router-link>
+		    		<router-link :to="{name: 'editAccountLink', query: {adminId:scope.row.adminId}}">
 		    			<el-button size="mini">处理</el-button>
 		    		</router-link>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="tempName" label="合同名称"></el-table-column>
-		    <el-table-column align="center" prop="tempAlias" label="合同别名"></el-table-column>
-		    <el-table-column align="center" prop="userType" label="合同使用类型"></el-table-column>
-		    <el-table-column align="center" prop="bizType" label="对应业务方式"></el-table-column>
-		    <el-table-column align="center" prop="status" label="停/启用状态"></el-table-column>
-		    <el-table-column align="center" prop="createTimeStart" label="更新时间"></el-table-column>
+		    <el-table-column align="center" prop="userName" label="用户名"></el-table-column>
+		    <el-table-column align="center" prop="realName" label="真实姓名"></el-table-column>
+		    <el-table-column align="center" prop="cellPhone" label="手机号"></el-table-column>
+		    <el-table-column align="center" prop="" label="角色名称">		    	   
+		    	<template slot-scope="scope">
+					<span v-for="item in scope.row.userRoles">{{item.roleName}};</span>
+		    	</template>
+		    </el-table-column>
+		    <el-table-column align="center" prop="status" label="用户状态"></el-table-column>
+		    <el-table-column align="center" prop="createTime" label="注册时间"></el-table-column>
 		</el-table>
-		
 		<el-footer style="height:auto">
 		    <el-pagination
 		      @size-change="handleSizeChange"
@@ -86,10 +70,17 @@
 </template>
 <script>
 	export default {
-		name: 'Index',
+		name: 'Management',
 		data(){
 			return {
-				msg: '合同模板维护',
+				msg: 'Management',
+				formInline: {
+					userName: '',
+					trueUserName: '',
+					departName: '',
+					roleName: '',
+					userStatus: ''
+				},
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
@@ -101,6 +92,23 @@
 					departName: '',
 					roleName: '',
 					userStatus: ''
+				},
+				rules: {         
+					userName: [
+						{ required: true, message: '请输入用户名', trigger: 'blur' }
+					],
+					trueUserName: [
+						{ required: true, message: '请输入真实姓名', trigger: 'blur' }
+					],
+					departName: [
+						{ required: true, message: '请输入部门名称', trigger: 'blur' }
+					],
+					roleName: [
+						{ required: true, message: '请输入角色名称', trigger: 'blur' }
+					],
+					userStatus: [
+						{ required: true, message: '请选择账号状态', trigger: 'change'}
+					]
 				}
 			}
 		},
@@ -119,14 +127,13 @@
 				})
 			},
 			handleReset(formName){
-				//this.formInline = {}
 				this.$refs[formName].resetFields();
 			},
 			handleAdd(){
 				console.log('add');
-				this.$router.push({name: 'contractOperateAddLink'});
+				this.$router.push({name: 'addAccountLink'});
 			},
-			 handlePrevChange(val){
+		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
 		        this.pageSize = val;
 		    },
@@ -146,8 +153,8 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				this.$axios.post('http://192.168.11.98:9001/admin/basics/warehouses', sParams , {
+		    	let sParams = { "toPage": toPage , "pageSize": pageSize};
+				this.$axios.post('http://192.168.11.98:9001/api/v1/admin/basics/users', JSON.stringify(sParams) , {			
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
@@ -161,6 +168,7 @@
 					.catch(function (error) {
 						console.log(error);
 					})
+
 		    }
 		}
 	}

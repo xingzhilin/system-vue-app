@@ -42,11 +42,13 @@ import RiseAndLoss from './../components/statistics/inventory/riseAndLoss/Index'
 //后台账户管理
 import backstageAccountIndex from './../components/backstageAccount/Index'
 //账户
-import Account from './../components/backstageAccount/account/Account'
-import AddAccount from './../components/backstageAccount/account/AddAccount'
-import DeliveryChoice from './../components/backstageAccount/account/DeliveryChoice'
-import EditAccount from './../components/backstageAccount/account/EditAccount'
-import CheckAccount from './../components/backstageAccount/account/CheckAccount'
+import Account from './../components/backstageAccount/account/Index'
+import AccountIndex from './../components/backstageAccount/account/pages/Index'
+import AddAccount from './../components/backstageAccount/account/pages/Add'
+import DeliveryChoice from './../components/backstageAccount/account/pages/DeliveryChoice'
+import EditAccount from './../components/backstageAccount/account/pages/Updaue'
+import CheckAccount from './../components/backstageAccount/account/pages/CheckAccount'
+
 //角色
 import Role from './../components/backstageAccount/role/Role'
 import AddRole from './../components/backstageAccount/role/addRole'
@@ -527,27 +529,34 @@ const backstageAccount = {
 		{
 			path: '/backstage/account',
 			name: 'accountLink',
-			component: Account
-		}, 
-		{
-			path: '/backstage/addAccount',
-			name: 'addAccountLink',
-			component: AddAccount
-		},
-		{
-			path: '/backstage/DeliveryChoice',
-			name: 'DeliveryChoiceLink',
-			component: DeliveryChoice
-		},
-		{
-			path: '/backstage/editAccount',
-			name: 'editAccountLink',
-			component: EditAccount
-		},
-		{
-			path: '/backstage/checkAccount',
-			name: 'checkAccountLink',
-			component: CheckAccount
+			component: Account,
+			children: [		
+				{
+					path: '/backstage/account/list',
+					name: 'addAccountListLink',
+					component: AccountIndex
+				},	 
+				{
+					path: '/backstage/account/add',
+					name: 'addAccountLink',
+					component: AddAccount
+				},
+				{
+					path: '/backstage/account/DeliveryChoice',
+					name: 'DeliveryChoiceLink',
+					component: DeliveryChoice
+				},
+				{
+					path: '/backstage/account/update',
+					name: 'editAccountLink',
+					component: EditAccount
+				},
+				{
+					path: '/backstage/account/view',
+					name: 'checkAccountLink',
+					component: CheckAccount
+				}
+			]
 		},
 		{
 			path: '/backstage/role',
@@ -2096,6 +2105,6 @@ const routes = [
 
 
 export default new Router({
-  mode: 'history',
+ // mode: 'history',
   routes
 })

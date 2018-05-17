@@ -5,14 +5,18 @@
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
 		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
-		  <el-form-item label="交割库名称：" prop="userName">
-		    <el-input v-model="formInline.userName" placeholder="交割库名称" size="small"></el-input>
+		  <el-form-item label="交割库名称：" prop="name">
+		    <el-input v-model="formInline.name" placeholder="用户名" size="small"></el-input>
+		  </el-form-item>		  		
+		  <el-form-item label="排序：" prop="sort">
+		    <el-select v-model="formInline.sort" placeholder="请选择" size="small">  
+		      <el-option label="请选择" value=""></el-option>
+		      <el-option label="A" value="1"></el-option>
+		      <el-option label="B" value="0"></el-option>
+		    </el-select>
 		  </el-form-item>
-		  <el-form-item label="排序：" prop="trueUserName">
-		    <el-input v-model="formInline.trueUserName" placeholder="排序" size="small"></el-input>
-		  </el-form-item>
-		  <el-form-item label="交割库状态" prop="userStatus">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+		  <el-form-item label="交割库状态：" prop="status">
+		    <el-select v-model="formInline.status" placeholder="请选择" size="small">  
 		      <el-option label="请选择" value=""></el-option>
 		      <el-option label="启用" value="1"></el-option>
 		      <el-option label="停用" value="0"></el-option>
@@ -23,21 +27,23 @@
 		    <el-button @click="handleReset('formInline')" size="small">重置</el-button>
 		  </el-form-item>
 		</el-form>
-		<div class="el-line"></div>
-		<el-table :data="tableData" border size="small">
-		    <el-table-column prop="" label="操作" width="260" align="center">		    	
-		    	<template slot-scope="scope">
-		    		<router-link>
-		    			<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>
-		    		</router-link>
-		    		<router-link>
-		    			<el-button size="mini" @click="handleEdit(scope.$index, scope.row)">处理</el-button>
-		    		</router-link>
-			      </template>
-		    </el-table-column>
-		    <el-table-column align="center" prop="userName" label="交割库名称"></el-table-column>
-		    <el-table-column align="center" prop="userStatus" label="交割库状态"></el-table-column>
+		<div class="el-line"></div>		
+		<el-container>
+	      <el-button type="danger" @click="handleChoice" size="small">确定选择</el-button>
+	    </el-container>
+		<el-table
+			ref="multipleTable"
+			:data="tableData"
+			:span-method="rowMethod"
+			tooltip-effect="dark"
+			style="width: 100%"
+			@selection-change="handleSelectionChange">
+			<el-table-column align="center" type="selection" width="30"></el-table-column>
+			<el-table-column align="center" label="选择" width="50"></el-table-column>
+			<el-table-column align="center" prop="name" label="交割库名称"></el-table-column>
+			<el-table-column align="center" prop="status" label="交割库状态" width="120"></el-table-column>
 		</el-table>
+		
 		<el-footer style="height:auto">
 		    <el-pagination
 		      @size-change="handleSizeChange"
@@ -58,7 +64,7 @@
 		name: 'AccountManagement',
 		data(){
 			return {
-				msg: 'AccountManagement',
+				msg: 'DeliveryChoice',
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
@@ -70,32 +76,37 @@
 					departName: '',
 					roleName: '',
 					userStatus: ''
-				}
-		    }
+				},
+				multipleSelection:''
+			}
 		},
 		mounted(){
 			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
-			handleSubmit(formName){
-				this.$refs[formName].validate((valid) => {
-					if (valid) {
-						alert('submit!');
-					} else {
-						console.log('error submit!!');
-						return false;
-					}
-				})
+			handleSelectionChange(val) {
+				this.multipleSelection = val;
+				console.log(this.multipleSelection);
+			},
+			rowMethod({ row, column, rowIndex, columnIndex }){
+				if (columnIndex === 0) {
+		            return [1, 2];
+		        } else if (columnIndex === 1) {
+		            return [0, 0];
+		        }
+			},
+			handleChoice(){
+				eventBus.$emit('delieveryData', this.multipleSelection);
+				this.$router.push({name: 'addAccountLink'});
 			},
 			handleReset(formName){
-				//this.formInline = {}
 				this.$refs[formName].resetFields();
 			},
 			handleAdd(){
 				console.log('add');
-				this.$router.push({name: 'contractOperateAddLink'});
+				this.$router.push({name: 'addAccountLink'});
 			},
-			 handlePrevChange(val){
+		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
 		        this.pageSize = val;
 		    },
@@ -115,21 +126,23 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contracts', sParams , {
+		    	let sParams = { "toPage": toPage , "pageSize": pageSize};
+				this.$axios.post('http://192.168.11.98:9001/admin/basics/warehouses', JSON.stringify(sParams) , {			
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
-							if(res.data.status == 200){
-								this.totalPage = res.data.result.total;
-								this.currentPage = res.data.result.pageNum;
-								this.pageSize = res.data.result.pageSize;
-								this.tableData = res.data.result.list;
-							}
+						console.log(res);
+						if(res.data.status == 200){
+							this.totalPage = res.data.result.total;
+							this.currentPage = res.data.result.pageNum;
+							this.pageSize = res.data.result.pageSize;
+							this.tableData = res.data.result.list;
+						}
 					})
 					.catch(function (error) {
 						console.log(error);
 					})
+
 		    }
 		}
 	}

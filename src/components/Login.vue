@@ -43,6 +43,7 @@ export default {
     },
     handleSubmit(ev) {
       var _this = this;
+      this.$router.push({name: 'contractOperateListLink'});
       this.$refs.loginForm.validate(valid => {
         console.log(valid);
         if (valid) {
@@ -59,7 +60,7 @@ export default {
             message: "操作成功"
           };
           if (res.status == 200) {
-            this.$router.push("/");
+            //this.$router.push("/");
           }
           //this.$axios
           //  .post("/users.json", loginParams)

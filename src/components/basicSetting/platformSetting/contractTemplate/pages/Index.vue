@@ -108,7 +108,9 @@
 					if (valid) {
 						alert('submit!');
 						this.sParams = this.formInline;
+						console.log('**************************');
 						console.log(this.sParams);
+						this.initList(this.currentPage, this.pageSize);
 					} else {
 						console.log('error submit!!');
 						return false;
@@ -143,7 +145,11 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-		    	this.sParams = { toPage: toPage , pageSize: pageSize};		    	
+		    	//this.sParams = { toPage: toPage , pageSize: pageSize};	
+		    	this.sParams.toPage = toPage;
+		    	this.sParams.pageSize = pageSize;
+		    	console.log('*************iiiiii*************');
+		    	console.log(this.sParams);
 				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contracts', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})

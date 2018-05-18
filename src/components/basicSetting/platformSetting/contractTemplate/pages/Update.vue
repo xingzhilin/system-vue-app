@@ -4,43 +4,57 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="formData" :rules="rules" label-width="80px">
+		<el-form ref="form" :model="formData" :rules="rules" label-width="0">
 			<table class="add_table">
 				<tbody>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同名称：</td>
 						<td>
-							<el-input v-model="formData.tempName" size="small"></el-input>
+							<el-form-item prop="tempName">
+								<el-input v-model="formData.tempName" size="small"></el-input>
+							</el-form-item>
 						</td>
 					</tr>
 					<tr>
 						<td class="td_label">合同别名：</td>
-						<td><el-input v-model="formData.tempAlias" size="small"></el-input></td>
+						<td>
+							<el-form-item prop="">
+								<el-input v-model="formData.tempAlias" size="small"></el-input>
+							</el-form-item>
+						</td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同使用类型：</td>
 						<td>
-						    <el-select v-model="formData.useType" placeholder="请选择" size="small">
-							    <el-option
-							      v-for="item in formData.useTypeList"
-							      :key="item.valueCode"
-							      :label="item.paramName"
-							      :value="item.valueCode">
-							    </el-option>
-							</el-select>
+							<el-form-item prop="useType">
+							    <el-select v-model="formData.useType" placeholder="请选择" size="small">
+								    <el-option
+								      v-for="item in formData.useTypeList"
+								      :key="item.valueCode"
+								      :label="item.paramName"
+								      :value="item.valueCode">
+								    </el-option>
+								</el-select>
+							</el-form-item>
 						</td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>对应业务类型：</td>
 						<td>
-							<el-radio-group v-model="formData.bizType">
-							    <el-radio v-for="item in formData.bizTypeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
-							</el-radio-group>
+							<el-form-item prop="bizType">
+								<el-radio-group v-model="formData.bizType">
+								    <el-radio v-for="item in formData.bizTypeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
+								</el-radio-group>
+							</el-form-item>
 						</td>
 					</tr>
 					<tr>
 						<td class="td_label">合同简介：</td>
-						<td><el-input v-model="formData.tempDesc" size="small"></el-input></td>
+						<td>
+							<el-form-item prop="">
+								<el-input v-model="formData.tempDesc" size="small"></el-input>
+							</el-form-item>
+						</td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>上传附件：</td>
@@ -63,12 +77,15 @@
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>使用范围设置：</td>
 						<td class="td_text">
-							<el-radio-group v-model="formData.useScope">
-							    <el-radio v-for="item in formData.useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
-							</el-radio-group>
-							<el-select v-model="formData.enId" placeholder="请选择企业" size="small">
-						      <el-option label="北方港" value="shanghai"></el-option>
-						    </el-select>
+
+							<el-form-item prop="useScope">
+								<el-radio-group v-model="formData.useScope">
+								    <el-radio v-for="item in formData.useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
+								</el-radio-group>
+								<el-select v-model="formData.enId" placeholder="请选择企业" size="small">
+							      <el-option label="北方港" value="shanghai"></el-option>
+							    </el-select>
+							</el-form-item>
 						</td>
 					</tr>
 					<tr>
@@ -103,11 +120,10 @@
 				msg: '合同模板编辑',
 				formData: {},
 				isDisabled: false,
-				form: {},
-				 rules: {
+				form: {},				
+				rules: {
 					tempName: [
 						{ required: true, message: '请输入角色名称', trigger: 'blur' },
-						{ min: 2, max: 16, message: '长度在 2 到 16 个字符', trigger: 'blur' },
 						{ 
 							validator: (rule, value, callback)=>{
 								console.log(value);  // 输入的值
@@ -116,7 +132,13 @@
 							}, 
 							trigger: 'blur' 
 						}
-					]
+					],
+					useType:[
+						{ required: true, message: '请选择合同使用类型', trigger: 'change' }
+					],
+			        bizType: [
+			            { type: 'array', required: true, message: '请至少选择一个业务类型', trigger: 'change' }
+			        ]
 				},
 				bizTypeList: [],
 				useScopeList: [],

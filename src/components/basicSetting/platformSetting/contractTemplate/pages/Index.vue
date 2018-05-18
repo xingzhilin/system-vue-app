@@ -6,27 +6,27 @@
 		</el-breadcrumb>
 		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
 		  <el-form-item label="合同名称：">
-		    <el-input v-model="formInline.userName" placeholder="合同名称" size="small"></el-input>
+		    <el-input v-model="formInline.tempName" placeholder="合同名称" size="small"></el-input>
 		  </el-form-item>
 		  <el-form-item label="合同别名：">
-		    <el-input v-model="formInline.userName" placeholder="合同别名" size="small"></el-input>
+		    <el-input v-model="formInline.tempAlias" placeholder="合同别名" size="small"></el-input>
 		  </el-form-item>
 		  <el-form-item label="合同使用类型：">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+		    <el-select v-model="formInline.useType" placeholder="请选择" size="small">  
 		      <el-option label="请选择" value=""></el-option>
 		      <el-option label="启用" value="1"></el-option>
 		      <el-option label="停用" value="0"></el-option>
 		    </el-select>
 		  </el-form-item>
 		  <el-form-item label="对应业务方式：">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+		    <el-select v-model="formInline.bizType" placeholder="请选择" size="small">  
 		      <el-option label="请选择" value=""></el-option>
 		      <el-option label="启用" value="1"></el-option>
 		      <el-option label="停用" value="0"></el-option>
 		    </el-select>
 		  </el-form-item>
 		  <el-form-item label="停/启用状态：">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+		    <el-select v-model="formInline.status" placeholder="请选择" size="small">  
 		      <el-option label="请选择" value=""></el-option>
 		      <el-option label="启用" value="1"></el-option>
 		      <el-option label="停用" value="0"></el-option>
@@ -34,11 +34,11 @@
 		  </el-form-item>
 		  <el-form-item label="添加时间：">
 			  	 <el-col :span="11">
-			      <el-date-picker type="datetime" v-model="formInline.time" placeholder="选择日期" style="width: 100%;"></el-date-picker>
+			      <el-date-picker type="datetime" v-model="formInline.createTimeStart" placeholder="选择日期" style="width: 100%;"></el-date-picker>
 			    </el-col>
 			    <el-col class="line" :span="2">-</el-col>
 			    <el-col :span="11">
-			      <el-date-picker type="datetime" v-model="formInline.time" placeholder="选择日期" style="width: 100%;"></el-date-picker>
+			      <el-date-picker type="datetime" v-model="formInline.createTimeEnd" placeholder="选择日期" style="width: 100%;"></el-date-picker>
 			    </el-col>
 			  </el-form-item>	
 		  <el-form-item>
@@ -95,13 +95,8 @@
 				pageSizes:[2, 3, 5, 10],
 		        currentPage: 1,
 		        totalPage: null,
-				formInline: {
-					userName: '',
-					trueUserName: '',
-					departName: '',
-					roleName: '',
-					userStatus: ''
-				}
+				formInline: {},
+				sParams: {}
 			}
 		},
 		mounted(){
@@ -112,6 +107,8 @@
 				this.$refs[formName].validate((valid) => {
 					if (valid) {
 						alert('submit!');
+						this.sParams = this.formInline;
+						console.log(this.sParams);
 					} else {
 						console.log('error submit!!');
 						return false;
@@ -146,11 +143,12 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				this.$axios.post('http://192.168.11.98:9001/admin/basics/warehouses', sParams , {
+		    	this.sParams = { toPage: toPage , pageSize: pageSize};		    	
+				this.$axios.post('http://192.168.15.172:9001/v1/admin/basics/contracts', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
+							console.log(res)
 							if(res.data.status == 200){
 								this.totalPage = res.data.result.total;
 								this.currentPage = res.data.result.pageNum;

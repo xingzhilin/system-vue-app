@@ -74,13 +74,6 @@
 		data(){
 			return {
 				msg: 'Management',
-				formInline: {
-					userName: '',
-					trueUserName: '',
-					departName: '',
-					roleName: '',
-					userStatus: ''
-				},
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],

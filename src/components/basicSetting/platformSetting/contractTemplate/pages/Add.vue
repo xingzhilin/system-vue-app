@@ -53,7 +53,7 @@
 						<td class="td_label">合同简介：</td>
 						<td>
 							<el-form-item prop="tempDesc">
-								<el-input v-model="form.tempDesc" size="small"></el-input>
+								<el-input type="textarea" v-model="form.tempDesc"></el-input>
 							</el-form-item>
 						</td>
 					</tr>
@@ -82,6 +82,8 @@
 								<el-radio-group v-model="form.useScope">
 								    <el-radio v-for="item in useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
 								</el-radio-group>
+							</el-form-item>
+							<el-form-item prop="">					
 								<el-select v-model="form.enId" placeholder="请选择企业" size="small">
 							      <el-option label="北方港" value="shanghai"></el-option>
 							    </el-select>
@@ -139,6 +141,12 @@
 					],
 			        bizType: [
 			            { type: 'array', required: true, message: '请至少选择一个业务类型', trigger: 'change' }
+			        ],
+			        useScope: [
+			        	 { required: true, message: '请至少选择一个使用范围', trigger: 'change' }
+			        ],
+			        tempDesc: [
+			        	{ min: 0, max: 200, message: '长度在200个字符以内', trigger: 'blur' }
 			        ]
 				},
 				bizTypeList: [],
@@ -152,10 +160,10 @@
 		},
 		methods:{
 			handleSubmitForm(form){
-				this.$refs[formName].validate((valid) => {
+				this.$refs[form].validate((valid) => {
 					if (valid) {
 						this.isDisabled = true;
-						let sParams = JSON.stringify(this.form);
+						let sParams = JSON.stringify(form);
 						this.$axios.post('/v1/admin/basics/contract', sParams , {
 								headers:{ "Content-Type": "application/json"}
 							})

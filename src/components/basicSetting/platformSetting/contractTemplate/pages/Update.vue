@@ -51,8 +51,8 @@
 					<tr>
 						<td class="td_label">合同简介：</td>
 						<td>
-							<el-form-item prop="">
-								<el-input v-model="formData.tempDesc" size="small"></el-input>
+							<el-form-item prop="tempDesc">
+								<el-input type="textarea" v-model="formData.tempDesc"></el-input>
 							</el-form-item>
 						</td>
 					</tr>
@@ -77,14 +77,15 @@
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>使用范围设置：</td>
 						<td class="td_text">
-
 							<el-form-item prop="useScope">
 								<el-radio-group v-model="formData.useScope">
 								    <el-radio v-for="item in formData.useScopeList" :label="item.valueCode" :key="item.valueCode">{{item.paramName}}</el-radio>
 								</el-radio-group>
+							</el-form-item>
+							<el-form-item prop="useScope">
 								<el-select v-model="formData.enId" placeholder="请选择企业" size="small">
 							      <el-option label="北方港" value="shanghai"></el-option>
-							    </el-select>
+							    </el-select>							
 							</el-form-item>
 						</td>
 					</tr>
@@ -138,6 +139,12 @@
 					],
 			        bizType: [
 			            { type: 'array', required: true, message: '请至少选择一个业务类型', trigger: 'change' }
+			        ],
+			        useScope: [
+			        	 { required: true, message: '请至少选择一个使用范围', trigger: 'change' }
+			        ],
+			        tempDesc: [
+			        	{ min: 0, max: 200, message: '长度在200个字符以内', trigger: 'blur' }
 			        ]
 				},
 				bizTypeList: [],

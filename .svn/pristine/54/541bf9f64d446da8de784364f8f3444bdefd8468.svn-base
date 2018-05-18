@@ -57,10 +57,13 @@
 			},
 			initList(){
 				let tempCode = this.$route.query.tempCode;
-				this.$axios.get('/v1/admin/basics/contract/' + tempCode,{
+				this.$axios.get('/v1/basics/contract/' + tempCode,{
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
+						console.log('****************************');
+						console.log(res);
+						console.log('****************************');
 						if(res.status == 200){
 							this.formData = res.data.result;
 						}
@@ -72,11 +75,9 @@
 		}
 	}
 </script>
-<style scoped lang="scss">	
-	//@import './../../../../../assets/css/table_view.css';
+<style lang="scss">	
+	@import './../../../../../assets/css/table_view.css';
 	.edit{
-		table{width:100%;text-align:center;border-collapse:collapse;border-spacing:1;border-spacing:0; }
-	    table td{word-break: break-all; word-wrap:break-word;border-right:1px solid #939598; border-bottom:1px solid #939598;font:500 14px Arial}
 		.zl_required{
 			color: gray;
 		}

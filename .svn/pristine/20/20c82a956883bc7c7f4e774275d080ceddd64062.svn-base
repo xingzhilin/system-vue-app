@@ -34,11 +34,11 @@
 		  </el-form-item>
 		  <el-form-item label="添加时间：">
 			  	 <el-col :span="11">
-			      <el-date-picker type="datetime" v-model="formInline.createTimeStart" placeholder="选择日期" style="width: 100%;" value-format="yyyy-MM-dd HH:mm" ></el-date-picker>
+			      <el-date-picker type="datetime" v-model="formInline.createTimeStart" placeholder="选择日期" style="width: 100%;" format="yyyy-MM-dd HH:mm" ></el-date-picker>
 			    </el-col>
 			    <el-col class="line" :span="2">-</el-col>
 			    <el-col :span="11">
-			      <el-date-picker type="datetime" v-model="formInline.createTimeEnd" placeholder="选择日期" style="width: 100%;" value-format="yyyy-MM-dd HH:mm"></el-date-picker>
+			      <el-date-picker type="datetime" v-model="formInline.createTimeEnd" placeholder="选择日期" style="width: 100%;" format="yyyy-MM-dd HH:mm"></el-date-picker>
 			    </el-col>
 			  </el-form-item>	
 		  <el-form-item>
@@ -85,6 +85,32 @@
 	</div>  
 </template>
 <script>
+	var format = function(time, format){
+	    var t = new Date(time*1000/1000);
+	    var tf = function(i){return (i < 10 ? '0' : '') + i};
+	    return format.replace(/yyyy|MM|dd|HH|mm|ss/g, function(a){
+	        switch(a){
+	            case 'yyyy':
+	                return tf(t.getFullYear());
+	                break;
+	            case 'MM':
+	                return tf(t.getMonth() + 1);
+	                break;
+	            case 'mm':
+	                return tf(t.getMinutes());
+	                break;
+	            case 'dd':
+	                return tf(t.getDate());
+	                break;
+	            case 'HH':
+	                return tf(t.getHours());
+	                break;
+	            case 'ss':
+	                return tf(t.getSeconds());
+	                break;
+	        }
+	    })
+	}
 	export default {
 		name: 'Index',
 		data(){

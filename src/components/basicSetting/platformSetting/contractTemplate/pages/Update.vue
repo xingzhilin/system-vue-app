@@ -164,7 +164,7 @@
 				form.status = this.formData.status;
 				let sParams = JSON.stringify(form);
 				console.log(sParams)
-				this.$axios.put('http://192.168.15.172:9001/v1/admin/basics/contract', sParams , {
+				this.$axios.put('/v1/admin/basics/contract', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
@@ -187,7 +187,7 @@
 			},
 			init(){
 				let tempCode = this.$route.query.tempCode;
-				this.$axios.get('http://192.168.15.172:9001/v1/admin/basics/contract/' + tempCode,{
+				this.$axios.get('/v1/admin/basics/contract/' + tempCode,{
 					headers:{ "Content-Type": "application/json"}
 				})
 				.then(res => {
@@ -211,8 +211,11 @@
 	}
 </script>
 <style lang="scss">	
-	@import './../../../../../assets/css/table_view.css';
+	//@import './../../../../../assets/css/table_view.css';
 	.edit{
+
+		table{width:100%;text-align:center;border-collapse:collapse;border-spacing:1;border-spacing:0; }
+		table td{word-break: break-all; word-wrap:break-word;border-right:1px solid #939598; border-bottom:1px solid #939598;font:500 14px Arial}
 		.zl_required{
 			color: red;
 		}

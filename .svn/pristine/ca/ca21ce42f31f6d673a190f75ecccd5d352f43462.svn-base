@@ -4,7 +4,7 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :inline="true" :model="formInline" :rules="rules" ref="formInline" class="demo-form-inline">
+		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
 		  <el-form-item label="交割库名称：" prop="name">
 		    <el-input v-model="formInline.name" placeholder="用户名" size="small"></el-input>
 		  </el-form-item>		  		
@@ -43,15 +43,18 @@
 			<el-table-column align="center" prop="name" label="交割库名称"></el-table-column>
 			<el-table-column align="center" prop="status" label="交割库状态" width="120"></el-table-column>
 		</el-table>
-		<el-footer style="height:auto">			
-			<el-pagination
+		
+		<el-footer style="height:auto">
+		    <el-pagination
 		      @size-change="handleSizeChange"
 		      @current-change="handleCurrentChange"
+		      @prev-click="handlePrevChange"  
+		      @next-click="handleNextChange"
 		      :current-page="currentPage"
-		      :page-sizes="[100, 200, 300, 400]"
-		      :page-size="100"
+		      :page-sizes="pageSizes"
+		      :page-size="pageSize"
 		      layout="total, sizes, prev, pager, next, jumper"
-		      :total="400">
+		      :total="totalPage">
 		    </el-pagination>
 		</el-footer>
 	</div>  
@@ -61,7 +64,12 @@
 		name: 'AccountManagement',
 		data(){
 			return {
-				msg: 'AccountManagement',
+				msg: 'DeliveryChoice',
+				tableData: [],
+				pageSize: 10,
+				pageSizes:[2, 3, 5, 10],
+		        currentPage: 1,
+		        totalPage: null,
 				formInline: {
 					userName: '',
 					trueUserName: '',
@@ -69,64 +77,13 @@
 					roleName: '',
 					userStatus: ''
 				},
-				multipleSelection:'',
-				tableData: [
-					{
-			          name: 'Lily',
-			          status: '启用'
-			        },
-			        {
-			          name: '秦皇岛',
-			          status: '停用'
-			        },
-			        {
-			          name: 'ceshi',
-			          status: '启用'
-			        },
-			        {
-			          name: '高碑店',
-			          status: '停用'
-			        }
-		        ],
-		        currentPage: 4,
-
-				rules: {         
-					userName: [
-						{ required: true, message: '请输入用户名', trigger: 'blur' }
-					],
-					trueUserName: [
-						{ required: true, message: '请输入真实姓名', trigger: 'blur' }
-					],
-					departName: [
-						{ required: true, message: '请输入部门名称', trigger: 'blur' }
-					],
-					roleName: [
-						{ required: true, message: '请输入角色名称', trigger: 'blur' }
-					],
-					userStatus: [
-						{ required: true, message: '请选择账号状态', trigger: 'change'}
-					]
-				}
+				multipleSelection:''
 			}
 		},
+		mounted(){
+			this.initList(this.currentPage, this.pageSize);
+		},
 		methods: {
-			handleSubmit(formName){
-				this.$refs[formName].validate((valid) => {
-					if (valid) {
-						alert('submit!');
-					} else {
-						console.log('error submit!!');
-						return false;
-					}
-				})
-			},
-			handleChoice(){
-				eventBus.$emit('delieveryData', this.multipleSelection);
-				this.$router.push({name: 'addAccountLink'});
-			},
-			handleReset(formName){
-				this.$refs[formName].resetFields();
-			},
 			handleSelectionChange(val) {
 				this.multipleSelection = val;
 				console.log(this.multipleSelection);
@@ -138,11 +95,54 @@
 		            return [0, 0];
 		        }
 			},
+			handleChoice(){
+				eventBus.$emit('delieveryData', this.multipleSelection);
+				this.$router.push({name: 'addAccountLink'});
+			},
+			handleReset(formName){
+				this.$refs[formName].resetFields();
+			},
+			handleAdd(){
+				console.log('add');
+				this.$router.push({name: 'addAccountLink'});
+			},
+		    handlePrevChange(val){
+		    	console.log(`上一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
+		    handleNextChange(val){
+		    	console.log(`下一页 ${val} 条`)
+		        this.pageSize = val;
+		    },
 			handleSizeChange(val) {
 		        console.log(`每页 ${val} 条`);
+		        this.pageSize = val;
+		        console.log(this.pageSize);
+				this.initList(this.currentPage, this.pageSize);
 		    },
 		    handleCurrentChange(val) {
 		        console.log(`当前页: ${val}`);
+		        this.currentPage = val;
+				this.initList(this.currentPage, this.pageSize);
+		    },
+		    initList(toPage, pageSize){
+		    	let sParams = { "toPage": toPage , "pageSize": pageSize};
+				this.$axios.post('http://192.168.11.98:9001/admin/basics/warehouses', JSON.stringify(sParams) , {			
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+						console.log(res);
+						if(res.data.status == 200){
+							this.totalPage = res.data.result.total;
+							this.currentPage = res.data.result.pageNum;
+							this.pageSize = res.data.result.pageSize;
+							this.tableData = res.data.result.list;
+						}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
+
 		    }
 		}
 	}

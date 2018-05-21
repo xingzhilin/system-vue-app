@@ -155,7 +155,7 @@
 		    	this.sParams.toPage = toPage;
 		    	this.sParams.pageSize = pageSize;
 		    	console.log(this.sParams);
-				this.$axios.post('/v1/admin/basics/contracts', this.sParams , {
+				this.$axios.post('/api/v1/admin/basics/contracts', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
@@ -175,6 +175,10 @@
 	}
 </script>
 <style scoped lang="scss">
+	html,body{
+		height: 100%;
+		overflow: hidden;
+	}
 	.el-breadcrumb{
 		position: relative;
 	    border-bottom: 1px solid #e5e5e5;

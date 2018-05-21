@@ -41,16 +41,13 @@
 			NavbarItemView
 		},
 		created(){
-			console.log(this.navMenusList);
-			this.$axios.post('http://192.168.11.98:9001/v1/basics/per/getPerMissionList?pxUserId=10001')
+			this.$axios.post('http://192.168.11.98:9001/admin/basics/userAuths/1')
 						.then( res => {
 							console.log('******************');
 							console.log(res);
 							//this.$router.push({name: 'homeLink'}
 							this.navMenusList = res.data.list;
 						})
-
-			//http://192.168.11.33:9001/v1/basics/per/getPerMissionList?pxUserId=10001
 		},
 		methods: {
 			handleChange(){

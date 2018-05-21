@@ -4,15 +4,16 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="form" :rules="rules" label-width="0">
+		<el-form ref="form" :model="form" :rules="rules"  label-position="top">
+			<el-form-item prop="tempName" label="合同名称："  label-width="160px">			  	
+		        <el-input v-model="form.tempName" size="small"></el-input>
+			</el-form-item>
+
 			<table class="add_table">
 				<tbody>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>合同名称：</td>
 						<td>
-							<el-form-item prop="tempName">
-			                    <el-input v-model="form.tempName" size="small"></el-input>
-		                    </el-form-item>
 							
 						</td>
 					</tr>
@@ -164,7 +165,7 @@
 					if (valid) {
 						this.isDisabled = true;
 						let sParams = JSON.stringify(form);
-						this.$axios.post('/v1/admin/basics/contract', sParams , {
+						this.$axios.post('/api/v1/admin/basics/contract', sParams , {
 								headers:{ "Content-Type": "application/json"}
 							})
 							.then(res =>  {
@@ -192,7 +193,7 @@
 			},
 			init(){
 				let tempCode = this.$route.query.tempCode;
-				this.$axios.get('/v1/admin/basics/contract/init' ,{
+				this.$axios.get('/api/v1/admin/basics/contract/init' ,{
 					headers:{ "Content-Type": "application/json"}
 				})
 				.then(res => {

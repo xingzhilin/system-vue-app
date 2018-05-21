@@ -1,5 +1,5 @@
 <template>
-	<div class="navbarItem">		
+	<div class="navbarItem">
 		<el-menu default-active="" v-for="item in navMenusList" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="collapse" :key="item.id">
 			<el-menu-item index="item.id" v-if="item.type === 'link'" :key="item.id">		    
 			    	<i class="el-icon-document"></i>

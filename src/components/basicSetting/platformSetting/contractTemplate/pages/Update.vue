@@ -171,7 +171,7 @@
 				form.status = this.formData.status;
 				let sParams = JSON.stringify(form);
 				console.log(sParams)
-				this.$axios.put('/v1/admin/basics/contract', sParams , {
+				this.$axios.put('/api/v1/admin/basics/contract', sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
@@ -194,7 +194,7 @@
 			},
 			init(){
 				let tempCode = this.$route.query.tempCode;
-				this.$axios.get('/v1/admin/basics/contract/' + tempCode,{
+				this.$axios.get('/api/v1/admin/basics/contract/' + tempCode,{
 					headers:{ "Content-Type": "application/json"}
 				})
 				.then(res => {

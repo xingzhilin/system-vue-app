@@ -57,7 +57,7 @@
 			},
 			initList(){
 				let tempCode = this.$route.query.tempCode;
-				this.$axios.get('/v1/admin/basics/contract/' + tempCode,{
+				this.$axios.get('/api/v1/admin/basics/contract/' + tempCode,{
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {

@@ -90,6 +90,7 @@
 			handleSubmit(formName){
 				this.$refs[formName].validate((valid) => {
 					if (valid) {
+						alert('submit!');
 						this.sParams = this.formInline;
 						console.log(this.sParams);
 						this.initList(this.currentPage, this.pageSize);

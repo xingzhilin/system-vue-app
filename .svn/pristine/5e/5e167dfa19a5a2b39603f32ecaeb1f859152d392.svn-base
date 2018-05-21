@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-form :model="ruleForm" label-width="80px" :rules="rules" status-icon ref="ruleForm" :label-position="$store.getters.isPc==true?'right':'top'"  :inline-message="true">
+    <el-form :model="ruleForm" label-width="80px" :rules="rules" status-icon ref="ruleForm" label-position="right"  :inline-message="true">
       <el-form-item label="标题" prop="noticeTitle">
         <el-col :xs="{span:14,}" :sm="{span:8}" :md="{span:8}" :lg="{span:8}" :xl="{span:4}">
           <el-input v-model.trim="ruleForm.noticeTitle" size="small"></el-input>

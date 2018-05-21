@@ -4,8 +4,8 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="form" :rules="rules" :label-position="isPc==true?'right':'top'" :inline-message="true"  label-width="140px" >
-			<el-form-item label="合同名称：" prop="tempName">			  	
+		<el-form ref="form" :model="form" :rules="rules"  :label-position="$store.getters.isPc==true?'right':'top'" :inline-message="true">
+			<el-form-item prop="tempName" label="合同名称：">			  	
 		        <el-input v-model="form.tempName" size="small"></el-input>
 			</el-form-item>
 			<el-form-item prop="" label="合同别名：">
@@ -108,13 +108,8 @@
 				whCodeList:[]
 			}
 		},
-		mounted(){
+		created(){
 			this.init();
-		},			
-		computed:{
-			isPc(){
-				return this.$store.getters.isPc
-			}
 		},
 		methods:{
 			handleSubmitForm(form){

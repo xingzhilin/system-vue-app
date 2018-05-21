@@ -68,7 +68,6 @@
 		    <el-button @click="handleGoBack()" size="small">取消</el-button>
 		  </el-form-item>
 		</el-form>
-
 	</div>
 </template>
 <script>
@@ -138,10 +137,7 @@
 		created(){
 			eventBus.$on('delieveryData',(data)=>{ 
 				console.log('**************************');
-				let newWhCode = data.map((item,key,ary) => {
-				     return item.whCode;
-				});
-				this.formData.whIds = newWhCode
+				console.log(data);
 			})
 		},
 		mounted(){

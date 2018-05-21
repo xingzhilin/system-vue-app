@@ -1,0 +1,21 @@
+<template>
+	<div class="backstage">
+		<h5>{{msg}}</h5>
+		<keep-alive>
+			<router-view></router-view>
+		</keep-alive>
+	</div>
+</template>
+<script>
+	export default {
+		name: 'Index',
+		data(){
+			return {
+				msg: '账号管理111'
+			}
+		}
+	}
+</script>
+<style>
+	
+</style>

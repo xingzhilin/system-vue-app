@@ -4,23 +4,25 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :model="form" :rules="rules" ref="form" label-width="100px" class="demo-ruleForm" >		  
+		<el-form :model="form" :rules="rules" ref="form":label-position="isPc==true?'right':'top'" :inline-message="true"  label-width="100px" class="demo-ruleForm" >		  
 		  <el-form-item label="用户头像：" prop="headPicUrl">
 			<el-upload
 			  class="avatar-uploader"
 			  action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
-			  :show-file-list="false"
-			  :on-success="handleAvatarSuccess"
-			  :on-preview="handleAvatarPreview"
-			  :on-remove="handleRemove"
-			  :on-change="handleChange"
+			  :show-file-list="false" 
+			  :on-success="handleAvatarSuccess" 
+			  :on-preview="handleAvatarPreview" 
+			  :on-remove="handleRemove"  
+			  :on-change="handleChange"  
 			  :before-upload="beforeAvatarUpload">
-			  <img v-if="form.headPicUrl" :src="form.headPicUrl" class="avatar">
+			  <img v-if="form.headPicUrl" height="140" width="120" :src="form.headPicUrl" class="avatar">
 			  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
 			</el-upload>
+
 			<el-dialog :visible.sync="dialogVisible">
-			  <img width="100%" :src="dialogImageUrl" alt="">
+			  <img width="100%" height="140" :src="form.headPicUrl" alt="">
 			</el-dialog>
+			<input type="hidden" v-model="form.headPicUrl">
 		  </el-form-item>
 		  <el-form-item label="真实姓名：" prop="realName">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
@@ -96,7 +98,8 @@
 				isIndeterminate: true,
 				form: {					
 			        status: 1,
-			        userRoles: []
+			        userRoles: [],
+			        headPicUrl:''
 				},
 				dialogImageUrl:'',
 				dialogVisible: false,
@@ -129,11 +132,13 @@
 			},
 			getAddAccountChoice(){
 				return this.$store.getters.getAddAccountChoice
+			},
+			isPc(){
+				return this.$store.getters.isPc
 			}
 		},
 		created(){
-			eventBus.$on('delieveryData',(data)=>{ 
-				console.log('**************************');
+			eventBus.$on('delieveryData',(data)=>{
 				let newWhCode = data.map((item,key,ary) => {
 				     return item.whCode;
 				});
@@ -149,14 +154,19 @@
 		},
 		methods:{
 			handleRemove(file, fileList) {
+				console.log('handleRemove');
 				console.log(file, fileList);
 			},
 			handlePreview(file) {
+				console.log('handlePreview');
 				console.log(file);
 			},
 			handleAvatarSuccess(res, file) {
-				this.form.imageUrl = URL.createObjectURL(file.raw);
-				console.log(this.form.imageUrl);
+				console.log('handleAvatarSuccess');
+				console.log(res, file);
+				this.form.headPicUrl = URL.createObjectURL(file.raw);				
+    			//this.dialogVisible = true;
+				console.log(this.form.headPicUrl);
 			},
 			beforeAvatarUpload(file) {
 				const isJPG = file.type === 'image/jpeg';
@@ -170,22 +180,22 @@
 				}
 				return isJPG && isLt2M;
 			},
-			handleRemove(file, fileList) {
-				console.log(file, fileList);
-			},
 			handleChange(file, fileList) {
-
+				console.log('handleChange');
+				console.log(file, fileList);
 				file.imageUrl = 'imageUrl';
 				file.img = 'img';
 				// this.ruleForm.img = file.name;
-				// this.ruleForm.imageUrl = file.url;
+				this.form.headPicUrl = file.url;
 			},
 			handleAvatarPreview(file) {
+				console.log('handleAvatarPreview');
 				this.dialogImageUrl = file.url;
-        		this.dialogVisible = true;
+    			this.form.headPicUrl = file.url;
 			},
-			handleAvatarSuccess(res, file) {
-				this.form[file.imageUrl] = URL.createObjectURL(file.raw);  
+			handleAvatarSuccess2(res, file) {
+				console.log('handleAvatarSuccess');
+				this.form[file.headPicUrl] = URL.createObjectURL(file.raw);  
 				this.form[file.img] = true;  //改放change显示图片
 				//this.$refs.ruleForm.validateField(file.img); // 上传成功后单独校验，以取消之前的必填项提示
 			},

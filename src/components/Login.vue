@@ -5,16 +5,15 @@
 		</el-header>
 		<el-col :xs="{span:14,offset:5}" :sm="{span:8,offset:8}" :md="{span:8,offset:8}" :lg="{span:8,offset:8}" :xl="{span:4,offset:10}">
 			<el-main>
-				<el-form :model="loginForm" :rules="formRules" ref="loginForm" label-position="left" label-width="0px" class="demo-ruleForm login-container">
-				    <el-form-item prop="cellPhone">
-				      <el-input type="text" v-model="loginForm.cellPhone" auto-complete="off" placeholder="账号"></el-input>
+        <el-form :model="form" :rules="rules" ref="form" label-width="0" class="demo-ruleForm login-container" >
+				    <el-form-item prop="username">
+				      <el-input type="text" v-model="form.username" auto-complete="off" placeholder="账号"></el-input>
 				    </el-form-item>
-				    <el-form-item prop="userPwd">
-				      <el-input type="password" v-model="loginForm.userPwd" auto-complete="off" placeholder="密码"></el-input>
+				    <el-form-item prop="password">
+				      <el-input :auto-complete="form.password" type="password" v-model="form.password" auto-complete="off" placeholder="密码"></el-input>
 				    </el-form-item>
 				    <el-form-item style="width:100%;">
-				      <el-button type="primary" style="width:100%;" @click.native.prevent="handleSubmit" :loading="logining">登录</el-button>
-				      <!--<el-button @click.native.prevent="handleReset">重置</el-button>-->
+				      <el-button type="primary" style="width:100%;" @click="handleSubmit('form')" :loading="logining">登录</el-button>
 				    </el-form-item>
 				  </el-form>
 			</el-main>
@@ -23,48 +22,64 @@
 </template>
 <script>
 //import { requestLogin } from './../api/api'
+  function isvalidPhone(str) {
+    const reg = /^1[3|4|5|7|8][0-9]\d{8}$/
+    return reg.test(str)
+  }
+  var validPhone = (rule, value,callback)=>{
+    if (!value){
+      callback(new Error('请输入手机号'))
+    }else  if (!isvalidPhone(value)){
+      callback(new Error('请输入正确的11位手机号码'))
+    }else {
+      callback()
+    }
+  }
 export default {
   data() {
     return {
       logining: false,
-      loginForm: {
-        cellPhone: "",
-        userPwd: ""
+      form: {
+        username: "",
+        password: ""
       },
-      formRules: {
-        cellPhone: [{ required: true, message: "请输入账号", trigger: "blur" }],
-        userPwd: [{ required: true, message: "请输入密码", trigger: "blur" }]
+      rules: {
+        username: [
+           { required: true, message: '请输入手机号码', trigger: 'blur' },
+           { required: true, trigger: 'blur', validator: validPhone }
+        ],
+        password: [
+          { required: true, message: "请输入密码", trigger: "blur" }
+        ]
       }
     };
   },
   methods: {
-    handleReset() {
-      this.$refs.loginForm.resetFields();
-    },
-    handleSubmit(ev) {
-      var _this = this;
-      this.$router.push({name: 'contractOperateListLink'});
-      this.$refs.loginForm.validate(valid => {
+    handleSubmit(form) {
+      //this.$router.push({name: 'contractOperateListLink'});
+      this.$refs[form].validate((valid) => {
         console.log(valid);
         if (valid) {
-          this.logining = true;
-          var loginParams = {
-            username: this.loginForm.account,
-            password: this.loginForm.password
-          };
-          console.log(loginParams);
-          // this.$http.post('/api/admin/login/{cellPhone}/{userPwd}',this.ruleForm).then(res => {
-          // });
-          var res = {
-            status: 200,
-            message: "操作成功"
-          };
-          if (res.status == 200) {
-            //this.$router.push("/");
-          }
-          //this.$axios
-          //  .post("/users.json", loginParams)
-          //  .then(res => this.$router.push({ name: "homeLink" }));
+          //this.logining = true;
+          // let sParams = new URLSearchParams();
+          // sParams.append("username", this.form.username);
+          // sParams.append("password",  this.form.password);
+          let sParams = JSON.stringify(this.form);
+          console.log(sParams);
+          this.$axios.post('http://192.168.11.31:8080/login', sParams ,{
+                headers:{ "Content-Type": "application/json"}
+              })
+            .then(res =>  {
+              console.log(res);
+              if(res.data.status == 200){
+                let token = res.headers.get('access-token')
+                console.log(token);
+              }
+            })
+            .catch(function (error) {
+              console.log(error);
+            })
+
         } else {
           console.log("error submit!!");
           return false;

@@ -26,12 +26,12 @@
 		  </el-form-item>
 		  <el-form-item label="真实姓名：" prop="realName">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="form.realName" size="small"></el-input>
+		    	<el-input v-model="form.realName" size="small" @blur="handleVerificatUser({realName: form.realName})"></el-input>
 			</el-col>
 		  </el-form-item>
 		  <el-form-item label="手机号码：" prop="cellPhone">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="form.cellPhone" size="small"></el-input>
+		    	<el-input v-model="form.cellPhone" size="small" @blur="handleVerificatUser({cellPhone: form.cellPhone})"></el-input>
 		    </el-col>
 		  </el-form-item>
 		  <el-form-item label="固定电话：" prop="telephone">
@@ -83,7 +83,7 @@
 	}
 	var validPhone = (rule, value,callback)=>{
 		if (!value){
-			callback(new Error('请输入电话号码'))
+			callback(new Error('请输入手机号'))
 		}else  if (!isvalidPhone(value)){
 			callback(new Error('请输入正确的11位手机号码'))
 		}else {
@@ -153,6 +153,40 @@
 			this.init();
 		},
 		methods:{
+			handleVerificatUser(jsonData){
+				let sParams = jsonData;
+				console.log(sParams);				
+				this.$axios.post('http://192.168.11.98:9001/admin/basics/verificatUser', sParams, {
+					headers:{ "Content-Type": "application/json"}
+				})
+				.then( res => {
+					console.log(res);
+					if(res.data.status == 200){
+						if(res.data.result.code == 0){
+							alert('success')
+						}else if(res.data.result.code == 1){
+							if(jsonData.realName){
+								this.$message({
+						          showClose: true,
+						          message: '此用户名已经存在，请填写其他用户名！',
+						          type: 'warning'
+						        });
+						        this.form.realName = '';
+							}else if(jsonData.cellPhone){
+								this.$message({
+						          showClose: true,
+						          message: '您填写的手机号已经被注册，请填写其他手机号！',
+						          type: 'warning'
+						        });						        
+						        this.form.cellPhone = '';
+							}
+						}
+					}
+				})				
+	            .catch( error => {
+	              console.log(error);
+	            })
+			},
 			handleRemove(file, fileList) {
 				console.log('handleRemove');
 				console.log(file, fileList);

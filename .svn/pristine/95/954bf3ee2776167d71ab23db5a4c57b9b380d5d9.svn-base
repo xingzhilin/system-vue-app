@@ -49,8 +49,6 @@
       };
     },
     created(){
-        let catCode = this.$route.query.catCode;
-        this.getEditorList(catCode);
         // this.$http.get('/api/commons/categories').then(res=>{
         //     this.options = res.list;
         //     res.list.forEach(v=>{    //默认显示动力煤
@@ -79,7 +77,13 @@
             }]
         };
         this.options = res.list;
-
+        res.list.forEach(v=>{    //默认显示动力煤
+            if(v.catName == '动力煤'){
+                this.ruleForm.catCode = v.catCode;
+                this.getAddList(v.catCode);
+              return;
+            }
+        });
     },
     methods: {
       submitForm(formName) {
@@ -98,52 +102,44 @@
               this.ruleForm.list[index].valueLst.push('');
           }
       },
-      getEditorList(catCode){
-          this.isEditor = true;
-          this.ruleForm.catCode = catCode;
-          // this.$http.get('/api/basics/categoryVals',{params:{catCode}}).then(res=>{
-            // res.resultData.catTeParamsVals.forEach(v=>{
-            //     let len = v.valueLst.length;
-            //     if(len >= 4){
-            //         v.valueLst.push('');
-            //     }else{
-            //         v.valueLst = v.valueLst.concat(','.repeat((4-len-1)).split(','));  
-            //     }
-            // });
-            // this.ruleForm.list = res.resultData.catTeParamsVals;
-              
+      getAddList(catCode){   
+          // this.$http.get('/api/commons/catParameters',{params:{catCode:this.ruleForm.catCode}}).then(res=>{
+              // let list=[];
+              // res.list.forEach((v,i)=>{
+              //     list.push({
+              //       "paramCode":v.paramCode,
+              //       "paramName":v.paramName,
+              //       "valueLst":['','','','']
+              //     });
+              // });
+              // this.ruleForm.list = list;
           // });
           var res = {
             "status": 200,
             "message": "操作成功",
-            "resultData": {
-              "catCode": "20",
-              "industryCode": "1",
-              "industryName": "煤炭",
-              "catTeParamsVals": [
-                    {
-                      "paramCode":"33",
-                      "paramName":"发热量",
-                      "valueLst":["≥5249kcal","≥800kcal","≥800kcal"]
-                    },
-                    {
-                      "paramCode":"23",
-                      "paramName":"胶质层厚度(Y)",
-                      "valueLst":[">25mm","≥15mm","≥15mm"]
-                    }
-                ]
-            }
+            "list": [
+              {
+                "paramCode": "14",
+                "paramName": "全硫",
+                "classTelParamsVals":[">2","<32"]
+              },{
+                "paramCode": "13",
+                "paramName": "全硫111",
+                "classTelParamsVals":[">2","<32"]
+              }]
           };
-          res.resultData.catTeParamsVals.forEach(v=>{
-              let len = v.valueLst.length;
-              if(len >= 4){
-                  v.valueLst.push('');
-              }else{
-                  v.valueLst = v.valueLst.concat(','.repeat((4-len-1)).split(','));  
-              }
+          let list=[];
+          res.list.forEach((v,i)=>{
+              list.push({
+                "paramCode":v.paramCode,
+                "paramName":v.paramName,
+                "valueLst":['','','','']
+              });
           });
-          this.ruleForm.list = res.resultData.catTeParamsVals;
+          this.ruleForm.list = list;
+
       }
+      
      
     }
   }
@@ -191,4 +187,3 @@
     margin-bottom: 10px;
    }
 </style>
-

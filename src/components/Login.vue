@@ -35,6 +35,15 @@
       callback()
     }
   }
+  // function fetchPost(url, var1) {
+  //   return new Promise((resolve, reject) => {
+  //     axios.post(url, qs.stringify(var1)).then(res => {
+  //       resolve(res.data)
+  //     }).catch(res => {
+  //       reject(res)
+  //     })
+  //   })
+  // }
 export default {
   data() {
     return {
@@ -66,22 +75,44 @@ export default {
           // sParams.append("password",  this.form.password);
           let sParams = JSON.stringify(this.form);
           console.log(sParams);
-          this.$axios.post('http://192.168.11.31:8080/login', sParams ,{
-                headers:{ "Content-Type": "application/json"}
-              })
-            .then( res =>  {
-              //let resData = JSON.parse(res.data)
-              console.log(res);
-              if(res.data.status == 200){
-                let token = res.headers['access-token'];
-                console.log(token);
-                this.$store.dispatch("setAccessToken", token);
-                // /admin/basics/users/{cellPhone}
-              }
-            })
-            .catch(function (error) {
-              console.log(error);
-            })
+          this.$axios.get('http://192.168.11.98:9001/admin/basics/users/'+this.form.username,{
+                  headers:{ "Content-Type": "application/json"}
+                })
+                .then( res => {
+                  console.log(res);
+                  if(res.data.status == 200){
+
+                       this.$store.dispatch("setUser", res.data.status.userName)
+                  }
+                })                
+                .catch(function (error) {
+                  console.log(error);
+                })
+          // this.$axios.post('http://192.168.11.31:8080/login', sParams ,{
+          //       headers:{ "Content-Type": "application/json"}
+          //     })
+          //   .then( res =>  {
+          //     //let resData = JSON.parse(res.data)
+          //     console.log(res);
+          //     if(res.data.status == 200){
+          //       let token = res.headers['access-token'];
+          //       console.log(token);
+          //       this.$store.dispatch("setAccessToken", token);
+          //       // /admin/basics/users/{cellPhone}
+          //       this.$axios.post('http://192.168.11.98:9001/admin/basics/users/', {cellPhone: this.form.username} ,{
+          //         headers:{ "Content-Type": "application/json"}
+          //       })
+          //       .then( res => {
+          //         console.log(res);
+          //       })                
+          //       .catch(function (error) {
+          //         console.log(error);
+          //       })
+          //     }
+          //   })
+          //   .catch(function (error) {
+          //     console.log(error);
+          //   })
 
         } else {
           console.log("error submit!!");

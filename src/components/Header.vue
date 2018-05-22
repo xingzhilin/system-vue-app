@@ -5,7 +5,7 @@
 				金银岛煤炭网业务管理系统
 			</el-col>
 			<el-col :span="14" class="userinfo">
-				退出登录
+				{{currentUser}}退出登录
 			</el-col>
 		</el-col>
 	</nav>
@@ -20,7 +20,15 @@
 		},
 		created(){
 			console.log('created');
-		}
+		},
+		computed:{
+	      currentUser(){
+	        return this.$store.getters.currentUser
+	      },
+	      isLogin(){
+	        return this.$store.getters.isLogin
+	      }
+	    }
 	}
 </script>
 <style>

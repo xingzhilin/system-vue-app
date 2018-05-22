@@ -70,19 +70,6 @@
       };
     },
     created(){
-      // 是否编辑页
-      let content = this.$route.query.content;
-        //编辑页不可改内容
-        this.isEditor = true;
-        //去除不必要字段
-        this.ruleForm = {
-          catCode:content.catCode,
-          catName: content.catName,
-          industryCode: content.industryCode,
-          catTeParams: content.catTeParams.split('；'),
-          remarks: content.remarks
-        };
-      
       this.getIndustryCodeList();
     },
     methods: {

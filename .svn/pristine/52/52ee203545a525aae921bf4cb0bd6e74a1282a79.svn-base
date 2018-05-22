@@ -1,15 +1,15 @@
 <template>
-  <div>
+	<div>
         <!-- <el-col :lg="{span:18,offset:3}" :xs="{span:22,offset:1}" :md="{span:20,offset:2}" :sm="{span:22,offset:1}"> -->
-        <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" :inline-message="true" label-width="100px" :label-position="$store.getters.isPc==true?'right':'top'">
-            <el-form-item label="归属频道：">
+    		<el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" :inline-message="true" label-width="100px" :label-position="$store.getters.isPc==true?'right':'top'">
+    		  	<el-form-item label="归属频道：">
                 煤炭
             </el-form-item>
-            <el-form-item label="品牌名称：" prop="brandName">
-              <el-col :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
-                <el-input v-model="ruleForm.brandName" size="small"></el-input>
-              </el-col>
-            </el-form-item>
+	  				<el-form-item label="品牌名称：" prop="brandName">
+  						<el-col :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
+  							<el-input v-model="ruleForm.brandName" size="small"></el-input>
+  						</el-col>
+  					</el-form-item>
             <el-form-item label="品牌介绍：" prop="brandDesc">
               <el-col :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
                 <el-input 
@@ -68,12 +68,12 @@
                  <el-button @click="$router.go(-1);">取消</el-button>
               <!-- </el-col> -->
             </el-form-item>
-        </el-form>
+    		</el-form>
         <!-- </el-col> -->
         <el-dialog :visible.sync="dialogVisible">
           <img width="100%" :src="dialogImageUrl" alt="">
         </el-dialog>
-  </div>
+	</div>
 </template>
 <script scoped>
   export default {
@@ -113,39 +113,6 @@
       };
     },
     created(){
-        let brandCode = this.$route.query.brandCode; 
-        // this.$http.get('/api/basics/brands',{params:{brandCode:brandCode}}).then(res=>{
-            // res.resultData.brandLogos[0].attachName = res.resultData.brandLogos[0].attachName;
-            // res.resultData.brandLogos[0].attachUrl = res.resultData.brandLogos[0].attachUrl;
-            // res.resultData.brandImgs[0].attachName = res.resultData.brandLogos[0].attachName;
-            // res.resultData.brandImgs[0].attachUrl = res.resultData.brandLogos[0].attachUrl;
-            // this.ruleForm = res.resultData;
-        // })
-            var data= {
-              "status": 200,
-              "message": "操作成功",
-              "resultData": {
-                "brandCode": "20",
-                "industryCode": "1",
-                "brandName": "brand1",
-                "brandDesc": null,
-                "status": '1',
-                "recommend": '1',
-                "brandLogos": [
-                  {
-                    "name": "mybatis学习",
-                    "url": "c:/mybatis"
-                  }
-                ],
-                "brandImgs": [
-                   {
-                    "name": "hibernategogo",
-                    "url": "d:/hibernate"
-                  }
-                ]
-              }
-            };
-            this.ruleForm = data.resultData;
         
     },
     methods: {

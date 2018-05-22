@@ -4,7 +4,7 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :model="formData" :rules="rules" ref="formData" label-width="100px" class="demo-ruleForm" >		  
+		<el-form :model="form" :rules="rules" ref="form" label-width="100px" class="demo-ruleForm" >		  
 		  <el-form-item label="用户头像：" prop="headPicUrl">
 			<el-upload
 			  class="avatar-uploader"
@@ -15,7 +15,7 @@
 			  :on-remove="handleRemove"
 			  :on-change="handleChange"
 			  :before-upload="beforeAvatarUpload">
-			  <img v-if="formData.headPicUrl" :src="formData.headPicUrl" class="avatar">
+			  <img v-if="form.headPicUrl" :src="form.headPicUrl" class="avatar">
 			  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
 			</el-upload>
 			<el-dialog :visible.sync="dialogVisible">
@@ -24,47 +24,50 @@
 		  </el-form-item>
 		  <el-form-item label="真实姓名：" prop="realName">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="formData.realName" size="small"></el-input>
+		    	<el-input v-model="form.realName" size="small"></el-input>
 			</el-col>
 		  </el-form-item>
 		  <el-form-item label="手机号码：" prop="cellPhone">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="formData.cellPhone" size="small"></el-input>
+		    	<el-input v-model="form.cellPhone" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
 		  <el-form-item label="固定电话：" prop="telephone">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="formData.telephone" size="small"></el-input>
+		    	<el-input v-model="form.telephone" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
 		  <el-form-item label="传真：" prop="fax">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="formData.fax" size="small"></el-input>
+		    	<el-input v-model="form.fax" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
 		  <el-form-item label="电子邮箱：" prop="email">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="formData.email" size="small"></el-input>
+		    	<el-input v-model="form.email" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
-		  <el-form-item label="账号状态：" prop="status">
-		    <el-radio-group v-model="formData.status">
-		      <el-radio label="1">启用</el-radio>
-		      <el-radio label="0">禁用</el-radio>
+		  <el-form-item label="账号状态：">
+		    <el-radio-group v-model="form.status">
+		      <el-radio :label="1">启用</el-radio>
+		      <el-radio :label="0">禁用</el-radio>
 		    </el-radio-group>
 		  </el-form-item>  
-		  <el-form-item label="负责交割库：" prop="whCode" v-model="formData.whCode">
+		  <el-form-item label="负责交割库：" prop="whCode" v-model="form.whCode">
 		  	<span v-for="item in getAddAccountChoice">{{item}}</span>
-		  	<el-checkbox v-model="formData.isAll">全选</el-checkbox>
-		    <el-button @click="handleAddChoice" :model="formData.depart">去配置</el-button>
+		  	<el-checkbox v-model="form.isAll">全选</el-checkbox>
+		    <el-button @click="handleAddChoice" :model="form.depart">去配置</el-button>
+		    <div>
+		    	<span v-for="name in whData">{{name}}</span>
+		    </div>
 		  </el-form-item>
 		  <el-form-item label="所属角色：" prop="userRoles">
-		    <el-checkbox-group v-model="formData.userRoles">
-		      <el-checkbox v-for="item in userRoles" :key="item.roleId" :label="item.roleId" name="roles">{{item.roleName}}</el-checkbox>
+		    <el-checkbox-group v-model="form.userRoles">
+		      <el-checkbox v-for="item in userRolesData" :key="item.roleId" :label="item.roleId" name="roles">{{item.roleName}}</el-checkbox>
 		    </el-checkbox-group>
 		  </el-form-item>		  
 		  <el-form-item>
-		    <el-button type="primary" @click="handleSubmitForm('formData')" size="small" :disabled="isDisabled">保存</el-button>
+		    <el-button type="primary" @click="handleSubmitForm('form')" size="small" :disabled="isDisabled">保存</el-button>
 		    <el-button @click="handleGoBack()" size="small">取消</el-button>
 		  </el-form-item>
 		</el-form>
@@ -91,17 +94,9 @@
 			return {
 				msg: 'AddAccount',
 				isIndeterminate: true,
-				formData: {
-					"headPicUrl": "",
-			        "realName": "",
-			        "cellPhone": "",
-			        "telephone": "",
-			        "fax": "",
-			        "email": "",
-			        "status": 0,
-			        "isAll": 0,
-			        "whIds": [],
-			        "userRoles": []
+				form: {					
+			        status: 1,
+			        userRoles: []
 				},
 				dialogImageUrl:'',
 				dialogVisible: false,
@@ -109,10 +104,11 @@
 					label: 'name',
 					children: 'zones'
 		        },
+		        userRolesData: [],
+		        whData:[],
 		        count: 1,
 		        dialogFormVisible:false,
 		        isDisabled: false,
-		        userRoles: [],
 		        rules: {
 		          realName: [
 		            { required: true, message: '请输入真实姓名', trigger: 'blur' }
@@ -141,7 +137,11 @@
 				let newWhCode = data.map((item,key,ary) => {
 				     return item.whCode;
 				});
-				this.formData.whIds = newWhCode
+				let newWhData = data.map((item,key,ary) => {
+				     return item.whName;
+				});
+				this.form.whIds = newWhCode
+				this.whData = newWhData
 			})
 		},
 		mounted(){
@@ -155,8 +155,8 @@
 				console.log(file);
 			},
 			handleAvatarSuccess(res, file) {
-				this.formData.imageUrl = URL.createObjectURL(file.raw);
-				console.log(this.formData.imageUrl);
+				this.form.imageUrl = URL.createObjectURL(file.raw);
+				console.log(this.form.imageUrl);
 			},
 			beforeAvatarUpload(file) {
 				const isJPG = file.type === 'image/jpeg';
@@ -185,8 +185,8 @@
         		this.dialogVisible = true;
 			},
 			handleAvatarSuccess(res, file) {
-				this.formData[file.imageUrl] = URL.createObjectURL(file.raw);  
-				this.formData[file.img] = true;  //改放change显示图片
+				this.form[file.imageUrl] = URL.createObjectURL(file.raw);  
+				this.form[file.img] = true;  //改放change显示图片
 				//this.$refs.ruleForm.validateField(file.img); // 上传成功后单独校验，以取消之前的必填项提示
 			},
 			handleCheckAll(){
@@ -198,21 +198,22 @@
 			handleNodeClick(data) {
 				console.log(data);
 			},
-			handleSubmitForm(formName) {
-		        this.$refs[formName].validate((valid) => {
-		          if (valid) {
+			handleSubmitForm(form) {
+		        this.$refs[form].validate((valid) => {
+					if (valid) {
 		            this.isDisabled = true;
-		            if(this.formData.isAll){
-		            	this.formData.isAll = 1
+		            if(this.form.isAll){
+		            	this.form.isAll = 1
 		            }else{
-		            	this.formData.isAll = 0
+		            	this.form.isAll = 0
 		            }
-					let sParams = JSON.stringify(this.formData);
+					let sParams = JSON.stringify(this.form);
 					console.log(sParams)
 					this.$axios.post('http://192.168.11.98:9001/admin/basics/user', sParams , {
 							headers:{ "Content-Type": "application/json"}
 						})
 						.then(res =>  {
+								console.log(res);
 								if(res.data.status == 200){
 									this.$message({
 							          showClose: true,
@@ -239,8 +240,10 @@
 		    		headers: { "Content-Type": "application/json"}
 		    	})
 		    	.then( res => {
+		    		console.log('**********************');
+		    		console.log(res);
 		    		if(res.data.status  == 200){
-		    			this.userRoles = res.data.result
+		    			this.userRolesData = res.data.result
 		    		}
 		    	})
 		    },

@@ -50,7 +50,7 @@
 		<el-container>
 	      <el-button type="danger" @click="handleAdd" size="small">新增</el-button>	       
 	    </el-container>
-		<el-table :data="tableData" border size="small">
+		<el-table :data="tableData" border size="small" v-loading="isLoading">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
 		    		<router-link :to="{name:'contractOperateViewLink', query:{tempCode: scope.row.tempCode}}">
@@ -68,7 +68,6 @@
 		    <el-table-column align="center" prop="status" label="停/启用状态"></el-table-column>
 		    <el-table-column align="center" prop="createTimeStart" label="更新时间"></el-table-column>
 		</el-table>
-		
 		<el-footer style="height:auto">
 		    <el-pagination
 		      @size-change="handleSizeChange"
@@ -85,11 +84,13 @@
 	</div>  
 </template>
 <script>
+	import Pagination from './../../../../common/Pagination'
 	export default {
 		name: 'Index',
 		data(){
 			return {
 				msg: '合同模板维护',
+        		isLoading: true,
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
@@ -98,6 +99,9 @@
 				formInline: {},
 				sParams: {}
 			}
+		},
+		components: {
+			Pagination
 		},
 		mounted(){
 			this.initList(this.currentPage, this.pageSize);
@@ -131,7 +135,7 @@
 				console.log('add');
 				this.$router.push({name: 'contractOperateAddLink'});
 			},
-			 handlePrevChange(val){
+			handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
 		        this.pageSize = val;
 		    },
@@ -155,12 +159,13 @@
 		    	this.sParams.toPage = toPage;
 		    	this.sParams.pageSize = pageSize;
 		    	console.log(this.sParams);
-				this.$axios.post('/api/v1/admin/basics/contracts', this.sParams , {
+				this.$axios.post('http://192.168.15.172:9001/api/v1/admin/basics/contracts', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
 							console.log(res)
 							if(res.data.status == 200){
+								this.isLoading = false;
 								this.totalPage = res.data.result.total;
 								this.currentPage = res.data.result.pageNum;
 								this.pageSize = res.data.result.pageSize;

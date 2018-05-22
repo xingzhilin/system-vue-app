@@ -31,7 +31,7 @@
 	      <el-button type="danger" @click="handleAdd" size="small">添加账号</el-button>	        
 	      <span class="total">总计：</span>
 	    </el-container>
-		<el-table :data="tableData" border size="small">
+		<el-table :data="tableData" border size="small" v-loading="isLoading">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
 		    		<router-link :to="{name: 'checkAccountLink', query: {adminId:scope.row.adminId}}">
@@ -74,6 +74,7 @@
 		data(){
 			return {
 				msg: '后台账号管理',
+				isLoading: true,
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
@@ -133,6 +134,7 @@
 					})
 					.then(res =>  {
 							if(res.data.status == 200){
+								this.isLoading = false;
 								this.totalPage = res.data.result.total;
 								this.currentPage = res.data.result.pageNum;
 								this.pageSize = res.data.result.pageSize;

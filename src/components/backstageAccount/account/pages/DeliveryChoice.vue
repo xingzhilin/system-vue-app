@@ -37,6 +37,7 @@
 			:span-method="rowMethod"
 			tooltip-effect="dark"
 			style="width: 100%"
+			v-loading="isLoading" 
 			@selection-change="handleSelectionChange">
 			<el-table-column align="center" type="selection" width="30"></el-table-column>
 			<el-table-column align="center" label="选择" width="50"></el-table-column>
@@ -65,6 +66,7 @@
 		data(){
 			return {
 				msg: 'DeliveryChoice',
+				isLoading: true,
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
@@ -122,34 +124,25 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-				// this.sParams.toPage = toPage;
-		  //   	this.sParams.pageSize = pageSize;
-		  //   	this.sParams.status = 1;
-				// this.$axios.post('http://192.168.11.98:9001/admin/basics/warehouses', this.sParams , {
-				// 		headers:{ "Content-Type": "application/json"}
-				// 	})
-				// 	.then(res =>  {
-				// 		console.log(res)
-				// 			if(res.data.status == 200){
-				// 				this.totalPage = res.data.result.total;
-				// 				this.currentPage = res.data.result.pageNum;
-				// 				this.pageSize = res.data.result.pageSize;
-				// 				this.tableData = res.data.result.list;
-				// 			}
-				// 	})
-				// 	.catch(function (error) {
-				// 		console.log(error);
-				// 	})
-				this.tableData = [
-					{
-						"whName":"11111",
-						"status": "1"
-					},
-					{
-						"whName":"2222",
-						"status": "0"
-					}
-			     ]
+				this.sParams.toPage = toPage;
+		    	this.sParams.pageSize = pageSize;
+		    	this.sParams.status = 1;
+				this.$axios.post('http://192.168.11.98:9001/admin/basics/warehouses', this.sParams , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+						console.log(res)
+							if(res.data.status == 200){							
+								this.isLoading = false;
+								this.totalPage = res.data.result.total;
+								this.currentPage = res.data.result.pageNum;
+								this.pageSize = res.data.result.pageSize;
+								this.tableData = res.data.result.list;
+							}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
 
 		    }
 		}

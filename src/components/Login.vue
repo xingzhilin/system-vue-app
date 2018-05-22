@@ -69,11 +69,14 @@ export default {
           this.$axios.post('http://192.168.11.31:8080/login', sParams ,{
                 headers:{ "Content-Type": "application/json"}
               })
-            .then(res =>  {
+            .then( res =>  {
+              //let resData = JSON.parse(res.data)
               console.log(res);
               if(res.data.status == 200){
-                let token = res.headers.get('access-token')
+                let token = res.headers['access-token'];
                 console.log(token);
+                this.$store.dispatch("setAccessToken", token);
+                // /admin/basics/users/{cellPhone}
               }
             })
             .catch(function (error) {

@@ -6,7 +6,7 @@
 			</el-col>
 			<el-col :span="14" class="userinfo">
 				<span>用户名:{{currentUser}}</span>
-				<router-link :to="{name: 'loginLink'}">退出登录</router-link>
+				<span @click="handleLogout">退出登录</span>
 			</el-col>
 		</el-col>
 		<el-col :span="24" class="main">
@@ -35,7 +35,7 @@
 				msg: 'home',		
 				//navMenus: state.menus,
 				navMenusList: [],
-				collapse: false
+				collapse: true
 			}
 		},
 		components: {
@@ -50,15 +50,29 @@
 	      }
 	    },
 		created(){
-			this.$axios.post('http://192.168.11.98:9001/admin/basics/userAuths/1')
+			this.$axios.post('/admin/basics/userAuths/1')
 						.then( res => {
+							if( res.data.status == 200){
+								this.navMenusList = res.data.list;
+							}
 							//this.$router.push({name: 'homeLink'}
-							this.navMenusList = res.data.list;
 						})
 		},
 		methods: {
 			handleChange(){
 				this.collapse = !this.collapse;
+			},
+			handleLogout(){
+				let sParams = JSON.stringify({
+					"access-token": this.$store.getters.getAccessToken
+				});
+				console.log(sParams);
+				this.$axios.post('http://192.168.11.31:8080/admin/logout', sParams ,{
+				    headers:{ "Content-Type": "application/json"}
+				  })
+					.then( res => {
+						console.log(res)
+					})
 			}
 		}
 	}
@@ -169,12 +183,12 @@
 			}
 		}
 	}
-	@media screen and (max-width: 750px){
-		.header {
-			display: none;
-		}
-		.el-aside {
-			display: none;
-		}
-	}
+	// @media screen and (max-width: 750px){
+	// 	.header {
+	// 		display: none;
+	// 	}
+	// 	.el-aside {
+	// 		display: none;
+	// 	}
+	// }
 </style>

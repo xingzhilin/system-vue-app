@@ -87,7 +87,7 @@ export default {
                   return false;
               }
             }).then( data => {
-               this.$axios.get('http://192.168.11.98:9001/admin/basics/users/'+data ,{
+               this.$axios.get('/admin/basics/users/'+data ,{
                   headers:{ "Content-Type": "application/json"}
                 })
                 .then( res => {

@@ -10,10 +10,9 @@ import { store } from './store/store.js'
 import 'vue-event-calendar/dist/style.css'
 import vueEventCalendar from 'vue-event-calendar'
 Vue.prototype.$http = axios
+Vue.prototype.$axios = axios
 axios.defaults.baseURL = "http://192.168.30.42:9001"
 
-
-Vue.prototype.$axios = axios;
 Vue.config.productionTip = false
 Vue.use(vueEventCalendar, {locale: 'en'}) 
 Vue.use(ElementUI)

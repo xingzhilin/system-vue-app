@@ -163,7 +163,7 @@
 					console.log(res);
 					if(res.data.status == 200){
 						if(res.data.result.code == 0){
-							alert('success')
+							//alert('success')
 						}else if(res.data.result.code == 1){
 							if(jsonData.realName){
 								this.$message({

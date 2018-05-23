@@ -1,0 +1,432 @@
+{
+  "data": [
+  {
+    "eventName": "全选",
+    "subBtns": [
+    {
+      "eventName": "关联企业",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "关联企业",
+        "eventCode": "approvalEve",
+        "id": "1",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "关联企业",
+        "eventCode": "successEve",
+        "id": "2",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "关联企业",
+        "eventCode": "rejectEve",
+        "id": "3",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "供货招标准入",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "供货招标准入",
+        "eventCode": "approvalEve",
+        "id": "4",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "供货招标准入",
+        "eventCode": "successEve",
+        "id": "5",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "供货招标准入",
+        "eventCode": "rejectEve",
+        "id": "6",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "商品发布",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "商品发布",
+        "eventCode": "approvalEve",
+        "id": "7",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "商品发布",
+        "eventCode": "successEve",
+        "id": "8",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "商品发布",
+        "eventCode": "rejectEve",
+        "id": "9",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "订单签章",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "订单签章",
+        "eventCode": "approvalEve",
+        "id": "11",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "订单签章",
+        "eventCode": "successEve",
+        "id": "12",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "订单签章",
+        "eventCode": "rejectEve",
+        "id": "31",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "入库称重",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "入库称重",
+        "eventCode": "approvalEve",
+        "id": "14",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "入库称重",
+        "eventCode": "successEve",
+        "id": "15",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "入库称重",
+        "eventCode": "rejectEve",
+        "id": "61",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "入库化验",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "入库化验",
+        "eventCode": "approvalEve",
+        "id": "17",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "入库化验",
+        "eventCode": "successEve",
+        "id": "18",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "入库化验",
+        "eventCode": "rejectEve",
+        "id": "19",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "入库货物拒收",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "入库货物拒收",
+        "eventCode": "approvalEve",
+        "id": "21",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "入库货物拒收",
+        "eventCode": "successEve",
+        "id": "22",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "入库货物拒收",
+        "eventCode": "rejectEve",
+        "id": "23",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "入库货权维护",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "入库货权维护",
+        "eventCode": "approvalEve",
+        "id": "24",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "入库货权维护",
+        "eventCode": "successEve",
+        "id": "25",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "入库货权维护",
+        "eventCode": "rejectEve",
+        "id": "26",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "入库结算",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "入库结算",
+        "eventCode": "approvalEve",
+        "id": "28",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "入库结算",
+        "eventCode": "successEve",
+        "id": "33",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "入库结算",
+        "eventCode": "rejectEve",
+        "id": "34",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "支出款项",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "支出款项",
+        "eventCode": "approvalEve",
+        "id": "31",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "支出款项",
+        "eventCode": "successEve",
+        "id": "36",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "支出款项",
+        "eventCode": "rejectEve",
+        "id": "41",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "收到款项",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "收到款项",
+        "eventCode": "approvalEve",
+        "id": "42",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "收到款项",
+        "eventCode": "successEve",
+        "id": "43",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "收到款项",
+        "eventCode": "rejectEve",
+        "id": "44",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "通知保证金缴纳",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "通知保证金缴纳",
+        "eventCode": "approvalEve",
+        "id": "45",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "通知保证金缴纳",
+        "eventCode": "successEve",
+        "id": "46",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "通知保证金缴纳",
+        "eventCode": "rejectEve",
+        "id": "47",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "保证金扣除",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "保证金扣除",
+        "eventCode": "approvalEve",
+        "id": "48",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "保证金扣除",
+        "eventCode": "successEve",
+        "id": "49",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "保证金扣除",
+        "eventCode": "rejectEve",
+        "id": "51",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "费用摊销",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "费用摊销",
+        "eventCode": "approvalEve",
+        "id": "52",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "费用摊销",
+        "eventCode": "successEve",
+        "id": "53",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "费用摊销",
+        "eventCode": "rejectEve",
+        "id": "54",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "进项发票认票",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "进项发票认票",
+        "eventCode": "approvalEve",
+        "id": "55",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "进项发票认票",
+        "eventCode": "successEve",
+        "id": "61",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "进项发票认票",
+        "eventCode": "rejectEve",
+        "id": "62",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "延长点价期限",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "延长点价期限",
+        "eventCode": "approvalEve",
+        "id": "64",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "延长点价期限",
+        "eventCode": "successEve",
+        "id": "71",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "延长点价期限",
+        "eventCode": "rejectEve",
+        "id": "72",
+        "isChecked": "true"
+      }]
+    },
+    {
+      "eventName": "后台完成点价",
+      "subBtns": [
+      {
+        "eventName": "审批",
+        "parentName": "后台完成点价",
+        "eventCode": "approvalEve",
+        "id": "73",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "驳回",
+        "parentName": "后台完成点价",
+        "eventCode": "successEve",
+        "id": "81",
+        "isChecked": "true"
+      },
+      {
+        "eventName": "成功",
+        "parentName": "后台完成点价",
+        "eventCode": "rejectEve",
+        "id": "111",
+        "isChecked": "true"
+      }]
+    }]
+  }]
+}

@@ -73,7 +73,7 @@ export default {
               if(res.data.status == 200){
                 let tokenValue = res.headers['access-token'];
                 console.log(tokenValue);
-                this.$store.dispatch('setAccessToken', tokenValue);
+                this.$store.dispatch("setAccessToken", tokenValue);
                 // /admin/basics/users/{cellPhone}
                 return this.form.username;
               }else if(res.data.status == 2000){
@@ -91,12 +91,13 @@ export default {
                   headers:{ "Content-Type": "application/json"}
                 })
                 .then( res => {
+                  console.log('*****************************');
                   console.log(res);
                   if(res.data.status == 200){
                     console.log(res.data.result)
-                    this.$store.dispatch('setCurrentUser', res.data.result.userName);
-                    this.$router.push({name: 'homeLink'});
                   }
+
+                  //this.$router.push({name: 'addAccountListLink'});
                 })                
                 .catch(function (error) {
                   console.log(error);

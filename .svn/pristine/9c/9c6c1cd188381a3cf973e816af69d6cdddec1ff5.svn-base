@@ -35,6 +35,15 @@
       callback()
     }
   }
+  // function fetchPost(url, var1) {
+  //   return new Promise((resolve, reject) => {
+  //     axios.post(url, qs.stringify(var1)).then(res => {
+  //       resolve(res.data)
+  //     }).catch(res => {
+  //       reject(res)
+  //     })
+  //   })
+  // }
 export default {
   data() {
     return {
@@ -64,6 +73,19 @@ export default {
 
           let sParams = JSON.stringify(this.form);
           console.log(sParams);
+          // this.$axios.get('http://192.168.11.98:9001/admin/basics/users/'+this.form.username,{
+          //         headers:{ "Content-Type": "application/json"}
+          //       })
+          //       .then( res => {
+          //         console.log(res);
+          //         if(res.data.status == 200){
+
+          //              //this.$store.dispatch("setUser", res.data.status.userName)
+          //         }
+          //       })                
+          //       .catch(function (error) {
+          //         console.log(error);
+          //       })
           this.$axios.post('http://192.168.30.42:8080/admin/login', sParams ,{
                 headers:{ "Content-Type": "application/json"}
               })
@@ -73,7 +95,7 @@ export default {
               if(res.data.status == 200){
                 let tokenValue = res.headers['access-token'];
                 console.log(tokenValue);
-                this.$store.dispatch('setAccessToken', tokenValue);
+                this.$store.dispatch("setAccessToken", tokenValue);
                 // /admin/basics/users/{cellPhone}
                 return this.form.username;
               }else if(res.data.status == 2000){
@@ -91,12 +113,13 @@ export default {
                   headers:{ "Content-Type": "application/json"}
                 })
                 .then( res => {
+                  console.log('*****************************');
                   console.log(res);
                   if(res.data.status == 200){
-                    console.log(res.data.result)
-                    this.$store.dispatch('setCurrentUser', res.data.result.userName);
-                    this.$router.push({name: 'homeLink'});
+                    this.$store.dispatch("setUser", res.data.result)
                   }
+
+                  //this.$router.push({name: 'addAccountListLink'});
                 })                
                 .catch(function (error) {
                   console.log(error);

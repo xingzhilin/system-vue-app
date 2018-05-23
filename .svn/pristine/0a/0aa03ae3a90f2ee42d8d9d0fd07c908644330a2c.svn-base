@@ -5,8 +5,7 @@
 				金银岛煤炭网业务管理系统
 			</el-col>
 			<el-col :span="14" class="userinfo">
-				<span>用户名:{{currentUser}}</span>
-				<router-link :to="{name:loginLink}">退出登录</router-link>
+				{{currentUser}}退出登录
 			</el-col>
 		</el-col>
 	</nav>
@@ -19,17 +18,17 @@
 
 			}
 		},
+		created(){
+			console.log('created');
+		},
 		computed:{
 	      currentUser(){
-	        return this.$store.getters.getCurrentUser
+	        return this.$store.getters.currentUser
 	      },
 	      isLogin(){
 	        return this.$store.getters.isLogin
 	      }
 	    }
-		created(){
-			console.log('created');
-		},
 	}
 </script>
 <style>

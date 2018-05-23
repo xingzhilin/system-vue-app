@@ -1,16 +1,5 @@
 <template>
-    <div class="roleAuthoritySee">
-        <el-form ref="ruleForm" label-width="100px" class="demo-ruleForm">
-          <el-form-item label="角色名称：">
-            {{ruleForm.roleName}}
-          </el-form-item>
-           <el-form-item label="添加时间：">
-            {{ruleForm.createDate}}
-          </el-form-item>
-          <el-form-item label="备注：">
-            {{ruleForm.remark}}
-          </el-form-item>
-        </el-form>
+    <div class="roleAuthority">
         <el-tabs>
           <el-tab-pane>
                 <span slot="label">
@@ -19,7 +8,6 @@
                 <el-col>
                   <el-tree
                     :default-expand-all="expand"
-                    :default-checked-keys="[1,2,3,5]"
                     :props="props"
                     :data="treeData"
                     show-checkbox
@@ -35,9 +23,9 @@
               <el-col>
                 <el-tree
                   :default-expand-all="expand"
-                  :default-checked-keys="checkedArr"
                   :props="msgPushesProps"
                   :data="msgPushesTree"
+                  :default-checked-keys="checkedArr"
                   show-checkbox
                   node-key="id"
                   @check-change="handleCheckChange">
@@ -45,8 +33,11 @@
               </el-col>
           </el-tab-pane>
          </el-tabs>
-         <el-col :span="12" :offset="6">
-            <el-button type="primary" @click="$router.go(-1);">返回</el-button>
+         <el-col>
+            <el-button type="primary" @click="saveSubmit">保存</el-button>
+            <router-link :to="{path:'/backstage/role'}">
+                <el-button>取消</el-button>
+            </router-link>
          </el-col>
     </div>
 </template>
@@ -58,67 +49,83 @@
             checkedArr:[],
             props: {
               label: 'name',
-              children: 'subMenu',
-              disabled: 'disabled'
+              children: 'subMenu'
             },
             msgPushesProps: {
               label: 'eventName',
-              children: 'subBtns',
-              disabled: 'disabled'
+              children: 'subBtns'
             },
             msgPushesTree:[],
             ruleForm:{
               roleName: '',
-              delFlag: '1',
+              delFlag: '',
               remark: '',
               msgPushes:[],
             },
             treeData:[],
-            expand:true,
+            expand:true
           };
         },
         created(){
-          let roleId = this.$route.query.roleId;
+          let data = JSON.parse(this.$route.query.data);
+          console.log(data)
+          $.extend(this.ruleForm,data);
+          console.log(this.ruleForm)
            roleTree({}, res => {
-                this.setDisabled(res.data);
                 this.treeData = res.data;
            });
-           this.$http.get('http://192.168.11.98:9001/admin/basics/userRoles/'+roleId).then(res => {
+           this.$http.get('http://192.168.11.98:9001/admin/basics/userRoles/'+this.ruleForm.roleId).then(res => {
+              console.log(res.data)
               let data = res.data.result;
-              this.ruleForm = data;
-              data.roleMsgConfigs.forEach(v=>{
-                  v.disabled='disabled';
+              this.msgPushesTree = [{
+                "eventName": "全选",
+                "subBtns":data.roleMsgConfigs
+              }];
+              data.roleMsgConfigs.forEach(v=>{ 
+                  var obj = {
+                    eventName:v.eventName
+                  };
                   v.subBtns.forEach(v1=>{
-                    v1.disabled='disabled';
                     if(v1.isChecked == "1"){
+                      obj[v1.eventCode] = 1;
                       this.checkedArr.push(v1.id);
+                    }else{
+                      obj[v1.eventCode] = 0;
                     }
                   });
+                  this.ruleForm.msgPushes.push(obj);
 
               });
-              this.msgPushesTree = data.roleMsgConfigs;
            });
+          
+            
         },
         methods: {
           handleCheckChange(data, checked, indeterminate) {
             console.log(data, checked, indeterminate);
+            if(data.parentName){
+              this.ruleForm.msgPushes.forEach(v=>{
+                  if(v.eventName == data.parentName){
+                    let isChecked = checked == true ? 1 : 0;
+                    v[data.eventCode] = isChecked;
+                  }
+              });
+            }
           },
           saveSubmit(){
-            console.log('提交')
-          },
-          setDisabled(data){
-            data.forEach((v,i)=>{
-              v.disabled = true;
-              if(v.subMenu){
-                this.setDisabled(v.subMenu);
+            console.log(this.ruleForm)
+            this.$http.post('http://192.168.11.98:9001/admin/basics/userRole',this.ruleForm).then(res=>{
+              let data = res.data;
+              if(data.status == 200){
+                this.$router.push('/backstage/role');
               }
-            })
+            });
           }
         }
       };
 </script>
 <style scoped>
-    .roleAuthoritySee {
+    .roleAuthority {
         padding: 30px;
     }
     .el-tree {

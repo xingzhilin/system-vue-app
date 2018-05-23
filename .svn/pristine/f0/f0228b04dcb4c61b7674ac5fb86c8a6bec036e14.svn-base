@@ -156,7 +156,7 @@
 			handleVerificatUser(jsonData){
 				let sParams = jsonData;
 				console.log(sParams);				
-				this.$axios.post('/admin/basics/verificatUser', sParams, {
+				this.$axios.post('http://192.168.11.98:9001/admin/basics/verificatUser', sParams, {
 					headers:{ "Content-Type": "application/json"}
 				})
 				.then( res => {
@@ -253,7 +253,7 @@
 		            }
 					let sParams = JSON.stringify(this.form);
 					console.log(sParams)
-					this.$axios.post('/admin/basics/user', sParams , {
+					this.$axios.post('http://192.168.11.98:9001/admin/basics/user', sParams , {
 							headers:{ "Content-Type": "application/json"}
 						})
 						.then(res =>  {
@@ -280,7 +280,7 @@
 		        })
 		    },
 		    init(){
-		    	this.$axios.post('/admin/basics/roles',{
+		    	this.$axios.post('http://192.168.11.98:9001/admin/basics/roles',{
 		    		headers: { "Content-Type": "application/json"}
 		    	})
 		    	.then( res => {

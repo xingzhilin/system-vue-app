@@ -53,7 +53,6 @@ import CheckAccount from './../components/backstageAccount/account/pages/CheckAc
 import Role from './../components/backstageAccount/role/Role'
 import AddRole from './../components/backstageAccount/role/addRole'
 import RoleAuthority from './../components/backstageAccount/role/RoleAuthority'
-import RoleAuthorityEditor from './../components/backstageAccount/role/RoleAuthorityEditor'
 import RoleAuthoritySee from './../components/backstageAccount/role/RoleAuthoritySee'
 
 import WarehousePower from './../components/backstageAccount/warehousePower/Index'
@@ -148,10 +147,6 @@ import BusinessManageOthersBankBianji2 from './../components/backstageAccount/bu
 //前台账户管理  frontAccounts
 import FrontAccountsIndex from './../components/frontAccounts/Index'
 import Users from './../components/frontAccounts/users/Users'
-import UsersList from './../components/frontAccounts/users/pages/Index'
-import UsersLinkAdd from './../components/frontAccounts/users/pages/Add'
-import UsersLinkView from './../components/frontAccounts/users/pages/View'
-
 import Enterprise from './../components/frontAccounts/enterprise/Enterprise'
 import Admittance from './../components/frontAccounts/admittance/Admittance'
 
@@ -578,15 +573,10 @@ const backstageAccount = {
 			name: "addRole",
 			component: AddRole
 		},
-        {
-            path: '/backstage/RoleAuthority',
-            name: "roleAuthority",
-            component: RoleAuthority,
-        },
 		{
-			path: '/backstage/RoleAuthorityEditor',
-			name: "roleAuthorityEditor",
-			component: RoleAuthorityEditor,
+			path: '/backstage/RoleAuthority',
+			name: "roleAuthority",
+			component: RoleAuthority,
 		},
 		{
 			path: '/backstage/RoleAuthoritySee',
@@ -1008,24 +998,7 @@ const frontAccounts = {
 		{
 			path: '/frontAccounts/users',
 			name: 'usersLink',
-			component: Users,
-	children:[
-		{
-			path: '/frontAccounts/users/index',
-			name: 'usersLinkList',
-			component: UsersList
-		},
-		{
-			path: '/frontAccounts/users/add',
-			name: 'usersLinkAdd',
-			component: UsersLinkAdd
-		},
-		{
-			path: '/frontAccounts/users/view',
-			name: 'UsersLinkView',
-			component: UsersLinkView
-		}
-	]
+			component: Users
 		},
 		{
 			path: '/frontAccounts/enterprise',

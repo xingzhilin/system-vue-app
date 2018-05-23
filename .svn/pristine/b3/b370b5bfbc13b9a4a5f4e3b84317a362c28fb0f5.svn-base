@@ -7,7 +7,7 @@ export const store = new Vuex.Store({
   state:{
     // 设置属性
     accessToken: '',    
-    currentUser: '',
+    currentUser: null,
     addAccountChoice: [],
     isLogin:false,
     isPc:true,
@@ -25,19 +25,12 @@ export const store = new Vuex.Store({
     accessTokenStatus(state,token){
       if(token){
         state.accessToken = token;
-      }else{
-        state.accessToken = '';
-      }
-     
-    },
-    currentUserStatus(state, user){
-      if(user){
-        state.currentUser = user;
         state.isLogin = true;
       }else{
-        state.currentUser = '';
+        state.accessToken = '';
         state.isLogin = false;
       }
+     
     },
     // 更改用户的状态信息
     setAddAccountChoice(state,data){
@@ -54,10 +47,7 @@ export const store = new Vuex.Store({
   actions:{
     // 应用mutations
     setAccessToken({ commit },token){
-      commit('accessTokenStatus',token)
-    },
-    setCurrentUser({ commit }, user){
-      commit('currentUserStatus', user)
+      commit("accessTokenStatus",token)
     },
     isPc(context){
         context.commit('isPc')

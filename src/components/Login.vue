@@ -65,54 +65,69 @@ export default {
   },
   methods: {
     handleSubmit(form) {
-      //this.$router.push({name: 'contractOperateListLink'});
       this.$refs[form].validate((valid) => {
         console.log(valid);
         if (valid) {
-          //this.logining = true;
-          // let sParams = new URLSearchParams();
-          // sParams.append("username", this.form.username);
-          // sParams.append("password",  this.form.password);
+          this.logining = true;
+          
+
           let sParams = JSON.stringify(this.form);
           console.log(sParams);
-          this.$axios.get('http://192.168.11.98:9001/admin/basics/users/'+this.form.username,{
-                  headers:{ "Content-Type": "application/json"}
-                })
-                .then( res => {
-                  console.log(res);
-                  if(res.data.status == 200){
-
-                       this.$store.dispatch("setUser", res.data.status.userName)
-                  }
-                })                
-                .catch(function (error) {
-                  console.log(error);
-                })
-          // this.$axios.post('http://192.168.11.31:8080/login', sParams ,{
-          //       headers:{ "Content-Type": "application/json"}
-          //     })
-          //   .then( res =>  {
-          //     //let resData = JSON.parse(res.data)
-          //     console.log(res);
-          //     if(res.data.status == 200){
-          //       let token = res.headers['access-token'];
-          //       console.log(token);
-          //       this.$store.dispatch("setAccessToken", token);
-          //       // /admin/basics/users/{cellPhone}
-          //       this.$axios.post('http://192.168.11.98:9001/admin/basics/users/', {cellPhone: this.form.username} ,{
+          // this.$axios.get('http://192.168.11.98:9001/admin/basics/users/'+this.form.username,{
           //         headers:{ "Content-Type": "application/json"}
           //       })
           //       .then( res => {
           //         console.log(res);
+          //         if(res.data.status == 200){
+
+          //              //this.$store.dispatch("setUser", res.data.status.userName)
+          //         }
           //       })                
           //       .catch(function (error) {
           //         console.log(error);
           //       })
-          //     }
-          //   })
-          //   .catch(function (error) {
-          //     console.log(error);
-          //   })
+          this.$axios.post('http://192.168.30.42:8080/admin/login', sParams ,{
+                headers:{ "Content-Type": "application/json"}
+              })
+            .then( res =>  {
+              //let resData = JSON.parse(res.data)
+              console.log(res);
+              if(res.data.status == 200){
+                let tokenValue = res.headers['access-token'];
+                console.log(tokenValue);
+                this.$store.dispatch("setAccessToken", tokenValue);
+                // /admin/basics/users/{cellPhone}
+                return this.form.username;
+              }else if(res.data.status == 2000){
+                  this.$message({
+                    showClose: true,
+                    message: res.data.message,
+                    type: 'warning'
+                  });
+                  this.$refs[form].resetFields();
+                  this.logining = false;
+                  return false;
+              }
+            }).then( data => {
+               this.$axios.get('http://192.168.11.98:9001/admin/basics/users/'+data ,{
+                  headers:{ "Content-Type": "application/json"}
+                })
+                .then( res => {
+                  console.log('*****************************');
+                  console.log(res);
+                  if(res.data.status == 200){
+                    this.$store.dispatch("setUser", res.data.result)
+                  }
+
+                  //this.$router.push({name: 'addAccountListLink'});
+                })                
+                .catch(function (error) {
+                  console.log(error);
+                })
+            })
+            .catch(function (error) {
+              console.log(error);
+            })
 
         } else {
           console.log("error submit!!");

@@ -53,6 +53,7 @@
 		    <el-table-column align="center" prop="status" label="用户状态"></el-table-column>
 		    <el-table-column align="center" prop="createTime" label="注册时间"></el-table-column>
 		</el-table>
+		{{accessToken}}
 		<el-footer style="height:auto">
 		    <el-pagination
 		      @size-change="handleSizeChange"
@@ -84,7 +85,13 @@
 				sParams: {}
 			}
 		},
+		computed:{
+	      accessToken(){
+	        return this.$store.getters.getAccessToken
+	      }
+	    },
 		mounted(){
+			alert(1);
 			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {

@@ -111,15 +111,24 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag,
-					_id = this.$route.query.id;
-				console.log(_id)
-				if(_query == 'edit'){
-					console.log('编辑');
-				}else{
-					console.log('新增');
-				}
-			}
+				let tempCode = this.$route.query.tempCode;
+				this.$axios.get('/api/v1/admin/basics/contract/' + tempCode,{
+					headers:{ "Content-Type": "application/json"}
+				})
+				.then(res => {
+					console.log('******************************')
+					console.log(res)
+					if(res.data.status == 200){
+						this.formData = res.data.result;
+					}
+				})
+				.catch(function (error) {
+					console.log(error);
+				})
+
+
+
+			},
 		}
 	}
 </script>

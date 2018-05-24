@@ -4,15 +4,9 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="form" :rules="rules" :label-position="isPc==true?'right':'top'" :inline-message="true"  label-width="140px" >			
-			<el-form-item label="是否保证金细分类型：">			  	
-		        <el-radio-group v-model="form.resource" size="small">
-			      <el-radio :label="1">是</el-radio>
-			      <el-radio :label="0">否</el-radio>
-			    </el-radio-group>
-			</el-form-item>
-			<el-form-item label="费用类型：" prop="name">			  	
-		        <el-input v-model="form.name" size="small"></el-input>
+		<el-form ref="form" :model="form" :rules="rules" :label-position="isPc==true?'right':'top'" :inline-message="true"  label-width="180px" >
+			<el-form-item label="订单费用类型：" prop="orderCostType">			  	
+		        <el-input v-model="form.orderCostType" size="small"></el-input>
 			</el-form-item>
 			<el-form-item label="状态：" prop="status">			  	
 		        <el-radio-group v-model="form.status" size="small">
@@ -31,20 +25,8 @@
 	//import eventBus from './../../../../../api/eventBus.js';
 	export default{
 		data(){
-			const generateData = _ => {
-				const data = [];
-				for (let i = 1; i <= 15; i++) {
-					data.push({
-						key: i,
-						label: `备选项 ${ i }`,
-						disabled: false
-					});
-				}
-				return data;
-			};
 			return {
-				msg: '新增客户企业费用类型维护',
-				data: generateData(),
+				msg: '订单费用类型',
 				isDisabled: false,
 				form: {
 					status: 1
@@ -111,15 +93,24 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag,
-					_id = this.$route.query.id;
-				console.log(_id)
-				if(_query == 'edit'){
-					console.log('编辑');
-				}else{
-					console.log('新增');
-				}
-			}
+				let tempCode = this.$route.query.tempCode;
+				this.$axios.get('/api/v1/admin/basics/contract/' + tempCode,{
+					headers:{ "Content-Type": "application/json"}
+				})
+				.then(res => {
+					console.log('******************************')
+					console.log(res)
+					if(res.data.status == 200){
+						this.formData = res.data.result;
+					}
+				})
+				.catch(function (error) {
+					console.log(error);
+				})
+
+
+
+			},
 		}
 	}
 </script>

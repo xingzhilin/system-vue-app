@@ -4,15 +4,9 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form ref="form" :model="form" :rules="rules" :label-position="isPc==true?'right':'top'" :inline-message="true"  label-width="140px" >			
-			<el-form-item label="是否保证金细分类型：">			  	
-		        <el-radio-group v-model="form.resource" size="small">
-			      <el-radio :label="1">是</el-radio>
-			      <el-radio :label="0">否</el-radio>
-			    </el-radio-group>
-			</el-form-item>
-			<el-form-item label="费用类型：" prop="name">			  	
-		        <el-input v-model="form.name" size="small"></el-input>
+		<el-form ref="form" :model="form" :rules="rules" :label-position="isPc==true?'right':'top'" :inline-message="true"  label-width="180px" >
+			<el-form-item label="港口费用类型：" prop="portCostType">			  	
+		        <el-input v-model="form.portCostType" size="small"></el-input>
 			</el-form-item>
 			<el-form-item label="状态：" prop="status">			  	
 		        <el-radio-group v-model="form.status" size="small">
@@ -25,6 +19,7 @@
 			    <el-button @click="handleGoBack" size="small">取消</el-button>
 			</el-footer>
 		</el-form>
+		
 	</div>
 </template>
 <script>
@@ -43,14 +38,14 @@
 				return data;
 			};
 			return {
-				msg: '新增客户企业费用类型维护',
+				msg: '港口费用类型',
 				data: generateData(),
 				isDisabled: false,
 				form: {
 					status: 1
 				},				
 				rules: {
-					orderCostType: [
+					assaysCostType: [
 						{ required: true, message: '化验费用类型', trigger: 'blur' },
 						{ 
 							validator: (rule, value, callback)=>{
@@ -111,15 +106,24 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag,
-					_id = this.$route.query.id;
-				console.log(_id)
-				if(_query == 'edit'){
-					console.log('编辑');
-				}else{
-					console.log('新增');
-				}
-			}
+				let tempCode = this.$route.query.tempCode;
+				this.$axios.get('/api/v1/admin/basics/contract/' + tempCode,{
+					headers:{ "Content-Type": "application/json"}
+				})
+				.then(res => {
+					console.log('******************************')
+					console.log(res)
+					if(res.data.status == 200){
+						this.formData = res.data.result;
+					}
+				})
+				.catch(function (error) {
+					console.log(error);
+				})
+
+
+
+			},
 		}
 	}
 </script>

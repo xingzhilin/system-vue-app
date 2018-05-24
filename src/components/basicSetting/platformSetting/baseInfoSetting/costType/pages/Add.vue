@@ -6,15 +6,24 @@
 		</el-breadcrumb>
 		<el-form ref="form" :model="form" label-width="80px">
 			<table class="add_table">
-				<tbody>
+				<tbody>					
 					<tr>
-						<td class="td_label"><span class="zl_required">*</span>化验费用类型：</td>
-						<td><el-input v-model="form.assaysCostType" size="small"></el-input></td>
+						<td class="td_label">是否保证金细分类型：</td>
+						<td>
+							<el-radio-group v-model="form.resource" size="small">
+						      <el-radio label="是"></el-radio>
+						      <el-radio label="否"></el-radio>
+						    </el-radio-group>
+						</td>
+					</tr>
+					<tr>
+						<td class="td_label"><span class="zl_required">*</span>费用类型：</td>
+						<td><el-input v-model="form.name" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>状态：</td>
 						<td>
-							<el-radio-group v-model="form.status" size="small">
+							<el-radio-group v-model="form.resource" size="small">
 						      <el-radio label="启用"></el-radio>
 						      <el-radio label="停用"></el-radio>
 						    </el-radio-group>
@@ -23,8 +32,8 @@
 				</tbody>
 			</table>
 			<el-footer>
-			    <el-button type="primary" @click="handleSubmitForm" size="small">保存</el-button>
-			    <el-button @click="handleGoBack" size="small">取消</el-button>
+			    <el-button type="primary" @click="handleSubmitForm('users')" size="small">保存</el-button>
+			    <el-button @click="handleGoBack('users')" size="small">取消</el-button>
 			</el-footer>
 		</el-form>
 	</div>
@@ -45,7 +54,7 @@
 				return data;
 			};
 			return {
-				msg: '化验费用类型',
+				msg: '新增客户企业费用类型维护',
 				form: {},
 				data: generateData(),
 				props: {}
@@ -55,6 +64,17 @@
 			this.init();
 		},
 		methods:{
+			submitForm(){
+				//eventBus.$emit('my-event', this.form); 
+				//this.$router.push({name: 'warehouseManageAddNextLink'}) ;
+				
+			},
+			handleInsert(){
+				
+			},
+			handleHCAdd(){
+				this.hcInserts.push({hcName: ''});
+			},
 			handleSubmitForm(){
 				console.log('submit');
 				console.log(this.users);
@@ -76,7 +96,7 @@
 	}
 </script>
 <style lang="scss">	
-	@import './../../../../../assets/css/table_view.css';
+	//@import './../../../../../assets/css/table_view.css';
 	#add{
 		.zl_required{
 			color: red;

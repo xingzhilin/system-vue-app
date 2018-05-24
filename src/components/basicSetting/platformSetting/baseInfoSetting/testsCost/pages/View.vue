@@ -7,8 +7,8 @@
 		<table class="add_table">
 			<tbody>
 				<tr>
-					<td class="td_label"><span class="zl_required">*</span>订单费用类型：</td>
-					<td>{{viewData.orderCostType}}</td>
+					<td class="td_label"><span class="zl_required">*</span>化验费用类型：</td>
+					<td>{{viewData.assaysCostType}}</td>
 				</tr>
 				<tr>
 					<td class="td_label"><span class="zl_required">*</span>状态：</td>
@@ -28,7 +28,7 @@
 	export default{
 		data(){			
 			return {
-				msg: '订单费用类型',
+				msg: '化验费用类型',
 				viewData: {}
 			}
 		},
@@ -45,11 +45,10 @@
 					console.log('编辑');
 				}else{
 					this.viewData = {
-				      "id":"1",
-				      "orderCostType": "货款",
-				      "orderCostTypeCode": "1",
-				      "status": "1",
-				      "isMargin": "1"
+				        "id":"1",
+					      "assaysCostType": "化验费",
+					      "assaysCostTypeCode": "1",
+					      "status": "1"
 				    }
 				}
 			}
@@ -57,7 +56,7 @@
 	}
 </script>
 <style lang="scss">	
-	@import './../../../../../assets/css/table_view.css';
+	//@import './../../../../../assets/css/table_view.css';
 	#add{
 		.zl_required{
 			color: gray;

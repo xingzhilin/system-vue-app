@@ -4,57 +4,69 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<table class="add_table">
-			<tbody>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>费用类型：</td>
-					<td>{{viewData.shipingCostType}}</td>
-				</tr>
-				<tr>
-					<td class="td_label"><span class="zl_required">*</span>状态：</td>
-					<td>
-						{{viewData.status}}
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<el-footer>
-		    <el-button @click="handleGoBack" size="small">取消</el-button>
-		</el-footer>
+		<el-form ref="form" :model="form" label-width="80px">
+			<table class="add_table">
+				<tbody>
+					<tr>
+						<td class="td_label"><span class="zl_required">*</span>订单费用类型：</td>
+						<td><el-input v-model="form.orderCostType" size="small"></el-input></td>
+					</tr>
+					<tr>
+						<td class="td_label"><span class="zl_required">*</span>状态：</td>
+						<td>
+							<el-radio-group v-model="form.status" size="small">
+						      <el-radio label="启用"></el-radio>
+						      <el-radio label="停用"></el-radio>
+						    </el-radio-group>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<el-footer>
+			    <el-button type="primary" @click="handleSubmitForm('users')" size="small">保存</el-button>
+			    <el-button @click="handleGoBack('users')" size="small">取消</el-button>
+			</el-footer>
+		</el-form>
 	</div>
 </template>
 <script>
 	//import eventBus from './../../../../../api/eventBus.js';
 	export default{
-		data(){			
+		data(){
 			return {
-				msg: '船务费用类型',
-				viewData: {}
+				msg: '订单费用类型',
+				form: {}
 			}
 		},
 		created(){
 			this.init();
 		},
-		methods:{			
+		methods:{
+			handleSubmitForm(){
+				console.log('submit');
+				console.log(this.users);
+			},
 			handleGoBack(){
 				this.$router.go(-1);
 			},
 			init(){
-				this.viewData = {
-			      "id":"1",
-			      "shipingCostType": "港建费",
-			      "shipingCostTypeCode": "1",
-			      "status": "1"
-			    }
-		}
+				let _query = this.$route.query.flag,
+					_id = this.$route.query.id;
+				console.log(_id)
+				if(_query == 'edit'){
+					console.log('编辑');
+				}else{
+					console.log('新增');
+				}
+			}
 		}
 	}
 </script>
 <style lang="scss">	
-	@import './../../../../../assets/css/table_view.css';
+	//@import './../../../../../assets/css/table_view.css';
 	#add{
 		.zl_required{
-			color: gray;
+			color: red;
 		}
 		.add_table{
 			width: 80%;

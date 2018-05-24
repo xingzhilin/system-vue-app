@@ -302,29 +302,35 @@ import RatioList from './../components/basicSetting/platformSetting/baseInfoSett
 import RatioSee from './../components/basicSetting/platformSetting/baseInfoSetting/ratio/pages/see'
 
 import CostType from './../components/basicSetting/platformSetting/baseInfoSetting/costType/Index'
-import CostTypeAdd from './../components/basicSetting/platformSetting/baseInfoSetting/costType/Add'
-import CostTypeView from './../components/basicSetting/platformSetting/baseInfoSetting/costType/View'
+import CostTypeIndex from './../components/basicSetting/platformSetting/baseInfoSetting/costType/pages/Index'
+import CostTypeAdd from './../components/basicSetting/platformSetting/baseInfoSetting/costType/pages/Add'
+import CostTypeView from './../components/basicSetting/platformSetting/baseInfoSetting/costType/pages/View'
 
 
 import PortCost from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/Index'
-import PortCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/Add'
-import PortCostView from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/View'
+import PortCostIndex from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/pages/Index'
+import PortCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/pages/Add'
+import PortCostView from './../components/basicSetting/platformSetting/baseInfoSetting/portCost/pages/View'
 
 import ShippingCost from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/Index'
-import ShippingCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/Add'
-import ShippingCostView from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/View'
+import ShippingCostIndex from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/pages/Index'
+import ShippingCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/pages/Add'
+import ShippingCostView from './../components/basicSetting/platformSetting/baseInfoSetting/shippingCost/pages/View'
 
 import TestsCost from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/Index'
-import TestsCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/Add'
-import TestsCostView from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/View'
+import TestsCostIndex from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/pages/Index'
+import TestsCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/pages/Add'
+import TestsCostView from './../components/basicSetting/platformSetting/baseInfoSetting/testsCost/pages/View'
 
 import OthersCost from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/Index'
-import OthersCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/Add'
-import OthersCostView from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/View'
+import OthersCostIndex from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/pages/Index'
+import OthersCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/pages/Add'
+import OthersCostView from './../components/basicSetting/platformSetting/baseInfoSetting/othersCost/pages/View'
 
 import OrderCost from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/Index'
-import OrderCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/Add'
-import OrderCostView from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/View'
+import OrderCostIndex from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/pages/Index'
+import OrderCostAdd from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/pages/Add'
+import OrderCostView from './../components/basicSetting/platformSetting/baseInfoSetting/orderCost/pages/View'
 
 import CoalType from './../components/basicSetting/platformSetting/coalType/Index'
 import CoalBrand from './../components/basicSetting/platformSetting/coalType/coalBrand/Index'
@@ -1632,93 +1638,135 @@ const basicSetting = {
 						{									
 							path: '/platform/baseInfo/costType',
 							name: 'costTypeLink',
-							component: CostType
-						},
-						{
-							path: '/platform/baseInfo/costType/add',
-							name: 'costTypeAddLink',
-							component:  CostTypeAdd
-						},
-						{
-							path: '/platform/baseInfo/costType/view/:id',
-							name: 'costTypeViewLink',
-							component:  CostTypeView
-						},
+							component: CostType,
+							children: [
+								{
+									path: '/platform/baseInfo/costType/ilst',
+									name: 'costTypeIndeLink',
+									component:  CostTypeIndex
+								},
+								{
+									path: '/platform/baseInfo/costType/add',
+									name: 'costTypeAddLink',
+									component:  CostTypeAdd
+								},
+								{
+									path: '/platform/baseInfo/costType/view/:id',
+									name: 'costTypeViewLink',
+									component:  CostTypeView
+								},
+							]
+						},						
 						{
 							path: '/platform/baseInfo/portCost',
 							name: 'sortCostLink',
-							component: PortCost
-						},
-						{
-							path: '/platform/baseInfo/portCost/add',
-							name: 'sortCostAddLink',
-							component:  PortCostAdd
-						},
-						{
-							path: '/platform/baseInfo/portCost/view/:id',
-							name: 'sortCostViewLink',
-							component:  PortCostView
+							component: PortCost,
+							children: [
+								{
+									path: '/platform/baseInfo/portCost/list',
+									name: 'portCostIndexLink',
+									component:  PortCostIndex
+								},
+								{
+									path: '/platform/baseInfo/portCost/add',
+									name: 'portCostAddLink',
+									component:  PortCostAdd
+								},
+								{
+									path: '/platform/baseInfo/portCost/view/:id',
+									name: 'portCostViewLink',
+									component:  PortCostView
+								},
+							]
 						},
 						{
 							path: '/platform/baseInfo/shippingCost',
 							name: 'shippingCostLink',
-							component: ShippingCost
-						},
-						{
-							path: '/platform/baseInfo/shippingCost/add',
-							name: 'shippingCostAddLink',
-							component:  ShippingCostAdd
-						},
-						{
-							path: '/platform/baseInfo/shippingCost/view/:id',
-							name: 'shippingCostViewLink',
-							component:  ShippingCostView
+							component: ShippingCost,
+							children: [
+								{
+									path: '/platform/baseInfo/shippingCost/list',
+									name: 'shippingCostIndexLink',
+									component:  ShippingCostIndex
+								},
+								{
+									path: '/platform/baseInfo/shippingCost/add',
+									name: 'shippingCostAddLink',
+									component:  ShippingCostAdd
+								},
+								{
+									path: '/platform/baseInfo/shippingCost/view/:id',
+									name: 'shippingCostViewLink',
+									component:  ShippingCostView
+								}
+							]	
 						},
 						{
 							path: '/platform/baseInfo/testsCost',
 							name: 'testsCostLink',
-							component: TestsCost
-						},
-						{
-							path: '/platform/baseInfo/testsCost/add',
-							name: 'testsCostAddLink',
-							component:  TestsCostAdd
-						},
-						{
-							path: '/platform/baseInfo/testsCost/view/:id',
-							name: 'testsCostViewLink',
-							component:  TestsCostView
+							component: TestsCost,
+							children: [
+								{
+									path: '/platform/baseInfo/testsCost/list',
+									name: 'testsCostIndexLink',
+									component:  TestsCostIndex
+								},
+								{
+									path: '/platform/baseInfo/testsCost/add',
+									name: 'testsCostAddLink',
+									component:  TestsCostAdd
+								},
+								{
+									path: '/platform/baseInfo/testsCost/view/:id',
+									name: 'testsCostViewLink',
+									component:  TestsCostView
+								}
+							]
 						},
 						{
 							path: '/platform/baseInfo/othersCost',
 							name: 'othersCostLink',
-							component: OthersCost
-						},
-						{
-							path: '/platform/baseInfo/othersCost/add',
-							name: 'othersCostAddLink',
-							component:  OthersCostAdd
-						},
-						{
-							path: '/platform/baseInfo/othersCost/view/:id',
-							name: 'othersCostViewLink',
-							component:  OthersCostView
+							component: OthersCost,
+							children: [
+								{
+									path: '/platform/baseInfo/othersCost/list',
+									name: 'othersCostIndexLink',
+									component:  OthersCostIndex
+								},
+								{
+									path: '/platform/baseInfo/othersCost/add',
+									name: 'othersCostAddLink',
+									component:  OthersCostAdd
+								},
+								{
+									path: '/platform/baseInfo/othersCost/view/:id',
+									name: 'othersCostViewLink',
+									component:  OthersCostView
+								}
+							]
 						},
 						{
 							path: '/platform/baseInfo/orderCost',
 							name: 'orderCostLink',
-							component: OrderCost
-						},
-						{
-							path: '/platform/baseInfo/orderCost/add',
-							name: 'orderCostAddLink',
-							component:  OrderCostAdd
-						},
-						{
-							path: '/platform/baseInfo/orderCost/view/:id',
-							name: 'orderCostViewLink',
-							component:  OrderCostView
-						},
+							component: OrderCost,
+							children: [
+								{
+									path: '/platform/baseInfo/orderCost/list',
+									name: 'orderCostIndexLink',
+									component:  OrderCostIndex
+								},
+								{
+									path: '/platform/baseInfo/orderCost/add',
+									name: 'orderCostAddLink',
+									component:  OrderCostAdd
+								},
+								{
+									path: '/platform/baseInfo/orderCost/view/:id',
+									name: 'orderCostViewLink',
+									component:  OrderCostView
+								}
+							]
+						}
 					]
 				},                  
 				{

@@ -7,8 +7,8 @@
 		<table class="add_table">
 			<tbody>
 				<tr>
-					<td class="td_label"><span class="zl_required">*</span>其他费用类型：</td>
-					<td>{{viewData.otherCostType}}</td>
+					<td class="td_label"><span class="zl_required">*</span>费用类型：</td>
+					<td>{{viewData.shipingCostType}}</td>
 				</tr>
 				<tr>
 					<td class="td_label"><span class="zl_required">*</span>状态：</td>
@@ -28,7 +28,7 @@
 	export default{
 		data(){			
 			return {
-				msg: '其他费用类型',
+				msg: '船务费用类型',
 				viewData: {}
 			}
 		},
@@ -40,23 +40,18 @@
 				this.$router.go(-1);
 			},
 			init(){
-				let _query = this.$route.query.flag;
-				if(_query == 'edit'){
-					console.log('编辑');
-				}else{
-					this.viewData = {
-					  "id":"1",
-				      "otherCostType": "化验费",
-				      "otherCostTypeCode": "1",
-				      "status": "1"
-				    }
-				}
-			}
+				this.viewData = {
+			      "id":"1",
+			      "shipingCostType": "港建费",
+			      "shipingCostTypeCode": "1",
+			      "status": "1"
+			    }
+		}
 		}
 	}
 </script>
 <style lang="scss">	
-	@import './../../../../../assets/css/table_view.css';
+	//@import './../../../../../assets/css/table_view.css';
 	#add{
 		.zl_required{
 			color: gray;

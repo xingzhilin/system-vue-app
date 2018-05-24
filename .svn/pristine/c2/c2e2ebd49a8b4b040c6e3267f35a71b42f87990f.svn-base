@@ -9,13 +9,9 @@ import jQuery from 'jquery'
 import { store } from './store/store.js'
 import 'vue-event-calendar/dist/style.css'
 import vueEventCalendar from 'vue-event-calendar'
-import storage from '@/api/storage.js'
-Vue.prototype.$storage=storage;
 Vue.prototype.$http = axios
 Vue.prototype.$axios = axios
 axios.defaults.baseURL = "http://192.168.30.42:9001"
-
-
 
 Vue.config.productionTip = false
 Vue.use(vueEventCalendar, {locale: 'en'}) 

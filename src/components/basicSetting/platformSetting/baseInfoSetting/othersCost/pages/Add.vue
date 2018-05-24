@@ -8,8 +8,8 @@
 			<table class="add_table">
 				<tbody>
 					<tr>
-						<td class="td_label"><span class="zl_required">*</span>港口费用类型：</td>
-						<td><el-input v-model="form.portCostType" size="small"></el-input></td>
+						<td class="td_label"><span class="zl_required">*</span>其他费用类型：</td>
+						<td><el-input v-model="form.otherCostType" size="small"></el-input></td>
 					</tr>
 					<tr>
 						<td class="td_label"><span class="zl_required">*</span>状态：</td>
@@ -23,8 +23,8 @@
 				</tbody>
 			</table>
 			<el-footer>
-			    <el-button type="primary" @click="handleSubmitForm('users')" size="small">保存</el-button>
-			    <el-button @click="handleGoBack('users')" size="small">取消</el-button>
+			    <el-button type="primary" @click="handleSubmitForm" size="small">保存</el-button>
+			    <el-button @click="handleGoBack" size="small">取消</el-button>
 			</el-footer>
 		</el-form>
 	</div>
@@ -33,22 +33,10 @@
 	//import eventBus from './../../../../../api/eventBus.js';
 	export default{
 		data(){
-			const generateData = _ => {
-				const data = [];
-				for (let i = 1; i <= 15; i++) {
-					data.push({
-						key: i,
-						label: `备选项 ${ i }`,
-						disabled: false
-					});
-				}
-				return data;
-			};
+			
 			return {
-				msg: '港口费用类型',
-				form: {},
-				data: generateData(),
-				props: {}
+				msg: '其他费用类型',
+				form: {}
 			}
 		},
 		created(){
@@ -76,7 +64,7 @@
 	}
 </script>
 <style lang="scss">	
-	@import './../../../../../assets/css/table_view.css';
+	//@import './../../../../../assets/css/table_view.css';
 	#add{
 		.zl_required{
 			color: red;

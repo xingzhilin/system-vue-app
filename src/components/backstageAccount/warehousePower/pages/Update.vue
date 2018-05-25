@@ -11,11 +11,11 @@
 		  <el-transfer 
 		   v-model="whAuthUsers"
 		   :titles="['未设置人员', '已设置人员']"
-		   :data="noWhAuthUser" 
+		   :data="allWhAuthUsers" 
 		   :right-default-checked="whAuthUsers"></el-transfer>
 
 		  <el-form-item>
-		    <el-button type="primary" @click="handleSubmitForm('users')" size="small">保存</el-button>
+		    <el-button type="primary" @click="handleSubmitForm()" size="small" :disabled="isDisabled">保存</el-button>
 		    <el-button @click="handleGoBack('users')" size="small">取消</el-button>
 		  </el-form-item>
 		</el-form>
@@ -42,75 +42,79 @@
 				data: generateData(),
         		users: [],
 				props: {},
+				isDisabled: false,
 				sParams:{},
-				noWhAuthUser: [],
+				allWhAuthUsers: [],
 				whAuthUsers: []
 			}
 		},
 		mounted(){
-			this.getNoWhAuthUser();
-			this.getWhAuthUsers();
+			this.initList();
 		},
 		methods:{
 			handleSubmitForm(formName) {
-		        this.$refs[formName].validate((valid) => {
-		          if (valid) {
-		            alert('submit!');
-		          } else {
-		            console.log('error submit!!');
-		            return false;
-		          }
+				this.isDisabled = true;
+				let sParams = {
+					adminIds: this.whAuthUsers,
+					whCode: this.$route.query.whCode
+				}
+		        this.$axios.post('http://192.168.11.98:9001/admin/whauth/', sParams, {
+		        	headers:{ "Content-Type": "application/json"}
 		        })
+		        .then( res => {
+		        	console.log(res);
+		        	if(res.data.status == 200){
+						this.$message({
+				          showClose: true,
+				          message: '恭喜您已经成功提交！',
+				          type: 'success',
+				          duration: 2000,
+				          onClose: () => {
+				        	this.$router.push({name:'warehousePowerIndexLink'});
+
+							this.isDisabled = false;
+				          }
+				        });
+					}
+		        })
+				.catch(function (error) {
+					console.log(error);
+				})
 		    },
 		    handleGoBack(fromName){
 		    	this.$router.go(-1);
 		    },		    
-			getNoWhAuthUser(){
-				this.$axios.get('http://192.168.11.98:9001/admin/getNoWhAuthUser/'+ this.$route.query.whCode , {
-						headers:{ "Content-Type": "application/json"}
-					})
-					.then(res =>  {
-						console.log(res)
-						if(res.data.status == 200){					
-							this.isLoading = false;
-							let tableData = res.data.result;
-							const jsonData = [];
-							for (let i = 0; i < tableData.length; i++) {
-								this.noWhAuthUser.push({
-									key: tableData[i].adminId,
-									label: tableData[i].realName,
-									disabled: false
-								});
-							}
-							console.log(jsonData)
-						}
-					})
-					.catch(function (error) {
-						console.log(error);
-					})
-
-		    },	    
-			getWhAuthUsers(){
-				this.$axios.get('http://192.168.11.98:9001/admin/getWhAuthUsers/'+ this.$route.query.whCode , {
+			initList(){
+				this.$axios.get('http://192.168.11.98:9001/admin/getAllWhAuthUsers/'+ this.$route.query.whCode , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
 						console.log(res)
 						if(res.data.status == 200){							
 							this.isLoading = false;
-							let tableData = res.data.result;
-							const jsonData = [];
-							for (let i = 0; i < tableData.length; i++) {
-								this.whAuthUsers.push('2018051700007');
-							}
-							console.log(this.whAuthUsers);
+							let data = res.data.result;
+							const jsonData = data.map( (item, index) => {
+								return {
+									key: item.adminId,
+									label: item.realName,
+									disabled: false
+								}
+							})
+							const adminIds = data.filter( (item, index) => {
+								if( item.whAuthType == 1){
+									return item.adminId
+								}
+							}).map( item => {
+								return item.adminId
+							})
+							this.allWhAuthUsers = jsonData;
+							this.whAuthUsers = adminIds;
 						}
 					})
 					.catch(function (error) {
 						console.log(error);
 					})
-
-		    },
+		    }
 
 		}
 	}

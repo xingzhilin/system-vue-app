@@ -9,9 +9,13 @@
 		</div>
 		<h5>已设置人员信息</h5>
 		<el-table :data="tableData" border size="small">
-		    <el-table-column align="center" prop="name" label="姓名"></el-table-column>
-		    <el-table-column align="center" prop="tel" label="电话"></el-table-column>
-		    <el-table-column align="center" prop="jiaose" label="角色"></el-table-column>
+		    <el-table-column align="center" prop="userName" label="姓名"></el-table-column>
+		    <el-table-column align="center" prop="cellPhone" label="电话"></el-table-column>
+		    <el-table-column align="center" prop="userRoles" label="角色">
+		    	<template slot-scope="scope">
+			    	<span v-for="role in roles">{{role.roleName}};</span>
+			    </template>
+		    </el-table-column>
 		</el-table>
 		<el-button @click="handleGoback" size="small">返回</el-button>
 	</div>  
@@ -22,33 +26,42 @@
 		data(){
 			return {
 				msg: '交割库权限设置-查看',
-				formInline: {
-					userName: '',
-					userStatus: ''
-				},
-				tableData: [
-					{
-			          name: 'Lucy',
-			          tel:'155901491414',
-			          jiaose:'是'
-			        },
-			        {
-			          name: 'Lily',
-			          tel:'12131414',
-			          jiaose:'是'
-			        },
-			        {
-			          name: 'zhangsan',
-			          tel:'1892234455',
-			          jiaose:'是'
-			        }
-		        ]
+				isLoading:true,
+				sParams: {},
+				tableData: [],
+				pageSize: 100,
+				pageSizes:[2, 3, 5, 10],
+		        currentPage: 1,
+		        totalPage: null,
+				tableData: []
 		    }
+		},
+		mounted(){
+			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleGoback() {
 				this.$router.go(-1);
-			}
+			},
+			initList(toPage, pageSize){				
+				this.sParams.toPage = toPage;
+		    	this.sParams.pageSize = pageSize;
+		    	this.sParams.whCode = this.$route.query.whCode;
+				this.$axios.post('http://192.168.11.98:9001/admin/whauths' ,this.sParams, {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+						console.log(res)
+						if(res.data.status == 200){							
+							this.isLoading = false;
+							this.tableData = res.data.result.list;
+						}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
+
+		    }
 		}
 	}
 </script>

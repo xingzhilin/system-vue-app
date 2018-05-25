@@ -57,9 +57,8 @@ import RoleAuthorityEditor from './../components/backstageAccount/role/RoleAutho
 import RoleAuthoritySee from './../components/backstageAccount/role/RoleAuthoritySee'
 
 import WarehousePower from './../components/backstageAccount/warehousePower/Index'
-import WarehousePowerIndex from './../components/backstageAccount/warehousePower/pages/Index'
-import WarehousePowerUpdate from './../components/backstageAccount/warehousePower/pages/Update'
-import WarehousePowerView from './../components/backstageAccount/warehousePower/pages/View'
+import WarehousePowerView from './../components/backstageAccount/warehousePower/WarehouseView'
+import WarehousePowerEdit from './../components/backstageAccount/warehousePower/WarehouseEdit'
 
 import BusinessManageIndex from './../components/backstageAccount/Index'
 
@@ -617,24 +616,17 @@ const backstageAccount = {
 		{
 			path: '/backstage/warehouse',
 			name: "warehousePowerLink",
-			component: WarehousePower,
-			children: [				
-				{
-					path: '/backstage/warehouse/list',
-					name: "warehousePowerIndexLink",
-					component: WarehousePowerIndex
-				},
-				{
-					path: '/backstage/warehouse/update',
-					name: "warehousePowerUpdateLink",
-					component: WarehousePowerUpdate
-				},
-				{
-					path: '/backstage/warehouse/view',
-					name: "warehousePowerViewLink",
-					component: WarehousePowerView
-				}
-			]
+			component: WarehousePower
+		},
+		{
+			path: '/backstage/warehouse/view',
+			name: "warehousePowerViewLink",
+			component: WarehousePowerView
+		},
+		{
+			path: '/backstage/warehouse/edit',
+			name: "warehousePowerEditLink",
+			component: WarehousePowerEdit
 		},
 		{
 			path: '/backstage/business',

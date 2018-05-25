@@ -9,9 +9,10 @@
 		</div>
 		<el-form label-width="100px" class="demo-ruleForm" >		  
 		  <el-transfer 
-		   v-model="users"
+		   v-model="whAuthUsers"
 		   :titles="['未设置人员', '已设置人员']"
-		   :data="data"></el-transfer>
+		   :data="noWhAuthUser" 
+		   :right-default-checked="whAuthUsers"></el-transfer>
 
 		  <el-form-item>
 		    <el-button type="primary" @click="handleSubmitForm('users')" size="small">保存</el-button>
@@ -40,11 +41,15 @@
 				msg: 'AddAccount',
 				data: generateData(),
         		users: [],
-				props: {}
+				props: {},
+				sParams:{},
+				noWhAuthUser: [],
+				whAuthUsers: []
 			}
-		},		
-		computed:{
-			
+		},
+		mounted(){
+			this.getNoWhAuthUser();
+			this.getWhAuthUsers();
 		},
 		methods:{
 			handleSubmitForm(formName) {
@@ -59,7 +64,54 @@
 		    },
 		    handleGoBack(fromName){
 		    	this.$router.go(-1);
+		    },		    
+			getNoWhAuthUser(){
+				this.$axios.get('http://192.168.11.98:9001/admin/getNoWhAuthUser/'+ this.$route.query.whCode , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+						console.log(res)
+						if(res.data.status == 200){					
+							this.isLoading = false;
+							let tableData = res.data.result;
+							const jsonData = [];
+							for (let i = 0; i < tableData.length; i++) {
+								this.noWhAuthUser.push({
+									key: tableData[i].adminId,
+									label: tableData[i].realName,
+									disabled: false
+								});
+							}
+							console.log(jsonData)
+						}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
+
+		    },	    
+			getWhAuthUsers(){
+				this.$axios.get('http://192.168.11.98:9001/admin/getWhAuthUsers/'+ this.$route.query.whCode , {
+						headers:{ "Content-Type": "application/json"}
+					})
+					.then(res =>  {
+						console.log(res)
+						if(res.data.status == 200){							
+							this.isLoading = false;
+							let tableData = res.data.result;
+							const jsonData = [];
+							for (let i = 0; i < tableData.length; i++) {
+								this.whAuthUsers.push('2018051700007');
+							}
+							console.log(this.whAuthUsers);
+						}
+					})
+					.catch(function (error) {
+						console.log(error);
+					})
+
 		    },
+
 		}
 	}
 </script>

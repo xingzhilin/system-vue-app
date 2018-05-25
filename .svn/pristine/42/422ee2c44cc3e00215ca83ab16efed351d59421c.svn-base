@@ -1,0 +1,313 @@
+<template>
+    <div class="order_wrap">
+        <el-breadcrumb separator-class="el-icon-arrow-right">
+          <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
+          <el-breadcrumb-item>采购端管理</el-breadcrumb-item>
+          <el-breadcrumb-item>称重管理</el-breadcrumb-item>
+          <el-breadcrumb-item>入库录入</el-breadcrumb-item>
+        </el-breadcrumb>
+        <table>
+          <thead>
+            <tr>
+              <th width="260" colspan="2">基础信息</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td_label">企业名称：</td>
+              <td>
+                  企业名称
+                  <el-button type="primary"  size="small">查看预报</el-button>
+              </td>
+            </tr>
+            <tr>
+              <td class="td_label">批次号：</td>
+              <td>订单生成-批次带过来</td>
+            </tr>
+            <tr>
+              <td class="td_label">交割库：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr>
+              <td class="td_label">货场：</td>
+              <td>
+                <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+                  <el-option label="请选择" value=""></el-option>
+                  <el-option label="启用" value="1"></el-option>
+                  <el-option label="停用" value="0"></el-option>
+                </el-select>
+              </td>
+            </tr>
+            <tr>
+              <td class="td_label">堆位：</td>
+              <td>
+                <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
+                  <el-option label="请选择" value=""></el-option>
+                  <el-option label="启用" value="1"></el-option>
+                  <el-option label="停用" value="0"></el-option>
+                </el-select>
+              </td>
+            </tr>
+            <tr>
+              <td class="td_label">品种：</td>
+              <td><el-input v-model="formInline.userName" placeholder="品种" size="small"></el-input></td>
+            </tr>
+            <tr>
+              <td class="td_label">运输方式：</td>
+              <td>
+                带过来数据
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <thead>
+            <tr>
+              <th width="260" colspan="2">入库信息1</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">车牌号：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">车辆：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">发货吨数：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">毛重：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">皮重：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">入库吨数（毛重-皮重）：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==1">
+              <td class="td_label">取小吨数（入库吨数和发货吨数取小）：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==2">
+              <td class="td_label">车列号：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==2">
+              <td class="td_label">首车号：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==2">
+              <td class="td_label">尾车号：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==2">
+              <td class="td_label">车厢数：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==2">
+              <td class="td_label">入库吨数：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==3">
+              <td class="td_label">船名：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==3">
+              <td class="td_label">航次：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==3">
+              <td class="td_label">船期：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr v-if="this.$route.query.tranterType==3">
+              <td class="td_label">入库吨数：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr>
+              <td class="td_label">调吨：</td>
+              <td>
+                扣吨<el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>增吨<el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input>
+                查看调吨历史
+              </td>
+            </tr>
+            <tr>
+              <td class="td_label">入库时间：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr>
+              <td class="td_label">上传附件：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+            <tr>
+              <td class="td_label">备注：</td>
+              <td><el-input v-model="formInline.userName" placeholder="用户名" size="small"></el-input></td>
+            </tr>
+          </tbody>
+        </table>
+    
+        <el-container>
+          <el-button size="small">+ 添加</el-button>
+        </el-container>
+        <el-footer>
+          <el-button type="primary"  size="small">保存</el-button>        
+          <el-button type="primary"  size="small">提交审核</el-button>
+          <el-button size="small">取消</el-button>
+       </el-footer>
+    </div>
+</template>
+<script>
+    export default {
+        data(){
+            return {
+                activeName: 'north',
+                formInline: {
+                  "batchId": "批次表主键",
+                  "batchNo": "批次号",
+                  "whCode": "交割库",
+                  "placeNo": "货场",
+                  "pileId": "堆位",
+                  "classCode": "品种" ,
+                  "tranterType": "运输方式 1、汽运 2、火运 3、船运",
+                  "stores":[
+                    {
+                    "plateNum":"车牌号；车列号；船名",
+                    "storeVehicle":"车辆",
+                    "firstPlateNum":"首车号",
+                    "endPlateNum":"尾车号",
+                    "receivecarNum":"车厢数",
+                    "flightNum":"航次",
+                    "shipDate":"航期",
+                    "sendGoodsQuantity":5000,
+                    "grossQuantity":5000,
+                    "tareQuantiy":5000,
+                    "storeQuantiy":5000,
+                    "minimumQuantiy":5000,
+                    "deducQuantitys":[{"buckleQuantity":0,"addQuantity":0},{"buckleQuantity":0,"addQuantity":0}]
+                    }
+                  ],
+                 "storeTime":"入库时间",
+                 "ticketTime":"起票时间 注意格式 ‘2018-05-02 12：00’",
+                 "remark":"XXXXXXXXXXXXXXXXX",
+                 "status":"状态 1待审核 2通过 3未提交审核(保存) 4被拒收 -1驳回"
+                },                
+                rowMethod({ row, column, rowIndex, columnIndex }){
+                  if (columnIndex === 0) {
+                      return [1, 2];
+                  } else if (columnIndex === 1) {
+                      return [0, 0];
+                  }
+                }
+            }
+        },
+        methods:{
+          handleClick(tab, event) {
+            console.log(tab, event);
+            switch (tab.name) {
+                  case 'north':
+                      console.log(111);
+                      /*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+                          headers:{ "Content-Type": "application/json"}
+                      })
+                      .then(res =>  {
+                              if(res.status == 200){
+                                  console.log(res);
+                                  this.totalPage = res.data.total;
+                                  this.currentPage = res.data.pageNum;
+                                  this.pageSize = res.data.pageSize;
+                                  this.tableData = res.data.list;
+                              }
+                      })
+                      .catch(function (error) {
+                          console.log(error);
+                      })*/
+                      break;
+                  case 'south':
+                      
+                      console.log(222);
+                      break;
+              }
+          },
+          handleSelectionChange(val) {
+            this.multipleSelection = val;
+            console.log(this.multipleSelection);
+          },
+        }
+    }
+</script>
+<style lang="scss">
+    table{width:100%;text-align:center;border-collapse:collapse;border-spacing:1;border-spacing:0; }
+    .el-form{
+        padding: 15px 0 0 20px;
+    }
+    ul,li{
+      list-style:none;
+      margin:0; 
+      padding:0;
+    }
+    .el-breadcrumb{
+        position: relative;
+        border-bottom: 1px solid #e5e5e5;
+        background-color: #f5f5f5;
+        min-height: 41px;
+        line-height: 40px;
+        padding-left: 20px;
+        display: block;
+    }
+    .line {
+        text-align: center;
+    }
+    .goods_wrap{
+      -padding: 15px 0 0 20px;
+    }
+    .sync_wrap{
+      width:100%;
+    }
+    table{
+      -margin-top: 20px;
+      th{
+        background: #f2f2f2;
+      }
+      td, th{
+        height: 46px;
+        border: 1px solid #e8e8e8;
+        text-align: left;
+        -padding-left: 10px;
+        padding: 0;
+        .el-input{
+          width: 96%;
+        }
+      }
+      .th_time{
+        text-align: right;
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .td_label{
+        width:260px;
+        text-align: right;
+      }
+      .el-tabs__item{
+        height: 50px;
+        line-height:50px;
+      }
+    }
+    
+    .el-pagination {
+        padding: 15px;
+        text-align: right;
+    }
+    .el-footer{
+      text-align: center;
+      padding-top:40px;
+      margin-bottom: 40px;
+    } 
+   
+</style>

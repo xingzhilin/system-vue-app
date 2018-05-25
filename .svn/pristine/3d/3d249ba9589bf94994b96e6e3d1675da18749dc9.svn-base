@@ -1,8 +1,6 @@
 <template>
-	<div class="backstage">
-		<keep-alive>
-			<router-view></router-view>
-		</keep-alive>
+	<div class="backstage">		
+		<router-view></router-view>
 	</div>
 </template>
 <script>
@@ -10,7 +8,7 @@
 		name: 'Index',
 		data(){
 			return {
-				msg: '交割库'
+				msg: '化验录入'
 			}
 		}
 	}

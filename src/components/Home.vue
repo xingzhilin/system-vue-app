@@ -58,11 +58,11 @@
 							}
 							//this.$router.push({name: 'homeLink'}
 						})
-			let token = this.$storage.getStorage("access-token");
-			let userInfo = this.$storage.getStorage("user-info");
-			console.log('**********11111111111111111111*****************');
-			console.log(token);
-			console.log(userInfo);
+			//let token = this.$storage.getStorage("access-token");
+			//let userInfo = this.$storage.getStorage("user-info");
+			//console.log('**********11111111111111111111*****************');
+			//console.log(token);
+			//console.log(userInfo);
 		},
 		methods: {
 			handleChange(){

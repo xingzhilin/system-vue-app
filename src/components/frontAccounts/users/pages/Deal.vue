@@ -1,0 +1,173 @@
+<template>
+  <el-form :model="ruleForm" status-icon ref="ruleForm"  :label-position="$store.getters.isPc==true?'right':'top'" :inline-message="true" label-width="130px">
+    <div class="tableTile">用户信息</div>
+      <el-form-item prop="userName" label="用户名：">
+        <el-col  :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
+          <el-input v-model.trim="ruleForm.userName" size="small"></el-input>
+        </el-col>
+      </el-form-item>
+      <el-form-item prop="cellPhone" label="手机号码:">
+        <el-col  :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
+          <el-input v-model.trim="ruleForm.cellPhone" size="small"></el-input>
+        </el-col>
+      </el-form-item>
+      <el-form-item prop="status" label="用户状态：">
+        <el-col  :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
+          <el-radio-group v-model="ruleForm.status">
+		        <el-radio v-model="ruleForm.status" label="1">启用</el-radio>
+		        <el-radio v-model="ruleForm.status" label="0">停用</el-radio>
+		     </el-radio-group>
+        </el-col>
+      </el-form-item>
+      <el-form-item prop="source" label="注册来源:">
+        <el-col  :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
+          {{ruleForm.source =='1'?'APP':(ruleForm.source =='2'?'前台PC':'后台')}} 
+        </el-col>
+      </el-form-item>
+    <div class="tableTile">密码重置</div>
+      <el-form-item prop="pwId">
+          <el-checkbox v-model="ruleForm.isResetUserPwd">登录密码</el-checkbox>
+      </el-form-item>
+      <el-form-item prop="pwId">
+        <el-checkbox v-model="ruleForm.isResetSignPwd">签章密码</el-checkbox>
+      </el-form-item>
+      <el-form-item>
+        <el-button type="primary" @click="submitForm('ruleForm')" size="small">保存</el-button>
+        <el-button @click="$router.go(-1);" size="small">取消</el-button>
+      </el-form-item>
+  </el-form>
+</template>
+
+<script>
+function isvalidPhone(str) {
+  const reg = /^1[3|4|5|7|8][0-9]\d{8}$/;
+  return reg.test(str);
+}
+var validPhone = (rule, value, callback) => {
+  if (!value) {
+    callback(new Error("请输入电话号码"));
+  } else if (!isvalidPhone(value)) {
+    callback(new Error("请输入正确的11位手机号码"));
+  } else {
+    callback();
+  }
+};
+export default {
+  data() {
+    return {
+      ruleForm: {
+        userId: "",
+        userName: "",
+        cellPhone: "",
+        status: "",
+        source: "",
+        resetUserPwd: false,
+        resetSignPwd: false
+      }
+    };
+  },
+    created(){
+      let userId = this.$route.query.userId;
+      this.userId = userId;
+      this.$axios.get('http://192.168.15.172:9001/api/v1/admin/basics/register/user/'+userId).then(res=>{
+        console.log(res)
+        let data = res.data;
+        this.ruleForm = data.result;
+      });
+    },
+  methods: {
+    submitForm(ruleForm) {
+      this.$refs[ruleForm].validate(valid => {
+        if (valid) {
+              console.log(this.ruleForm);
+              let data = {
+                userName:this.ruleForm.userName,
+                userId:this.ruleForm.userId,
+                resetUserPwd:this.ruleForm.resetUserPwd,
+                resetSignPwd:this.ruleForm.resetSignPwd,
+              };
+              
+              this.$axios.put('http://192.168.15.172:9001/api/v1/admin/basics/register/user',this.ruleForm).then(res=>{
+                console.log(res)
+                let data = res.data;
+              if (data.status == 200) {
+                 this.$router.push("/frontAccounts/users/index");
+               }
+            });
+         } else {
+          console.log("error submit!!");
+          return false;
+        }
+      });
+    }
+  }
+};
+</script>
+<style scoped lang="scss">
+.tableTile {
+  /*border-top: 1px solid #ebeef5;
+    border-left: 1px solid #ebeef5;
+    border-right: 1px solid #ebeef5;*/
+  padding: 15px;
+  color: #000;
+  font-size: 16px;
+  text-align: left;
+  background-color: #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.edit {
+  table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 1;
+    border-spacing: 0;
+  }
+  table td {
+    word-break: break-all;
+    word-wrap: break-word;
+    border-right: 1px solid #939598;
+    border-bottom: 1px solid #939598;
+    font: 500 14px Arial;
+  }
+  .zl_required {
+    color: red;
+  }
+  .add_table {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 12px;
+    td {
+      border: 1px solid #ebeef5;
+      padding: 10px;
+      text-align: left;
+    }
+    .td_label {
+      width: 160px;
+      text-align: right;
+      vertical-align: top;
+      line-height: 40px;
+    }
+    .el-input {
+      width: 260px;
+    }
+    .td_button {
+      text-align: center;
+    }
+  }
+  .el-footer {
+    text-align: center;
+  }
+  .el-transfer {
+    width: 600px;
+    margin: 15px auto;
+    .el-transfer-panel {
+      width: 245px;
+    }
+  }
+  .el-form-item {
+    margin-bottom: 10px;
+  }
+}
+</style>

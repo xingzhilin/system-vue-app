@@ -73,7 +73,7 @@
                 </el-table-column>
                
                 <div slot="empty">
-                    <img src="../../../../assets/images/no-message.png" alt="">
+                    <img src="../../../../../../assets/images/no-message.png" alt="">
                 </div>
             </el-table>
             <el-footer style="height:auto;">

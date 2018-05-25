@@ -247,7 +247,7 @@
     }
 </script>
 <style lang="scss">
-   // @import './../../../../../assets/css/table_view.css';
+    table{width:100%;text-align:center;border-collapse:collapse;border-spacing:1;border-spacing:0; }
     .el-form{
         padding: 15px 0 0 20px;
     }

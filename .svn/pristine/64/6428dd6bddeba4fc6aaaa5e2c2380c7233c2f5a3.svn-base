@@ -221,11 +221,6 @@ import InboundList from './../components/procurement/weighing/inboundList/Index'
 
 import TestsIndex from './../components/procurement/tests/Index'
 import TestsInput from './../components/procurement/tests/testsInput/Index'
-import TestsInputIndex from './../components/procurement/tests/testsInput/pages/Index'
-import TestsInputAdd from './../components/procurement/tests/testsInput/pages/Add'
-import TestsInputUpdate from './../components/procurement/tests/testsInput/pages/Update'
-import TestsInputView from './../components/procurement/tests/testsInput/pages/View'
-
 import TestsList from './../components/procurement/tests/testsList/Index'
 
 import RejectionIndex from './../components/procurement/rejection/Index'
@@ -1339,29 +1334,7 @@ const procurement = {
 				{      
 					path: '/tests/input',
 					name: 'testsInputLink',
-					component: TestsInput,
-					children: [
-						{
-							path: '/tests/input/list',
-							name: 'testsInputIndexLink',
-							component: TestsInputIndex						
-						},
-						{
-							path: '/tests/input/add',
-							name: 'testsInputAddLink',
-							component: TestsInputAdd
-						},
-						{
-							path: '/tests/input/update',
-							name: 'testsInputUpdateLink',
-							component: TestsInputUpdate
-						},
-						{
-							path: '/tests/input/view',
-							name: 'testsInputViewLink',
-							component: TestsInputView
-						}
-					]
+					component: TestsInput
 				},
 				{
 					path: '/tests/list',

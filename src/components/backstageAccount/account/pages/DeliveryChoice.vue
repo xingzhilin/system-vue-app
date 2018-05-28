@@ -44,7 +44,6 @@
 			<el-table-column align="center" prop="whName" label="交割库名称"></el-table-column>
 			<el-table-column align="center" prop="status" label="交割库状态" width="120"></el-table-column>
 		</el-table>
-		
 		<el-footer style="height:auto">
 		    <el-pagination
 		      @size-change="handleSizeChange"
@@ -81,13 +80,10 @@
 		mounted(){
 			this.initList(this.currentPage, this.pageSize);
 			this.init();
-			console.log(this.multipleSelection);
 		},
 		methods: {
 			handleSelectionChange(val) {
 				this.multipleSelection = val;
-				console.log('****************multipleSelection**********');
-				console.log(this.multipleSelection);
 			},
 			rowMethod({ row, column, rowIndex, columnIndex }){
 				if (columnIndex === 0) {
@@ -142,6 +138,7 @@
 								this.currentPage = res.data.result.pageNum;
 								this.pageSize = res.data.result.pageSize;
 								this.tableData = res.data.result.list;
+								this.multipleSelection = res.data.result.list;
 							}
 					})
 					.catch(function (error) {
@@ -159,7 +156,12 @@
 			    			let whCodes =  res.data.result.whIds.map( (item, index) => {
 			    				return item.whCode
 			    			});
-			    			console.log(whCodes);
+							this.multipleSelection.forEach( (item, index) => {
+								if(item.whCode == whCodes[index]){
+									this.$refs.multipleTable.toggleRowSelection(this.tableData[index]);
+									this.multipleSelection = this.tableData[index];
+								}
+							})
 			    		}
 			    	})
 					.catch(function (error) {

@@ -74,15 +74,19 @@
 		        totalPage: null,
 				formInline: {},
 				sParams: {},
-				multipleSelection:''
+				whCodes: [],
+				multipleSelection: []
 			}
 		},
 		mounted(){
 			this.initList(this.currentPage, this.pageSize);
+			this.init();
+			console.log(this.multipleSelection);
 		},
 		methods: {
 			handleSelectionChange(val) {
 				this.multipleSelection = val;
+				console.log('****************multipleSelection**********');
 				console.log(this.multipleSelection);
 			},
 			rowMethod({ row, column, rowIndex, columnIndex }){
@@ -144,6 +148,24 @@
 						console.log(error);
 					})
 
+		    },
+		    init(){
+		    	if(this.$route.query.adminId){
+		    		this.$axios.get('http://192.168.11.98:9001/admin/showUser/' + this.$route.query.adminId, {
+			    		headers: { "Content-Type": "application/json"}
+			    	})
+			    	.then( res => {
+			    		if(res.data.status == 200){
+			    			let whCodes =  res.data.result.whIds.map( (item, index) => {
+			    				return item.whCode
+			    			});
+			    			console.log(whCodes);
+			    		}
+			    	})
+					.catch(function (error) {
+						console.log(error);
+					})
+		    	}		    	
 		    }
 		}
 	}

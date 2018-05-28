@@ -34,19 +34,24 @@
 		    	<el-input v-model="form.cellPhone" size="small" @blur="handleVerificatUser({cellPhone: form.cellPhone})"></el-input>
 		    </el-col>
 		  </el-form-item>
-		  <el-form-item label="固定电话：" prop="telephone">
+		  <el-form-item label="固定电话：" prop="">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
 		    	<el-input v-model="form.telephone" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
-		  <el-form-item label="传真：" prop="fax">
+		  <el-form-item label="传真：" prop="">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
 		    	<el-input v-model="form.fax" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
-		  <el-form-item label="电子邮箱：" prop="email">
+		  <el-form-item label="电子邮箱：" prop="">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-		    	<el-input v-model="form.email" size="small"></el-input>
+		    	<el-input type="email" v-model="form.email" size="small"></el-input>
+		    </el-col>
+		  </el-form-item>
+		  <el-form-item label="修改密码：" prop="userPwd">
+		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
+		    	<el-input type="password" v-model="form.userPwd" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
 		  <el-form-item label="账号状态：">
@@ -60,12 +65,12 @@
 		  	<el-checkbox v-model="form.isAll">全选</el-checkbox>
 		    <el-button @click="handleAddChoice" :model="form.depart">去配置</el-button>
 		    <div>
-		    	<span v-for="name in whData">{{name}}</span>
+		    	<span v-for="item in form.whIds">{{item.userName}};</span>
 		    </div>
 		  </el-form-item>
 		  <el-form-item label="所属角色：" prop="userRoles">
 		    <el-checkbox-group v-model="form.userRoles">
-		      <el-checkbox v-for="item in userRolesData" :key="item.roleId" :label="item.roleId" name="roles">{{item.roleName}}</el-checkbox>
+		      <el-checkbox v-for="item in userRolesData" :key="item.roleId" :label="item.roleId">{{item.roleName}}</el-checkbox>
 		    </el-checkbox-group>
 		  </el-form-item>		  
 		  <el-form-item>
@@ -98,7 +103,7 @@
 				isIndeterminate: true,
 				form: {					
 			        status: 1,
-			        userRoles: [],
+			        userRoles: ["运营专员123"],
 			        headPicUrl:''
 				},
 				dialogImageUrl:'',
@@ -122,7 +127,10 @@
 		          ],
 		          userRoles: [
 		            { type: 'array', required: true, message: '请至少选择一个活动性质', trigger: 'change' }
-		          ]
+		          ],
+			      userPwd: [
+			          { required: true, message: "请输入密码", trigger: "blur" }
+			      ]
 		        }
 			}
 		},		
@@ -253,6 +261,7 @@
 		            }
 					let sParams = JSON.stringify(this.form);
 					console.log(sParams)
+					return false;
 					this.$axios.put('/admin/users', sParams , {
 							headers:{ "Content-Type": "application/json"}
 						})
@@ -280,22 +289,26 @@
 		        })
 		    },
 		    init(){
-		    	this.$axios.get('http://192.168.11.98:9001/admin/users/' + this.$route.query.adminId, {
-		    		headers: { "Content-Type": "application/json"}
-		    	})
-		    	.then( res => {
-		    		console.log(res);
-		    	});
 		    	this.$axios.post('http://192.168.11.98:9001/admin/roles',{
 		    		headers: { "Content-Type": "application/json"}
 		    	})
 		    	.then( res => {
-		    		console.log('**********************');
-		    		console.log(res);
 		    		if(res.data.status  == 200){
 		    			this.userRolesData = res.data.result
 		    		}
 		    	})
+		    	this.$axios.get('http://192.168.11.98:9001/admin/showUser/' + this.$route.query.adminId, {
+		    		headers: { "Content-Type": "application/json"}
+		    	})
+		    	.then( res => {
+		    		if(res.data.status == 200){
+		    			this.form = res.data.result;
+		    			let roleIds = res.data.result.userRoles.map( (item, index) => {
+		    				return item.roleId;
+		    			})
+		    			this.form.userRoles = roleIds;
+		    		}
+		    	});
 		    },
 		    handleGoBack(fromName){
 		    	//this.$router.go(-1);
@@ -309,7 +322,7 @@
                  //显示弹窗
                 //this.dialogFormVisible = true;
                 
-                this.$router.push({name: 'DeliveryChoiceLink'})
+                this.$router.push({name: 'DeliveryChoiceLink', query: {adminId:  this.$route.query.adminId}})
              },
 			loadNode(node, resolve) {
 				if (node.level === 0) {

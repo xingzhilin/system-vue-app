@@ -94,7 +94,6 @@
 			},
 			handleChoice(){
 				eventBus.$emit('delieveryData', this.multipleSelection);
-				//this.$router.push({name: 'addAccountLink'});
 				this.$router.go(-1)
 			},
 			handleReset(formName){

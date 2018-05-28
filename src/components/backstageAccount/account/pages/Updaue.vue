@@ -49,7 +49,7 @@
 		    	<el-input type="email" v-model="form.email" size="small"></el-input>
 		    </el-col>
 		  </el-form-item>
-		  <el-form-item label="修改密码：" prop="userPwd">
+		  <el-form-item label="修改密码：" prop="">
 		  	<el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
 		    	<el-input type="password" v-model="form.userPwd" size="small"></el-input>
 		    </el-col>
@@ -65,7 +65,7 @@
 		  	<el-checkbox v-model="form.isAll">全选</el-checkbox>
 		    <el-button @click="handleAddChoice" :model="form.depart">去配置</el-button>
 		    <div>
-		    	<span v-for="item in form.whIds">{{item.userName}};</span>
+		    	<span v-for="whName in whData">{{whName}};</span>
 		    </div>
 		  </el-form-item>
 		  <el-form-item label="所属角色：" prop="userRoles">
@@ -127,10 +127,7 @@
 		          ],
 		          userRoles: [
 		            { type: 'array', required: true, message: '请至少选择一个活动性质', trigger: 'change' }
-		          ],
-			      userPwd: [
-			          { required: true, message: "请输入密码", trigger: "blur" }
-			      ]
+		          ]
 		        }
 			}
 		},		
@@ -153,6 +150,7 @@
 				let newWhData = data.map((item,key,ary) => {
 				     return item.whName;
 				});
+				console.log(newWhData);
 				this.form.whIds = newWhCode
 				this.whData = newWhData
 			})
@@ -260,13 +258,10 @@
 		            	this.form.isAll = 0
 		            }
 					let sParams = JSON.stringify(this.form);
-					console.log(sParams)
-					return false;
-					this.$axios.put('/admin/users', sParams , {
+					this.$axios.put('http://192.168.11.98:9001/admin/users', sParams , {
 							headers:{ "Content-Type": "application/json"}
 						})
 						.then(res =>  {
-								console.log(res);
 								if(res.data.status == 200){
 									this.$message({
 							          showClose: true,
@@ -301,12 +296,18 @@
 		    		headers: { "Content-Type": "application/json"}
 		    	})
 		    	.then( res => {
+		    		console.log(res);
 		    		if(res.data.status == 200){
 		    			this.form = res.data.result;
+		    			this.form.userPwd = '';
 		    			let roleIds = res.data.result.userRoles.map( (item, index) => {
 		    				return item.roleId;
 		    			})
 		    			this.form.userRoles = roleIds;
+		    			let newWhData = res.data.result.whIds.map( (item, index) => {
+		    				return item.whName
+		    			})
+		    			this.whData = newWhData;
 		    		}
 		    	});
 		    },
@@ -314,14 +315,7 @@
 		    	//this.$router.go(-1);
 		    	this.$router.push({name: 'addAccountListLink'})
 		    },
-		    handleAddChoice(){
-                 //记录索引
-                 //this.listIndex=_index;
-                 //记录数据
-                 //this.editObj=row;
-                 //显示弹窗
-                //this.dialogFormVisible = true;
-                
+		    handleAddChoice(){                
                 this.$router.push({name: 'DeliveryChoiceLink', query: {adminId:  this.$route.query.adminId}})
              },
 			loadNode(node, resolve) {

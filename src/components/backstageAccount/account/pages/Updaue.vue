@@ -150,7 +150,8 @@
 				let newWhData = data.map((item,key,ary) => {
 				     return item.whName;
 				});
-				console.log(newWhData);
+				console.log('*****************newWhCode');
+				console.log(newWhCode);
 				this.form.whIds = newWhCode
 				this.whData = newWhData
 			})
@@ -257,9 +258,10 @@
 		            }else{
 		            	this.form.isAll = 0
 		            }
+		            this.form.createTime = '';
 					let sParams = JSON.stringify(this.form);
 					console.log(sParams);
-					this.$axios.put('http://192.168.11.98:9001/admin/users', sParams , {
+					this.$axios.put('http://192.168.11.98:9001/admin/usersEdit', sParams , {
 							headers:{ "Content-Type": "application/json"}
 						})
 						.then(res =>  {
@@ -272,7 +274,7 @@
 							          onClose: () => {
 							        	this.$router.push({name:'addAccountListLink'});
 							          }
-							        });
+							        })
 								}
 						})
 						.catch(function (error) {
@@ -297,6 +299,7 @@
 		    		headers: { "Content-Type": "application/json"}
 		    	})
 		    	.then( res => {
+		    		console.log('***************res');
 		    		console.log(res);
 		    		if(res.data.status == 200){
 		    			this.form = res.data.result;
@@ -308,6 +311,10 @@
 		    			let newWhData = res.data.result.whIds.map( (item, index) => {
 		    				return item.whName
 		    			})
+		    			let newWhCode = res.data.result.whIds.map( (item, index) => {
+		    				return item.whCode
+		    			})
+		    			this.form.whIds = newWhCode;
 		    			this.whData = newWhData;
 		    		}
 		    	});

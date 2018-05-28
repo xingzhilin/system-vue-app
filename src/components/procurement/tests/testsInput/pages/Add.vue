@@ -29,9 +29,13 @@
             </tr>
             <tr>
               <td class="td_label">交割库</td>
-              <td class="td_label">天津港</td>
+              <td class="td_label">                
+                <el-input v-model="formInline.whName" placeholder="交割库" size="small">2天津港</el-input>
+              </td>
               <td class="td_label">品种</td>
-              <td class="td_label">金银岛1号#</td>
+              <td class="td_label">
+                <el-input v-model="formInline.whName" placeholder="品种" size="small">金银岛1号#</el-input>
+              </td>
             </tr>
             <tr>
               <td class="td_label">下单量</td>

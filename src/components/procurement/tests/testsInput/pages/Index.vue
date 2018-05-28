@@ -69,17 +69,17 @@
 		  			</el-col>
 		  		</div>
 		  		<el-table :data="item.storeInfo" border size="small" style="width:100%;">
-				    <el-table-column fixed label="操作" width="140" align="center">		    	
+				    <el-table-column label="操作" width="140" align="center">		    	
 				    	<template slot-scope="scope">
 				    		<router-link :to="{name: 'testsInputAddLink', query: {batchNo: scope.row.batchNo, tranterType: item.tranterType}}">
 				    			<el-button type="primary" size="mini">录入化验单</el-button>
 				    		</router-link>
 					    </template>
 				    </el-table-column>
-				    <el-table-column fixed align="center" prop="batchNo" label="批次号" ></el-table-column>
-				    <el-table-column fixed align="center" prop="whName" label="交割库"></el-table-column>
-				    <el-table-column fixed align="center" prop="whName" label="品种"></el-table-column>
-				    <el-table-column fixed align="center" prop="className" label="实际入库品种"></el-table-column>
+				    <el-table-column align="center" prop="batchNo" label="批次号" ></el-table-column>
+				    <el-table-column align="center" prop="whName" label="交割库"></el-table-column>
+				    <el-table-column align="center" prop="whName" label="品种"></el-table-column>
+				    <el-table-column align="center" prop="className" label="实际入库品种"></el-table-column>
 				    <el-table-column align="center" prop="storeTime" label="入库时间"></el-table-column>
 				    <el-table-column align="center" prop="storeQuantity" label="化验单号"></el-table-column>
 				</el-table>

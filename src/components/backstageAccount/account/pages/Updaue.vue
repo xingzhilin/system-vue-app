@@ -258,6 +258,7 @@
 		            	this.form.isAll = 0
 		            }
 					let sParams = JSON.stringify(this.form);
+					console.log(sParams);
 					this.$axios.put('http://192.168.11.98:9001/admin/users', sParams , {
 							headers:{ "Content-Type": "application/json"}
 						})

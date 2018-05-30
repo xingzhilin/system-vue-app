@@ -35,7 +35,7 @@
 	      <span class="total">总计：</span>
 	    </el-container>
 		<el-table :data="tableData" border size="small">
-		    <el-table-column prop="" label="操作" width="180" align="center">		    	
+		    <el-table-column prop="" label="操作" width="100" align="center">		    	
 		    	<template slot-scope="scope">
 		    		<el-button type="primary" size="mini" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>	
 			    </template>
@@ -77,28 +77,26 @@
 		data(){
 			return {
 				msg: '交易开闭市维护',
-				formInline: {
-					userName: '',
-					trueUserName: '',
-					departName: '',
-					roleName: '',
-					userStatus: ''
-				},
+				isLoading: true,
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
 		        currentPage: 1,
-		        totalPage: null
+		        totalPage: null,
+				formInline: {},
+				sParams: {}
 			}
 		},
-		created(){
+		mounted(){
 			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleSubmit(formName){
 				this.$refs[formName].validate((valid) => {
 					if (valid) {
-						alert('submit!');
+						this.sParams = this.formInline;
+						console.log(this.sParams);
+						this.initList(this.currentPage, this.pageSize);
 					} else {
 						console.log('error submit!!');
 						return false;
@@ -110,14 +108,14 @@
 			},
 			handleAdd(){
 				console.log('add');
-				this.$router.push({name: 'usersadmittanceAddLink'});
+				this.$router.push({name: 'usersadmittanceAddLink', query: {enId: this.$route.query.enId}});
 			},
 			handleEdit(index, row) {
 		        console.log(index, row);
 		        if(row.accessType == '1'){
-		        	this.$router.push({name: 'usersadmittanceUpdateBeforeLink', query: {accessId: row.accessId,accessType: row.accessType}});
+		        	this.$router.push({name: 'usersadmittanceUpdateBeforeLink', query: {accessId: row.accessId,accessType: row.accessType, startTime: row.startTime, endTime: row.endTime, isUsed: row.isUsed}});
 		        }else if(row.accessType == '2'){
-		        	this.$router.push({name: 'usersadmittanceUpdateLink', query: {accessId: row.accessId,accessType: row.accessType}});
+		        	this.$router.push({name: 'usersadmittanceUpdateLink', query: {accessId: row.accessId,accessType: row.accessType, startTime: row.startTime, endTime: row.endTime, isUsed: row.isUsed}});
 		        }
 		    },
 		    handlePrevChange(val){
@@ -140,45 +138,25 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				console.log(sParams);
-				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+		    	this.sParams.toPage = toPage;
+		    	this.sParams.pageSize = pageSize;
+		    	this.sParams.enId = this.$route.query.enId;
+				this.$axios.post('http://192.168.11.31:9001/api/v1/basics/admin/access/enterprises', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
-							if(res.status == 200){
-								console.log(res);
-								this.totalPage = res.data.total;
-								this.currentPage = res.data.pageNum;
-								this.pageSize = res.data.pageSize;
-								this.tableData = res.data.list;
-							}
+						console.log(res);
+						if(res.data.status == 200){
+							console.log(res);
+							this.totalPage = res.data.result.total;
+							this.currentPage = res.data.result.pageNum;
+							this.pageSize = res.data.result.pageSize;
+							this.tableData = res.data.result.list;
+						}
 					})
 					.catch(function (error) {
 						console.log(error);
-					})*/
-				this.tableData = [
-					{
-				      "accessId": "16",
-				      "accessNo": "2018042600006",
-				      "startTime": "2018-04-24 12:00:00.0",
-				      "endTime": "2018-04-28 15:20:00.0",
-				      "incorruptAgreementFileUrl":"http:xxxxx",
-				      "accessAgreementFileUrl":"http:xxxxx",
-				      "accessType":"1",
-				      "isUsed": "1"
-				    },
-				    {
-				      "accessId": "16",
-				      "accessNo": "2018042600006",
-				      "startTime": "2018-04-24 12:00:00.0",
-				      "endTime": "2018-04-28 15:20:00.0",
-				      "incorruptAgreementFileUrl":"http:xxxxx",
-				      "accessAgreementFileUrl":"http:xxxxx",
-				      "accessType":"2",
-				      "isUsed": "1"
-				    }
-				]
+					})
 		    }
 		}
 	}

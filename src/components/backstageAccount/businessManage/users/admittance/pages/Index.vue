@@ -47,8 +47,12 @@
 		<el-table :data="tableData" border size="small">
 		    <el-table-column prop="" label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<el-button type="primary" size="mini" @click="handleCheck(scope.$index, scope.row)">查看</el-button>	
-		    		<el-button size="mini" @click="handleEdit(scope.$index, scope.row)">处理</el-button>	
+		    		<router-link :to="{name: 'businessManageUsersListViewLink', query: {enId:scope.row.enId}}">
+		    			<el-button type="primary" size="mini">查看</el-button>
+		    		</router-link>
+		    		<router-link :to="{name: 'usersadmittanceUpdateListLink', query: {enId:scope.row.enId}}">
+		    			<el-button type="primary" size="mini">处理</el-button>
+		    		</router-link>	
 			      </template>
 		    </el-table-column>
 		    <el-table-column align="center" prop="enName" label="企业名称"></el-table-column>
@@ -59,7 +63,7 @@
 		    <el-table-column align="center" prop="endTime" label="准入失效时间"></el-table-column>
 		    <el-table-column align="center" prop="isUsed" label="准入状态"></el-table-column>
 		    <el-table-column align="center" prop="status" label="公司状态"></el-table-column>
-		    <el-table-column align="center" prop="companyRegisterDate" label="企业注册时间"></el-table-column>
+		    <el-table-column align="center" prop="registerDate" label="企业注册时间"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">
 		    <el-pagination
@@ -82,28 +86,26 @@
 		data(){
 			return {
 				msg: '交易开闭市维护',
-				formInline: {
-					userName: '',
-					trueUserName: '',
-					departName: '',
-					roleName: '',
-					userStatus: ''
-				},
+				isLoading: true,
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
 		        currentPage: 1,
-		        totalPage: null
+		        totalPage: null,
+				formInline: {},
+				sParams: {}
 			}
 		},
-		created(){
+		mounted(){
 			this.initList(this.currentPage, this.pageSize);
 		},
 		methods: {
 			handleSubmit(formName){
 				this.$refs[formName].validate((valid) => {
 					if (valid) {
-						alert('submit!');
+						this.sParams = this.formInline;
+						console.log(this.sParams);
+						this.initList(this.currentPage, this.pageSize);
 					} else {
 						console.log('error submit!!');
 						return false;
@@ -117,14 +119,6 @@
 				console.log('add');
 				this.$router.push({name: 'addAccountLink'});
 			},
-			handleCheck(index, row){
-				console.log(index, row);
-		        this.$router.push({name: 'businessManageUsersListViewLink', query: {name: 'admittance'}});
-			},
-			handleEdit(index, row) {
-		        console.log(index, row);
-		        this.$router.push({name: 'usersadmittanceUpdateListLink', query: {id: row.enId}});
-		    },
 		    handlePrevChange(val){
 		    	console.log(`上一页 ${val} 条`)
 		        this.pageSize = val;
@@ -145,38 +139,39 @@
 				this.initList(this.currentPage, this.pageSize);
 		    },
 		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				console.log(sParams);
-				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+		    	this.sParams.toPage = toPage;
+		    	this.sParams.pageSize = pageSize;
+				this.$axios.post('http://192.168.11.31:9001/api/v1/basics/admin/accesses', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
-							if(res.status == 200){
-								console.log(res);
-								this.totalPage = res.data.total;
-								this.currentPage = res.data.pageNum;
-								this.pageSize = res.data.pageSize;
-								this.tableData = res.data.list;
-							}
+						console.log(res);
+						if(res.data.status == 200){
+							console.log(res);
+							this.totalPage = res.data.result.total;
+							this.currentPage = res.data.result.pageNum;
+							this.pageSize = res.data.result.pageSize;
+							this.tableData = res.data.result.list;
+						}
 					})
 					.catch(function (error) {
 						console.log(error);
-					})*/
-				this.tableData = [
-					{
-				      "orgCode": "xxxx",
-				      "enName": null,
-				      "enCode": null,
-				      "enId": null,
-				      "registerDate": "2018-04-24 12:00:00.0",
-				      "accessNo": "2018042600006",
-				      "startTime": "2018-04-24 12:00:00.0",
-				      "endTime": "2018-04-28 15:20:00.0",
-				      "isUsed": "1",
-				      "status": null,
-				      "companyRegisterDate": "2018-04-24 12:00:00.0"
-				    }
-				]
+					})
+				// this.tableData = [
+				// 	{
+				//       "orgCode": "xxxx",
+				//       "enName": null,
+				//       "enCode": null,
+				//       "enId": null,
+				//       "registerDate": "2018-04-24 12:00:00.0",
+				//       "accessNo": "2018042600006",
+				//       "startTime": "2018-04-24 12:00:00.0",
+				//       "endTime": "2018-04-28 15:20:00.0",
+				//       "isUsed": "1",
+				//       "status": null,
+				//       "companyRegisterDate": "2018-04-24 12:00:00.0"
+				//     }
+				// ]
 		    }
 		}
 	}

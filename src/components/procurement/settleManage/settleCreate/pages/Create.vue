@@ -1,0 +1,500 @@
+<template>
+  <div class="settleCreate">
+        <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" :inline-message="true">
+            <table class="subTable">
+              <col width="20%" />
+              <col width="30%" />
+              <col width="20%" />
+              <col width="30%" />
+              <tbody>
+	            <tr class="tableTile">
+	            	<td colspan="4">金银岛（宁夏）供应链管理有限公司</td>
+	            </tr>
+	            <tr class="tableTile">
+	            	<td colspan="4" style="position:relative;">
+	            		结算单
+						      <span class="time">{{ruleForm.date}}</span>
+	            	</td>
+	            </tr>
+                <tr>
+                  <td>运输方式</td>
+                  <td>{{ruleForm.way}}</td>
+                  <td>供方单位</td>
+                  <td>{{ruleForm.supplier}}</td>
+                </tr>
+                <tr>
+                  <td>交货地点</td>
+                  <td>{{ruleForm.place}}</td>
+                  <td>煤种</td>
+                  <td>
+                    <el-col>
+                  	 	 {{ruleForm.category}}  ——>  
+                     	<el-input class="miniInput" v-model.trim="ruleForm.publisherCode" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>交货日期</td>
+                  <td>
+                    <el-col>
+                      <el-date-picker v-model="ruleForm.exDate" class="smallInput" type="date" value-format="yyyy-MM-dd" size="small"></el-date-picker>
+                    </el-col>
+                  </td>
+                  <td>交货数量</td>
+                  <td>
+                    {{ruleForm.exQty}}
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>其他调吨</td>
+                  <td>
+                    {{ruleForm.adjustQty}}
+                  </td>
+                </tr>
+                <tr>
+  	            	<td>灰熔点</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.hrd}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.hrd" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>结算数量</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.settleQty" size="mini"></el-input>
+                    </el-col>
+                  </td>
+  	            </tr>
+                <tr>
+                  <td>全水</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.qs}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.qs" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>全水调吨</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.qstd" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>内水</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.ns}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.ns" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>内水调吨</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.nstd" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>发热量</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.frl}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.frl" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>发热量调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.frltj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                <tr>
+                  <td>挥发份%</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.hff}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.hff" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>挥发份调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.hfftj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>灰份%</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.hf}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.hf" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>灰分调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.hftj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>收到基硫份%</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.sdjlf}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.sdjlf" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>硫份调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.lftj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>空干基硫份%</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.kkjlf}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.kkjlf" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>硫份调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.lftj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Y值</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.yz}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.yz" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>灰熔点调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.hrdtj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>粒度%</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.ld}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.ld" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>粒度调价</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.ldtj" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                 <tr>
+                  <td>单价调整合计</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.adjustAMT}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.adjustAMT" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>结算方式</td>
+                  <td>
+                    <el-radio-group v-model="ruleForm.settleType">
+                      <el-radio label="一票" value="1"></el-radio>
+                      <el-radio label="两票" value="0"></el-radio>
+                    </el-radio-group>
+                  </td>
+                </tr>
+                <tr>
+                  <td>合同基价</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.basePrice}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.basePrice" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>费用（税额补差）</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.cost" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>其他扣除费用</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.otherCost}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.otherCost" size="mini"></el-input>
+                    </el-col>
+                    <el-col>
+                       <router-link :to="{path:'/settle/create/expenseDetail',query:{}}">查看费用明细</router-link>  
+                    </el-col>
+                  </td>
+                  <td>货款金额</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.goodsPayment" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>税款金额</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.tax" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>结算单价类型</td>
+                  <td>
+                     <el-select v-model="ruleForm.settlePriceType" size="small">
+                      <el-option label="到场价" value="1"></el-option>
+                      <el-option label="平仓价" value="0"></el-option>
+                    </el-select>
+                  </td>
+                  <td>结算金额</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.settleCost" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>结算单价</td>
+                  <td>
+                    <el-col>
+                       {{ruleForm.settleUnitPrice}}  ——>  
+                      <el-input class="miniInput" v-model.trim="ruleForm.settleUnitPrice" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>合同号</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.contractNo" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+              </tbody>
+          </table>
+          <table class="subTable kh">
+              <col width="20%" />
+              <col width="30%" />
+              <col width="20%" />
+              <col width="30%" />
+              <tbody>
+                <tr class="khmessage">
+                  <td colspan="4">开户信息</td>
+                </tr>
+                <tr>
+                  <td>公司名称</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.emName" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>开户行、账号</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.bankAcount" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>税号</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.taxNo" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                  <td>地址、电话</td>
+                  <td>
+                    <el-col>
+                      <el-input v-model.trim="ruleForm.addrTel" size="mini"></el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>备注</td>
+                  <td colspan="3">
+                    <el-col :lg="{span:12,offset:6}" :xs="{span:20,offset:2}" :md="{span:16,offset:4}" :sm="{span:20,offset:2}">
+                      <el-input
+                        type="textarea"
+                        :rows="4"
+                        resize="none"
+                        v-model="ruleForm.publisherCode">
+                      </el-input>
+                    </el-col>
+                  </td>
+                </tr>
+                <tr>
+                  <td>上传附件</td>
+                  <td colspan="3" align="left">
+                    <el-upload
+                      action="http://219.149.226.180:7884/landflow/common/uploadFile.do"
+                      list-type="picture-card"
+                      :file-list="ruleForm.brandImgs"
+                      :on-success="handleAvatarSuccess"
+                      :on-change="handleChange"
+                      :on-remove="handleRemove"
+                      :before-upload="beforeAvatarUpload">
+                      <i class="el-icon-plus"></i>
+                    </el-upload>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <el-form-item>
+              <div align="center">
+                <el-button type="primary"  @click="handleSubmit">预览结算单</el-button>
+                <el-button @click="$router.go(-1);">取消</el-button>
+              </div>
+            </el-form-item>
+  		</el-form>
+  </div>
+</template>
+<script scoped>
+  export default {
+    data() {
+      return {
+        ruleForm: {
+         
+        },
+        rules: {
+      
+        },
+      };
+    },
+    created(){
+      
+    },
+    methods: {
+      handleChange(file, fileList) {    
+         
+      },
+      handleChange(file, fileList) {    
+         
+      },
+      handleRemove(file, fileList){
+         
+      },
+      handleAvatarSuccess(res, file) {
+        
+      },
+      beforeAvatarUpload(file) {
+        const isJPG = file.type === 'image/jpeg' || 'image/png';
+        const isLt2M = file.size / 1024 / 1024 < 20;
+        if (!isJPG) {
+          this.$message.error('上传头像图片只能是 jpg 或 png 格式!');
+        }
+        if (!isLt2M) {
+          this.$message.error('上传头像图片大小不能超过 20MB!');
+        }
+        return isJPG && isLt2M;
+      },
+      handleSubmit(){
+
+      }
+    }
+  }
+</script>
+<style scoped>
+  .el-form{
+    padding: 15px 20px;
+  }
+  .line {
+    text-align: center;
+  }
+  .time {
+  	position: absolute;
+  	bottom:12px;
+  	right: 12px;
+  	font-size: 14px;
+  }
+  table.subTable {
+    width: 100%;
+    border-collapse:collapse;
+    font-size: 14px;
+    color:#909399;
+    text-align:center;
+    margin-bottom: 30px;
+  }
+  
+  table.subTable th, table.subTable td {
+    border: 1px solid #ebeef5;
+    padding: 15px ;
+    white-space: nowrap;
+  }
+  
+  .tableTile {
+    border-top: 1px solid #ebeef5;
+    border-left: 1px solid #ebeef5;
+    border-right: 1px solid #ebeef5;
+    padding:12px;
+    color:#999;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  .el-form-item {
+    margin-bottom: 0;
+  }
+
+   .sfooter {
+    text-align: center;
+    margin-top: 20px;
+   }
+   .message {
+    margin-bottom: 10px;
+   }
+   .miniInput {
+      width: 80px;
+   }
+   .smallInput {
+      width: 140px;
+   }
+   .khmessage{
+    padding: 12px 0;
+    font-weight: 700;
+   }
+    .el-upload {
+        white-space: normal;
+    }
+</style>
+<style>
+    .settleCreate .el-upload--picture-card {
+       width: 100px;
+       height: 100px;
+       line-height: 100px;
+     }
+     .settleCreate .el-upload-list--picture-card .el-upload-list__item {
+       width: 100px;
+       height: 100px;
+     }
+     .settleCreate table.subTable td .el-upload-list {
+        white-space: normal;
+      }
+       table.subTable.kh .el-input__inner {
+        min-width: 150px;
+      }
+</style>
+

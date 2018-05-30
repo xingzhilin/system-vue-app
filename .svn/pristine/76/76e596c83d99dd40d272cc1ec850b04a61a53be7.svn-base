@@ -1,10 +1,10 @@
 <template>
  <div class="addRole">
         <el-col :lg="{span:18,offset:3}" :xs="{span:22,offset:1}" :md="{span:20,offset:2}" :sm="{span:22,offset:1}">
-    <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="150px" class="demo-ruleForm">
+    <el-form :model="ruleForm" :rules="rules"  ref="ruleForm" :label-position="$store.getters.isPc==true?'right':'top'" :inline-message="true" label-width="130px" class="demo-ruleForm">
         <el-form-item label="业务类型：" prop="bizType">
             <el-col :lg="10" :xs="20" :md="10" :sm="12">
-            <el-input v-model="ruleForm.bizType"></el-input>
+            <el-input v-model="ruleForm.bizType">{{ruleForm.bizType}}</el-input>
             </el-col>
         </el-form-item>
         <el-form-item label="所属业务种类：" prop="masterBizCode">
@@ -15,13 +15,14 @@
           </el-select>
         </el-form-item>
         <el-form-item label="起停用状态：">
-            <el-col :lg="10" :xs="20" :md="10" :sm="12">
+          <el-col  :xs="{span:24}" :sm="{span:24}" :md="{span:10}" :lg="{span:10}" :xl="{span:8}">
             <el-radio-group v-model="ruleForm.status">
-                <el-radio label="1">是</el-radio>
-                <el-radio label="0">否</el-radio>
-            </el-radio-group>
-            </el-col>
+		        <el-radio v-model="ruleForm.status" label="1">启用</el-radio>
+		        <el-radio v-model="ruleForm.status" label="0">停用</el-radio>
+		        </el-radio-group>
+          </el-col>
         </el-form-item>
+       
         <el-form-item label="缩写码：">
             <el-col :lg="10" :xs="20" :md="10" :sm="12">
             <el-input v-model="ruleForm.acroCode"></el-input>
@@ -31,7 +32,9 @@
             <el-button type="primary" @click="submitForm('ruleForm')">保存</el-button>
             <el-button @click="$router.go(-1);">取消</el-button>
         </el-form-item>
+       
     </el-form>
+   
          </el-col>
     </div>
 </template>
@@ -43,8 +46,8 @@ export default {
       ruleForm: {
         bizType: "",
         masterBizCode: "",
-        status: "",
-        acroCode: ""
+        status:"",
+        acroCode: "",
       },
       rules: {
         bizType: [
@@ -53,34 +56,49 @@ export default {
             message: "请输入业务类型",
             trigger: "blur"
           },
-
+          {
+            min: 3,
+            max: 5,
+            message: "长度在 3 到 5 个字符",
+            trigger: "blur"
+          }
         ],
         masterBizCode: [
-        {
-          required: true,
-          message: "请选择活动区域",
-          trigger: "change"
-        }
-      ]
-      },
+          {
+            required: true,
+            message: "请选择活动区域",
+            trigger: "change"
+          }
+        ]
+      }
     };
   },
+  created() {
+    let id = this.$route.query.id;
+    this.ruleForm.id = id;
+    this.dataSubmit();
+  },
   methods: {
+    dataSubmit(ruleForm) {
+      this.$axios.get('http://192.168.15.183:9002/api/v1/basics/admin/mode/query/' + this.ruleForm.id,{
+						headers:{ "Content-Type": "application/json"}
+          })
+            .then(res => {
+              console.log(res.data);
+              if (res.status == 200) {
+                this.ruleForm = res.data.result;
+              }
+            })
+
+          .catch(function (error) {
+						console.log(error);
+					})
+    },
     submitForm(ruleForm) {
       this.$refs[ruleForm].validate(valid => {
         if (valid) {
           console.log(this.ruleForm);
-          this.$axios.post('http://192.168.15.183:9002/api/v1/basics/admin/mode/addMode',this.ruleForm).then(res=>{
-                console.log(res)
-                if (res.status == 200) {
-            this.$router.push("/platform/baseInfo/businessType/Index");
-          }
-          });
           
-          
-        } else {
-          console.log("error submit!!");
-          return false;
         }
       });
     }

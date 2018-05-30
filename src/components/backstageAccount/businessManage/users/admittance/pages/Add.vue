@@ -4,46 +4,33 @@
           <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
           <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
         </el-breadcrumb>
-        <el-form :model="addForm" :rules="addForm" ref="addForm" label-width="160px" class="demo-ruleForm" >
-            <el-form-item label="企业名称：" prop="realName">
+        <el-form :model="form" :rules="form" ref="form" label-width="160px" class="demo-ruleForm" >
+            <el-form-item label="企业名称：" prop="">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
                    企业名称
                 </el-col>
             </el-form-item>  
-            <el-form-item label="组织机构代码：" prop="realName">
+            <el-form-item label="组织机构代码：" prop="">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
                     组织机构代码
                 </el-col>
-            </el-form-item>  
-            <el-form-item label="真实姓名：" prop="realName">
+            </el-form-item> 
+            <el-form-item label="准入协议号：" prop="accessNo">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-                    <el-input v-model="addForm.realName" size="small"></el-input>
+                    <el-input v-model="form.accessNo" size="small"></el-input>
                 </el-col>
             </el-form-item>  
-            <el-form-item label="准入协议号：" prop="realName">
+            <el-form-item label="准入开始时间：" prop="startTime">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-                    <el-input v-model="addForm.realName" size="small"></el-input>
+                     <el-date-picker type="datetime" v-model="form.startTime" placeholder="选择日期" style="width: 100%;" value-format="yyyy-MM-dd HH:mm"></el-date-picker>
                 </el-col>
             </el-form-item>  
-            <el-form-item label="准入开始时间：" prop="realName">
+            <el-form-item label="准入失效时间：" prop="endTime">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-                    <el-date-picker
-                      v-model="addForm.realName"
-                      type="date"
-                      placeholder="选择日期">
-                    </el-date-picker>
+                     <el-date-picker type="datetime" v-model="form.endTime" placeholder="选择日期" style="width: 100%;" value-format="yyyy-MM-dd HH:mm"></el-date-picker>
                 </el-col>
             </el-form-item>  
-            <el-form-item label="准入失效时间：" prop="realName">
-                <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
-                    <el-date-picker
-                      v-model="addForm.realName"
-                      type="date"
-                      placeholder="选择日期">
-                    </el-date-picker>
-                </el-col>
-            </el-form-item>  
-            <el-form-item label="上传廉政协议：" prop="realName">
+            <el-form-item label="上传廉政协议：" prop="incorruptAgreementFileUrl">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
                     <el-upload
                       action="https://jsonplaceholder.typicode.com/posts/"
@@ -57,7 +44,7 @@
                     </el-dialog>
                 </el-col>
             </el-form-item>  
-            <el-form-item label="上传准入协议：" prop="realName">
+            <el-form-item label="上传准入协议：" prop="accessAgreementFileUrl">
                 <el-col :xs="24" :sm="24" :md="18" :lg="10" :xl="8">
                     <el-upload
                       action="https://jsonplaceholder.typicode.com/posts/"
@@ -71,15 +58,15 @@
                     </el-dialog>
                 </el-col>
             </el-form-item>         
-            <el-form-item label="是否启用：" prop="status">
-                <el-radio-group v-model="addForm.status">
-                    <el-radio label="启用"></el-radio>
-                    <el-radio label="禁用"></el-radio>
+            <el-form-item label="是否启用：" prop="">
+                <el-radio-group v-model="form.isUsed">
+                    <el-radio :label="1">启用</el-radio>
+                    <el-radio :label="0">禁用</el-radio>
                 </el-radio-group>
             </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="handleSubmitForm('addForm')" size="small">保存</el-button>
+            <el-button type="primary" @click="handleSubmitForm('form')" size="small">保存</el-button>
             <el-button @click="handleGoBack()" size="small">取消</el-button>
           </el-form-item>
         </el-form>
@@ -91,12 +78,27 @@
         data(){
             return {
                 msg: 'add',
-                addForm: {
-                    headPicUrl: '',
-                    realName: ''
+                form: {
+                    accessNo:'',
+                    startTime:'',
+                    endTime: '',
+                    incorruptAgreementFileUrl: '12',
+                    accessAgreementFileUrl:'12',
+                    isUsed: 1
                 },
                 dialogImageUrl:'',
-                dialogVisible: false
+                dialogVisible: false,                
+                rules: {
+                  accessNo: [
+                    { required: true, message: '请输入真实姓名', trigger: 'blur' }
+                  ],
+                  startTime: [
+                    { type: 'date', required: true, message: '请选择日期', trigger: 'change' }
+                  ],
+                  endTime: [
+                     { type: 'date', required: true, message: '请选择日期', trigger: 'change' }
+                  ]
+                }
             }
         },      
         computed:{
@@ -115,8 +117,8 @@
                 console.log(file);
             },
             handleAvatarSuccess(res, file) {
-                this.addForm.imageUrl = URL.createObjectURL(file.raw);
-                console.log(this.addForm.imageUrl);
+                this.form.imageUrl = URL.createObjectURL(file.raw);
+                console.log(this.form.imageUrl);
             },
             beforeAvatarUpload(file) {
                 const isJPG = file.type === 'image/jpeg';
@@ -145,8 +147,8 @@
                 this.dialogVisible = true;
             },
             handleAvatarSuccess(res, file) {
-                this.addForm[file.imageUrl] = URL.createObjectURL(file.raw);  
-                this.addForm[file.img] = true;  //改放change显示图片
+                this.form[file.imageUrl] = URL.createObjectURL(file.raw);  
+                this.form[file.img] = true;  //改放change显示图片
                 //this.$refs.ruleForm.validateField(file.img); // 上传成功后单独校验，以取消之前的必填项提示
             },
             handlePictureCardPreview(file) {
@@ -156,7 +158,29 @@
             handleSubmitForm(formName) {
                 this.$refs[formName].validate((valid) => {
                   if (valid) {
-                    alert('submit!');
+                    this.form.enId = this.$route.query.enId;
+                    let sParams = JSON.stringify(this.form);
+                    console.log(sParams)
+                    this.$axios.post('http://192.168.11.31:9001/api/v1/basics/admin/access', sParams , {
+                            headers:{ "Content-Type": "application/json"}
+                        })
+                        .then(res =>  {
+                                console.log(res);
+                                if(res.data.status == 200){
+                                    this.$message({
+                                      showClose: true,
+                                      message: '恭喜您已经成功提交！',
+                                      type: 'success',
+                                      duration: 2000,
+                                      onClose: () => {
+                                        this.$router.push({name:'BusinessManageUsersAdmittanceUpdateList'});
+                                      }
+                                    });
+                                }
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        })
                   } else {
                     console.log('error submit!!');
                     return false;

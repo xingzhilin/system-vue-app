@@ -113,9 +113,9 @@
 			handleEdit(index, row) {
 		        console.log(index, row);
 		        if(row.accessType == '1'){
-		        	this.$router.push({name: 'usersadmittanceUpdateBeforeLink', query: {accessId: row.accessId,accessType: row.accessType, startTime: row.startTime, endTime: row.endTime, isUsed: row.isUsed,enId: this.$route.query.enId}});
+		        	this.$router.push({name: 'usersadmittanceUpdateBeforeLink', query: {accessId: row.accessId,accessType: row.accessType, startTime: row.startTime, endTime: row.endTime, isUsed: row.isUsed}});
 		        }else if(row.accessType == '2'){
-		        	this.$router.push({name: 'usersadmittanceUpdateLink', query: {accessId: row.accessId,accessType: row.accessType, startTime: row.startTime, endTime: row.endTime, isUsed: row.isUsed,enId: this.$route.query.enId}});
+		        	this.$router.push({name: 'usersadmittanceUpdateLink', query: {accessId: row.accessId,accessType: row.accessType, startTime: row.startTime, endTime: row.endTime, isUsed: row.isUsed}});
 		        }
 		    },
 		    handlePrevChange(val){

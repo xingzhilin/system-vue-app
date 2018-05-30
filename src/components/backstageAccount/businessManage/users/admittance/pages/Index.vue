@@ -157,21 +157,6 @@
 					.catch(function (error) {
 						console.log(error);
 					})
-				// this.tableData = [
-				// 	{
-				//       "orgCode": "xxxx",
-				//       "enName": null,
-				//       "enCode": null,
-				//       "enId": null,
-				//       "registerDate": "2018-04-24 12:00:00.0",
-				//       "accessNo": "2018042600006",
-				//       "startTime": "2018-04-24 12:00:00.0",
-				//       "endTime": "2018-04-28 15:20:00.0",
-				//       "isUsed": "1",
-				//       "status": null,
-				//       "companyRegisterDate": "2018-04-24 12:00:00.0"
-				//     }
-				// ]
 		    }
 		}
 	}

@@ -85,7 +85,7 @@ export default {
         enName: "",
         enCode: "",
         taxpayerIdentityNo: "",
-        status: "0",
+        status: "1",
         toPage: 1,
         pageSize: 10
       };
@@ -111,7 +111,7 @@ export default {
       this.dataSubmit();
     },
     dataSubmit() {
-      this.$axios
+      this.$http
         .post(
           "http://192.168.15.183:9002/api/v1/basics/admin/mode/queryList",
           this.formInline

@@ -784,7 +784,7 @@ const backstageAccount = {
 									component: BusinessManageUsersAdmittanceUpdate
 								},
 								{
-									path: '/business/users/admittance/update',
+									path: '/business/users/admittance/updateBefore',
 									name: 'usersadmittanceUpdateBeforeLink',
 									component: BusinessManageUsersAdmittanceUpdateBefore
 								}

@@ -4,20 +4,19 @@
 		  <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
 		  <el-breadcrumb-item>后台账户管理</el-breadcrumb-item>
 		</el-breadcrumb>
-		<el-form :inline="true" :model="formInline" ref="formInline" class="demo-form-inline">
-		  <el-form-item label="港口费用类型" prop="userName">
-		    <el-input v-model="formInline.userName" placeholder="港口费用类型" size="small"></el-input>
-		  </el-form-item>	
-		  <el-form-item label="状态" prop="userStatus">
-		    <el-select v-model="formInline.userStatus" placeholder="请选择" size="small">  
-		      <el-option label="请选择" value=""></el-option>
-		      <el-option label="启用" value="1"></el-option>
-		      <el-option label="停用" value="0"></el-option>
-		    </el-select>
+		<el-form :inline="true" :model="form" ref="form" class="demo-form-inline">
+		  <el-form-item label="港口费用类型：" prop="expenseName">
+		    <el-input v-model="form.expenseName" placeholder="港口费用类型" size="small"></el-input>
+		  </el-form-item>
+		  <el-form-item label="状态：">
+			  <el-select v-model="form.status" placeholder="请选择">
+			    <el-option label="启用" value="1"></el-option>
+			    <el-option label="禁用" value="0"></el-option>
+			  </el-select>
 		  </el-form-item>
 		  <el-form-item>
-		    <el-button type="primary" @click="handleSubmit('formInline')" size="small">查询</el-button>
-		    <el-button @click="handleReset('formInline')" size="small">重置</el-button>
+		    <el-button type="primary" @click="handleSubmit('form')" size="small">查询</el-button>
+		    <el-button @click="handleReset('form')" size="small">重置</el-button>
 		  </el-form-item>
 		</el-form>
 		<div class="el-line"></div>
@@ -27,17 +26,17 @@
 		<el-table :data="tableData" border size="small">
 		    <el-table-column label="操作" width="180" align="center">		    	
 		    	<template slot-scope="scope">
-		    		<router-link :to="{name:'costTypeViewLink', query:{tempCode: scope.row.id}}">
+		    		<router-link :to="{name:'costTypeViewLink', query:{expenseId: scope.row.expenseId}}">
 		    			<el-button type="primary" size="mini">查看</el-button>
 		    		</router-link>
-		    		<router-link :to="{name:'costTypeUpdateLink', query:{tempCode: scope.row.id}}">
+		    		<router-link :to="{name:'costTypeUpdateLink', query:{expenseId: scope.row.expenseId}}">
 		    			<el-button size="mini">处理</el-button>
 		    		</router-link>	
 			      </template>
 		    </el-table-column>
-		    <el-table-column align="center" prop="custEnCostType" label="客户企业费用类型"></el-table-column>
+		    <el-table-column align="center" prop="expenseName" label="客户企业费用类型"></el-table-column>
 		    <el-table-column align="center" prop="status" label="状态"></el-table-column>
-		    <el-table-column align="center" prop="createDate" label="添加时间"></el-table-column>
+		    <el-table-column align="center" prop="createTime" label="添加时间"></el-table-column>
 		</el-table>
 		<el-footer style="height:auto">
 		    <el-pagination
@@ -60,14 +59,19 @@
 		data(){
 			return {
 				msg: '客户企业费用类型维护',
+				expenseDiv: '1',
 				isLoading: true,
 				tableData: [],
 				pageSize: 10,
 				pageSizes:[2, 3, 5, 10],
 		        currentPage: 1,
 		        totalPage: null,
-				formInline: {},
-				sParams: {}
+				form: {
+					status: '启用'
+				},
+				sParams: {
+					status: 1
+				}
 			}
 		},		
 		mounted(){
@@ -78,7 +82,7 @@
 				this.$refs[formName].validate((valid) => {
 					if (valid) {
 						alert('submit!');
-						this.sParams = this.formInline;
+						this.sParams = this.form;
 						console.log(this.sParams);
 						this.initList(this.currentPage, this.pageSize);
 					} else {
@@ -88,7 +92,7 @@
 				})
 			},
 			handleReset(formName){
-				//this.formInline = {}
+				//this.form = {}
 				this.$refs[formName].resetFields();
 			},
 			handlePrevChange(val){
@@ -115,42 +119,28 @@
 				console.log('add');
 				this.$router.push({name: 'costTypeAddLink'});
 			},
-		    initList(toPage, pageSize){
-		    	let sParams = { toPage: toPage , pageSize: pageSize};
-				console.log(sParams);
-				/*this.$axios.post('http://192.168.11.31:9001/v1/basics/access/listAccess', sParams , {
+			initList(toPage, pageSize){	
+		    	this.sParams.toPage = toPage;
+		    	this.sParams.pageSize = pageSize;
+		    	this.sParams.expenseDiv = this.expenseDiv;
+		    	this.sParams = JSON.stringify(this.sParams);
+		    	console.log(this.sParams);
+				this.$axios.post('http://192.168.15.183:9002/api/v1/basics/admin/expense/queryList', this.sParams , {
 						headers:{ "Content-Type": "application/json"}
 					})
 					.then(res =>  {
-							if(res.status == 200){
-								console.log(res);
-								this.totalPage = res.data.total;
-								this.currentPage = res.data.pageNum;
-								this.pageSize = res.data.pageSize;
-								this.tableData = res.data.list;
+							if(res.data.status == 200){
+								this.isLoading = false;
+								this.totalPage = res.data.result.total;
+								this.currentPage = res.data.result.pageNum;
+								this.pageSize = res.data.result.pageSize;
+								this.tableData = res.data.result.list;
 							}
 					})
 					.catch(function (error) {
 						console.log(error);
-					})*/
-				this.tableData = [
-					{
-				      "id":"1",
-				      "modYn":"0",
-				      "custEnCostType": "保证金",
-				      "custEnCostTypeCode": "1",
-				      "status": "1",
-				      "createDate": "2018/4/28 12:00:11"
-				    },
-				    {
-				      "id":"2",
-				      "modYn":"1",
-				      "custEnCostType": "预付款",
-				      "custEnCostTypeCode": "1",
-				      "status": "1",
-				      "createDate": "2018/4/28 12:00:11"
-				    }
-				]
+					})
+
 
 		    }
 		}
